@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/tom/Sandbox/www.atlantides.org/gawd-vocab/atom11.rnc" type="compact"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+        <name>Prof. Dr. Christian Witschel</name>
+    </author>
+    <contributor>
+        <name>Géza Alföldy</name>
+    </contributor>
+    <contributor>
+        <name>James M.S. Cowey</name>
+    </contributor>
+    <contributor>
+        <name>Andreas Dafferner</name>
+    </contributor>
+    <contributor>
+        <name>Francisca Feraudi-Gruénais</name>
+    </contributor>
+    <contributor>
+        <name>Brigitte Gräf</name>
+    </contributor>
+    <title>Epigraphische Datenbank Heidelberg</title>
+    <link href="glamoc.atom"
+        type="application/atom+xml" rel="self"/>
+    <link href="http://www.uni-heidelberg.de/institute/sonst/adw/edh/" type="text/html"
+        rel="alternate"/>
+    <updated>2009-10-28T00:00:00Z</updated>
+    <id>tag:www.uni-heidelberg.de,1986-01-01:/institute/sonst/adw/edh/hd033127</id>
+
+
+    <entry>
+        <author>
+            <name>Brigitte Gräf</name>
+        </author>
+        <rights>Creative Commons licence Attribution 3.0
+            (http://creativecommons.org/licenses/by/3.0/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL
+            http://www.uni-heidelberg.de/institute/sonst/adw/edh/index.html.en. </rights>
+        <id>tag:www.uni-heidelberg.de,1986-01-01:/institute/sonst/adw/edh/hd033127</id>
+        <title>Epitaph attributed to Municipium Salvium (mod. Glamoč)</title>
+        <link rel="alternate"
+            href="http://edh-www.adw.uni-heidelberg.de/EDH/servlet/EgrForm?aktion=eingabe&amp;quelle=s2&amp;benutzer=gast&amp;kennwort=g2dhst&amp;f_id_nr=%27HD033127%27"/>
+        <link rel="findspot" href="http://pleiades.stoa.org/places/197491"/>
+        <updated>2009-04-06T00:00:00Z</updated>
+        <summary type="text">Date: 101 - 200. Previously published as: ILJug 0156. D. Sergejevski,
+            Spomenik 88, 1938, 25, Nr. 23; Foto. (B)</summary>
+    </entry>
+
+    <entry>
+        <author>
+            <name>Francisca Feraudi-Gruénais</name>
+        </author>
+        <rights>Creative Commons licence Attribution 3.0
+            (http://creativecommons.org/licenses/by/3.0/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL
+            http://www.uni-heidelberg.de/institute/sonst/adw/edh/index.html.en. </rights>
+        <id>tag:www.uni-heidelberg.de,1986-01-01:/institute/sonst/adw/edh/hd012593</id>
+        <title>Epitaph attributed to Salviae (mod. Glamoč)</title>
+        <link rel="alternate"
+            href="http://edh-www.adw.uni-heidelberg.de/EDH/servlet/EgrForm?aktion=eingabe&amp;quelle=s2&amp;benutzer=gast&amp;kennwort=g2dhst&amp;f_id_nr=%27HD012593%27"/>
+        <link rel="findspot" href="http://pleiades.stoa.org/places/197490"/>
+        <updated>2009-07-08T00:00:00Z</updated>
+        <summary type="text">Date: 201 - 300. Previously published as: AE 1987, 0807. I. Bojanovski,
+            GlasSarajevo 40/41, 1985/86, 79-82. 107-108, Nr. 1; sl. 1. - AE 1987. A. Škegro,
+            OpuscArchZagreb 21, 1997, 97, Nr. 85. </summary>
+    </entry>
+
+    <entry>
+        <author>
+            <name>Francisca Feraudi-Gruénais</name>
+        </author>
+        <rights>Creative Commons licence Attribution 3.0
+            (http://creativecommons.org/licenses/by/3.0/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL
+            http://www.uni-heidelberg.de/institute/sonst/adw/edh/index.html.en. </rights>
+        <id>tag:www.uni-heidelberg.de,1986-01-01:/institute/sonst/adw/edh/hd012593</id>
+        <title>Votive inscription (altar) attributed to Salviae (mod. Glamoč)</title>
+        <link rel="alternate"
+            href="http://edh-www.adw.uni-heidelberg.de/EDH/servlet/EgrForm?aktion=eingabe&amp;quelle=s2&amp;benutzer=gast&amp;kennwort=g2dhst&amp;f_id_nr=%27HD023324%27"/>
+        <link rel="findspot" href="http://pleiades.stoa.org/places/197490"/>
+        <updated>2009-10-09T00:00:00Z</updated>
+        <summary type="text">Date: 1  – 300. Previously published as: ILJug 1645.
+            E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine
+            (Sarajevo 1977) 382. 406, Nr. 128. 167; Fotos.
+            D. Sergejevski, GlasSarajevo 40, 1928, 82-83. 95, Nr. 3; sl. 3. (B) </summary>
+    </entry>
+
+</feed>

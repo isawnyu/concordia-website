@@ -1,0 +1,138 @@
+body {
+    background-color:red;
+    background:url(images/gbgrad1.jpg);
+    background-repeat: repeat-x;
+    margin: 0px;
+    padding: 0px;
+    width: 1024px;
+}
+
+#banner {
+    width: 1024px;
+    height: 129px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner img {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    font-family: Arial, sans-serif;
+    padding: 2px;
+    font-size: 80%;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+    width: 86%;
+    font-family: Arial, sans-serif;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#content {
+}
+
+#content h1 {
+    display: none;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+p, li {
+    font-size: 95%;
+}
+
+#header {
+    display: none;
+}
+
+#overview h2 {
+    display: none;
+}
+
+#overview p {
+    font-size: 125%;
+    text-align: center;
+}
+
+#join {
+    clear: both;
+}
+
+#timing {
+    display: none;
+}
+
+#team {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    }
+    
+#method {
+    width: 65%;
+    float: left;
+}
+
+#openness {
+    display: none;
+}
+
+#more {
+    clear: both;
+}
+#funding {
+    clear: both;
+    font-size: 85%;
+    border-top: solid #777 1px;
+}
+
+#funding li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#credit {
+    font-size: 85%;
+    font-style: italic;
+}
+#funding h2 {
+    display: none;
+}
+
+
+#other {
+    display: none;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: solid #777 1px;
+}
+
+
+a:hover {
+    border-bottom: solid black 1px;
+}
+
+li {
+    margin-top: 0.5em;
+}
+

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.5: http://docutils.sourceforge.net/" />
+<title>Concordia, Vocabularies, and CIDOC CRM</title>
+<meta name="author" content="Sean Gillies, ISAW, New York University" />
+<meta name="date" content="9 December 2008" />
+<meta name="copyright" content="Copyright © 2008 by the Author. This work is licensed under a Creative Commons Attribution 3.0 United States License." />
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 5196 2007-06-03 20:25:28Z wiemann $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left {
+  clear: left }
+
+img.align-right {
+  clear: right }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font-family: serif ;
+  font-size: 100% }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="concordia-vocabularies-and-cidoc-crm">
+<h1 class="title">Concordia, Vocabularies, and CIDOC CRM</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr class="field"><th class="docinfo-name">Category:</th><td class="field-body">Memo</td>
+</tr>
+<tr><th class="docinfo-name">Author:</th>
+<td>Sean Gillies, ISAW, New York University</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>9 December 2008</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>1</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>Copyright © 2008 by the Author. This work is licensed under a <a class="reference external" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0
+United States License</a>.</td></tr>
+</tbody>
+</table>
+<div class="abstract topic">
+<p class="topic-title first">Abstract</p>
+<p>Concordia sees future role for CIDOC CRM in linking ancient world datasets.</p>
+</div>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#discovery-and-citation" id="id9">1&nbsp;&nbsp;&nbsp;Discovery and Citation</a></li>
+<li><a class="reference internal" href="#resources-and-relationships" id="id10">2&nbsp;&nbsp;&nbsp;Resources and Relationships</a></li>
+<li><a class="reference internal" href="#links-and-vocabularies" id="id11">3&nbsp;&nbsp;&nbsp;Links and Vocabularies</a></li>
+<li><a class="reference internal" href="#on-the-cidoc-crm" id="id12">4&nbsp;&nbsp;&nbsp;On The CIDOC CRM</a></li>
+</ul>
+</div>
+<div class="section" id="discovery-and-citation">
+<h1><a class="toc-backref" href="#id9">1&nbsp;&nbsp;&nbsp;Discovery and Citation</a></h1>
+<p>The Concordia [<a class="reference external" href="http://www.atlantides.org/trac/concordia">1</a>] project is applying principles of Web Architecture [<a class="reference external" href="http://www.w3.org/TR/webarch/">2</a>] and
+search engine methods to the study of the ancient world. Its principal
+objectives are:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>To help information designers and developers discover external web resources
+that provide evidence supporting the authenticity or historicity of their
+own web resources.</li>
+<li>To assist the same parties in discovering external web resources which cite
+their own web resources.</li>
+<li>To do so at the least expense, using proven and readily available methods.</li>
+</ol>
+</blockquote>
+<p>To Concordia, discovery is a feature that emerges naturally from the Web,
+and is assisted by conventional search engine methods.</p>
+<p>Richard Cygniak has produced an evocative picture of linked datasets [<a class="reference external" href="http://richard.cyganiak.de/2007/10/lod/">3</a>]:</p>
+<img alt="http://richard.cyganiak.de/2007/10/lod/lod-datasets_2008-03-31.png" src="http://richard.cyganiak.de/2007/10/lod/lod-datasets_2008-03-31.png" />
+<p>Concordia aims to take the first steps toward creation of such a network for
+the study of the ancient world.</p>
+<p>To date, the CIDOC Conceptual Reference Model (CRM) [<a class="reference external" href="http://cidoc.ics.forth.gr/">4</a>] has not played a role
+in creating an open, world-wide graph of ancient world data (see further,
+below). Concordia will defer implementation of the CRM and opt to catalyze the
+graph with a different, smaller, and not exclusionary vocabulary that better
+suits resources that are published on the web today.</p>
+</div>
+<div class="section" id="resources-and-relationships">
+<h1><a class="toc-backref" href="#id10">2&nbsp;&nbsp;&nbsp;Resources and Relationships</a></h1>
+<p>Information about the ancient world on the web today is communicated via web
+pages. These pages describe coins, inscriptions, persons, places, and other
+entities. They are either created directly by human authors or – in the case of
+many collections and reference works – are backed by relational databases or
+XML document collections. Such pages are linked consistently to other entities
+within their own sites or domains. There is little linking between entities of
+different domains, and what linking exists tends to be at a gross level. For
+example, the home page of a web site about ancient places might link to the
+home page of a site about inscriptions or coins, but linking between individual
+entities across sites is a nascent practice.</p>
+<p>Concordia proposes to increase the linking of related resources across domains
+(e.g., coins to places to inscriptions to persons, all potentially on different
+sites). The resulting graph will represent a certain level of knowledge about
+the ancient world, knowledge that can be acted upon by software agents such as
+web crawlers or spiders, and indexed by search engines.</p>
+<p>At a recent workshop [<a class="reference external" href="http://www.atlantides.org/trac/concordia/wiki/WorkshopOctober">5</a>], the following relationships were identified as prime
+candidates for linking:</p>
+<blockquote>
+<ul class="simple">
+<li>the find spot of an inscription or coin</li>
+<li>evidence for existence of a person or place in an inscription</li>
+<li>evidence for existence or characteristics of a person on a coin</li>
+<li>the place of birth or citizenship of an ancient person</li>
+<li>the place of manufacture of a coin</li>
+</ul>
+</blockquote>
+<p>This is not the entire set of relationships among web resources representing or
+describing entities of the ancient world, but is a set sufficient to initiate a
+graph that encodes knowledge, promotes discovery of resources, and advances the
+field. The Web and Semantic Web [<a class="reference external" href="http://www.w3.org/DesignIssues/Semantic.html">6</a>] operate under the &quot;open world&quot; assumption,
+and so does Concordia. Discrete web resources must be identified via discrete
+URIs, but the initial relationships Concordia establishes between resources do
+not in any way preclude the existence of any other relationships.</p>
+</div>
+<div class="section" id="links-and-vocabularies">
+<h1><a class="toc-backref" href="#id11">3&nbsp;&nbsp;&nbsp;Links and Vocabularies</a></h1>
+<p>On the non-semantic Web of HTML documents, relationships between resources are
+marked up using the &lt;a&gt; tag. Here is one common form:</p>
+<pre class="literal-block">
+origin: &lt;a href=&quot;http://pleiades.stoa.org/places/639166&quot;&gt;Xanthos&lt;/a&gt;
+</pre>
+<p>A human can make use of this description – which asserts that the subject of
+the current page element (an inscription, in this case) originates from a place
+named &quot;Xanthos&quot; – but a machine can have no such sense. To a search engine,
+then, all such links say no more than that the web resource at the given URI
+(<a class="reference external" href="http://pleiades.stoa.org/places/639166">http://pleiades.stoa.org/places/639166</a>) is &quot;related&quot; in some way to the
+subject of the current page element.</p>
+<p>The primary Concordia relationships cannot be unambiguously expressed using the
+form above. For example, a machine cannot discriminate between the semantics of
+the following two lines unless it has been given specific information about the
+plain-text conventions used at each web site (a non-standard and non-scaling
+proposition):</p>
+<pre class="literal-block">
+origin: &lt;a href=&quot;http://pleiades.stoa.org/places/639166&quot;&gt;Xanthos&lt;/a&gt;
+attests to: &lt;a href=&quot;http://pleiades.stoa.org/places/639166&quot;&gt;Xanthos&lt;/a&gt;
+</pre>
+<p>A small step toward disambiguating these is achieved by the following form:</p>
+<pre class="literal-block">
+&lt;a href=&quot;http://pleiades.stoa.org/places/639166&quot;&gt;origin (Xanthos)&lt;/a&gt;
+&lt;a href=&quot;http://pleiades.stoa.org/places/639166&quot;&gt;attests to (Xanthos)&lt;/a&gt;
+</pre>
+<p>The strings &quot;origin&quot; and &quot;attests to&quot; within the &lt;a&gt; tags constitute a simple
+link type vocabulary. All that remains to make these sensible to a machine is
+to publish the types themselves on the web at permanent URIs, and use those
+URIs in a rel attribute:</p>
+<pre class="literal-block">
+&lt;a
+  rel=&quot;ov:origin&quot;
+  href=&quot;http://pleiades.stoa.org/places/639166&quot;
+  &gt;
+  Xanthos
+&lt;/a&gt;
+&lt;a
+  rel=&quot;ov:attestsTo&quot;
+  href=&quot;http://pleiades.stoa.org/places/639166&quot;
+  &gt;
+  Xanthos
+&lt;/a&gt;
+</pre>
+<p>where &quot;ov&quot; is the vocabulary's namespace prefix. The syntax used in the markup
+above is called RDFa [<a class="reference external" href="http://www.w3.org/TR/xhtml-rdfa-primer/">7</a>], a standard that will play a major role in the future
+of the Semantic Web.</p>
+</div>
+<div class="section" id="on-the-cidoc-crm">
+<h1><a class="toc-backref" href="#id12">4&nbsp;&nbsp;&nbsp;On The CIDOC CRM</a></h1>
+<p>There are existing property or link relation vocabularies originating in the
+past-oriented digital humanities, the most notable being the CIDOC Conceptual
+Reference Model (CRM). The CRM is detailed, precise, and enjoys use in the
+design of museum databases. It is not, however, used openly on the web. Our
+assessment, which involved both web searches and an inquiry on the CIDOC CRM
+email list, has yielded no example of CRM properties being used to link ancient
+world data into an open, world-wide graph.</p>
+<p>Considering now the inscription, coin, and place descriptions currently
+published on the web: the fine structure of the CRM has serious implications
+for the integration of these existing resources. Using the simple vocabulary of
+2 terms shown in the previous section, we can immediately make a graph of
+resources as they exist now, without any remodelling, with no need to mint new
+resources:</p>
+<img alt="http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/simplest.png?format=raw" src="http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/simplest.png?format=raw" />
+<p>If Concordia were to restrict itself to only the CRM properties, two problems
+would rise. New &quot;event&quot; resources would become necessary to mediate complicated
+relationships replacing the simple &quot;ov:origin&quot; property, and Concordia would
+lose the ability to indicate that one resource provides evidence for the
+existence or historicity of another. The situation is shown below:</p>
+<img alt="http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/crm.png?format=raw" src="http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/crm.png?format=raw" />
+<p>What CRM property or combination of properties and new entities is to replace
+ov:attestsTo is not clear. Within CRM, it can be stated that a coin <em>depicts</em> a
+person, or that an inscription <em>is about</em> a person, but we are not comfortable
+with the assertion that these properties equal attestation. The ov:attestsTo
+relationship emphasizes evidentiary function in the context of historical
+analysis (e.g., a particular inscribed text attests to the use of a particular
+geographic name variant), whereas the <em>depicts</em> and <em>is about</em> relationships
+communicate just two of the conclusions that might be drawn from such analysis.</p>
+<p>The new &quot;finding event&quot; or &quot;minting event&quot; resources (shown as red boxes in the
+diagram above) might one day be very useful in their own right, but Concordia
+needs to stick to practical rather than hypothetical objectives. Due to the
+short time-frame of the project, a requirement that new event resources be
+created for every origin relationship would stop the show. This is by far the
+greater of the two problems.</p>
+<p>At any rate, the &quot;open world&quot; assumption of the web (and Concordia) does not
+rule out the future creation of event resources, nor the future use of CRM
+properties to relate resources initially bound together using Concordia's
+simpler vocabulary.  In fact, it seems obvious that CRM will play an important
+future role in enriching a graph that is bootstrapped using a simpler, more
+generic vocabulary.</p>
+</div>
+</div>
+</body>
+</html>

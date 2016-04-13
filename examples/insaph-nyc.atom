@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:gml="http://www.opengis.net/gml"
+  >
+
+  <id>http://concordia.atlantides.org/examples/insaph-nyc#aggregation</id>
+  <link
+    href="http://concordia.atlantides.org/examples/insaph-nyc.atom"
+    rel="self"
+    type="application/atom+xml"
+    />
+
+  <updated>2008-05-14T02:35:41Z</updated>
+
+  <category
+    scheme="http://www.openarchives.org/ore/terms/" 
+    term="http://www.openarchives.org/ore/terms/Aggregation"
+    label="Aggregation"
+    />
+
+
+  <entry>
+    <id>urn:uuid:b2ce7382-309f-489d-b36a-ed8672c608b3</id>
+    <title>iAph040006</title>
+    <summary>Pavement designs and place inscriptions, South Agora pool
+http://insaph.kcl.ac.uk/iaph2007/iAph040006.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707660 28.723317</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040006.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:bc9079f9-b757-4ec7-bd81-72b3507650d3</id>
+    <title>iAph040021</title>
+    <summary>1. Acclamations for Albinos, clarissimus; 2. Acclamation for the city
+http://insaph.kcl.ac.uk/iaph2007/iAph040021.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707447 28.722747</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040021.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:de78431c-c870-4c82-a7a3-abd031b77640</id>
+    <title>iAph040006</title>
+    <summary>Pavement designs and place inscriptions, South Agora pool
+http://insaph.kcl.ac.uk/iaph2007/iAph040006.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707736 28.724123</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040006.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:ba988ba4-2f24-45fd-ac0a-2532131de9da</id>
+    <title>iAph040006</title>
+    <summary>Pavement designs and place inscriptions, South Agora pool
+http://insaph.kcl.ac.uk/iaph2007/iAph040006.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707736 28.724123</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040006.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:d343e453-d9e5-498a-b074-6db52e1f4cf7</id>
+    <title>iAph040006</title>
+    <summary>Pavement designs and place inscriptions, South Agora pool
+http://insaph.kcl.ac.uk/iaph2007/iAph040006.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707736 28.724123</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040006.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:cdb1ee40-ad18-499b-b17b-51e0e1b70ad7</id>
+    <title>iAph040021</title>
+    <summary>1. Acclamations for Albinos, clarissimus; 2. Acclamation for the city
+http://insaph.kcl.ac.uk/iaph2007/iAph040021.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707447 28.722747</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040021.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:d717f3df-b650-4324-ad9a-9f26c6567128</id>
+    <title>iAph040021</title>
+    <summary>1. Acclamations for Albinos, clarissimus; 2. Acclamation for the city
+http://insaph.kcl.ac.uk/iaph2007/iAph040021.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707485 28.722755</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040021.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:4407de62-f16c-45fb-aedf-204fffd0ae80</id>
+    <title>iAph040202</title>
+    <summary>Verse honours: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, governor, on the Agora Gate
+http://insaph.kcl.ac.uk/iaph2007/iAph040202.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707984 28.725068</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040202.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:7848952c-1440-4fc8-b208-52df30f6165e</id>
+    <title>iAph040202</title>
+    <summary>Verse honours: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, governor, on the Agora Gate
+http://insaph.kcl.ac.uk/iaph2007/iAph040202.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707885 28.725077</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040202.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:7b47863b-cda5-4135-aa7f-d6d04f3e8edb</id>
+    <title>iAph040202</title>
+    <summary>Verse honours: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, governor, on the Agora Gate
+http://insaph.kcl.ac.uk/iaph2007/iAph040202.html</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.707786 28.725090</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://insaph.kcl.ac.uk/iaph2007/iAph040202.html"
+      rel="alternate"
+      type="text/html"
+      />
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="related"
+      type="text/html"
+      />
+  
+  </entry>
+
+
+  <entry>
+    <id>urn:uuid:5f9b3508-42e7-453a-8486-c8061e72c10a</id>
+    <title>Aphrodisias/Ninoe</title>
+    <summary>Modern location: Geyre. http://pleiades.stoa.org/places/638753.</summary>
+    <updated>2008-05-14T02:35:41Z</updated>
+    <georss:where>
+      <gml:Point>
+        <gml:pos>37.7145 28.7289</gml:pos>
+      </gml:Point>
+    </georss:where>
+    <link
+      href="http://pleiades.stoa.org/places/638753"
+      rel="alternate"
+      type="text/html"
+      />
+  </entry>
+
+
+</feed>

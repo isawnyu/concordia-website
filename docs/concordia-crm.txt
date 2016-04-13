@@ -1,0 +1,199 @@
+======================================
+Concordia, Vocabularies, and CIDOC CRM
+======================================
+
+:Abstract: Concordia sees future role for CIDOC CRM in linking ancient world datasets.
+
+:Category: Memo
+:Author: Sean Gillies, ISAW, New York University
+:Date: 9 December 2008
+:Revision: 1
+
+:Copyright: Copyright |copy| 2008 by the Author. This work is licensed under a `Creative Commons Attribution 3.0
+  United States License`__.
+
+.. |copy| unicode:: 0xA9 .. copyright sign
+.. __: http://creativecommons.org/licenses/by/3.0/us/
+
+.. sectnum::
+
+.. contents::
+
+Discovery and Citation
+======================
+
+The Concordia [1_] project is applying principles of Web Architecture [2_] and
+search engine methods to the study of the ancient world. Its principal
+objectives are:
+
+ 1. To help information designers and developers discover external web resources
+    that provide evidence supporting the authenticity or historicity of their
+    own web resources.
+  
+ 2. To assist the same parties in discovering external web resources which cite
+    their own web resources.
+  
+ 3. To do so at the least expense, using proven and readily available methods.
+
+To Concordia, discovery is a feature that emerges naturally from the Web,
+and is assisted by conventional search engine methods.
+
+Richard Cygniak has produced an evocative picture of linked datasets [3_]:
+
+.. image:: http://richard.cyganiak.de/2007/10/lod/lod-datasets_2008-03-31.png
+
+Concordia aims to take the first steps toward creation of such a network for
+the study of the ancient world.
+
+To date, the CIDOC Conceptual Reference Model (CRM) [4_] has not played a role
+in creating an open, world-wide graph of ancient world data (see further,
+below). Concordia will defer implementation of the CRM and opt to catalyze the
+graph with a different, smaller, and not exclusionary vocabulary that better
+suits resources that are published on the web today.
+
+Resources and Relationships
+===========================
+
+Information about the ancient world on the web today is communicated via web
+pages. These pages describe coins, inscriptions, persons, places, and other
+entities. They are either created directly by human authors or – in the case of
+many collections and reference works – are backed by relational databases or
+XML document collections. Such pages are linked consistently to other entities
+within their own sites or domains. There is little linking between entities of
+different domains, and what linking exists tends to be at a gross level. For
+example, the home page of a web site about ancient places might link to the
+home page of a site about inscriptions or coins, but linking between individual
+entities across sites is a nascent practice. 
+
+Concordia proposes to increase the linking of related resources across domains
+(e.g., coins to places to inscriptions to persons, all potentially on different
+sites). The resulting graph will represent a certain level of knowledge about
+the ancient world, knowledge that can be acted upon by software agents such as
+web crawlers or spiders, and indexed by search engines.  
+
+At a recent workshop [5_], the following relationships were identified as prime
+candidates for linking:
+
+ * the find spot of an inscription or coin
+ * evidence for existence of a person or place in an inscription
+ * evidence for existence or characteristics of a person on a coin
+ * the place of birth or citizenship of an ancient person
+ * the place of manufacture of a coin
+
+This is not the entire set of relationships among web resources representing or
+describing entities of the ancient world, but is a set sufficient to initiate a
+graph that encodes knowledge, promotes discovery of resources, and advances the
+field. The Web and Semantic Web [6_] operate under the "open world" assumption,
+and so does Concordia. Discrete web resources must be identified via discrete
+URIs, but the initial relationships Concordia establishes between resources do
+not in any way preclude the existence of any other relationships. 
+
+Links and Vocabularies
+======================
+
+On the non-semantic Web of HTML documents, relationships between resources are
+marked up using the <a> tag. Here is one common form::
+
+  origin: <a href="http://pleiades.stoa.org/places/639166">Xanthos</a>
+
+A human can make use of this description – which asserts that the subject of
+the current page element (an inscription, in this case) originates from a place
+named "Xanthos" – but a machine can have no such sense. To a search engine,
+then, all such links say no more than that the web resource at the given URI
+(http://pleiades.stoa.org/places/639166) is "related" in some way to the
+subject of the current page element.
+
+The primary Concordia relationships cannot be unambiguously expressed using the
+form above. For example, a machine cannot discriminate between the semantics of
+the following two lines unless it has been given specific information about the
+plain-text conventions used at each web site (a non-standard and non-scaling
+proposition)::
+
+  origin: <a href="http://pleiades.stoa.org/places/639166">Xanthos</a>
+  attests to: <a href="http://pleiades.stoa.org/places/639166">Xanthos</a>
+  
+A small step toward disambiguating these is achieved by the following form::
+
+  <a href="http://pleiades.stoa.org/places/639166">origin (Xanthos)</a>
+  <a href="http://pleiades.stoa.org/places/639166">attests to (Xanthos)</a>
+  
+The strings "origin" and "attests to" within the <a> tags constitute a simple
+link type vocabulary. All that remains to make these sensible to a machine is
+to publish the types themselves on the web at permanent URIs, and use those
+URIs in a rel attribute::
+
+  <a 
+    rel="ov:origin" 
+    href="http://pleiades.stoa.org/places/639166"
+    >
+    Xanthos
+  </a>
+  <a
+    rel="ov:attestsTo"
+    href="http://pleiades.stoa.org/places/639166"
+    >
+    Xanthos
+  </a>
+
+where "ov" is the vocabulary's namespace prefix. The syntax used in the markup
+above is called RDFa [7_], a standard that will play a major role in the future
+of the Semantic Web.
+
+On The CIDOC CRM
+====================================
+
+There are existing property or link relation vocabularies originating in the
+past-oriented digital humanities, the most notable being the CIDOC Conceptual
+Reference Model (CRM). The CRM is detailed, precise, and enjoys use in the
+design of museum databases. It is not, however, used openly on the web. Our
+assessment, which involved both web searches and an inquiry on the CIDOC CRM
+email list, has yielded no example of CRM properties being used to link ancient
+world data into an open, world-wide graph.
+
+Considering now the inscription, coin, and place descriptions currently
+published on the web: the fine structure of the CRM has serious implications
+for the integration of these existing resources. Using the simple vocabulary of
+2 terms shown in the previous section, we can immediately make a graph of
+resources as they exist now, without any remodelling, with no need to mint new
+resources:
+
+.. image:: http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/simplest.png?format=raw
+
+If Concordia were to restrict itself to only the CRM properties, two problems
+would rise. New "event" resources would become necessary to mediate complicated
+relationships replacing the simple "ov:origin" property, and Concordia would
+lose the ability to indicate that one resource provides evidence for the
+existence or historicity of another. The situation is shown below:
+
+.. image:: http://atlantides.org/trac/concordia/attachment/wiki/ConcordiaThesaurus/crm.png?format=raw
+
+What CRM property or combination of properties and new entities is to replace
+ov:attestsTo is not clear. Within CRM, it can be stated that a coin *depicts* a
+person, or that an inscription *is about* a person, but we are not comfortable
+with the assertion that these properties equal attestation. The ov:attestsTo
+relationship emphasizes evidentiary function in the context of historical
+analysis (e.g., a particular inscribed text attests to the use of a particular
+geographic name variant), whereas the *depicts* and *is about* relationships
+communicate just two of the conclusions that might be drawn from such analysis.
+
+The new "finding event" or "minting event" resources (shown as red boxes in the
+diagram above) might one day be very useful in their own right, but Concordia
+needs to stick to practical rather than hypothetical objectives. Due to the
+short time-frame of the project, a requirement that new event resources be
+created for every origin relationship would stop the show. This is by far the
+greater of the two problems.
+
+At any rate, the "open world" assumption of the web (and Concordia) does not
+rule out the future creation of event resources, nor the future use of CRM
+properties to relate resources initially bound together using Concordia's
+simpler vocabulary.  In fact, it seems obvious that CRM will play an important
+future role in enriching a graph that is bootstrapped using a simpler, more
+generic vocabulary.
+
+.. _1: http://www.atlantides.org/trac/concordia
+.. _2: http://www.w3.org/TR/webarch/
+.. _3: http://richard.cyganiak.de/2007/10/lod/
+.. _4: http://cidoc.ics.forth.gr/
+.. _5: http://www.atlantides.org/trac/concordia/wiki/WorkshopOctober
+.. _6: http://www.w3.org/DesignIssues/Semantic.html
+.. _7: http://www.w3.org/TR/xhtml-rdfa-primer/

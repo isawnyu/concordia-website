@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/tom/Schemata/atom.rnc" type="compact"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://concordia.atlantides.org/examples/insaph-victor#aggregation</id>
+    <link href="http://concordia.atlantides.org/examples/insaph-victor.atom" rel="self" type="application/atom+xml"/>
+    <updated>2008-05-14T03:08:07Z</updated>
+    <category
+        scheme="http://www.openarchives.org/ore/terms/" 
+        term="http://www.openarchives.org/ore/terms/Aggregation"
+        label="Aggregation"
+    />
+    <title>The Victory Geography of M. Aurelius [·· ? ··]os, long-distance runner</title>
+    <entry>
+        <id>tag:insaph.kcl.ac.uk,2007-10-01:/iaph2007/iAph120215</id>
+        <title>12.215. Honours for M. Aurelius [·· ? ··]os, long-distance runner</title>
+        <updated>2007-10-01T00:01:00Z</updated>
+        <link rel="alternate" href="http://insaph.kcl.ac.uk/iaph2007/iAph120215.html"/>
+        <link rel="related" href="http://pleiades.stoa.org/places/638753/"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Ancyra-65-B1</id>
+        <title>Ancyra of Galatia</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Ancyra-65-B1"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Hadriana-86-B3</id>
+        <title>Hadrianeia of Bithynia</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Hadriana-86-B3"/>
+        <category term="http://pleiades.stoa.org/thesaurus/association-certainty#less-certain" scheme="http://pleiades.stoa.org/thesaurus/association-certainty">less certain</category>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Heraclea-86-B2</id>
+        <title>Heraclea on the Pontus</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Heraclea-86-B2"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Chalcedon-53-B3</id>
+        <title>Chalcedon</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Chalcedon-53-B3"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Nicomedia-52-F3</id>
+        <title>Nicomedia</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Nicomedia-52-F3"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Nicaea-52-F4</id>
+        <title>Nicaea</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Nicaea-52-F4"/>
+    </entry>
+    
+    <entry>
+        <id>tag:pleiades.stoa.org,2008-05-14:/batlas/Philadelphia-56-H5</id>
+        <title>Philadelphia</title>
+        <updated>2008-05-15T00:01:00Z</updated>
+        <link rel="alternate" href="http://pleiades.stoa.org/batlas/Philadelphia-56-H5"/>
+    </entry>
+</feed>

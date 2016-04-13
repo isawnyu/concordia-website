@@ -1,0 +1,99 @@
+
+body {
+    background-color: #555555;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    font-style: italic;
+}
+
+div {
+    margin: 5px;
+    padding: 0px;
+}
+
+h2, h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+}
+
+
+p, li {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+}
+
+#content {
+    margin: 5px;
+    padding: 2px;
+}
+
+#criteria {
+    color: #00FFFF;
+    font-size: small;
+}
+div.result {
+    margin: 5px;
+    padding: 5px;
+    background-color: #DDDDDD;
+}
+
+.hd-number {
+    background-color: white;
+    font-style: normal;
+}
+
+div div div {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.metadata div {
+    width: 33%;
+    float: left;
+    padding-top: 10px;
+}
+
+.geography, .dates, .literature, .text  {
+    clear: both;
+    padding-top: 10px;
+}
+
+.geography div {
+    width: 33%;
+    float: left;
+    margin-top: 5px;
+    }
+
+
+a img {
+    border: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.text p {
+    font-family: roman, 'times new roman', times, serif; 
+    font-style: normal;
+    font-size: 100%;
+}
+
+
+div div div p {
+    margin-right: 5px;
+}
+
+div div div h2 {
+    margin-right: 5px;
+}
+
+ul {
+    margin: 0px;
+}
+
+
+
+

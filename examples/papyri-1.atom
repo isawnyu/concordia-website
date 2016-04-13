@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/tom/Sandbox/www.atlantides.org/gawd-vocab/atom11.rnc" type="compact"?>
+<feed  xmlns="http://www.w3.org/2005/Atom">
+    <title>Integrating Digital Papyrology Project</title>
+    <link href="http://papyri.info/index.atom" type="application/atom+xml" rel="self"/>
+    <link href="http://papyri.info/index.html" type="text/html" rel="alternate"/>
+    <updated>2010-02-10T00:00:00Z</updated>
+    <id>what kind of id shold we use for the feed?</id>
+    <entry>
+        <author>
+            <name>Advanced Papyrological Information System (Berkeley)</name>
+        </author>
+        <!-- rights? -->
+        <rights>Creative Commons licence Attribution 2.5
+            (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. </rights>
+        <id>what kind of id should we use for the entry?</id>
+        <title>Petition of Horos: to Petesouchos, 110/109 B. C. (berkeley.apis.368)</title>
+        
+        <link rel="alternate" type="text/html" href="http://papyri.info/navigator/full/apis_berkeley_368"/>
+
+        <!-- related papyri.info resources -->
+        <link rel="related" href="http://papyri.info/navigator/full/hgv_P.Tebt._1:53"/>
+        <link rel="related" href="http://papyri.info/navigator/full/ddbdp_0206_1:53"/>
+        
+        <!-- are there dates to be had in the records? -->
+        <published>2005-04-07T00:00:01Z</published>
+        <updated>2008-04-01T00:00:00Z</updated>
+        <summary type="text">Horos, farmer of crown lands at Kerkeosiris, Egypt, petitions
+            Petesouchos, successor to Menches as village secretary of the same village, complaining
+            about the theft of 40 sheep for which he was responsible, by inhabitants of a
+            neighboring village. </summary>
+    </entry>
+    <entry>
+        <author xml:lang="de">
+            <name>Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens</name>
+        </author>
+        <rights>Creative Commons licence Attribution 2.5
+            (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. </rights>
+        <id>what kind of id should we use for the entry?</id>
+        <title>Petition to the Komogrammateus (P.Tebt. I 53)</title>
+        
+        <link rel="alternate" type="text/html" href="http://papyri.info/navigator/full/hgv_P.Tebt._1:53"/>
+
+        <!-- related papyri.info resources -->
+        <link rel="related" type="text/html" href="http://papyri.info/navigator/full/apis_berkeley_368"/>
+        <link rel="related" href="http://papyri.info/navigator/full/ddbdp_0206_1:53"/>
+        
+        <!-- it references Trismegistos -->
+        <link rel="http://gawd.atlantides.org/terms/references" href="http://www.trismegistos.org/tm/detail.php?quick=3689"/>
+        
+        <!-- the nome, via pleiades -->
+        <link rel="http://gawd.atlantides.org/terms/where" href="http://pleiades.stoa.org/places/736893"/>
+        
+        <!-- are there dates to be had in the records? -->
+        <published>2005-04-07T00:00:01Z</published>
+        <updated>2008-04-01T00:00:00Z</updated>
+        <summary type="text">Language: grc-Grek
+            Material: Papyri
+            Subject(s): Eingabe ; Horos an Petesuchos (Dorfschreiber) ; Diebstahl ; 40 heilige Schafe
+            Date: nach 9. Okt. 110 v.Chr.</summary>
+    </entry>
+    
+    <entry>
+        <author>
+            <name>Duke Databank of Documentary Greek Papyri</name>
+        </author>
+        <!-- rights? -->
+        <rights>Creative Commons licence Attribution 2.5
+            (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. </rights>
+        <id>what kind of id should we use for the entry?</id>
+        <title>DDbDP Full Text: p.tebt.1.53</title>
+        
+        <link rel="alternate" type="text/html" href="http://papyri.info/navigator/full/ddbdp_0206_1:53"/>
+        
+        <!-- related papyri.info resources -->
+        <link rel="related" href="http://papyri.info/navigator/full/hgv_P.Tebt._1:53"/>
+        <link rel="related" href="http://papyri.info/navigator/full/apis_berkeley_368"/>
+        
+        <!-- are there dates to be had in the records? -->
+        <published>2005-04-07T00:00:01Z</published>
+        <updated>2008-04-01T00:00:00Z</updated>
+        <summary type="text">110BC Tebtynis</summary>
+    </entry>
+</feed>
