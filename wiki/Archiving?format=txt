@@ -1,0 +1,17 @@
+= Archiving =
+
+''back to: ProjectDeliverables''
+
+== relevant portions of original proposal narrative ==
+
+   Backstop is the provisional name for this repository and an associated preservation initiative to be inaugurated by ISAW in parallel to this project. ISAW will establish at its own cost a server and associated backup regime to store and disseminate digital documents, datasets and software tools at immediate risk for loss. For inclusion during this initial phase, digital materials must address some aspect of ancient history, must be accompanied by a Dublin Core metadata record, and must be deposited under the terms of a standard license that permits free and unfettered redistribution and use (e.g., a Creative Commons license or the GNU Public License). ISAW will provide convenient tooling for the creation of the required metadata record. For both demonstration and preservation purposes, all digital publications and tools involved in Concordia will be deposited into this archive. Other accessions during this initial phase will be made at the discretion of the ISAW Chief Librarian and Digital Projects Director; priority will be given to resources that conform to the same standards employed for content addressed in this proposal. ISAW will commit to ensuring the long-term preservation, and repository migration when warranted, of all materials accessioned to this near-term, simple repository.
+
+   ...
+
+   During the Concordia period of work, epigraphic and papyrological texts will be deposited in Backstop as XML files conforming to the EpiDoc TEI specification. A copy of the EpiDoc DTD version used for each will be deposited along with the files. At the moment, there is no standard data format that losslessly supports the full expression of the Pleiades data model; however, it is possible to serialize the data to a collection of comma-separated-value (CSV) files, accompanied by geographic coordinates and IDs in the widely used ESRI Shapefile format (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf). Copies of the Pleiades thesauri that provide the authority for values in some fields will be included, using the IMS Vocabulary Definition Exchange specification (http://www.imsglobal.org/vdex/index.html). Project staff will also continue their evaluation of place-related tagging guidance that has just been added to the Text Encoding Initiative in its most recent P5 release, which may offer another format option for use by other humanistic projects (http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html; both Bodard and Elliott consulted with TEI personnel on the content of this chapter).
+
+== things that have changed and what we should do now ==
+
+Backstop as an initiative continues to evolve. For ISAW internally the emphasis is increasingly on assisting other projects and rescuing and refactoring at-risk datasets and moribund projects. For the archival aspect, we are now seriously investigating use of the NYU Faculty Digital Library, rather than creating our own system. We are also looking into close linkages with the Internet Archive. Concordia content will be used in these experiments and will be reported here or via the [http://planet.atlantides.org/concordia/ Concordia News Aggregator]. 
+
+We will shortly create tickets for these aspects.

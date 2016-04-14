@@ -1,0 +1,178 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracSyntaxColoring - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="TracSyntaxColoring?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="TracSyntaxColoring?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="SyntaxColoringofSourceCode">Syntax Coloring of Source Code</h1>
+<p>
+Trac supports language-specific syntax highlighting of source code in <a class="wiki" href="WikiFormatting">wiki formatted</a> text and the <a class="wiki" href="TracBrowser">repository browser</a>.
+</p>
+<p>
+To do this, Trac uses external libraries with support for a great number of programming languages.
+</p>
+<p>
+Currently Trac supports syntax coloring using one or more of the following packages:
+</p>
+<ul><li><a class="ext-link" href="http://www.codento.com/people/mtr/genscript/"><span class="icon">GNU Enscript</span></a> 
+</li><li><a class="ext-link" href="http://silvercity.sourceforge.net/"><span class="icon">SilverCity</span></a>
+</li></ul><p>
+To activate syntax coloring, simply install either one (or more) of these packages. No additional configuration is required, however to modify the colors, have a look at <tt>trac/htdocs/css/code.css</tt>.
+</p>
+<p>
+When in use, Trac will automatically prioritize SilverCity highlighting over Enscript if possible, (see note below). 
+</p>
+<p>
+If neither package is available, Trac will display the data as plain text. 
+</p>
+<p>
+<strong>Note:</strong> Enscript supports a greater number of languages, however SilverCity is generally faster since it is a library and isn't executed in an external process.
+</p>
+<h3 id="AboutSilverCity">About <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/SilverCity" rel="nofollow">SilverCity?</a></h3>
+<p>
+SilverCity uses the lexer from <a class="ext-link" href="http://www.scintilla.org/"><span class="icon">Scintilla</span></a>. Scintilla supports more languages than SilverCity implements. If you want to add a language to SilverCity supported by Scintilla, it's not very difficult. See <a class="ext-link" href="http://projects.edgewall.com/trac/wiki/SilverCityAddLanguage"><span class="icon">SilverCityAddLanguage</span></a> for some information how.
+</p>
+<h2 id="SyntaxColoringSupport">Syntax Coloring Support</h2>
+<table class="wiki">
+<tr><td> </td><td> SilverCity </td><td> Enscript 
+</td></tr><tr><td> Ada      </td><td>   </td><td> X 
+</td></tr><tr><td> Asm      </td><td>   </td><td> X 
+</td></tr><tr><td> * ASP    </td><td> X </td><td> X 
+</td></tr><tr><td> * C      </td><td> X </td><td> X 
+</td></tr><tr><td> * C#     </td><td>   </td><td> X(2) 
+</td></tr><tr><td> * C++    </td><td> X </td><td> X 
+</td></tr><tr><td> * Java   </td><td>   </td><td> X 
+</td></tr><tr><td> Awk      </td><td>   </td><td> X 
+</td></tr><tr><td> CSS      </td><td> X </td><td>   
+</td></tr><tr><td> Diff     </td><td>   </td><td> X 
+</td></tr><tr><td> Eiffel   </td><td>   </td><td> X 
+</td></tr><tr><td> Elisp    </td><td>   </td><td> X 
+</td></tr><tr><td> Fortran  </td><td>   </td><td> X 
+</td></tr><tr><td> Haskell  </td><td>   </td><td> X 
+</td></tr><tr><td> HTML     </td><td> X </td><td> X 
+</td></tr><tr><td> IDL      </td><td>   </td><td> X 
+</td></tr><tr><td> Javascript </td><td> X </td><td> X 
+</td></tr><tr><td> m4       </td><td>   </td><td> X 
+</td></tr><tr><td> Makefile </td><td>   </td><td> X 
+</td></tr><tr><td> Matlab   </td><td>   </td><td> X 
+</td></tr><tr><td> Objective-C</td><td> </td><td> X 
+</td></tr><tr><td> Pascal   </td><td>   </td><td> X 
+</td></tr><tr><td> * Perl   </td><td> X </td><td> X 
+</td></tr><tr><td> * PHP    </td><td> X </td><td> X 
+</td></tr><tr><td> PSP      </td><td> X </td><td>   
+</td></tr><tr><td> Pyrex    </td><td>   </td><td> X 
+</td></tr><tr><td> * Python </td><td> X </td><td> X 
+</td></tr><tr><td> * Ruby   </td><td> X </td><td> X (1) 
+</td></tr><tr><td> Scheme   </td><td>   </td><td> X 
+</td></tr><tr><td> Shell    </td><td>   </td><td> X 
+</td></tr><tr><td> SQL      </td><td> X </td><td> X 
+</td></tr><tr><td> Troff    </td><td>   </td><td> X 
+</td></tr><tr><td> TCL      </td><td>   </td><td> X 
+</td></tr><tr><td> Tex      </td><td>   </td><td> X 
+</td></tr><tr><td> Verilog  </td><td>   </td><td> X 
+</td></tr><tr><td> VHDL     </td><td>   </td><td> X 
+</td></tr><tr><td> Visual Basic </td><td></td><td> X 
+</td></tr><tr><td> VRML     </td><td>   </td><td> X 
+</td></tr><tr><td> XML      </td><td> X </td><td>  
+</td></tr></table>
+<p>
+<i>(*) Supported as inline code blocks in <a class="wiki" href="WikiFormatting">Wiki text</a> using <a class="wiki" href="WikiProcessors">WikiProcessors</a>.</i>
+</p>
+<p>
+<i>(1) Ruby highlighting is not included in the Enscript distribution.  Highlighting rules for Ruby can be obtained from: <a class="ext-link" href="http://neugierig.org/software/ruby/"><span class="icon">http://neugierig.org/software/ruby/</span></a>
+</i></p>
+<p>
+<i>(2) C# highlighting is not included in the Enscript distribution.  Highlighting rules for C# can be obtained from: <a class="ext-link" href="http://wiki.hasno.info/index.php/Csharp.st"><span class="icon">http://wiki.hasno.info/index.php/Csharp.st</span></a>
+</i></p>
+<h2 id="ExtraSoftware">Extra Software</h2>
+<ul><li>GNU Enscript -- <a class="ext-link" href="http://directory.fsf.org/GNU/enscript.html"><span class="icon">http://directory.fsf.org/GNU/enscript.html</span></a>
+</li><li>GNU Enscript for Windows -- <a class="ext-link" href="http://gnuwin32.sourceforge.net/packages/enscript.htm"><span class="icon">http://gnuwin32.sourceforge.net/packages/enscript.htm</span></a>
+</li><li>SilverCity -- <a class="ext-link" href="http://silvercity.sf.net/"><span class="icon">http://silvercity.sf.net/</span></a>
+</li></ul><hr />
+<p>
+See also: <a class="wiki" href="WikiProcessors">WikiProcessors</a>, <a class="wiki" href="WikiFormatting">WikiFormatting</a>, <a class="wiki" href="TracWiki">TracWiki</a>, <a class="wiki" href="TracBrowser">TracBrowser</a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="TracSyntaxColoring?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

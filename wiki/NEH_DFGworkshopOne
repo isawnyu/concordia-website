@@ -1,0 +1,188 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>NEH_DFGworkshopOne - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="NEH_DFGworkshopOne?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="NEH_DFGworkshopOne?action=diff&amp;version=74">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="HeidelbergWorkshop">Heidelberg Workshop</h1>
+<p>
+July 14-17, 2009 
+</p>
+<p>
+Arrivals:
+</p>
+<ul><li>Elliott (arrive Frankfurt 7:45 a.m., 14 July)
+</li><li>Gillies (arrive from Paris Est via Mannheim, 17:00, 14 July)
+</li><li>Bodard
+</li></ul><p>
+Hotels: <a class="ext-link" href="http://www.gasthaus-backmulde-hotel.de/english/index.htm"><span class="icon">Backmulde</span></a> and <a class="ext-link" href="http://www.4-jahreszeiten.de/en/index.html"><span class="icon">Hotel Vier Jahreszeiten</span></a>
+</p>
+<p>
+Geography:
+</p>
+<ul><li><a class="ext-link" href="http://atlantides.org/trac/concordia/attachment/wiki/NEH_DFGworkshopOne/Heidelberg2009.kml?format=raw"><span class="icon">Hotels and Worksite</span></a> (KML for Google Earth)
+</li><li><a class="ext-link" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fatlantides.org%2Ftrac%2Fconcordia%2Fattachment%2Fwiki%2FNEH_DFGworkshopOne%2FHeidelberg2009.kml%3Fformat%3Draw&amp;ie=UTF8&amp;z=17"><span class="icon">Hotels and Worksite</span></a> (Google Map for Browser)
+</li></ul><p>
+Home team:
+</p>
+<ul><li>Christian Witschel, Rüdiger Siebert, Brigitte Graef, Francisca Feraudi-Gruenais, Andreas Dafferner, James Cowey
+</li></ul><h2 id="Topics">Topics</h2>
+<ul><li>Tooling coordinates. Discussion involving all to identify what we want to be able to see from an EDH point of view and from a Concordia point of view. Thereafter discussion and decisions to be made at a technical level concerning possible new fields. Adjustments to standard procedures may have to be made. 
+</li><li>Specific types of problem. How to deal with:
+<ul><li>Secure find spots with no ancient name. An example or two would be useful here.
+</li><li>Information such as “Roma, bei” et al in Fundort modern and Fundort antik. List of all EDH terminology:
+<ul><li>Fundort antik: “bei”, "inter”, “insula” see <a class="wiki" href="BeiInterInsula">examples</a>
+</li><li>Fundort modern: “bei”, "inter”, “Insel” see <a class="wiki" href="BeiInterInsula">examples</a>
+</li></ul></li><li>BAtlas type naming and EDH naming such as “Frankfurt Heddernheim”. What are the EDH guiding principles in such naming practice? See <a class="wiki" href="FrHedderheim">examples</a>
+</li></ul></li></ul><ul><li>Scanning of maps from CIL. This appears to be desirable in order to have captured in digital form geographic names which were in currency some 100 to 150 years ago, but may no longer be used.
+<ul><li>What does Harvard have?
+</li><li>How many maps would we like to have scanned? Here is a <a class="wiki" href="MapList">list of maps</a> used by EDH.
+</li></ul></li></ul><ul><li>EpiDoc implementation. Use <a class="ext-link" href="http://spreadsheets.google.com/ccc?key=p6neXWnIhUciBSK8mgcEOYA&amp;hl=en"><span class="icon">Epidoc-P5-Correspondences</span></a> to populate the list of correspondences between EDH terminology and it EpiDoc equivalences. This has been done to a large extent.
+<ul><li>note that the spreadsheet <a class="ext-link" href="http://spreadsheets.google.com/ccc?key=pzcsmIrPohcSLYkDUJKcUZg"><span class="icon">EDH/EpiDoc Equivalences</span></a> may be more complete than the P5 one (perhaps they need collating). (<strong>GB</strong>) 
+</li><li>EDH field Literatur (epigrlit.lit_line) in the <strong>K</strong>  block needs attention. EDH does not really think in terms of @subtype='principalEdition'.
+</li><li>Discuss how to implement the addition of EpiDoc files (e.g. IRT from London) into EDH .itx files. I have an XSLT I can provide that converts from IRT to an EDH input-table, and I'll bring along a first bash at that conversion too. I need some feedback on a few issues. (<strong>GB</strong>)
+</li></ul></li></ul><h3 id="Day1WednesdayJuly15">Day 1 (Wednesday, July 15)</h3>
+<ul><li>Starting at 10.00 a.m. in the EDH room.
+</li><li>Status of EDH as project. What are you hoping to get from these meetings. <a class="wiki" href="ListDesirables">List</a> of what both sides hope to gain from this collaboration.
+</li><li>Status of Pleiades/concordia as project. What are you hoping to get from these meetings.
+</li><li>Allard Mees will also take part in the meeting. He will present his <a class="ext-link" href="http://www.rgzm.de/samian/home/frames.htm"><span class="icon">Sigillata Project</span></a>. We hope that the geographical information contained in his database has the potential to complement Pleiades and EDH.
+</li><li>Demonstrate Pleiades capabilities and discuss anticipated developments (Elliott/Gillies)
+</li><li>Demonstrate Concordia feeds and indexing (Elliott/Gillies)
+</li><li>Demonstrate EpiDoc-aware papyrological editor (Cowey)
+</li><li>Demonstrate IRT to EDH conversion (Bodard)
+</li></ul><h3 id="Day2ThursdayJuly16">Day 2 (Thursday, July 16)</h3>
+<p>
+Start: 09:00
+Morning: spend 1 hour on each of the following topics; emphasis on tech
+</p>
+<ul><li>How does EDH get and manage information and code necessary to effect mapping and geospatial search (<a class="wiki" href="CandidateEDHPleiadesInteractionDiagram">CandidateEDHPleiadesInteractionDiagram</a>)
+<ul><li>How do we discover who has <a class="wiki" href="Coordinates">coordinates</a> or who has updated them recently?
+<ul><li>1. Search customized for EDH, returning Atom + GeoRSS
+</li><li>2. Feed of changesets (Atom again)
+</li></ul></li><li>How can we copy coordinates from one project to another?
+<ul><li>
+</li></ul></li><li>What tech is needed on EDH side, vs. what's available elsewhere?
+<ul><li>Addition of geometry or lat/long fields to the EDH schema
+</li><li>Spatial analysis embedded in DB2 or implemented in application using <a class="ext-link" href="http://www.vividsolutions.com/jts/jtshome.htm"><span class="icon">JTS</span></a>
+</li></ul></li><li>Algorithms for analysis/display
+</li></ul></li><li>Mechanisms for EpiDoc import/export (see <a class="wiki" href="EDHEpiDocImportDiagram">EDHEpiDocImportDiagram</a>)
+<ul><li>Near-term, specific imports: IRT and IRCyr
+</li><li>Permanent capability
+<ul><li>technology aspects
+</li><li>legal aspects / licensing
+</li></ul></li></ul></li><li>How does one project provide links to geographically relevant subsets of others' content? (see <a class="wiki" href="PleiadesEDHConcordiaDiagram">PleiadesEDHConcordiaDiagram</a>)
+<ul><li>Link to full set and individual ones
+</li><li>Summaries of content (sitemap/atom)
+</li></ul></li></ul><p>
+Afternoon: revisit issues of interest/concern/opportunity arising from morning's discussion
+</p>
+<ul><li>Details of <a class="wiki" href="PleiadesMatchInterface">match interface</a>
+</li><li>Details of Atom format and associated <a class="wiki" href="ConcordiaThesaurus">link-type vocabulary</a>; what content and state of work do you reveal
+<ul><li>EDH and King's have solid use cases for relationship(s) involving photographs, squeezes, copies and sketches (and the digital versions thereof). We looked at CIDOC "depicts" and "represents" and are not yet convinced that we have a good fit
+</li></ul></li></ul><p>
+Items of work and issues:
+</p>
+<ul><li>Legal/policy aspects/implications of EpiDoc import/export capability and of Atom interface
+</li><li>XSLT refinements for EpiDoc -&gt; EDH transform works smoothly (esp. Leiden representation in ITX files)
+</li><li>How to deal with doublets: 
+<ul><li>Latin texts: after conversion from EpiDoc
+</li><li>Metadata / database field values: ???
+</li></ul></li><li>Resources to produce Atom interface for EDH
+</li><li>Decide policy for managing fields - what do we surface in Atom feed
+</li><li>How to handle translitteration of Cyrillic and co.
+</li></ul><h3 id="Day3FridayJuly17">Day 3 (Friday, July 17)</h3>
+<ul><li>Schedule and agenda for <a class="wiki" href="NEH_DFGworkshopTwo">New York Workshop</a>
+<ul><li>prepare ground work for concordances of publications / resource material this is an edition of that is an edition of the other
+</li><li>List of tasks before New York
+</li></ul></li><li>Process of work, issue tracking, etc.
+</li><li>Website revamp Concordia start page
+</li><li>Develop timeline and workplan for preparation of a funding proposal to submit to the newly announced <a class="ext-link" href="http://neh.gov/grants/guidelines/DFG_EDC.html"><span class="icon">Enriching Digital Collections grant opportunity</span></a> from the DFG/NEH Bilateral Digital Humanities Program (receipt deadline 8 October 2009; notification June 2010; funds available July(?) 2010)
+<ul><li><a class="wiki" href="EDHTimeEffort">Time and Effort Estimates</a> for major components of work
+</li></ul></li></ul></div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopOne/Heidelberg2009.kml">Heidelberg2009.kml</a> (21.6 kB) - added by thomase on 07/09/09 08:02:45.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopOne/workplan.xls">workplan.xls</a> (25.5 kB) - added by thomase on 07/17/09 10:22:54.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="NEH_DFGworkshopOne?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Licensing - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="Licensing?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="Licensing?action=diff&amp;version=7">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="ConcordiaLicensing">Concordia Licensing</h1>
+<p>
+<i>back to: <a class="wiki" href="ProjectDeliverables">ProjectDeliverables</a></i>
+</p>
+<p>
+Here is a list of the software and content that we will use, modify or produce, indicating the license that now governs (or will govern) each:
+</p>
+<ul><li>The Duke Databank of Documentary Papyri (cc-by)
+</li><li><a class="wiki" href="IAph2007">The Inscriptions of Aphrodisias 2007</a> (cc-by)
+</li><li><a class="wiki" href="IRCyr">The Inscriptions of Roman Cyrenaica</a> (cc-by)
+</li><li><a class="wiki" href="IRT">The Inscriptions of Roman Tripolitania</a> (cc-by)
+</li><li><a class="wiki" href="PNDemo">The Papyrological Navigator</a> (GPL)
+</li><li><a class="ext-link" href="http://pleiades.stoa.org"><span class="icon">Pleiades</span></a> (code GPL; <a class="wiki" href="PleiadesContent">content</a> cc-by-sa)
+</li><li><a class="ext-link" href="http://epidoc.sf.net"><span class="icon">EpiDoc</span></a> toolset (GPL)
+</li><li>Atom web feeds serializing OAI/ORE resource maps (following license of parent resource; access descriptions of each via <a class="wiki" href="ProjectDeliverables">ProjectDeliverables</a>)
+</li></ul></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="Licensing?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

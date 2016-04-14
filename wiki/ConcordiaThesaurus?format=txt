@@ -1,0 +1,78 @@
+= Concordia Thesaurus =
+
+!ConcordiaThesaurus is a controlled vocabulary for expressing classes of relationships (or even assertions) between web-based resources in the context of Linked Data and Atom+GeoRSS feed applications. Its original version was a [ProjectDeliverables project deliverable] for the NEH-funded [ProjectOverview Concordia Project]. 
+
+See also (from October 2008 Workshop): ConcordiaTypeThesaurus
+
+== Vocabulary ==
+
+All terms are identified by URIs of the form http://gawd.atlantides.org/terms/{term}: http://gawd.atlantides.org/terms/findspot, etc.
+We often use "gawd" as a namespace prefix for "http://gawd.atlantides.org/terms/".
+
+=== alternateEdition ===
+
+Indicates that two published editions treat the same ancient text or document.
+
+=== attestsTo ===
+
+Identifies a historical place or person whose existence or name is attested by the item in question.
+
+Example (Turtle format): An inscription from IAph 2007 attests to a particular form of place appellation, Ἀφροδισίας.
+
+{{{
+<http://insaph.kcl.ac.uk/iaph2007/iAph040202> gawd:attestsTo <http://pleiades.stoa.org/places/638753/aphrodisias>
+}}}
+
+=== depicts ===
+
+Same as CIDOC CRM p62 "depicts". An image, for example, may depict an inscription.
+
+=== findspot ===
+
+Identifies the place where the item was found by modern persons.
+
+Example (Turtle format): An inscription from IAph 2007 was found at the site of the ancient place we call Aphrodisias.
+
+{{{
+<http://insaph.kcl.ac.uk/iaph2007/iAph040202> gawd:findspot <http://pleiades.stoa.org/places/638753>
+}}}
+
+=== observedAt ===
+
+Identifies a place where the item was observed by modern persons, the place of transcription.
+
+=== origin ===
+
+Identifies the place where the item is reasoned, by modern persons, to have originated.
+
+=== where ===
+
+Generic location relation, modeled on the [http://code.google.com/p/where-link-relation-type/ where relation link type] proposed by Sean Gillies).
+
+== Dublin Core ==
+
+http://purl.org/dc/terms/references indicates that one resource makes some kind of reference to another resource.
+
+== Issues ==
+
+ * EDH and King's have solid use cases for relationship(s) involving photographs, squeezes, copies and sketches (and the digital versions thereof). 2009-07-17
+
+== Code: ==
+
+ * there is not yet a module for the thesaurus
+
+See also ConcordiaGraph.
+
+== Other deliverables that are dependent on this one ==
+
+ * ConcordiaHarvester
+
+== Related milestones: ==
+
+ * we have not yet established a milestone for this deliverable
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=thesaurus&description!~=thesaurus)]]
+[[TicketQuery(summary!~=thesaurus&description~=thesaurus)]]
+[[TicketQuery(summary~=thesaurus&description~=thesaurus)]]

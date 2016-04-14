@@ -1,0 +1,25 @@
+= Time and Effort estimates for EDH/Pleiades/EpiDoc Work =
+
+What are the major tasks for which we need to estimate time and effort ahead of a proposal?
+
+
+ * Atom-enabling EDH
+   * (A) Modification of EDH webapp to produce Atom feeds (conformant to Concordia usage)
+ * Pleiades match interface
+   * (A) Consultation with Pleiades team on details of Pleiades match interface
+   * (A) Modification of EDH systems and work process to exploit Pleiades match interface and resulting information
+ * !EpiDoc -> EDH (import)
+   * (A) Creation of SQL insert statements from output of XSLT (metadata)
+   * (A?) Refinement of XSLT to produce EDH-ready Leiden of texts
+   * Other modifications to XSLT as needed
+   * (A) Creation of ITX files from output of XSLT (texts)
+ * EDH -> !EpiDoc (export)
+   * (A?) Generation of !EpiDoc from metadata (SQL queries, template)
+   * (A?) Conversion of ITX files to !EpiDoc (XSLT, XSugar -- Univ of Kentucky?)
+ * Legal, privacy and policy aspects (A?)
+   * [wiki:CopyrightSites Copyright]
+   * Contributor's agreement
+   * Licensing
+   * What to include/exclude from feeds
+   * What to include/exclude from !EpiDoc exports
+

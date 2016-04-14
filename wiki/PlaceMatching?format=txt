@@ -1,0 +1,11 @@
+Place matching prototype experiment
+
+640 combinations of ancient and modern place names submitted.
+
+450 give possible matches.
+
+190 give no matches.
+
+http://atlantides.org:8080/plone/place-match-form
+
+New application deployed on Pleiades: http://pleiades.stoa.org/@@place-match-form?form.widgets.an=Alexandria&form.widgets.mn=Gülpınar&form.widgets.co=

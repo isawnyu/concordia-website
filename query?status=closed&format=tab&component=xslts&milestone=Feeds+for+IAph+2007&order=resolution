@@ -1,0 +1,5 @@
+id	summary	owner	type	priority	version	resolution
+2	create module in svn for xsl development	thomase	enhancement	major		fixed
+3	namespace prefixes in atom feeds freak out rssowl	thomase	defect	critical		fixed
+6	create a feed document for all iaph2007 inscriptions	thomase	enhancement	major		fixed
+4	RSSOwl can't handle entry-only atom feeds	thomase	defect	major		wontfix

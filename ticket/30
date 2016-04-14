@@ -1,0 +1,178 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>#30 (Final publication of IRT2009 website) - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="../wiki/TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/ticket.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="30?format=csv" title="Comma-delimited Text" type="trac.ticket.Ticket" /><link rel="alternate" href="30?format=tab" title="Tab-delimited Text" type="trac.ticket.Ticket" /><link rel="alternate" href="30?format=rss" title="RSS Feed" type="trac.ticket.Ticket" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li class="active"><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Ticket Navigation</h2>
+</div>
+
+<div id="content" class="ticket">
+
+ <h1>Ticket #30 <span class="status">(closed task: fixed)</span></h1>
+
+<div id="searchable">
+<div id="ticket">
+ <div class="date">
+  <p title="05/20/09 13:27:00">Opened 7 years ago</p>
+   <p title="11/24/09 05:55:38">Last modified 6 years ago</p>
+  
+ </div>
+ <h2 class="summary">Final publication of IRT2009 website</h2>
+ <table class="properties">
+  <tr>
+   <th id="h_reporter">Reported by:</th>
+   <td headers="h_reporter">gbodard</td>
+   <th id="h_owner">Assigned to:</th>
+   <td headers="h_owner">gbodard</td>
+  </tr><tr>
+    <th id="h_priority">Priority:</th>
+    <td headers="h_priority">major</td>
+    <th id="h_milestone">Milestone:</th>
+    <td headers="h_milestone">Final version of IRT in EpiDoc XML</td></tr><tr>
+    <th id="h_component">Component:</th>
+    <td headers="h_component">webpresence</td>
+    <th id="h_version">Version:</th>
+    <td headers="h_version"></td></tr><tr>
+    <th id="h_keywords">Keywords:</th>
+    <td headers="h_keywords"></td>
+    <th id="h_cc">Cc:</th>
+    <td headers="h_cc"></td></tr><tr></tr>
+ </table>
+  <form method="get" action="30#comment" class="printableform">
+   <div class="description">
+    <h3 id="comment:description">
+     Description 
+    </h3>
+    <p>
+The final publication of the IRT 2009 website is waiting on:
+</p>
+<ul><li>some minor improvements to the <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/EpiDoc" rel="nofollow">EpiDoc?</a> XML (manual and automated)
+</li><li>incorporate geodata into XML
+</li><li>enhancements to CCH XSLT and <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/EpiDoc" rel="nofollow">EpiDoc?</a> example-xslt
+</li><li>incorporate web feeds into website
+</li></ul>
+   </div>
+  </form>
+</div>
+
+
+
+
+
+<h2>Change History</h2>
+<div id="changelog">
+ <form method="get" action="30#comment" class="printableform">
+ <div class="change">
+  <h3 id="comment:1">
+    <span class="threading">
+    </span>08/07/09 09:21:59 changed by gbodard
+  </h3>
+   <ul class="changes">
+    <li><strong>status</strong> changed from <em>new</em> to <em>assigned</em>.</li>
+    
+   </ul>
+  <div class="comment"><p>
+Website will be launched (in Rome) on Sept 22, 2009
+</p>
+</div>
+ </div>
+ </form>
+ <form method="get" action="30#comment" class="printableform">
+ <div class="change">
+  <h3 id="comment:2">
+    <span class="threading">
+    </span>09/30/09 08:39:29 changed by gbodard
+  </h3>
+  <div class="comment"><p>
+1.-3. Done
+</p>
+<p>
+4. Ongoing
+</p>
+</div>
+ </div>
+ </form>
+ <form method="get" action="30#comment" class="printableform">
+ <div class="change">
+  <h3 id="comment:3">
+    <span class="threading">
+    </span>11/24/09 05:55:38 changed by gbodard
+  </h3>
+   <ul class="changes">
+    <li><strong>status</strong> changed from <em>assigned</em> to <em>closed</em>.</li>
+    
+    <li><strong>resolution</strong> set to <em>fixed</em>.</li>
+    
+   </ul>
+  <div class="comment"><p>
+Website published (<a class="ext-link" href="http://irt.kcl.ac.uk/irt2009/"><span class="icon">http://irt.kcl.ac.uk/irt2009/</span></a>) and webfeeds uploaded alongside.
+</p>
+</div>
+ </div>
+ </form>
+</div>
+
+
+
+ </div>
+ <script type="text/javascript">
+  addHeadingLinks(document.getElementById("searchable"), "Permalink to $id");
+ </script>
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first"><a href="30?format=csv">Comma-delimited Text</a></li><li><a href="30?format=tab">Tab-delimited Text</a></li><li class="last"><a href="30?format=rss">RSS Feed</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

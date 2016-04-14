@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracAdmin (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/TracAdmin?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/TracAdmin?version=1">Version 1</a> of
+    <a href="TracAdmin">TracAdmin</a></h1>
+  <form method="post" id="prefs" action="TracAdmin"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">trac <span class="ipnr">(IP: 127.0.0.1)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/07/08 14:41:41 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>TracAdmin</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>= TracAdmin =</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins>[[TracGuideToc]]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins>Trac is distributed with a powerful command-line configuration tool. This tool can be used&nbsp; to configure and customize your Trac-installation to better fit your needs.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins>Some of those operations can also be performed via the web interface thanks to the optional [http://trac.edgewall.org/wiki/WebAdmin WebAdmin] plugin, distributed separately for now.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins>== Usage ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins>You can get a comprehensive list of the available options, commands and sub-commands by invoking `trac-admin` with the `help` command:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins>trac-admin help</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins>Unless you're executing the `help`, `about` or `version` sub-commands, you'll need to specify the path to the TracEnvironment that you want to administer as the first argument, for example:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>trac-admin /path/to/projenv wiki list</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins>== Interactive Mode ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>22</th><td class="r"><ins>When passing the environment path as the only argument, `trac-admin` starts in interactive mode.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>23</th><td class="r"><ins>Commands can then be executed on the selected environment using the prompt, which offers tab-completion</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>24</th><td class="r"><ins>(on non-Windows environments, and when the Python `readline` module is available) and automatic repetition of the last command issued.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>25</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r"><ins>Once you're in interactive mode, you can also get help on specific commands or subsets of commands:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r"><ins>For example, to get an explanation of the `resync` command, run:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r"><ins>&gt; help resync</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r"><ins>To get help on a all the Wiki-related commands, run:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r"><ins>&gt; help wiki</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r"><ins>----</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>39</th><td class="r"><ins>See also: TracGuide, TracBackup, TracPermissions, TracEnvironment, TracIni</ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

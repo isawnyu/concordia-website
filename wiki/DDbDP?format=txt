@@ -1,0 +1,6 @@
+= Duke Databank of Documentary Papyri =
+
+The ''Integrating Digital Papyrology'' (IDP) effort, now under way with funding from the Andrew W. Mellon Foundation, is bringing together and updating three of the most important digital tools for the study of Greek and Latin papyri: the Duke Databank of Documentary Papyri (DDbDP), the Advanced Papyrological Information System (APIS), and the ''Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens'' (HGV). 
+
+A team of scholars and technicians from Duke University, Columbia University, ISAW, CCH, UNC-CH and the University of Heidelberg are converting the Duke Texts (approximately 50,000 in number) from their current format (a hybrid of idiosyncratic encoding conventions and TEI in SGML) to the same !EpiDoc form employed for the CCH-shepherded epigraphic projects outlined elsewhere in this proposal. Duke and Heidelberg will continue to produce content using their separate tooling, but the synchronized results, encoded to open standards, will be migrated to a stable venue for preservation and dissemination, whence it will feed other projects and tools, principally the Papyrological Navigator at Columbia University (see below), as well as the Concordia project. The first "beta" release of the full dataset is slated for delivery in April 2008, with final release scheduled in June 2008.
+

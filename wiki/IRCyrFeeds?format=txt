@@ -1,0 +1,10 @@
+= IRCyrFeeds =
+
+''back to: ProjectDeliverables''
+
+IRCyr feeds is a data/functionality deliverable for the project: Atom+GeoRSS feeds that summarize, describe and link to the individual inscriptions (and main groupings thereof) in the Inscriptions of Roman Cyrenaica ([wiki:IRCyr]).
+
+Related tickets (probably):
+[[TicketQuery(summary~=ircyr&description!~=ircyr)]]
+[[TicketQuery(summary!~=ircyr&description~=ircyr)]]
+[[TicketQuery(summary~=ircyr&description~=ircyr)]]

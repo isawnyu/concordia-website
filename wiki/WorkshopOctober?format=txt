@@ -1,0 +1,71 @@
+= October Workshop (London) = 
+
+Dates: Monday 13 - Wednesday 15 October 2008
+
+Seminar Room, CCH, King's College London
+
+== Agenda == 
+
+Monday and Wednesday will be closed sessions for the team; for Tuesday 14 we are inviting representatives from partner projects.
+
+=== Monday ===
+
+ * Morning: 
+   * Start 11.00:
+   * Those attending: Team (GB, TE, SG, EL, CMR, HW)
+   * Primary goal: emerge from this session with a complete and up-to-date list of ProjectDeliverables, annotated with status of each (including: "complete", "new", "changed", "at-risk")
+   * Triage and move onto discussion of specific issues (primarily geodatabase) as soon as possible (to flow into after-lunch session as required)
+     * IRT & IRCyr geodatabase '''(12, 13, 15)'''
+       * Internal structure of database and relationship to XML (CCH)
+ * Lunch: 13.00
+ * Afternoon: 14.00:
+   * Tactical session: important matters arising from triage of this morning's topics
+     * IRT & IRCyr geodatabase (cont'd)
+       * Relationship with Pleiades (PleiadesURI in locus-table)
+       * How do we deliver to Pleiades any new places that they don't list yet?
+       * BAtlasID resolver
+   * 16.00: Management session (1 hour):
+     * What have we learnt so far about project management that would be useful for future collaborations - between us or between others? Gather discussion fodder at ProjectManagementLessons
+ * Ends: 17.30
+
+=== Tuesday ===
+
+ * Start: 10:30
+ * Those attending: Team plus Valentina Asciutti (KCL), Stuart Dunn (!CeRch, KCL), Leif Isaksen (Southampton), Elaine Matthews (LGPN), Dan Pett (PAS), Sebastian Rahtz (LGPN), Maggie Robb (KCL)
+ * Morning: 
+   * Topics:
+     * RDF and web-crawling for "social" networks of object/name/place data
+     * How should we embed LGPN data, and ensure the surfacing of new data to LGPN? (Rahtz)
+ * Afternoon:
+   * Topics:
+     * Google Visualization API and LGPN data (Rahtz)
+     * Correlate Herodotean locations with the pleiades URIs (Isaksen)
+     * Mapping tools and Pleiades infrastructure (Walda)
+     * see ConcordiaAtomFeeds
+   * roll up sleeves and hack at data/tools
+ * 16:00: down computers, move to alternate location (hostelry) for debriefing
+    
+=== Wednesday ===
+
+ * Start: 10:30
+ * Morning:
+   * Topics:
+     * Atom feed production tool '''(1-4)''': workplan
+       * cf. IDP-content-tool
+     * Feed harvesting and indexing '''(5)'''
+       * federated search functionality
+       * Cross-project citation vocablary/thesaurus '''(6)'''
+       * Determine IndexSearchCriteria
+     * Digitization of IRT '''(8)'''
+       * (!EpiDoc & web & images)
+       * incriptions (+ narrative?)
+     * ALA/IAph inscription concordance '''(14)'''
+       * add IAph/PHI inscription concordance
+     * Further focus on locations and their identification
+ * Afternoon:
+   * Status of deliverables: review/decision on at-risk items
+
+=== Summary Points ===
+
+ * Concordia approaches search from the web search engine angle. This is not federated search. We are building an index from the data collected by a web crawler.
+ * Our new vocabulary of link rels bears some resemblance to a group of RDF predicates, but Concordia is not a semantic web application.

@@ -1,0 +1,128 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracWiki - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="TracWiki?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="TracWiki?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="TheTracWikiEngine">The Trac Wiki Engine</h1>
+<p>
+</p><div class="wiki-toc"><h4>Table of Contents</h4><ul><li><a href="TracGuide">Index</a></li><li><a href="TracInstall">Installation</a></li><li><a href="TracUpgrade">Upgrading</a></li><li><a href="TracIni">Configuration</a></li><li><a href="TracAdmin">Administration</a></li><li><a href="TracBackup">Backup</a></li><li><a href="TracLogging">Logging</a></li><li><a href="TracPermissions">Permissions</a></li><li class="active"><a href="TracWiki">The Wiki</a></li><li><a href="WikiFormatting">Wiki Formatting</a></li><li><a href="TracTimeline">Timeline</a></li><li><a href="TracBrowser">Repository Browser</a></li><li><a href="TracChangeset">Changesets</a></li><li><a href="TracRoadmap">Roadmap</a></li><li><a href="TracTickets">Tickets</a></li><li><a href="TracQuery">Ticket Queries</a></li><li><a href="TracReports">Reports</a></li><li><a href="TracRss">RSS Support</a></li><li><a href="TracNotification">Notification</a></li><li><a href="TracInterfaceCustomization">Customization</a></li><li><a href="TracPlugins">Plugins</a></li></ul></div><p>
+</p>
+<p>
+Trac has a built-in wiki engine, used for text and documentation throughout the system. <a class="wiki" href="WikiFormatting">WikiFormatting</a> is used in <a class="wiki" href="TitleIndex">wiki pages</a>, <a class="wiki" href="TracTickets">tickets</a> and <a class="wiki" href="TracChangeset">check-in log messages</a>.  This allows for formatted text and hyperlinks in and between all Trac modules.
+</p>
+<p>
+Editing wiki text is easy, using any web browser and a simple <a class="wiki" href="WikiFormatting">formatting system</a>, rather than more complex markup languages like HTML.  The reasoning behind its design is that HTML, with its large collection of nestable tags, is too complicated to allow fast-paced editing, and distracts from the actual content of the pages. Note though that Trac also supports <a class="wiki" href="WikiHtml">HTML</a>, <a class="wiki" href="WikiRestructuredText">reStructuredText</a> and <a class="ext-link" href="http://www.textism.com/tools/textile/"><span class="icon">Textile</span></a> as alternative markup formats.
+</p>
+<p>
+The main goal of the wiki is to make editing text easier and <i>encourage</i> people to contribute and annotate text content for a project.
+</p>
+<p>
+The wiki itself does not enforce any structure, but rather resembles a stack of empty sheets of paper, where you can organize information and documentation as you see fit, and later reorganize if necessary.
+</p>
+<p>
+For more help on editing wiki text, see these pages:
+</p>
+<ul><li><a class="wiki" href="WikiFormatting">WikiFormatting</a>
+</li><li><a class="wiki" href="WikiPageNames">WikiPageNames</a>
+</li><li><a class="wiki" href="WikiNewPage">WikiNewPage</a>
+</li><li><a class="wiki" href="TracLinks">TracLinks</a>
+</li><li><a class="wiki" href="WikiMacros">WikiMacros</a>
+</li><li><a class="wiki" href="WikiProcessors">WikiProcessors</a>
+</li></ul><p>
+If you want to practice editing, please use the <a class="wiki" href="SandBox">SandBox</a>.
+</p>
+<p>
+Some more information about wiki on the web:
+</p>
+<ul><li><a class="ext-link" href="http://wikipedia.org/wiki/Wiki"><span class="icon">http://wikipedia.org/wiki/Wiki</span></a>
+</li><li><a class="ext-link" href="http://c2.com/cgi/wiki?WikiHistory"><span class="icon">http://c2.com/cgi/wiki?WikiHistory</span></a>
+</li><li><a class="ext-link" href="http://www.usemod.com/cgi-bin/mb.pl?WhyWikiWorks"><span class="icon">http://www.usemod.com/cgi-bin/mb.pl?WhyWikiWorks</span></a>
+</li></ul><hr />
+<p>
+See also: <a class="wiki" href="TracGuide">TracGuide</a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="TracWiki?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

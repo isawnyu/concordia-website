@@ -1,0 +1,46 @@
+
+== EDH Geographic Database ==
+
+=== An imaginary layout of the database ===
+
+To illustrate the fields/tables within the database
+
+||EGDH_Nr.||HD_Nr.(e.g.)||'''EDH''' fo_antik||Pl. ancient loc.||'''EDH''' fo_modern||Pl. modern loc.||'''EDH''' fundstelle_1,_2,_3||Pl. findspot||'''EDH''' lat.||'''EDH''' long.||Geo_id for '''EDH''' coord.||'''EDH''' basis||
+||1||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033127 HD033127]||Municipium Salvium||[http://pleiades.stoa.org/places/197491/ places/197491]||Glamoč||||Vrba||||44.01222||16.9000||[http://www.geonames.org/3259928/vrba.html 3259928/vrba.html]||fundstelle_1||
+||2||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056021 HD056021]||Municipium Salvium||[http://pleiades.stoa.org/places/197491/ places/197491]||Glamoč||||Vrba, frühchristliche Kirche||||||||||fundstelle_2||
+||3||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=023324 HD023324]||Salviae||[http://pleiades.stoa.org/places/197490/ places/197490]||Glamoč||||Halapić||||44.0736||16.78306||[http://www.geonames.org/3199427/halapic.html 3199427/halapic.html]||fundstelle_1||
+||4||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056015 HD056015]||Salviae||[http://pleiades.stoa.org/places/197490/ places/197490]||Glamoč||||Halapić, Glavice||||||||||fundstelle_2||
+||5||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012593 HD012593]||Salviae||[http://pleiades.stoa.org/places/197490/ places/197490]||Glamoč||||Halapić, Glavice, frühchristliche Kirche||||||||||fundstelle_3||
+||6||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=052288 HD052288]||||||Glamoč||||Glavica||||44.11056||16.76611||[http://www.geonames.org/3240394/glavica.html 3240394/glavica.html]||fundstelle_1||
+||7||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033954 HD033954]||Municipium Salvium, aus?||||Glamoč||||Podgradina||||44.02306||16.88556||[http://www.geonames.org/3193017/podgradina.html 3193017/podgradina.html]||fundstelle_1||
+||8||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033935 HD033935]||||||Glamoč||||Staro Selo, bei||||43.9711||16.9375||[http://www.geonames.org/3189928/staro-selo.html 3189928/staro-selo.html]||fundstelle_1||
+||109||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=050500 HD050500]||Tragurium||[http://pleiades.stoa.org/places/197555/ places/197555]||Trogir||||||||43.5125||16.25167||[http://www.geonames.org/3188763/trogir.html 3188763/trogir.html]||fo_modern||
+||3010||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=058449 HD058449]||Tragurium, bei||||Prgomet||||Labin||||43.5833||16.25000||[http://www.geonames.org/3196835/labin.html 3196835/labin.html]||fundstelle_1||
+||11||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=053719 HD053719]||Salonae - Servitium, inter||||Glamoč, bei||||||||44.04583||16.84861||[http://www.geonames.org/3200651/glamoc.html 3200651/glamoc.html]||fo_modern||
+
+
+==== Notes on the columns and lines ====
+
+ * Each '''''line''''' contains a unique combination of geographic data. In the future database context this will be one record (for which we shall have a stable record_id, is what we imagine).
+ * '''''Column''''': EGDH_Nr. (e.g.)
+   * '''NEW'''  ''This number will operate as the reference number for relating the geographic database to the EDH itself. In the EDH there will be a new field which will contain the EGDH_Nr. The numbers here are only exempli gratia.'' '''NEW''' 
+ * '''''Column''''': HD_Nr. (e.g.)
+   * This field will be the place, in which all HD_numbers which contain the combination of geographic data in the line in question will be listed.
+ * '''''Columns''''': '''EDH''' lat. and '''EDH''' long.
+   * EDH will (in the first instance) store only those coordinates which are used to identify the modern findspot of the inscription in question.
+ * '''''Column''''': Geo_id for '''EDH''' coord.
+   * The geonames_id of the EDH modern findspot will be stored
+ * '''''Column''''': '''EDH''' basis
+   * In this column EDH declares the granularity of the findspot. In other words what geographical data is specified by the coordinates. Values for this table will be a drop down authority list: fo_modern, fundstelle_1, fundstelle_2, fundstelle_3.
+     * fo_modern: e.g. line 9
+     * fundstelle_1: e.g. lines 1, 3, 6, 7, 8
+     * fundstelle_2: e.g. lines 2 and 4
+     * fundstelle_3: e.g. line 5
+       * unfortunately we do not have the coordinates for the "'''frühchristliche Kirche'''" in the Glavice '''quarter''' of the '''town''' Halapić. However fundstelle_3 refers to the threefold breakdown of the data: town, quarter, specific findspot. This is as granular as the EDH fundstelle can be. At present if we had to specify coordinates we would have to go back to those for Halapić, as in line 3. We have left these columns empty in an attempt to illustrate an example of how differentiated EDH data might be.
+       * '''NEW''' ''instead of using the expressions (fo_modern, fundstelle_1, fundstelle_2, fundstelle_3) we might think of using a sort of scale: percentages of accuracy, or simply a scale of numbers (would have to be dependent upon an authority list of possiblities)'' '''NEW''' 
+ * '''''Columns''''': Pl. ancient loc, Pl. modern loc., Pl. findspot
+   * In the first instance we shall enter whatever relevant placename_ids we can find from the Pleiades site.
+ * the use of the extras "bei", "aus" and "?"
+   * "'''bei'''" in line 8: fundstelle_1 indicates what the coordinates refer to. '''bei''' indicates that all we can do is say that the findspot is more approximate than the name of a village, settlement or whatever. We are saying that the environments of the village, settlement or whatever are as accurate as we can be. We imagine that Pleiades can use this information to add some sort of relevance scale.
+   * "'''bei'''" in line 11: fo_modern indicates what the coordinates refer to. '''bei''' indicates that all we can do is say that the modern location is more approximate than the name of a town. We are saying that the environments of the town are as accurate as we can be. We imagine that Pleiades can use this information to add some sort of relevance scale.
+

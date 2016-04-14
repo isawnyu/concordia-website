@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracCgi (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/TracCgi?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/TracCgi?version=1">Version 1</a> of
+    <a href="TracCgi">TracCgi</a></h1>
+  <form method="post" id="prefs" action="TracCgi"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">trac <span class="ipnr">(IP: 127.0.0.1)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/07/08 14:41:41 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>TracCgi</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>= Installing Trac as CGI =</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins>To install Trac as a CGI script, you need to make the `trac.cgi` executable as a CGI by your web server.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins>&nbsp; ''Please note that using Trac via CGI is significantly slower than any other deployment method, such as [TracModPython mod_python] or [TracFastCgi FastCGI].''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins>If you're using [http://httpd.apache.org/ Apache HTTPD], there are a couple ways to do that:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins>&nbsp;1. Use a `ScriptAlias` to map a URL to the `trac.cgi` script</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins>&nbsp;2. Copy the `trac.cgi` file into the directory for CGI executables used by your web server (commonly named `cgi-bin`). You can also create a symbolic link, but in that case make sure that the `FollowSymLinks` option is enabled for the `cgi-bin` directory.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins>The first option is recommended as it also allows you to map the CGI to a friendly URL.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins>Now, edit the Apache configuration file and add this snippet, file names and locations changed to match your installation:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>ScriptAlias /trac /usr/share/trac/cgi-bin/trac.cgi</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins>&nbsp;''Note that this directive requires the `mod_alias` module to be installed and enabled.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins>If you're using Trac with a single project you need to set its location using the `TRAC_ENV` environment variable:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>22</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>23</th><td class="r"><ins>&lt;Location "/trac"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>24</th><td class="r"><ins>&nbsp; SetEnv TRAC_ENV "/path/to/projectenv"</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>25</th><td class="r"><ins>&lt;/Location&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r"><ins>Or to use multiple projects you can specify their common parent directory using the `TRAC_ENV_PARENT_DIR` variable:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r"><ins>&lt;Location "/trac"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r"><ins>&nbsp; SetEnv TRAC_ENV_PARENT_DIR "/path/to/project/parent/dir"</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r"><ins>&lt;/Location&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r"><ins>&nbsp;''Note that the `SetEnv` directive requires the `mod_env` module to be installed and enable.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r"><ins>This will make Trac available at `http://yourhost.example.org/trac`.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>39</th><td class="r"><ins>If you are using the [http://httpd.apache.org/docs/suexec.html Apache suEXEC] feature please see [http://trac.edgewall.org/wiki/ApacheSuexec].</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>40</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>41</th><td class="r"><ins>On some systems, you ''may'' need to edit the shebang line in the `trac.cgi` file to point to your real Python installation path. On a Windows system you may need to configure Windows to know how to execute a .cgi file (Explorer -&gt; Tools -&gt; Folder Options -&gt; File Types -&gt; CGI).</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>43</th><td class="r"><ins>== Mapping Static Resources ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>44</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>45</th><td class="r"><ins>Out of the box, Trac will serve static resources such as style sheets or images itself. For a CGI setup, though, this is highly undesirable, because it results in the CGI script being invoked for documents that could be much more efficiently served by the web server directly.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>46</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>47</th><td class="r"><ins>Web servers such as [http://httpd.apache.org/ Apache HTTPD] allow you to create “Aliases” to resources, thereby giving them a virtual URL that doesn't necessarily bear any resemblance to the layout of the servers file system. We already used this capability above when defining a `ScriptAlias` for the CGI script, and we'll use it now to map requests to the static resources to the directory on the file system that contains them, thereby bypassing the processing of such requests by the CGI script.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>48</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>49</th><td class="r"><ins>Edit the Apache configuration file again and add the following snippet '''before''' the `ScriptAlias` for the CGI script , file names and locations changed to match your installation:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>50</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r"><ins>Alias /trac/chrome/common /usr/share/trac/htdocs</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>52</th><td class="r"><ins>&lt;Directory "/usr/share/trac/htdocs"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>53</th><td class="r"><ins>&nbsp; Order allow,deny</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>54</th><td class="r"><ins>&nbsp; Allow from all</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>55</th><td class="r"><ins>&lt;/Directory&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>56</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>57</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>58</th><td class="r"><ins>Note that whatever URL path you mapped the `trac.cgi` script to, the path `/chrome/common` is the path you have to append to that location to intercept requests to the static resources. </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>59</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>60</th><td class="r"><ins>For example, if Trac is mapped to `/cgi-bin/trac.cgi` on your server, the URL of the Alias should be `/cgi-bin/trac.cgi/chrome/common`.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>61</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>62</th><td class="r"><ins>Alternatively, you can set the `htdocs_location` configuration option in [wiki:TracIni trac.ini]:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>63</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>64</th><td class="r"><ins>[trac]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>65</th><td class="r"><ins>htdocs_location = /trac-htdocs</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>66</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>67</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>68</th><td class="r"><ins>Trac will then use this URL when embedding static resources into HTML pages. Of course, you still need to make the Trac `htdocs` directory available through the web server at the specified URL, for example by copying (or linking) the directory into the document root of the web server:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>69</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>70</th><td class="r"><ins>$ ln -s /usr/share/trac/htdocs /var/www/your_site.com/htdocs/trac-htdocs</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>71</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>72</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>73</th><td class="r"><ins>== Adding Authentication ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>74</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>75</th><td class="r"><ins>The simplest way to enable authentication with Apache is to create a password file. Use the `htpasswd` program to create the password file:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>76</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>77</th><td class="r"><ins>$ htpasswd -c /somewhere/trac.htpasswd admin</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>78</th><td class="r"><ins>New password: &lt;type password&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>79</th><td class="r"><ins>Re-type new password: &lt;type password again&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>80</th><td class="r"><ins>Adding password for user admin</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>81</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>82</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>83</th><td class="r"><ins>After the first user, you dont need the "-c" option anymore:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>84</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>85</th><td class="r"><ins>$ htpasswd /somewhere/trac.htpasswd john</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>86</th><td class="r"><ins>New password: &lt;type password&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>87</th><td class="r"><ins>Re-type new password: &lt;type password again&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>88</th><td class="r"><ins>Adding password for user john</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>89</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>90</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>91</th><td class="r"><ins>&nbsp; ''See the man page for `htpasswd` for full documentation.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>92</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>93</th><td class="r"><ins>After you've created the users, you can set their permissions using TracPermissions.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>94</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>95</th><td class="r"><ins>Now, you'll need to enable authentication against the password file in the Apache configuration:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>96</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>97</th><td class="r"><ins>&lt;Location "/trac/login"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>98</th><td class="r"><ins>&nbsp; AuthType Basic</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>99</th><td class="r"><ins>&nbsp; AuthName "Trac"</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>100</th><td class="r"><ins>&nbsp; AuthUserFile /somewhere/trac.htpasswd</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>101</th><td class="r"><ins>&nbsp; Require valid-user</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>102</th><td class="r"><ins>&lt;/Location&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>103</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>104</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>105</th><td class="r"><ins>If you're hosting multiple projects you can use the same password file for all of them:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>106</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>107</th><td class="r"><ins>&lt;LocationMatch "/trac/[^/]+/login"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>108</th><td class="r"><ins>&nbsp; AuthType Basic</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>109</th><td class="r"><ins>&nbsp; AuthName "Trac"</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>110</th><td class="r"><ins>&nbsp; AuthUserFile /somewhere/trac.htpasswd</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>111</th><td class="r"><ins>&nbsp; Require valid-user</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>112</th><td class="r"><ins>&lt;/LocationMatch&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>113</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>114</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>115</th><td class="r"><ins>For better security, it is recommended that you either enable SSL or at least use the “Digest” authentication scheme instead of “Basic”. Please read the [http://httpd.apache.org/docs/2.0/ Apache HTTPD documentation] to find out more.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>116</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>117</th><td class="r"><ins>----</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>118</th><td class="r"><ins>See also:&nbsp; TracGuide, TracInstall, TracFastCgi, TracModPython</ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

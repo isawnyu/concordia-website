@@ -1,0 +1,139 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>PleiadesMatchInterface - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="PleiadesMatchInterface?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="PleiadesMatchInterface?action=diff&amp;version=19">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="PleiadesMatchInterface">Pleiades Match Interface</h1>
+<p>
+put link to diagram here
+</p>
+<h2 id="InputEDH">Input (EDH)</h2>
+<p>
+UTF-8 JSON (Javascript Object Notation). See <a class="ext-link" href="http://tools.ietf.org/html/rfc4627"><span class="icon">http://tools.ietf.org/html/rfc4627</span></a>.
+</p>
+<p>
+List of query objects with attributes key = User key, an = Ancient Name (latin transliteration), mn = Modern Name, co = ISO country code, lon = decimal degree longitude west, lat = decimal degree latitude north.
+</p>
+<pre class="wiki">[
+{"key": "42", "an": "Aphrodesieus", "mn": "Geyre", "co": "TR", "lon": null, "lat": null},
+{"key": "47", "an": null, "mn": "Ataeybir", "co": "TR", "lon": null, "lat": null},
+...
+]
+</pre><h2 id="OutputPleiades">Output (Pleiades)</h2>
+<p>
+UTF-8 JSON
+</p>
+<p>
+List of result sets, each with matching key value. Example below is formatted for readability, and could be flattened into records of a single line.
+</p>
+<pre class="wiki">[
+  {"key": "42", "results": [ 
+     {
+      "url": "http://atlantides.org:8080/plone/places/736936", 
+      "title": "Kerkeosiris",
+      "placetype": "labeled feature",
+      "bbox": [30.5, 29.0, 31.0, 29.5],
+      "center": [x, y]
+     },
+     ...
+    ]
+  }
+  ...
+    {"results": [
+      {"url": "http://atlantides.org:8080/plone/places/638753", 
+       "title": "Aphrodisias/Ninoe"
+       "placetype": "labeled feature",
+       "bbox": [28.728899999999999, 37.714500000000001, 28.728899999999999, 37.714500000000001]     
+    }, "key": "1"}
+  ...
+]
+</pre><h2 id="IssueswithrespecttoEDHcontent">Issues with respect to EDH content</h2>
+<p>
+* EDH stores geographic information in triples (Fundort_Antik, Fondort_Modern and Fundstelle). Sometimes FA corresponds to FM; other times FA corresponds to Fundstelle. There is no explicit relationship in the data to indicate which is the case. How do we manage the input and output formats, in the context of a match ruleset, to provide the most useful and least painful result?
+</p>
+<ul><li>Answer: supply both an ancient and modern name in a single query <strong>only</strong> when you are certain that they correspond to the same place; otherwise, issue two separate queries (or three), one for each name you have and handle match results appropriately
+</li></ul></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="PleiadesMatchInterface?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

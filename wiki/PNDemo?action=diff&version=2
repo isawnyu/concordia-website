@@ -1,0 +1,155 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>PNDemo (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="prev" href="http://www.atlantides.org/trac/concordia/wiki/PNDemo?action=diff&amp;version=1" title="Version 1" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first"> &larr;
+      <a class="prev" href="http://www.atlantides.org/trac/concordia/wiki/PNDemo?action=diff&amp;version=1" title="Version 1">Previous Change</a>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/PNDemo?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes between
+     <a href="http://www.atlantides.org/trac/concordia/wiki/PNDemo?version=1">Version 1</a> and 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/PNDemo?version=2">Version 2</a> of
+    <a href="PNDemo">PNDemo</a></h1>
+  <form method="post" id="prefs" action="PNDemo"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="2" />
+    <input type="hidden" name="old_version" value="1" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">thomase <span class="ipnr">(IP: 74.239.78.188)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">10/06/08 16:52:38 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+added PN link
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>PNDemo</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version 1">v1</th>
+        <th title="Version 2">v2</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody><tr><th>7</th><th>7</th><td class="l"><span>In the proposal, we said about it:</span>&nbsp;</td></tr><tr><th>8</th><th>8</th><td class="l"><span></span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>9</th><th>&nbsp;</th><td class="l">&nbsp; The <del>Papyrological Navigator</del> (PN) is a web portal and search interface for cross-corpus search and access to papyrological texts and metadata, now under development at Columbia University and slated for free public release under the terms of the GNU Public License in July 2008. Designed by the Central Interface Technical Team of APIS in collaboration with DDbDP and HGV, PN will provide substring search, lexical search and onscreen viewing of the IDP content, now in preparation. The goal of this effort has been to demonstrate proof of concept that a system can be designed to provide an integrated display of a variety of scholarly data sources relevant to the study of ancient texts that are hosted at widely disparate locations. The PN has deliberately been built in as open a fashion as possible, so that a more extended use, such as that proposed here, is a natural extension of its character and intention. The tools chosen for this prototype include portlet technology, “web services” protocols and a newer, highly functional image display software platform. The Navigator project builds on and moves beyond the creation of centralized “union databases,” to leverage and integrate content created and hosted elsewhere in the scholarly world. Because PN is being designed to work with !EpiDoc-conformant XML documents, it constitutes a perfect testbed for demonstrating the value of search and display of documentary texts, not only across disparate papyrological corpora but also across document subtypes traditionally treated as separate subfields in the study of classics. Accordingly, it is the PN that will be used to demonstrate side-by-side discovery and browsing of IAph2007, IRCyr, IRT and IDP.&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>9</th><td class="r">&nbsp; The <ins>[http://www.columbia.edu/cu/lweb/digital/pn/ Papyrological Navigator]</ins> (PN) is a web portal and search interface for cross-corpus search and access to papyrological texts and metadata, now under development at Columbia University and slated for free public release under the terms of the GNU Public License in July 2008. Designed by the Central Interface Technical Team of APIS in collaboration with DDbDP and HGV, PN will provide substring search, lexical search and onscreen viewing of the IDP content, now in preparation. The goal of this effort has been to demonstrate proof of concept that a system can be designed to provide an integrated display of a variety of scholarly data sources relevant to the study of ancient texts that are hosted at widely disparate locations. The PN has deliberately been built in as open a fashion as possible, so that a more extended use, such as that proposed here, is a natural extension of its character and intention. The tools chosen for this prototype include portlet technology, “web services” protocols and a newer, highly functional image display software platform. The Navigator project builds on and moves beyond the creation of centralized “union databases,” to leverage and integrate content created and hosted elsewhere in the scholarly world. Because PN is being designed to work with !EpiDoc-conformant XML documents, it constitutes a perfect testbed for demonstrating the value of search and display of documentary texts, not only across disparate papyrological corpora but also across document subtypes traditionally treated as separate subfields in the study of classics. Accordingly, it is the PN that will be used to demonstrate side-by-side discovery and browsing of IAph2007, IRCyr, IRT and IDP.&nbsp;</td></tr></tbody><tbody><tr><th>10</th><th>10</th><td class="l"><span></span>&nbsp;</td></tr><tr><th>11</th><th>11</th><td class="l"><span>== Code: ==</span>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

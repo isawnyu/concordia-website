@@ -1,0 +1,1025 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>PlaceMatching: asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv - Concordia - Trac</title><link rel="start" href="../../../wiki.2" /><link rel="search" href="../../../search" /><link rel="help" href="../../../wiki/TracGuide" /><link rel="stylesheet" href="../../../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../../../chrome/common/css/code.css" type="text/css" /><link rel="icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../../../wiki/PlaceMatching" title="PlaceMatching" /><link rel="alternate" href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv?format=raw" title="Original Format" type="text/csv; charset=iso-8859-15" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../../../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../../../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../../../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../../../settings">Settings</a></li><li><a accesskey="6" href="../../../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../../../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../../../wiki.2">Wiki</a></li><li><a accesskey="2" href="../../../timeline">Timeline</a></li><li><a accesskey="3" href="../../../roadmap">Roadmap</a></li><li><a href="../../../browser">Browse Source</a></li><li><a href="../../../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../../../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="attachment">
+
+
+ <h1><a href="../../../wiki/PlaceMatching">PlaceMatching</a>: asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv</h1>
+ <table id="info" summary="Description"><tbody><tr>
+   <th scope="col">
+    File asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv, 11.8 kB 
+    (added by seang,  6 years ago)
+   </th></tr><tr>
+   <td class="message"><p>
+EDH records (CSV)
+</p>
+</td>
+  </tr>
+ </tbody></table>
+ <div id="preview">
+   <table class="code"><thead><tr><th class="lineno">Line</th><th class="content">&nbsp;</th></tr></thead><tbody><tr><th id="L1"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L1">1</a></th>
+<td>&#34;fo_antik&#34;,&#34;fo_modern&#34;,&#34;fundstelle &#34;</td>
+</tr><tr><th id="L2"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L2">2</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Brunnenhaus&#34;</td>
+</tr><tr><th id="L3"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L3">3</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Hanghaus II&#34;</td>
+</tr><tr><th id="L4"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L4">4</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Hafenkanal, bei&#34;</td>
+</tr><tr><th id="L5"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L5">5</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Odeion, bei&#34;</td>
+</tr><tr><th id="L6"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L6">6</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Scholastikiatherme, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L7"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L7">7</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Scholastikiatherme, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L8"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L8">8</a></th>
+<td>,,</td>
+</tr><tr><th id="L9"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L9">9</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L10"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L10">10</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L11"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L11">11</a></th>
+<td>&#34;Ephesus, bei&#34;,,</td>
+</tr><tr><th id="L12"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L12">12</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L13"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L13">13</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L14"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L14">14</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L15"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L15">15</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L16"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L16">16</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L17"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L17">17</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L18"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L18">18</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L19"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L19">19</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L20"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L20">20</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L21"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L21">21</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L22"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L22">22</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L23"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L23">23</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L24"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L24">24</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L25"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L25">25</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L26"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L26">26</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L27"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L27">27</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L28"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L28">28</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L29"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L29">29</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L30"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L30">30</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L31"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L31">31</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L32"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L32">32</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L33"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L33">33</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L34"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L34">34</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L35"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L35">35</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L36"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L36">36</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L37"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L37">37</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L38"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L38">38</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L39"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L39">39</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L40"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L40">40</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L41"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L41">41</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L42"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L42">42</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L43"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L43">43</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L44"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L44">44</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L45"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L45">45</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L46"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L46">46</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L47"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L47">47</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L48"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L48">48</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L49"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L49">49</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L50"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L50">50</a></th>
+<td>&#34;Metropolis&#34;,,</td>
+</tr><tr><th id="L51"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L51">51</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L52"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L52">52</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L53"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L53">53</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L54"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L54">54</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L55"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L55">55</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L56"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L56">56</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L57"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L57">57</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L58"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L58">58</a></th>
+<td>,,</td>
+</tr><tr><th id="L59"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L59">59</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L60"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L60">60</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L61"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L61">61</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L62"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L62">62</a></th>
+<td>&#34;Lindus&#34;,,</td>
+</tr><tr><th id="L63"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L63">63</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L64"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L64">64</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L65"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L65">65</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L66"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L66">66</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L67"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L67">67</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L68"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L68">68</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L69"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L69">69</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L70"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L70">70</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L71"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L71">71</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L72"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L72">72</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L73"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L73">73</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L74"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L74">74</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L75"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L75">75</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L76"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L76">76</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L77"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L77">77</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L78"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L78">78</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L79"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L79">79</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L80"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L80">80</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L81"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L81">81</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L82"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L82">82</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L83"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L83">83</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L84"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L84">84</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L85"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L85">85</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L86"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L86">86</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L87"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L87">87</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L88"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L88">88</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L89"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L89">89</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L90"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L90">90</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L91"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L91">91</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L92"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L92">92</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L93"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L93">93</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L94"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L94">94</a></th>
+<td>&#34;Pergamum&#34;,,</td>
+</tr><tr><th id="L95"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L95">95</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L96"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L96">96</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L97"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L97">97</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L98"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L98">98</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L99"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L99">99</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L100"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L100">100</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L101"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L101">101</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L102"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L102">102</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L103"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L103">103</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L104"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L104">104</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L105"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L105">105</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L106"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L106">106</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L107"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L107">107</a></th>
+<td>&#34;Apameia&#34;,,</td>
+</tr><tr><th id="L108"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L108">108</a></th>
+<td>,,</td>
+</tr><tr><th id="L109"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L109">109</a></th>
+<td>,,</td>
+</tr><tr><th id="L110"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L110">110</a></th>
+<td>&#34;Aezani, bei&#34;,,</td>
+</tr><tr><th id="L111"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L111">111</a></th>
+<td>&#34;Aezani, bei&#34;,,</td>
+</tr><tr><th id="L112"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L112">112</a></th>
+<td>&#34;Aezani, bei&#34;,,</td>
+</tr><tr><th id="L113"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L113">113</a></th>
+<td>&#34;Aezani, bei&#34;,,</td>
+</tr><tr><th id="L114"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L114">114</a></th>
+<td>&#34;Aezani, bei&#34;,,&#34;Brunnen, vermauert&#34;</td>
+</tr><tr><th id="L115"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L115">115</a></th>
+<td>&#34;Aezani, bei&#34;,,&#34;Brunnen, vermauert&#34;</td>
+</tr><tr><th id="L116"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L116">116</a></th>
+<td>&#34;Aezani, bei&#34;,,</td>
+</tr><tr><th id="L117"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L117">117</a></th>
+<td>&#34;Metropolis?, bei&#34;,,</td>
+</tr><tr><th id="L118"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L118">118</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L119"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L119">119</a></th>
+<td>,,</td>
+</tr><tr><th id="L120"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L120">120</a></th>
+<td>&#34;Alexandria Troas&#34;,,&#34;Heiligtum des Apollon Smintheus&#34;</td>
+</tr><tr><th id="L121"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L121">121</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora&#34;</td>
+</tr><tr><th id="L122"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L122">122</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Serapeion&#34;</td>
+</tr><tr><th id="L123"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L123">123</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora&#34;</td>
+</tr><tr><th id="L124"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L124">124</a></th>
+<td>&#34;Minoa&#34;,,</td>
+</tr><tr><th id="L125"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L125">125</a></th>
+<td>&#34;Minoa&#34;,,</td>
+</tr><tr><th id="L126"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L126">126</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L127"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L127">127</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L128"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L128">128</a></th>
+<td>&#34;Orcistus&#34;,,</td>
+</tr><tr><th id="L129"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L129">129</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L130"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L130">130</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L131"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L131">131</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L132"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L132">132</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L133"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L133">133</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L134"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L134">134</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora?&#34;</td>
+</tr><tr><th id="L135"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L135">135</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora (Frgt. a-b); Theater (Frgt. c); sog. Langhaus II (Frgt. d)&#34;</td>
+</tr><tr><th id="L136"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L136">136</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L137"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L137">137</a></th>
+<td>&#34;Maionia&#34;,,</td>
+</tr><tr><th id="L138"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L138">138</a></th>
+<td>&#34;Didyma&#34;,,&#34;Heilige StraÃe, bei, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L139"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L139">139</a></th>
+<td>&#34;Adramyttion&#34;,,</td>
+</tr><tr><th id="L140"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L140">140</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora&#34;</td>
+</tr><tr><th id="L141"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L141">141</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Celsusbibliothek, bei, byzantinische Mauer&#34;</td>
+</tr><tr><th id="L142"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L142">142</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Agora&#34;</td>
+</tr><tr><th id="L143"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L143">143</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L144"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L144">144</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L145"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L145">145</a></th>
+<td>&#34;Ephesus&#34;,,&#34;KalebÃŒkÃŒ&#34;</td>
+</tr><tr><th id="L146"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L146">146</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L147"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L147">147</a></th>
+<td>&#34;Cyzicus&#34;,,</td>
+</tr><tr><th id="L148"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L148">148</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L149"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L149">149</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Terrasse 2&#34;</td>
+</tr><tr><th id="L150"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L150">150</a></th>
+<td>&#34;Ephesus&#34;,,&#34;Terrasse 2&#34;</td>
+</tr><tr><th id="L151"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L151">151</a></th>
+<td>&#34;Ephesus&#34;,,</td>
+</tr><tr><th id="L152"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L152">152</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;AbrusÃŒstÃŒ&#34;,</td>
+</tr><tr><th id="L153"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L153">153</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;AhlatbayÄ±rÄ±&#34;,</td>
+</tr><tr><th id="L154"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L154">154</a></th>
+<td>,&#34;Ak Kilisse&#34;,</td>
+</tr><tr><th id="L155"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L155">155</a></th>
+<td>&#34;Thyateira&#34;,&#34;Akhisar&#34;,</td>
+</tr><tr><th id="L156"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L156">156</a></th>
+<td>&#34;Thyateira, bei&#34;,&#34;Akhisar, bei&#34;,</td>
+</tr><tr><th id="L157"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L157">157</a></th>
+<td>&#34;Hierokaisareia, bei&#34;,&#34;Akselendi&#34;,</td>
+</tr><tr><th id="L158"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L158">158</a></th>
+<td>,&#34;AkÃ§elar&#34;,</td>
+</tr><tr><th id="L159"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L159">159</a></th>
+<td>&#34;Philomelion&#34;,&#34;AkÅehir&#34;,</td>
+</tr><tr><th id="L160"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L160">160</a></th>
+<td>&#34;Philadelphia, bei&#34;,&#34;AlaÅehir, bei&#34;,</td>
+</tr><tr><th id="L161"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L161">161</a></th>
+<td>&#34;Kyme&#34;,&#34;AliaÄa&#34;,</td>
+</tr><tr><th id="L162"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L162">162</a></th>
+<td>&#34;Soa, bei&#34;,&#34;Alibey KÃ¶y&#34;,</td>
+</tr><tr><th id="L163"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L163">163</a></th>
+<td>&#34;Metropolis Phrygiae&#34;,&#34;Alpaslan&#34;,</td>
+</tr><tr><th id="L164"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L164">164</a></th>
+<td>&#34;Tralles&#34;,&#34;AydÄ±n&#34;,</td>
+</tr><tr><th id="L165"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L165">165</a></th>
+<td>,&#34;Ayvacik&#34;,</td>
+</tr><tr><th id="L166"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L166">166</a></th>
+<td>&#34;Miletus&#34;,&#34;Balat&#34;,</td>
+</tr><tr><th id="L167"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L167">167</a></th>
+<td>&#34;Miletus&#34;,&#34;Balat&#34;,</td>
+</tr><tr><th id="L168"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L168">168</a></th>
+<td>&#34;Miletus&#34;,&#34;Balat&#34;,</td>
+</tr><tr><th id="L169"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L169">169</a></th>
+<td>&#34;Miletus&#34;,&#34;Balat&#34;,</td>
+</tr><tr><th id="L170"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L170">170</a></th>
+<td>,&#34;BayafÅar&#34;,</td>
+</tr><tr><th id="L171"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L171">171</a></th>
+<td>,&#34;BayramiÃ§&#34;,</td>
+</tr><tr><th id="L172"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L172">172</a></th>
+<td>,&#34;BaÄcilar&#34;,</td>
+</tr><tr><th id="L173"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L173">173</a></th>
+<td>&#34;Panamara&#34;,&#34;BaÄyaka&#34;,</td>
+</tr><tr><th id="L174"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L174">174</a></th>
+<td>,&#34;Belevi&#34;,</td>
+</tr><tr><th id="L175"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L175">175</a></th>
+<td>&#34;Vasada&#34;,&#34;Bostandere&#34;,</td>
+</tr><tr><th id="L176"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L176">176</a></th>
+<td>&#34;Cormasa&#34;,&#34;BoÇ§aziÃ§i&#34;,&#34;Moschee, bei&#34;</td>
+</tr><tr><th id="L177"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L177">177</a></th>
+<td>&#34;Cormasa&#34;,&#34;BoÇ§aziÃ§i&#34;,</td>
+</tr><tr><th id="L178"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L178">178</a></th>
+<td>&#34;Praetoria&#34;,&#34;Burdur&#34;,&#34;Bahnhof, bei&#34;</td>
+</tr><tr><th id="L179"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L179">179</a></th>
+<td>&#34;Larisa Pelasgis&#34;,&#34;Buruncuk&#34;,</td>
+</tr><tr><th id="L180"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L180">180</a></th>
+<td>&#34;Cnidus, aus&#34;,&#34;Chalkida&#34;,</td>
+</tr><tr><th id="L181"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L181">181</a></th>
+<td>,&#34;ChÃ©hir-EuÃ¯uk&#34;,</td>
+</tr><tr><th id="L182"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L182">182</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L183"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L183">183</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L184"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L184">184</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L185"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L185">185</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L186"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L186">186</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L187"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L187">187</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L188"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L188">188</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;DalyankÃ¶y&#34;,&#34;Hafen, bei&#34;</td>
+</tr><tr><th id="L189"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L189">189</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L190"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L190">190</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L191"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L191">191</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L192"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L192">192</a></th>
+<td>&#34;Alexandria Troas&#34;,&#34;DalyankÃ¶y&#34;,</td>
+</tr><tr><th id="L193"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L193">193</a></th>
+<td>&#34;Aulutrene, bei&#34;,&#34;Dinar&#34;,</td>
+</tr><tr><th id="L194"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L194">194</a></th>
+<td>&#34;Apamea Cibotus&#34;,&#34;Dinar&#34;,</td>
+</tr><tr><th id="L195"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L195">195</a></th>
+<td>&#34;Apamea Cibotus, bei&#34;,&#34;Dinar, bei&#34;,</td>
+</tr><tr><th id="L196"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L196">196</a></th>
+<td>&#34;Aulutrene&#34;,&#34;Dinar, bei&#34;,</td>
+</tr><tr><th id="L197"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L197">197</a></th>
+<td>&#34;Aulutrene&#34;,&#34;Dinar, bei&#34;,&#34;See, bei&#34;</td>
+</tr><tr><th id="L198"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L198">198</a></th>
+<td>&#34;Aulutrene&#34;,&#34;Dinar, bei&#34;,</td>
+</tr><tr><th id="L199"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L199">199</a></th>
+<td>&#34;Apamea Cibotus&#34;,&#34;Dinar, bei&#34;,&#34;Stall, vermauert&#34;</td>
+</tr><tr><th id="L200"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L200">200</a></th>
+<td>&#34;Cotyaeum, bei&#34;,&#34;DoÄansu&#34;,</td>
+</tr><tr><th id="L201"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L201">201</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;DoÄu Ãamlik&#34;,</td>
+</tr><tr><th id="L202"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L202">202</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;DoÄu Ãamlik&#34;,</td>
+</tr><tr><th id="L203"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L203">203</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;DoÄu Ãamlik&#34;,</td>
+</tr><tr><th id="L204"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L204">204</a></th>
+<td>&#34;Magnesia - Tralles, inter&#34;,&#34;DÃ©Ã¯rmendjik&#34;,</td>
+</tr><tr><th id="L205"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L205">205</a></th>
+<td>&#34;Dascylaeum&#34;,&#34;Ergili, bei&#34;,</td>
+</tr><tr><th id="L206"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L206">206</a></th>
+<td>&#34;Stratonicea&#34;,&#34;Eskihisar&#34;,&#34;Theater, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L207"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L207">207</a></th>
+<td>&#34;Stratonicea&#34;,&#34;Eskihisar&#34;,&#34;Tempel des Augustus, bei&#34;</td>
+</tr><tr><th id="L208"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L208">208</a></th>
+<td>&#34;Stratonicea&#34;,&#34;Eskihisar&#34;,&#34;Gymnasium&#34;</td>
+</tr><tr><th id="L209"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L209">209</a></th>
+<td>&#34;Stratonicea&#34;,&#34;Eskihisar&#34;,&#34;Theater&#34;</td>
+</tr><tr><th id="L210"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L210">210</a></th>
+<td>&#34;Stratonicea&#34;,&#34;Eskihisar&#34;,&#34;Theater&#34;</td>
+</tr><tr><th id="L211"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L211">211</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L212"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L212">212</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L213"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L213">213</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L214"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L214">214</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L215"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L215">215</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L216"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L216">216</a></th>
+<td>&#34;Dorylaeum&#34;,&#34;EskiÅehir&#34;,</td>
+</tr><tr><th id="L217"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L217">217</a></th>
+<td>,&#34;Geyikli&#34;,</td>
+</tr><tr><th id="L218"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L218">218</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L219"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L219">219</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L220"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L220">220</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L221"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L221">221</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L222"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L222">222</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L223"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L223">223</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L224"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L224">224</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L225"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L225">225</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L226"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L226">226</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L227"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L227">227</a></th>
+<td>&#34;Aphrodisias Cariae&#34;,&#34;Geyre&#34;,</td>
+</tr><tr><th id="L228"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L228">228</a></th>
+<td>&#34;Metropolis - Synnada, inter&#34;,&#34;Ginik, bei&#34;,</td>
+</tr><tr><th id="L229"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L229">229</a></th>
+<td>&#34;Laodicea ad Lycum&#34;,&#34;GoncalÄ± Ä°stasyonu&#34;,</td>
+</tr><tr><th id="L230"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L230">230</a></th>
+<td>&#34;Laodicea ad Lycum&#34;,&#34;GoncalÄ± Ä°stasyonu&#34;,</td>
+</tr><tr><th id="L231"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L231">231</a></th>
+<td>&#34;Laodicea ad Lycum&#34;,&#34;GoncalÄ± Ä°stasyonu&#34;,</td>
+</tr><tr><th id="L232"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L232">232</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;GuÃ©Ã¯kli&#34;,</td>
+</tr><tr><th id="L233"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L233">233</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;GuÃ©Ã¯kli&#34;,</td>
+</tr><tr><th id="L234"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L234">234</a></th>
+<td>,&#34;GÃ¶kÃ§ebayÄ±r&#34;,</td>
+</tr><tr><th id="L235"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L235">235</a></th>
+<td>,&#34;GÃ¶kÃ§ebayÄ±r&#34;,</td>
+</tr><tr><th id="L236"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L236">236</a></th>
+<td>&#34;Maionia&#34;,&#34;GÃ¶kÃ§eÃ¶ren&#34;,</td>
+</tr><tr><th id="L237"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L237">237</a></th>
+<td>&#34;Cibyra Maior&#34;,&#34;GÃ¶lhisar&#34;,</td>
+</tr><tr><th id="L238"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L238">238</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;GÃŒlpÄ±nar&#34;,&#34;Heiligtum des Apollon Smintheus&#34;</td>
+</tr><tr><th id="L239"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L239">239</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;GÃŒlpÄ±nar&#34;,&#34;Heiligtum des Apollon Smintheus&#34;</td>
+</tr><tr><th id="L240"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L240">240</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;GÃŒlpÄ±nar&#34;,&#34;Heiligtum des Apollon Smintheus&#34;</td>
+</tr><tr><th id="L241"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L241">241</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;GÃŒlpÄ±nar&#34;,&#34;Heiligtum des Apollon Smintheus&#34;</td>
+</tr><tr><th id="L242"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L242">242</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Haci Mahmut&#34;,</td>
+</tr><tr><th id="L243"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L243">243</a></th>
+<td>&#34;Smyrna, bei&#34;,&#34;HacÄ±lar&#34;,</td>
+</tr><tr><th id="L244"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L244">244</a></th>
+<td>&#34;Amorium&#34;,&#34;HissarkÃ¶y&#34;,</td>
+</tr><tr><th id="L245"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L245">245</a></th>
+<td>&#34;Colossae&#34;,&#34;Honaz&#34;,</td>
+</tr><tr><th id="L246"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L246">246</a></th>
+<td>,&#34;Ine, bei&#34;,</td>
+</tr><tr><th id="L247"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L247">247</a></th>
+<td>&#34;Eumeneia&#34;,&#34;IÅikli&#34;,</td>
+</tr><tr><th id="L248"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L248">248</a></th>
+<td>&#34;Eumeneia&#34;,&#34;IÅikli&#34;,</td>
+</tr><tr><th id="L249"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L249">249</a></th>
+<td>&#34;Eumeneia&#34;,&#34;IÅikli&#34;,</td>
+</tr><tr><th id="L250"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L250">250</a></th>
+<td>&#34;Eumeneia&#34;,&#34;IÅikli&#34;,</td>
+</tr><tr><th id="L251"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L251">251</a></th>
+<td>,&#34;KaraaÄaÃ§&#34;,</td>
+</tr><tr><th id="L252"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L252">252</a></th>
+<td>&#34;Priapus, bei&#34;,&#34;KarabiÄa, bei&#34;,</td>
+</tr><tr><th id="L253"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L253">253</a></th>
+<td>,&#34;Karahisar&#34;,</td>
+</tr><tr><th id="L254"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L254">254</a></th>
+<td>,&#34;Kemalli&#34;,</td>
+</tr><tr><th id="L255"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L255">255</a></th>
+<td>,&#34;Kemalli&#34;,</td>
+</tr><tr><th id="L256"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L256">256</a></th>
+<td>,&#34;Kemalli&#34;,</td>
+</tr><tr><th id="L257"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L257">257</a></th>
+<td>,&#34;Kemalli&#34;,</td>
+</tr><tr><th id="L258"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L258">258</a></th>
+<td>,&#34;Kiravdan&#34;,</td>
+</tr><tr><th id="L259"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L259">259</a></th>
+<td>,&#34;KizilkÃ¶y&#34;,</td>
+</tr><tr><th id="L260"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L260">260</a></th>
+<td>&#34;Kos&#34;,&#34;Kos&#34;,</td>
+</tr><tr><th id="L261"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L261">261</a></th>
+<td>&#34;Kos&#34;,&#34;Kos&#34;,</td>
+</tr><tr><th id="L262"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L262">262</a></th>
+<td>&#34;Kos&#34;,&#34;Kos&#34;,</td>
+</tr><tr><th id="L263"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L263">263</a></th>
+<td>&#34;Kos&#34;,&#34;Kos&#34;,</td>
+</tr><tr><th id="L264"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L264">264</a></th>
+<td>&#34;Kos&#34;,&#34;Kos&#34;,</td>
+</tr><tr><th id="L265"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L265">265</a></th>
+<td>,&#34;Kosedere&#34;,</td>
+</tr><tr><th id="L266"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L266">266</a></th>
+<td>,&#34;Koz-bounar&#34;,</td>
+</tr><tr><th id="L267"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L267">267</a></th>
+<td>&#34;Eumeneia, bei&#34;,&#34;KoÃ§ak&#34;,</td>
+</tr><tr><th id="L268"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L268">268</a></th>
+<td>,&#34;Kula&#34;,</td>
+</tr><tr><th id="L269"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L269">269</a></th>
+<td>,&#34;Kutchuk-KatefkhÃšs&#34;,</td>
+</tr><tr><th id="L270"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L270">270</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;KÃ©mally&#34;,</td>
+</tr><tr><th id="L271"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L271">271</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;KÃ¶rÃŒktaÅÄ±&#34;,</td>
+</tr><tr><th id="L272"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L272">272</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;KÃ¶rÃŒktaÅÄ±, bei&#34;,</td>
+</tr><tr><th id="L273"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L273">273</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;KÃ¶yÃŒstÃŒ&#34;,</td>
+</tr><tr><th id="L274"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L274">274</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;KÃ¶yÃŒstÃŒ&#34;,</td>
+</tr><tr><th id="L275"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L275">275</a></th>
+<td>&#34;Iasus&#34;,&#34;KÄ±yÄ±kÄ±ÅlacÄ±k&#34;,&#34;Nekropole&#34;</td>
+</tr><tr><th id="L276"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L276">276</a></th>
+<td>&#34;Iasus&#34;,&#34;KÄ±yÄ±kÄ±ÅlacÄ±k&#34;,</td>
+</tr><tr><th id="L277"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L277">277</a></th>
+<td>&#34;Iasus&#34;,&#34;KÄ±yÄ±kÄ±ÅlacÄ±k&#34;,</td>
+</tr><tr><th id="L278"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L278">278</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;KÄ±zÄ±lkÃ¶y, bei&#34;,&#34;Brunnen, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L279"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L279">279</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;MandÄ±ra&#34;,</td>
+</tr><tr><th id="L280"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L280">280</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;MandÄ±ra&#34;,</td>
+</tr><tr><th id="L281"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L281">281</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;MandÄ±ra&#34;,</td>
+</tr><tr><th id="L282"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L282">282</a></th>
+<td>&#34;Apollonia&#34;,&#34;Medet&#34;,</td>
+</tr><tr><th id="L283"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L283">283</a></th>
+<td>&#34;Mylasa - Passala, inter&#34;,&#34;Milas, bei&#34;,</td>
+</tr><tr><th id="L284"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L284">284</a></th>
+<td>&#34;Apameia Bithyniae, bei&#34;,&#34;Mudanya, bei&#34;,&#34;Theater, orchestra&#34;</td>
+</tr><tr><th id="L285"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L285">285</a></th>
+<td>&#34;Mytilene&#34;,&#34;Mytilini&#34;,</td>
+</tr><tr><th id="L286"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L286">286</a></th>
+<td>,&#34;MÄ±rtaz&#34;,</td>
+</tr><tr><th id="L287"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L287">287</a></th>
+<td>&#34;Naxus&#34;,&#34;NÃ¡xos&#34;,</td>
+</tr><tr><th id="L288"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L288">288</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,</td>
+</tr><tr><th id="L289"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L289">289</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,</td>
+</tr><tr><th id="L290"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L290">290</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,&#34;Agora, SÃŒdostecke, vermauert&#34;</td>
+</tr><tr><th id="L291"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L291">291</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,&#34;Plateia, Nordtor&#34;</td>
+</tr><tr><th id="L292"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L292">292</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,&#34;Plateia, Nordtor&#34;</td>
+</tr><tr><th id="L293"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L293">293</a></th>
+<td>&#34;Hierapolis&#34;,&#34;Pamukkale&#34;,&#34;Plateia, Nordtor&#34;</td>
+</tr><tr><th id="L294"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L294">294</a></th>
+<td>&#34;Hierapolis, bei&#34;,&#34;Pamukkale, bei&#34;,</td>
+</tr><tr><th id="L295"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L295">295</a></th>
+<td>&#34;Hierapolis, bei&#34;,&#34;Pamukkale, bei&#34;,&#34;StraÃe nach Tripolis, sekundÃ€r verwendet&#34;</td>
+</tr><tr><th id="L296"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L296">296</a></th>
+<td>&#34;Hierapolis, bei&#34;,&#34;Pamukkale, bei&#34;,&#34;StraÃe nach Laodicea ad Lycum&#34;</td>
+</tr><tr><th id="L297"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L297">297</a></th>
+<td>&#34;Hierapolis, bei&#34;,&#34;Pamukkale, bei&#34;,</td>
+</tr><tr><th id="L298"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L298">298</a></th>
+<td>&#34;Smyrna, bei&#34;,&#34;PinarbaÅÄ±&#34;,</td>
+</tr><tr><th id="L299"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L299">299</a></th>
+<td>&#34;Alexandria Troas, bei&#34;,&#34;PÄ±narbaÅÄ±&#34;,</td>
+</tr><tr><th id="L300"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L300">300</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;Salta Tepesi&#34;,</td>
+</tr><tr><th id="L301"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L301">301</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;Salta Tepesi&#34;,</td>
+</tr><tr><th id="L302"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L302">302</a></th>
+<td>&#34;Samos&#34;,&#34;Samos&#34;,</td>
+</tr><tr><th id="L303"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L303">303</a></th>
+<td>&#34;Philomelion, bei&#34;,&#34;SaraykÃ¶y&#34;,</td>
+</tr><tr><th id="L304"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L304">304</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L305"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L305">305</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L306"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L306">306</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L307"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L307">307</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L308"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L308">308</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L309"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L309">309</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L310"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L310">310</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L311"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L311">311</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L312"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L312">312</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L313"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L313">313</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L314"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L314">314</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L315"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L315">315</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L316"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L316">316</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L317"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L317">317</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L318"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L318">318</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L319"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L319">319</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L320"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L320">320</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L321"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L321">321</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L322"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L322">322</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L323"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L323">323</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L324"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L324">324</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L325"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L325">325</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L326"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L326">326</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L327"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L327">327</a></th>
+<td>&#34;Sardis&#34;,&#34;Sart&#34;,</td>
+</tr><tr><th id="L328"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L328">328</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L329"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L329">329</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L330"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L330">330</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L331"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L331">331</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L332"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L332">332</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L333"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L333">333</a></th>
+<td>,&#34;SavaÃ§tepe&#34;,</td>
+</tr><tr><th id="L334"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L334">334</a></th>
+<td>&#34;Smyrna, bei&#34;,&#34;SaÄlik Istasyonu&#34;,</td>
+</tr><tr><th id="L335"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L335">335</a></th>
+<td>,&#34;Sek&#34;,</td>
+</tr><tr><th id="L336"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L336">336</a></th>
+<td>,&#34;Sek&#34;,</td>
+</tr><tr><th id="L337"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L337">337</a></th>
+<td>&#34;Tymion&#34;,&#34;SelÃ§ikler&#34;,&#34;Dorfschule, vermauert&#34;</td>
+</tr><tr><th id="L338"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L338">338</a></th>
+<td>&#34;Tymion&#34;,&#34;SelÃ§ikler&#34;,</td>
+</tr><tr><th id="L339"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L339">339</a></th>
+<td>&#34;Nacolea&#34;,&#34;Seyitgazi&#34;,</td>
+</tr><tr><th id="L340"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L340">340</a></th>
+<td>&#34;Nacolea&#34;,&#34;Seyitgazi&#34;,</td>
+</tr><tr><th id="L341"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L341">341</a></th>
+<td>&#34;Nacolea&#34;,&#34;Seyitgazi&#34;,</td>
+</tr><tr><th id="L342"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L342">342</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;Silinte&#34;,</td>
+</tr><tr><th id="L343"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L343">343</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L344"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L344">344</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L345"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L345">345</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L346"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L346">346</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L347"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L347">347</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L348"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L348">348</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L349"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L349">349</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L350"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L350">350</a></th>
+<td>&#34;Eresus&#34;,&#34;SkÃ¡la EresoÃº&#34;,</td>
+</tr><tr><th id="L351"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L351">351</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Sopu KÃ¶y&#34;,</td>
+</tr><tr><th id="L352"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L352">352</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Sopu KÃ¶y&#34;,</td>
+</tr><tr><th id="L353"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L353">353</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Sopu KÃ¶y&#34;,</td>
+</tr><tr><th id="L354"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L354">354</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Sopu KÃ¶y&#34;,</td>
+</tr><tr><th id="L355"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L355">355</a></th>
+<td>&#34;Aezani, bei&#34;,&#34;Sopu KÃ¶y&#34;,</td>
+</tr><tr><th id="L356"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L356">356</a></th>
+<td>&#34;Prymnessus&#34;,&#34;SÃŒlÃŒn&#34;,</td>
+</tr><tr><th id="L357"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L357">357</a></th>
+<td>,&#34;Tavakli&#34;,</td>
+</tr><tr><th id="L358"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L358">358</a></th>
+<td>,&#34;Teira&#34;,</td>
+</tr><tr><th id="L359"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L359">359</a></th>
+<td>&#34;Samos&#34;,&#34;Tigani?&#34;,</td>
+</tr><tr><th id="L360"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L360">360</a></th>
+<td>,&#34;Tire&#34;,</td>
+</tr><tr><th id="L361"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L361">361</a></th>
+<td>&#34;Ilium&#34;,&#34;Truva&#34;,</td>
+</tr><tr><th id="L362"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L362">362</a></th>
+<td>&#34;Iulia&#34;,&#34;Tshai, bei&#34;,</td>
+</tr><tr><th id="L363"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L363">363</a></th>
+<td>&#34;Lagina&#34;,&#34;Turgut&#34;,</td>
+</tr><tr><th id="L364"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L364">364</a></th>
+<td>&#34;Lagina&#34;,&#34;Turgut&#34;,&#34;Tempel der Hekate, bei&#34;</td>
+</tr><tr><th id="L365"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L365">365</a></th>
+<td>&#34;Lagina&#34;,&#34;Turgut&#34;,&#34;Heiligtum der Hekate, bei&#34;</td>
+</tr><tr><th id="L366"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L366">366</a></th>
+<td>&#34;Lagina&#34;,&#34;Turgut&#34;,&#34;Tempel der Hekate, bei&#34;</td>
+</tr><tr><th id="L367"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L367">367</a></th>
+<td>&#34;Lagina&#34;,&#34;Turgut&#34;,&#34;Tempel der Hekate, bei&#34;</td>
+</tr><tr><th id="L368"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L368">368</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;Tuzla&#34;,</td>
+</tr><tr><th id="L369"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L369">369</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;Tuzla&#34;,</td>
+</tr><tr><th id="L370"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L370">370</a></th>
+<td>&#34;Kebren, aus?&#34;,&#34;TÃŒrkmenli KÃ¶y&#34;,</td>
+</tr><tr><th id="L371"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L371">371</a></th>
+<td>&#34;Alexandria Troas, aus&#34;,&#34;UlukÃ¶y&#34;,</td>
+</tr><tr><th id="L372"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L372">372</a></th>
+<td>&#34;Tralles, bei&#34;,&#34;Umurlu&#34;,</td>
+</tr><tr><th id="L373"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L373">373</a></th>
+<td>&#34;Bargylia&#34;,&#34;Varvil&#34;,</td>
+</tr><tr><th id="L374"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L374">374</a></th>
+<td>&#34;Olbasa&#34;,&#34;YakakÃ¶y&#34;,</td>
+</tr><tr><th id="L375"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L375">375</a></th>
+<td>&#34;Savatra&#34;,&#34;Yali-Baiyat&#34;,</td>
+</tr><tr><th id="L376"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L376">376</a></th>
+<td>&#34;Antiochia Pisidiae, aus&#34;,&#34;Yalivadji&#34;,</td>
+</tr><tr><th id="L377"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L377">377</a></th>
+<td>,&#34;Yapuldjan&#34;,</td>
+</tr><tr><th id="L378"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L378">378</a></th>
+<td>&#34;Takina&#34;,&#34;YaraÅli&#34;,</td>
+</tr><tr><th id="L379"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L379">379</a></th>
+<td>,&#34;YataÇ§an&#34;,</td>
+</tr><tr><th id="L380"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L380">380</a></th>
+<td>&#34;Daldis, bei&#34;,&#34;YenikÃ¶y&#34;,</td>
+</tr><tr><th id="L381"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L381">381</a></th>
+<td>&#34;Pappa Tiberiopolis&#34;,&#34;Yonuslar&#34;,</td>
+</tr><tr><th id="L382"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L382">382</a></th>
+<td>&#34;Laodiceia Combusta&#34;,&#34;Yorgan LadÄ«k&#34;,</td>
+</tr><tr><th id="L383"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L383">383</a></th>
+<td>&#34;Eumeneia, bei&#34;,&#34;Yuva KÃ¶y, bei&#34;,</td>
+</tr><tr><th id="L384"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L384">384</a></th>
+<td>,&#34;Zeytinli&#34;,</td>
+</tr><tr><th id="L385"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L385">385</a></th>
+<td>,&#34;Zoldera&#34;,</td>
+</tr><tr><th id="L386"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L386">386</a></th>
+<td>&#34;Bargasa&#34;,&#34;ÃamlÄ±dere&#34;,</td>
+</tr><tr><th id="L387"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L387">387</a></th>
+<td>&#34;Aezani&#34;,&#34;Ãavdarhisar&#34;,</td>
+</tr><tr><th id="L388"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L388">388</a></th>
+<td>&#34;Aezani&#34;,&#34;Ãavdarhisar&#34;,</td>
+</tr><tr><th id="L389"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L389">389</a></th>
+<td>&#34;Aezani&#34;,&#34;Ãavdarhisar&#34;,</td>
+</tr><tr><th id="L390"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L390">390</a></th>
+<td>,&#34;Ãay&#34;,</td>
+</tr><tr><th id="L391"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L391">391</a></th>
+<td>&#34;Panamara, aus&#34;,&#34;Ãiftlik&#34;,</td>
+</tr><tr><th id="L392"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L392">392</a></th>
+<td>,&#34;Ãobanhasan&#34;,</td>
+</tr><tr><th id="L393"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L393">393</a></th>
+<td>&#34;Synnada, bei&#34;,&#34;Ãobankaya&#34;,</td>
+</tr><tr><th id="L394"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L394">394</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L395"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L395">395</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L396"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L396">396</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L397"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L397">397</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L398"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L398">398</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,</td>
+</tr><tr><th id="L399"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L399">399</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L400"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L400">400</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L401"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L401">401</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L402"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L402">402</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L403"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L403">403</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L404"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L404">404</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L405"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L405">405</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L406"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L406">406</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L407"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L407">407</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L408"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L408">408</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L409"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L409">409</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L410"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L410">410</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L411"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L411">411</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L412"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L412">412</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,</td>
+</tr><tr><th id="L413"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L413">413</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L414"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L414">414</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L415"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L415">415</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L416"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L416">416</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L417"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L417">417</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L418"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L418">418</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L419"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L419">419</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L420"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L420">420</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L421"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L421">421</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L422"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L422">422</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L423"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L423">423</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L424"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L424">424</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L425"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L425">425</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L426"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L426">426</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,</td>
+</tr><tr><th id="L427"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L427">427</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L428"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L428">428</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Steinbruch&#34;</td>
+</tr><tr><th id="L429"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L429">429</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L430"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L430">430</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L431"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L431">431</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L432"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L432">432</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L433"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L433">433</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L434"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L434">434</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L435"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L435">435</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L436"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L436">436</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L437"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L437">437</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L438"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L438">438</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L439"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L439">439</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L440"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L440">440</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L441"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L441">441</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L442"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L442">442</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L443"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L443">443</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L444"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L444">444</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L445"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L445">445</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L446"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L446">446</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L447"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L447">447</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L448"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L448">448</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L449"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L449">449</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L450"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L450">450</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L451"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L451">451</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L452"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L452">452</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L453"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L453">453</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L454"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L454">454</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L455"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L455">455</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L456"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L456">456</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L457"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L457">457</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L458"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L458">458</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L459"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L459">459</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L460"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L460">460</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L461"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L461">461</a></th>
+<td>&#34;Docimium&#34;,&#34;Ä°scehisar&#34;,&#34;Bacakale, Steinbruch&#34;</td>
+</tr><tr><th id="L462"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L462">462</a></th>
+<td>&#34;Smyrna&#34;,&#34;Ä°zmir&#34;,</td>
+</tr><tr><th id="L463"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L463">463</a></th>
+<td>&#34;Smyrna, bei&#34;,&#34;Ä°zmir, bei&#34;,</td>
+</tr><tr><th id="L464"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L464">464</a></th>
+<td>&#34;Smyrna?&#34;,&#34;Ä°zmir?&#34;,</td>
+</tr><tr><th id="L465"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L465">465</a></th>
+<td>&#34;Ephesus, bei&#34;,&#34;Åehitler&#34;,</td>
+</tr><tr><th id="L466"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L466">466</a></th>
+<td>&#34;Proconnesus (insula)&#34;,&#34;Åenol&#34;,</td>
+</tr><tr><th id="L467"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L467">467</a></th>
+<td>&#34;Synnada&#34;,&#34;Åuhut, bei&#34;,</td>
+</tr><tr><th id="L468"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L468">468</a></th>
+<td>&#34;Synnada&#34;,&#34;Åuhut, bei&#34;,</td>
+</tr><tr><th id="L469"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L469">469</a></th>
+<td>&#34;Synnada&#34;,&#34;Åuhut, bei&#34;,</td>
+</tr><tr><th id="L470"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv#L470">470</a></th>
+<td>&#34;Synnada&#34;,&#34;Åuhut, bei&#34;,</td>
+</tr></tbody></table>
+ </div>
+ 
+
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="asia_fo-antik_fo-modern_fundstelle_2010-03-05.csv?format=raw">Original Format</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../../../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../../../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,39 @@
+= Linking to geographic locations =
+
+We propose to enhance [http://zcologia.com/mush Mush] to dereference external locations specified by entry links with the relation: ''!http://atlantides.org/relations/geo/location''. Initially, we will support Atom (GeoRSS) entries (''application/atom+xml;type=entry'') and Geonames features (''application/rdf+xml'') as link targets. The precedent for specifying external entities in this way is [http://www.ietf.org/rfc/rfc4946.txt RFC 4646]: Atom License Extension, which is based on [http://www.intertwingly.net/wiki/pie/PaceFieldingLinks Fielding Links].
+
+An entry such as
+
+{{{
+<entry>
+  <link
+    rel="http://atlantides.org/relations/geo/location"
+    type="application/rdf+xml"
+    href="http://sws.geonames.org/5577147/about.rdf"
+    />
+  ...
+</entry>
+}}}
+
+will be processed to 
+
+{{{
+<entry>
+  <georss:where>
+    <gml:Point>
+      <gml:pos>40.58526 -105.08442 0.0</gml:pos>
+    </gml:Point>
+  </georss:where>
+  ...
+</entry>
+}}}
+
+== Example ==
+
+A feed is attached to this page. It contains one entry with a location link. The feed can have its location links resolved by pulling it through the Mush ''dereference'' service ([http://zcologia.com/mush/dereference/form/ Form], 
+[http://zcologia.com/mush/dereference/?url=http%3A%2F%2Fatlantides.org%2Ftrac%2Fconcordia%2Fattachment%2Fwiki%2FAtomLocationByReference%2Fcyrene.atom%3Fformat%3Draw Results Feed], 
+[http://maps.google.com/maps?f=q&hl=en&geocode=&q=http:%2F%2Fzcologia.com%2Fmush%2Fdereference%2F%3Furl%3Dhttp%253A%252F%252Fatlantides.org%252Ftrac%252Fconcordia%252Fattachment%252Fwiki%252FAtomLocationByReference%252Fcyrene.atom%253Fformat%253Draw&ie=UTF8&ll=32.837193,21.868973&spn=0.176829,0.268822&t=p&z=12 Results Map]).
+
+
+
+Back to AtomLocation

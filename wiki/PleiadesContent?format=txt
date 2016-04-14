@@ -1,0 +1,30 @@
+= Pleiades Content =
+
+''back to: ProjectDeliverables''
+
+The Concordia Deliverables include the addition of features associated with 5 [http://www.unc.edu/depts/cl_atlas Barrington Atlas] maps to [http://pleiades.stoa.org Pleiades]:
+
+ * Map 35 (Tripolitana)
+ * Map 37 (Syrtica)
+ * Map 73 (Ammon)
+ * Map 74 (Delta)
+ * Map 75 (Memphis - Oxyrhynchus)
+
+== Other deliverables that are dependent on this one ==
+
+ * [wiki:IAphFeeds]
+ * [wiki:IRCyrFeeds]
+ * [wiki:PapyFeeds]
+ * [wiki:ConcordiaHarvester]
+ * [wiki:IRT]
+
+
+== Related milestones: ==
+
+ * 
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=pleiades&description!~=pleiades)]]
+[[TicketQuery(summary!~=pleiades&description~=pleiades)]]
+[[TicketQuery(summary~=pleiades&description~=pleiades)]]

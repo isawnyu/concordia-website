@@ -1,0 +1,5 @@
+id,summary,owner,type,status,priority,version
+2,create module in svn for xsl development,thomase,enhancement,closed,major,
+4,RSSOwl can't handle entry-only atom feeds,thomase,defect,closed,major,
+6,create a feed document for all iaph2007 inscriptions,thomase,enhancement,closed,major,
+3,namespace prefixes in atom feeds freak out rssowl,thomase,defect,closed,critical,

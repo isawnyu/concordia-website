@@ -1,0 +1,7 @@
+= Concordia Software = 
+
+A list of software packages produced or modified by the Concordia team. Note that existing Pleiades software packages, even if modified by Concordia, are described on the [http://www.atlantides.org/trac/pleiades/wiki/PleiadesSoftware Pleiades Software Page].
+
+ * ConcordiaMatchtool: software for defining and executing rulesets to effect matching of records in two datasets
+ * ConcordiaHarvester: software for crawling and indexing Atom+GeoRSS feeds
+ * [wiki:EpiDoc2Atom]: software for creating Atom feeds from !EpiDoc-conformant TEI XML files

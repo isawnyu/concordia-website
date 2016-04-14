@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+32,Run epidoc2atom XSL on IRT XML,gbodard,gbodard,This depends on having stable IRT XML to run on. Almost there. See #30,task,closed,major,Feeds for IRT,admin,,fixed,,thomase

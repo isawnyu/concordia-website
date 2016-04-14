@@ -1,0 +1,2 @@
+id	summary	reporter	owner	description	type	status	priority	milestone	component	version	resolution	keywords	cc
+19	IRT website (xMod instance)	gbodard	elitta	Once we have the IRT EpiDoc XML, we need a website instance with ToCs, indices, etc., copied over (in the first instance) from IAph and IRCyr.\r\n\r\nThere will need to be some changes to the code, e.g.:\r\n\r\n* Citation and linking (numbering)\r\n* ...	task	closed	major	Final version of IRT in EpiDoc XML	iaph2007xml		fixed		

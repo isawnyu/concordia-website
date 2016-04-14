@@ -1,0 +1,19 @@
+= IAphFeeds =
+
+''back to: ProjectDeliverables''
+
+IAph feeds is a data/functionality deliverable for the project: Atom+GeoRSS feeds that summarize, describe and link to the individual inscriptions (and main groupings thereof) in the ''Inscriptions of Aphrodisias'' ([wiki:IAph2007]).
+
+== Dependent upon these other deliverables: ==
+
+ * [wiki:EpiDoc2Atom]
+
+== Related milestones: ==
+
+ * [milestone:"Feeds for IAph 2007"]
+
+== Related tickets (probably): ==
+
+[[TicketQuery(summary~=iaph&description!~=iaph)]]
+[[TicketQuery(summary!~=iaph&description~=iaph)]]
+[[TicketQuery(summary~=iaph&description~=iaph)]]

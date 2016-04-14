@@ -1,0 +1,15 @@
+= Concordia Matchtool =
+
+ ''back to: ConcordiaSoftware''
+
+concordia.matchtool is a framework for defining and executing rulesets to 
+effect matching of records in two datasets. The original use case is getting
+matches between print-style BAtlas citations held in the IAph2007 
+inscriptions collection and Barrington Atlas IDs. Another early use case
+is matching content extracted from the Barrington Atlas Directory
+compilation files against feature data digitized from Barrington Atlas
+compilation maps.
+
+== Source ==
+
+source:concordia.matchtool/trunk/

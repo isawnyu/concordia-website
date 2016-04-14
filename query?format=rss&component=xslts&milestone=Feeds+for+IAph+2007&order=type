@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+ <channel>
+   <title>Concordia: Ticket Query</title>
+  <link>http://www.atlantides.org/trac/concordia/query?component=xslts&amp;verbose=1&amp;milestone=Feeds+for+IAph+2007</link>
+   <description>Historically sensitive cross-project web linking using standard Atom feeds and some semantic sugar.</description>
+  <language>en-us</language>
+  <generator>Trac v0.10.4</generator>
+   <image>
+    <title>Concordia</title>
+    <url>http://www.atlantides.org/trac/concordia/chrome/common/trac_banner.png</url>
+    <link>http://www.atlantides.org/trac/concordia/query?component=xslts&amp;verbose=1&amp;milestone=Feeds+for+IAph+2007</link>
+   </image>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/3</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/3</guid>
+    <title>#3: namespace prefixes in atom feeds freak out rssowl</title>
+    <description>&lt;p&gt;
+RSSOwl is evidently not namespace aware, or at least there's a bug in its namespace prefix handling capabilities (if it even has them). The upshot is that a feed like the one that &lt;a class=&#34;source&#34; href=&#34;http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk/tei2entry.xsl?rev=1&#34;&gt;our xslt&lt;/a&gt; currently generates will fail to display. So much for degrading gracefully. I wouldn't be surprised to learn that this sort of problem occurs in other feedreaders too.
+&lt;/p&gt;
+&lt;p&gt;
+So, we need to ensure that all our stylesheets produce feeds that don't employ namespace prefixes.
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/3#changelog</comments>
+   </item>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/4</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/4</guid>
+    <title>#4: RSSOwl can't handle entry-only atom feeds</title>
+    <description>&lt;p&gt;
+&#34;RSSOwl is not able to display that Newsfeed. Reason: The XML document is not a valid RSS, RDF or Atom Newsfeed.&#34;
+&lt;/p&gt;
+&lt;p&gt;
+Wouldn't be surprised to see similar behavior in other feedreaders. What do we think about this? Lower our standards and wrap these entries in feed elements? Or reduce our commitment to &#34;graceful degradation?&#34;
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/4#changelog</comments>
+   </item>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/2</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/2</guid>
+    <title>#2: create module in svn for xsl development</title>
+    <description>&lt;p&gt;
+where we'll start developing the stylesheets that will create the feeds, first for IAph, and then the world
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/2#changelog</comments>
+   </item>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/6</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/6</guid>
+    <title>#6: create a feed document for all iaph2007 inscriptions</title>
+    <description>&lt;p&gt;
+Expand on the xslt already written (&lt;a class=&#34;source&#34; href=&#34;http://www.atlantides.org/trac/concordia/browser/epidoc2atom&#34;&gt;source:epidoc2atom&lt;/a&gt; for producing a single atom:entry) to produce an atom:feed containing one atom:entry for each and every inscription. Design the process in such a way that it can be reconfigured to do other arbitrary subsets of the entire collection (come up with a driver file, or pass in an xpath, or somethign).
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/6#changelog</comments>
+   </item>
+ </channel>
+</rss>

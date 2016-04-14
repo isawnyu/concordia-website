@@ -1,0 +1,110 @@
+
+
+||FOmodern||Fundstelle||FOantik||Region||Land||latitude||longitude||HD-Nummer||
+||Glamoč||Podgradina||Municipium Salvium, aus?||Kanton br. 10||ba||44.0231||16.8856||HD033954||
+||Glamoč||Glavica||||Kanton br. 10||ba||44.1106||16.7661||HD052288||
+||Glamoč||Isakovci||||Kanton br. 10||ba||44.0869||16.9042||HD056474||
+||Glamoč||Jakir||||Kanton br. 10||ba||44.0400||16.8922||HD033932||
+||Glamoč||Kamen||||Kanton br. 10||ba||44.0281||16.8819||HD052160||
+||Glamoč||Staro Selo, bei||||Kanton br. 10||ba||43.9711||16.9375||HD033935||
+
+ * attachment:Glamoc.doc
+
+||fo_antik||||fo_modern||HD-numbers||fundstelle||||
+||'''Salviae'''||coord. from Harvard||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=023324 HD023324]||'''Halapić'''||coord. from EDH||
+||||||||||or||||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012593 HD012593]||Halapić||in best case coord. for fr. Kirche||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012596 HD012596]||- Glavice,||if not: coord. for Glavice||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012599 HD012599]||frühchristl.||if not: coord. for Halapić||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012602 HD012602]||Kirche||if not: coord. for Glamoč||
+||||||||||or||||
+||||||||||Halapić||||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033944 HD033944]||-Gradac||in best case coord. for Gradac||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033945 HD033945]||||if not: coord. for Halapić||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033946 HD033946]||||if not: coord. for Glamoč||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033947 HD033947]||||||
+||||||'''Glamoč'''||||||||
+||'''Municipium Salvium'''||coord. from Harvard||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033948 HD033948]||Vrba||coord. from EDH||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033949 HD033949]||||||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033950 HD033950]||||in best case coord. for Vrba||
+||||||||||or||||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056021 HD056021]||'''Vrba'''||in best case coord. for fr. Kirche||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056032 HD056032]||frühchristl.||if not: coord. for Vrba||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056034 HD056034]||Kirche||if not: coord. for Glamoč||
+||||||||||or||||
+||'''(no ancient site)'''||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033124 HD033124]||'''Kamen, Jakir'''||in best case coord. for e.g. Kamen||
+||||||||[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033932 HD033932]||and others||if not: coord. for Glamoč||
+
+
+=== Expanding the EDH data model ===
+
+There are two possible ways to store the additional geographic information, by adding some fields to the existing table where the basic inscription information is stored or by creating a geographic table and linking up relationships between it and the geographic entries. The advantage of taking the relational approach is "database normalization": we eliminate size and redundancy and make updating the geographic information (e.g., coordinates for a particular site from which many inscriptions survive) much easier and less error-prone. Examples for comparison follow.
+
+See mock up of new [wiki:EDHgeographyTable EDH geography table]
+
+==== Adding some information to the existing table ====
+
+See attachment:current-model.pdf
+
+
+==== Creating a separate geography table, with relationships to the inscriptions ====
+
+See:
+
+ * attachment:new-model-simple.pdf
+ * attachment:new-model-complex.pdf
+
+
+Our major problem at present is how to connect the EDH database to the putative Geography Database.
+ * Our original thinking had been to proceed along the lines of our FUrl (externe Fotos) database. In this case we enter the external url of any given image and then enter the relevant HD number. EDH picks up any information in the FUrl database depending entirely upon the HD number. In one to many, many to one and many to many terms. We have mostly one to one relationships between the two databases. It is also possible to have one to many relationship of the type that there is one HD number in EDH but many instances of the same HD number in FUrl. There are no further combinations.
+ * If we are to create a new Geography Database (in on terms of not overloading EDH with extra fields and the possible concomitant search engine ramifications and complications this is attractive) we would fnid ourselves in the position of having to deal with one entry in the Geography Database having to be connected to many if not hundreds of separate and individual HD numbers.
+ * We need database structural advice on how best to cater for this.
+
+=== Geographic attribution examples ===
+
+
+Here's an example of all the information we '''might''' gather for a given inscription (new items in italic):
+
+[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033127 HD033127]
+
+ * Ancient location: Municipium Salvium
+ * ''Pleiades URL for ancient location: http://pleiades.stoa.org/places/197491/''
+ * ''Pleiades coordinates for ancient location: x,y''
+ * Modern location: Glamoč
+ * ''Geonames URL for modern location: http://www.geonames.org/3200651/glamoc.html''
+ * ''Geonames coordinates for modern location: 44.04583, 16.84861''
+ * Place of finding: Vrba
+ * ''Pleiades URL for place of finding: http://pleiades.stoa.org/places/197491/''
+ * ''Pleiades coordinates for place of finding: x,y''
+
+[http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056021 HD056021]
+
+ * Ancient location: Municipium Salvium
+ * ''Pleiades URL for ancient location: http://pleiades.stoa.org/places/197491/''
+ * ''Pleiades coordinates for ancient location: x,y''
+ * Modern location: Glamoč
+ * ''Geonames URL for modern location: http://www.geonames.org/3200651/glamoc.html''
+ * ''Geonames coordinates for modern location: 44.04583, 16.84861''
+ * Place of finding: Vrba, frühchristliche Kirche
+   * we could create a feature within the Pleiades place for Salvium corresponding to the "early Christian church." If we could get accurate coordinates for same, we could include those, but otherwise we might just want to link to Vrba. We need to establish policy here.
+
+Suggestion concerning distribution of labour:
+ * How about if EDH is responsible in most cases for supplying the coordinates of the most precise location (whatever that is). 
+   * We need a way of indicating whether we are supplying coordinates for Fundstelle (Place of finding) or, whenever the Fundstelle (although we know its name) could not be identified with coordinates (e.g. church), Fundort (Modern loaction).
+ * Pleiades coordinates (for Ancient location) will for the most part come from Harvard?
+ * In the case of Modern location it is perhaps least clear at present where the coordinates for them are going to come from.
+
+need to do another where the ancient location and place of finding differ.
+
+'''Present method used in EDH to identify places''':
+ * Vrlica the coordinates from geonames and fallingrain are not always explicit and unambiguous (if one enters Vrba you get several possiblities) thus we go to wikipedia and look up the respective village/city name and find out the hierarchy belonging to it e.g. village/street/city quarter (Fundstelle), municipality (Fundort_modern), region and then have to use this information to try to match to an appropriate geonames place from the choices we are faced with.
+ * Is it important to make sole use of either geonames or fallingrain or whatever other source appears to give us the best results.
+   * geonames obviously has the advantage of supplying a geonames id
+   * fallingrain only offers coordinates (are these coordinates the same as the geoname ones? NO sometimes slight variation Vrlica geonames: N.43.9125 E.16.39889 fallingrain: N.43.9125 E.16.3989)
+   * which of these institutions sets standards? do we know?
+
+Previous attempt at capturing this info.
+ * [http://www.geonames.org Geonames] is difficult because one has to search to be sure that the correct place has been found.
+   * Why should we favour geonames? Why geonames id instead of coordinates? Or both?
+ * [http://www.fallingrain.com/world/ Fallingrain] is also not always clear. Use wikipedia to check.
+

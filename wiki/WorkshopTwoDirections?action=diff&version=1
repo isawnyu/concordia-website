@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WorkshopTwoDirections (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoDirections?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoDirections?version=1">Version 1</a> of
+    <a href="WorkshopTwoDirections">WorkshopTwoDirections</a></h1>
+  <form method="post" id="prefs" action="WorkshopTwoDirections"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">jcowey <span class="ipnr">(IP: 192.76.177.124)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/04/10 14:22:18 (6 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>WorkshopTwoDirections</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>&nbsp;* Directions to Hotel Wales from Newark International Airport:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins>&nbsp; &nbsp;* Buy a ticket on New Jersey Transit, destination New York Penn Station from the machine at the entrance to the "Air Train" in the terminal building ([http://gonyc.about.com/gi/o.htm?zi=1/XJ&amp;zTi=1&amp;sdn=gonyc&amp;cdn=travel&amp;tm=5&amp;f=00&amp;su=p284.9.336.ip_p531.50.336.ip_&amp;tt=2&amp;bt=1&amp;bts=1&amp;zu=http%3A//www.airtrainnewark.com/airtrainnewark/index.html get an Air Train brochure here]). The machine takes debit and credit cards. Keep the receipt for reimbursement.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins>&nbsp; &nbsp;* Ride the Air Train to the "Newark Liberty International Airport Station" and use your ticket to go through the gates to the main station and departure tracks. Video monitors upstairs will help you identify the next north-bound train on New Jersey Transit that is headed for Penn Station. Note: not all trains go to Penn Station.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins>&nbsp; &nbsp;* Board your train to Penn Station.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins>&nbsp; &nbsp;* From Penn Station, there are various options for getting to the hotel, depending on the time of day. Generally, the best option involves first a subway trip and then a crosstown bus (detailed below). You can try other options using the excellent [http://tripplanner.mta.info/ Metropolitan Transportation Authority Trip Planner] (but be warned, it often recommends the M-4 bus, which is notoriously slow). Note that walking times between changes assume a brisk pace and no detours. Here's the method I've used:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Walk (indoors) 0.26 miles (5 minutes) North to 34TH ST - PENN STATION C/E (LOCAL) -- watch the signs and mind your baggage and pockets (Penn Station can be very crowded)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Buy a metrocard from a machine (takes credit or debit card); ensure you have enough charge on the metrocard for at least two journeys (rates are posted)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Take the 168TH ST-WASHINGTON HTS bound C line Train</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Get off at 86TH ST STATION</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Exit the station and walk to the bus stop on the southwest corner of the intersection of 86th Street and Traverse Road</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Take the YORKVILLE YORK - 91 ST CROSSTOWN bound M86 Bus (you will cross Central Park)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Immediately after crossing Central Park, Get off at EAST 86TH ST &amp; MADISON AVE</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins>&nbsp; &nbsp; &nbsp;* Walk 0.30 miles (6 minutes) Northeast to destination</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins>&nbsp;* Directions to Hotel Wales from John F. Kennedy International Airport (double-check the [http://tripplanner.mta.info/ MTA Trip Planner] for specifics at your time of arrival):</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins>&nbsp; &nbsp;* Take the&nbsp; &nbsp;JFK AIRPORT TO JAMAICA STATION&nbsp; &nbsp; bound AIRTRAIN departing&nbsp; </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>&nbsp; &nbsp;* Get off at JFK AIRTRAIN TERMINAL D - JAMAICA </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>&nbsp; &nbsp;* From SUTPHIN BLVD-ARCHER AV/JFK (E, J, Z, LIRR), take the WORLD TRADE CENTER bound E line Train </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins>&nbsp; &nbsp;* Get off at LEXINGTON AV - 53RD ST STATION (E,V) </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins>&nbsp; &nbsp;* Follow the signs to 51ST ST STATION 6 line (this is a significant hike from one station to another through cordoned-off interior of a city block)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins>&nbsp; &nbsp;* Transfer to a PARKCHESTER-bound or PELHAM BAY PARK-EXPRESS-bound 6 Train</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins>&nbsp; &nbsp;* Get off at 96TH ST STATION</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>22</th><td class="r"><ins>&nbsp; &nbsp;* Walk 0.39 miles (8 minutes) West to destination </ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

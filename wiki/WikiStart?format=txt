@@ -1,0 +1,37 @@
+= Concordia, Graph of Ancient World Data =
+
+== Starting Points ==
+
+ * [wiki:RDFCookbook]
+ * ConcordiaThesaurus
+
+== Old Table of Contents ==
+
+ * ProjectOverview
+   * ProjectTeam
+   * ProjectData
+   * ProjectDeliverables
+   * ProjectPlan
+   * ProjectNews
+   * [wiki:ConcordiaSoftware ProjectSoftware]
+ * Feed-based Interoperability
+   * [wiki:ORE]
+   * ResourceMaps
+   * ResourceMapsKML
+   * AtomLocation
+   * [http://www4.wiwiss.fu-berlin.de/bizer/pub/LinkedDataTutorial/ LinkedData] (see also: [http://sgillies.net/blog/785/linking-open-geographic-data/ Linking Open Geographic Data])
+ * [wiki:NEH_DFG NEH/DFG project]
+   * [wiki:NEH_DFGWorkshops Bilateral Workshops]
+   * [wiki:NEH_DFGChats EDH/Pleiades Interoperation chats]
+
+For a complete list of local wiki pages, see TitleIndex.
+
+----
+
+This project is supported jointly by the [http://www.neh.gov National Endowment for the Humanities] and the Higher Education funding Council for England of the United Kingdom acting through the [http://www.jisc.ac.uk/ Joint Information Systems Committee].
+
+The Joint Information Systems Committee is an independent advisory body in the United Kingdom that works with further and higher education by providing strategic guidance, advice and opportunities to use Information and Communication Technologies to support learning, teaching, research and administration. 
+
+The National Endowment for the Humanities is an independent grant-making agency of the United States government dedicated to supporting research, education, preservation and public programs in the humanities.
+
+Any views, findings, conclusions, or recommendations expressed in this website do not necessarily reflect those of the National Endowment for the Humanities or the Joint Information Systems Committee.

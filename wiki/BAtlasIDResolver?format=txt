@@ -1,0 +1,7 @@
+= Barrington Atlas ID Resolver =
+
+''back to ProjectDeliverables''
+
+During the [WorkshopMay May Workshop] we identified an urgent need for a complete set of Barrington Atlas Identifiers. We also said "As Pleiades adds content, produce automatic (machine-actionable crosswalks of from these BAtlas IDs to Pleiades IDs)" (WorkshopMayOutcomes). That means we need some kind of ID resolver application. This was not a consideration in the original proposal, but clearly of such value for laying the groundwork that we have added it as a main data deliverable of the project.
+
+== Related Milestones ==

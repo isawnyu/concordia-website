@@ -1,0 +1,26 @@
+Achievements and next steps from the May 2008 Workshop
+
+Just dumping notes here for the moment:
+
+ * ANS Atom file of "geographic entities" is Pleiades-ready: http://numismatics.org/xml/geography.atom
+ * It looks as if ORE will provide a good vehicle for expressing the the relationships between the contents of various papyrological data systems (see APIS Papyrological Navigator), and a data model for same has been drafted
+ * Will collaborate with IDP1 development teams to match HGV "Ort" field content against Pleiades/BAtlas IDs
+ * LGPN is in the process of:
+   * Annotating its own place authority list with BAtlas/Pleiades IDs
+   * Prototyping Concordia/ORE-conformant Atom feeds
+ * Collaborating projects urgently need a full list of ids for geographic entities
+   * projects will be able to interoperate (grouping and relating resources) on the basis of shared geography even before Pleiades (or even anyone else) has coordinates available
+   * Create a set of [wiki:BAtlasIDs IDs that correspond to citations of all Barrington Atlas features]
+   * Document the (simple) algorithm for producing same
+   * Incorporate/treat these as URIs
+   * As Pleiades adds content, produce automatic (machine-actionable crosswalks of from these BAtlas IDs to Pleiades IDs)
+   * Projects supported at this juncture include: ANS, HGV/APIS(PN)/IDP, LGPN, IAph/IRCyr/IRT
+ * A rudimentary web application for creating basic aggregation/Atom feeds has been built this week (link?)
+ * We should enumerate various [wiki:OurOREUseCases use cases for aggregations]
+ * Concordia-London team to create a concordance between ALA2004 and IAph and expose this as an ORE/Atom feed (there is currently no machine-actionable cross-linking that will provide bots a way to link up corresponding texts in the two publications)
+ * We need to spec our ORE/Atom indexer - a tool that will crawl the atom feeds of known/trusted resources (and possible discover more that they link to) and provide an API for pulling out ordered views of the resulting web of relationships (that is, of the union set of all asserted relationships between content)
+ * We need a geocoding tool: submit an Atom/ORE feed document that has link rel="related" href="pleiades/batlas/id" and get back the same feed to which has been added georss tagging on the basis of pleiades locations (this is then "Google Maps Ready" vel sim)
+ * A lesson from this discussion: it is possible, even beneficial, to normalize the papyrological checklist of editions first; we don't have to wait for HGV 
+ * Concordia-London team to associate Batlas IDs against the "mentioned placenames" index in IAph, and surface this as an Atom/ORE feed
+ * From some serious angles, the Papyrological Navigator looks alot like an ORE Aggregation viewer ...
+ 

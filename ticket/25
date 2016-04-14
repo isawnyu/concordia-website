@@ -1,0 +1,141 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>#25 (Put ALA/IAph concordance in Atom/ORE) - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="../wiki/TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/ticket.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../query?status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007&amp;order=component" /><link rel="alternate" href="25?format=csv" title="Comma-delimited Text" type="trac.ticket.Ticket" /><link rel="alternate" href="25?format=tab" title="Tab-delimited Text" type="trac.ticket.Ticket" /><link rel="alternate" href="25?format=rss" title="RSS Feed" type="trac.ticket.Ticket" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li class="active"><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Ticket Navigation</h2><ul>
+    <li class="first last">
+     <a href="../query?status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007&amp;order=component" title="">Back to Query</a>
+    </li></ul>
+</div>
+
+<div id="content" class="ticket">
+
+ <h1>Ticket #25 <span class="status">(new task)</span></h1>
+
+<div id="searchable">
+<div id="ticket">
+ <div class="date">
+  <p title="09/04/08 09:50:23">Opened 8 years ago</p>
+   <p title="09/04/08 09:50:29">Last modified 8 years ago</p>
+  
+ </div>
+ <h2 class="summary">Put ALA/IAph concordance in Atom/ORE</h2>
+ <table class="properties">
+  <tr>
+   <th id="h_reporter">Reported by:</th>
+   <td headers="h_reporter">gbodard</td>
+   <th id="h_owner">Assigned to:</th>
+   <td headers="h_owner">thomase</td>
+  </tr><tr>
+    <th id="h_priority">Priority:</th>
+    <td headers="h_priority">major</td>
+    <th id="h_milestone">Milestone:</th>
+    <td headers="h_milestone">Feeds for IAph 2007</td></tr><tr>
+    <th id="h_component">Component:</th>
+    <td headers="h_component">admin</td>
+    <th id="h_version">Version:</th>
+    <td headers="h_version"></td></tr><tr>
+    <th id="h_keywords">Keywords:</th>
+    <td headers="h_keywords"></td>
+    <th id="h_cc">Cc:</th>
+    <td headers="h_cc"></td></tr><tr></tr>
+ </table>
+  <form method="get" action="25#comment" class="printableform">
+   <div class="description">
+    <h3 id="comment:description">
+     Description 
+    </h3>
+    <p>
+Express the ALA/IAph concordance in a series of Atom/ORE files
+</p>
+
+   </div>
+  </form>
+</div>
+
+
+
+
+
+<h2>Change History</h2>
+<div id="changelog">
+ <form method="get" action="25#comment" class="printableform">
+ <div class="change">
+  <h3 id="comment:1">
+    <span class="threading">
+    </span>09/04/08 09:50:29 changed by gbodard
+  </h3>
+   <ul class="changes">
+    <li><strong>type</strong> changed from <em>defect</em> to <em>task</em>.</li>
+    
+   </ul>
+  <div class="comment"></div>
+ </div>
+ </form>
+</div>
+
+
+
+ </div>
+ <script type="text/javascript">
+  addHeadingLinks(document.getElementById("searchable"), "Permalink to $id");
+ </script>
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first"><a href="25?format=csv">Comma-delimited Text</a></li><li><a href="25?format=tab">Tab-delimited Text</a></li><li class="last"><a href="25?format=rss">RSS Feed</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

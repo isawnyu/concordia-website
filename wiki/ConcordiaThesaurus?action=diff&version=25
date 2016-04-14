@@ -1,0 +1,155 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>ConcordiaThesaurus (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="prev" href="http://www.atlantides.org/trac/concordia/wiki/ConcordiaThesaurus?action=diff&amp;version=24" title="Version 24" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first"> &larr;
+      <a class="prev" href="http://www.atlantides.org/trac/concordia/wiki/ConcordiaThesaurus?action=diff&amp;version=24" title="Version 24">Previous Change</a>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/ConcordiaThesaurus?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes between
+     <a href="http://www.atlantides.org/trac/concordia/wiki/ConcordiaThesaurus?version=24">Version 24</a> and 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/ConcordiaThesaurus?version=25">Version 25</a> of
+    <a href="ConcordiaThesaurus">ConcordiaThesaurus</a></h1>
+  <form method="post" id="prefs" action="ConcordiaThesaurus"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="25" />
+    <input type="hidden" name="old_version" value="24" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">seang <span class="ipnr">(IP: 98.245.168.173)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">07/17/12 12:17:05 (4 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+Reformatting of the terms
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>ConcordiaThesaurus</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version 24">v24</th>
+        <th title="Version 25">v25</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody><tr><th>7</th><th>7</th><td class="l"><span>== Vocabulary ==</span>&nbsp;</td></tr><tr><th>8</th><th>8</th><td class="l"><span></span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>9</th><th>&nbsp;</th><td class="l">Terms:&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r">All terms are identified by URIs of the form http://gawd.atlantides.org/terms/{term}: http://gawd.atlantides.org/terms/findspot, etc.&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r">We often use "gawd" as a namespace prefix for "http://gawd.atlantides.org/terms/".&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r">=== alternateEdition ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r">Indicates that two published editions treat the same ancient text or document.&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r">=== attestsTo ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r">Identifies a historical place or person whose existence or name is attested by the item in question.&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r">&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>20</th><td class="r">Example (Turtle format): An inscription from IAph 2007 attests to a particular form of place appellation, Ἀφροδισίας.&nbsp;</td></tr></tbody><tbody><tr><th>10</th><th>21</th><td class="l"><span></span>&nbsp;</td></tr><tr><th>11</th><th>22</th><td class="l"><span>{{{</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>12</th><th>&nbsp;</th><td class="l">Base: http://gawd.atlantides.org/terms/&nbsp;</td></tr><tr><th>13</th><th>&nbsp;</th><td class="l">&nbsp;</td></tr><tr><th>14</th><th>&nbsp;</th><td class="l">where (item -&gt; place; generic location relation type, modeled on the [http://code.google.com/p/where-link-relation-type/ where relation link type] proposed by Sean Gillies)&nbsp;</td></tr><tr><th>15</th><th>&nbsp;</th><td class="l">findspot (item -&gt; place; identifies the place where the item was found by modern persons)&nbsp;</td></tr><tr><th>16</th><th>&nbsp;</th><td class="l">origin (item -&gt; place; identifies the place where the item is reasoned, by modern persons, to have originated)&nbsp;</td></tr><tr><th>17</th><th>&nbsp;</th><td class="l">observedAt (item -&gt; place; identifies a place where the item was observed by modern persons)&nbsp;</td></tr><tr><th>18</th><th>&nbsp;</th><td class="l">&nbsp;</td></tr><tr><th>19</th><th>&nbsp;</th><td class="l">attestsTo (item -&gt; place/person; identifies a historical place or person whose existence or name is attested by the item in question)&nbsp;</td></tr><tr><th>20</th><th>&nbsp;</th><td class="l">&nbsp;</td></tr><tr><th>21</th><th>&nbsp;</th><td class="l">depicts (image -&gt; place/object/inscription; same as CIDOC CRM p62 "depicts")&nbsp;</td></tr><tr><th>22</th><th>&nbsp;</th><td class="l"># isEditionOf (IAph/ALA web doc -&gt; inscription)&nbsp;</td></tr><tr><th>23</th><th>&nbsp;</th><td class="l">alternateEdition (published edition -&gt; published edition; indicates that two published editions treat the same ancient text or document)&nbsp;</td></tr><tr><th>24</th><th>&nbsp;</th><td class="l">&nbsp;</td></tr><tr><th>25</th><th>&nbsp;</th><td class="l">http://purl.org/dc/terms/references (online resource -&gt; online resource; indicates that one resource makes some kind of reference to another resource)&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>23</th><td class="r">&lt;http://insaph.kcl.ac.uk/iaph2007/iAph040202&gt; gawd:attestsTo &lt;http://pleiades.stoa.org/places/638753/aphrodisias&gt;&nbsp;</td></tr></tbody><tbody><tr><th>26</th><th>24</th><td class="l"><span>}}}</span>&nbsp;</td></tr><tr><th>27</th><th>25</th><td class="l"><span></span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>28</th><th>&nbsp;</th><td class="l">Issues:&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r">=== depicts ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r">Same as CIDOC CRM p62 "depicts". An image, for example, may depict an inscription.&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r">=== findspot ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r">Identifies the place where the item was found by modern persons.&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r">Example (Turtle format): An inscription from IAph 2007 was found at the site of the ancient place we call Aphrodisias.&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r">{{{&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r">&lt;http://insaph.kcl.ac.uk/iaph2007/iAph040202&gt; gawd:findspot &lt;http://pleiades.stoa.org/places/638753&gt;&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r">}}}&nbsp;</td></tr><tr><th>&nbsp;</th><th>39</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>40</th><td class="r">=== observedAt ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>41</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r">Identifies a place where the item was observed by modern persons, the place of transcription.&nbsp;</td></tr><tr><th>&nbsp;</th><th>43</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>44</th><td class="r">=== origin ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>45</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>46</th><td class="r">Identifies the place where the item is reasoned, by modern persons, to have originated.&nbsp;</td></tr><tr><th>&nbsp;</th><th>47</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>48</th><td class="r">=== where ===&nbsp;</td></tr><tr><th>&nbsp;</th><th>49</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>50</th><td class="r">Generic location relation, modeled on the [http://code.google.com/p/where-link-relation-type/ where relation link type] proposed by Sean Gillies).&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>52</th><td class="r">== Dublin Core ==&nbsp;</td></tr><tr><th>&nbsp;</th><th>53</th><td class="r">&nbsp;</td></tr><tr><th>&nbsp;</th><th>54</th><td class="r">http://purl.org/dc/terms/references indicates that one resource makes some kind of reference to another resource.&nbsp;</td></tr><tr><th>&nbsp;</th><th>55</th><td class="r">&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>56</th><td class="r">== Issues ==&nbsp;</td></tr></tbody><tbody><tr><th>29</th><th>57</th><td class="l"><span></span>&nbsp;</td></tr><tr><th>30</th><th>58</th><td class="l"><span>&nbsp;* EDH and King's have solid use cases for relationship(s) involving photographs, squeezes, copies and sketches (and the digital versions thereof). 2009-07-17</span>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WorkshopTwoResults - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="WorkshopTwoResults?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="WorkshopTwoResults?action=diff&amp;version=19">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="ResultsfromNEHDFGWorkshop2NewYorkMarch2010">Results from NEH/DFG Workshop 2 (New York, March 2010)</h1>
+<ul><li>Geography and EDH/Pleiades interoperation
+<ul><li>Place-matching workflow
+<ul><li>Batch search in Pleiades for matching names (from EDH) with results provided in KML format
+</li><li>Selection using Google Earth to compare and select from matching candidates
+</li><li>Pleiades URL is then copied by user into EDH Geodatabase
+</li><li>Existing Pleiades advanced search can be used for single lookups as needed
+</li><li>ISAW to implement batch search, Q2 2010
+</li><li>Batch result KML can be used as entry point for creating new Pleiades places (via KML upload to workspace) if no match found in Pleiades
+</li></ul></li><li>Candidate user-interface changes -- different/better than what we did in July
+<ul><li>Maps
+<ul><li>a map for each inscription would show both the ancient place (Pleiades coordinates via KML) and the best modern location as determined by EDH
+</li><li>maps of search results: ancient or modern, but not both at the same time
+</li></ul></li><li>Links to Pleiades (from the Fundort Antik)
+</li><li>Links to origin of modern coordinate (e.g., GeoNames) from whatever the geodatabase indicates as associated with those coordinates (i.e., Fundort modern, Fundstelle, etc.)
+</li></ul></li><li>EDH geographic database structure
+<ul><li>Discussed candidate structure, as outlined in <a class="wiki" href="EDHgeographyTable">EDHgeographyTable</a>
+</li><li>data model must be modified to accommodate as many as
+<ul><li>2 pleiades URLs: fo_antik inter
+</li><li>2 coordinate pairs: fo_modern zwischen
+</li><li>2 Geonames URLs: as a complement to double fo_modern entry 
+</li></ul></li><li>Discussed the implications for map display and decided that, since we are mapping the significant environs of the inscription, rather than it's precise location, the introduction of multiple modern or ancient places on a map will not cause confusion
+</li></ul></li><li>Interest of EDR to make similar arrangements
+<ul><li>Future bid to include funds for workshop to inform and update EDR and other EAGLE constituents, and to discuss expansion of effort to include them
+</li></ul></li><li>Making additions and corrections to Pleiades
+<ul><li>Existing functionality to support this activity, which is slated for improvement from May 2010 (pending NEH funding)
+</li><li>Note that KML result from batch loading (discussed above) could streamline this task for EDH staff
+</li></ul></li><li>Geo-aware search for EDH
+<ul><li>possibilities from the user perspective:
+<ul><li>select a place by name, then enter a radius distance
+</li><li>use a map to draw a rectangle, which then functions as a bounding box for the search 
+</li></ul></li><li>technical requirements
+<ul><li>extend db2 functionality to support spatial indexing/query + IBM Spatial Extender (not free?) 
+</li><li>modify middleware and user interface to support entry and addition of spatial query aspects
+</li><li>significant programming and testing commitment; difficult to assess how much without knowing more about what's required in terms of database add-ons and their configuration 
+</li></ul></li></ul></li><li>Scanning and georegistration of maps for EDH use
+<ul><li>Reason: supply coordinates for (modern) named sites that are only known through the corpus publication itself (or seem so)
+</li><li>Once maps are scanned, possible to do rectification via <a class="ext-link" href="http://maps.nypl.org/warper/"><span class="icon">http://maps.nypl.org/warper/</span></a> ??
+</li><li>TE to contact Harvard, Tufts about already-scanned maps that are on the EDH <a class="wiki" href="MapList">MapList</a>
+</li></ul></li></ul></li></ul><ul><li>EDH/EpiDoc
+<ul><li>Export (conversion) of EpiDoc from EDH
+<ul><li>Rationale:
+<ul><li>Some users would like it (facilitate computational analysis, addition to personal research notes, etc.)
+</li><li>Long-term sustainability and preservation of the content in an application-independent format
+</li><li>Potential basis for interoperation between EAGLE databases, and for transdisciplinary interoperation (e.g., with digital papyrological systems, many of which now already use EpiDoc)
+</li></ul></li></ul></li><li>Consideration of SoSOL and its technologies as potentially applicable to entry, update and/or conversion
+<ul><li>XSugar is a good candidate for providing the actual conversion of texts
+<ul><li>Current experience of the DDBDP using XSugar requires additional markup of source texts (e.g., bracketing abbreviated words in a way different from Leiden); if this proves necessary for EDH conversion, then a pre-processing step with other technology (or even human intervention) might be required to prepare ITX files for conversion. This necessitates further study.
+</li></ul></li><li>Existing XSLT produced by Gabriel Bodard for conversion of IRT EpiDoc XML to ITX for EDH (see below) effectively documents the piecewise relationships between the two formats and so can be analyzed to determine the necessary conversions to go from ITX to EpiDoc
+</li></ul></li><li>Import of EpiDoc into EDH
+<ul><li>Current efforts with IRT
+</li></ul></li></ul></li></ul><ul><li>Central services
+<ul><li>ISAW prepared to host as service to EAGLE and other consortia, and the scholarly community as a whole
+</li><li>Search, discovery etc. for EAGLE and other consortia
+<ul><li>Built on:
+<ul><li>Services and software now in development for papyrology (PN components, numbers server)
+</li><li>Services and software now in development for Pleiades and Concordia 
+</li></ul></li></ul></li><li>Linked data
+<ul><li>Atom feeds
+</li><li>URLs
+</li><li>RDF
+</li></ul></li><li>Demo for cross-EAGLE search (based on EpiDoc exports + linked data relationships)
+<ul><li>EDH content
+</li><li>London epigraphy (Aphrodisias, IRT, IRCyr and maybe Black Sea)
+</li><li>Existing Concordia partners (Pleiades, American Numismatic Society, Portable Antiquities Scheme, Papyrology, Ancient World Image Bank, Ancient World Digital Library)
+</li></ul></li><li>Collaborative bibliography and concordancing
+<ul><li>Examined emerging papyrological bibliography in Zotero, whose goal is to replace the Duke Checklist and support the work of various digital papyrological projects (e.g., DDBDP, HGV, Sammelbuch)
+</li><li>Discussed possibilities for a similar effort springing from the EBH, Claros, ISAW work, etc.
+</li><li>TE to investigate possibility of pushing content from an external database to a Zotero library (will contact Zotero developers)
+</li><li>Since Trismegistos is minting identifiers for epigraphic documents in collaboration with EDH, EDR and Claros, TE should contact Depauw to discuss bibliographic initiatives and potential for collaboration; other potential collaborators are Bari and HispEp.
+<ul><li>There is to be a meeting in the fall (probably in Rome) to discuss this work in more detail; ideally Elliott would attend
+</li></ul></li></ul></li></ul></li></ul><ul><li>Best practices
+<ul><li>Use URIs as identifiers (when linking, when storing, etc.) - this implies that parties are taking steps to ensure their web addresses and domains will not change
+</li><li>Identifiers on the web: we'd like to see short, stable URIs for EDH resources (ones that hide implementation detail)
+</li></ul></li></ul></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="WorkshopTwoResults?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

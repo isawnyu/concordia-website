@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Heidelberg2009.kml</name>
+	<StyleMap id="msn_lodging">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_poi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_poi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_poi</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_poi">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table width ="250"><tr><td colspan="2"><font size="+1"><b><a href="http://maps.google.com/maps?q=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4786590394093849495&ei=ClZVSpTAI4zcNpKjpHY&cd=1">$[name]</a></b></font><br/><img src="http://www.google.com/images/syt-star-on.gif" alt="Rated 4.1 out of 5.0"/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-off.gif" alt=""/>&nbsp;<font color="#808080">29 reviews</font></td></tr><tr><td>Schiffgasse 11<br/>69117 Heidelberg, Germany<br/>06221 5366-0<br/><a href="http://www.gasthaus-backmulde-hotel.de/" style="color:#008000">gasthaus-backmulde-hotel.de</a></td><td><a href="/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;cd=1&amp;dtab=5"><img src="http://base.googlehosted.com/base_media?q=maps:www.belocal.de/images/archiv/18/8925_1m.jpg&amp;size=3&amp;hl=en"/></a></td></tr><tr><td colspan="2"><br/><b>Great service</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;A TripAdvisor Member&#32; - &#32;Feb 14, 2009</font><br/>Huge clean room for our one-night stay (husband and I and two teen children), spotless bathroom, lovely fluffy towels and a great location in the old town. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.tripadvisor.com/ShowUserReviews-g187286-d236702-m10805-r24547432-Gasthaus_Hotel_Backmulde-Heidelberg_Baden_Wurttemberg.html&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7nuAqjDJhsO4Tn4qEki4iM9GX8HWQ"><font color="#008000">More from tripadvisor.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Gasthaus Backmulde</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 2.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Jun 8, 2009</font><br/>Gut erhaltenes historisches Gebäude der Bäckerzunft in einer Seitengasse der Altstadt. Gepflegtes, angenehmes Ambiente mit guter Küche und gutem Service. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.schlemmer-atlas.de/details.php%3Fid%3DboYMiiAIGSA&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7kuAGpMt2w5t_gErxJp99Rw-pwL0w"><font color="#008000">More from schlemmer-atlas.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Geschäftlich war ich ein paar Tage...</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Michael80&#32; - &#32;Jun 11, 2008</font><br/>im <b>Hotel</b> des Gasthauses <b>Backmulde</b> mitten in der Heidelberger Altstadt. Gleich nebenan liegt das Zeughaus, eine Art Studentenkneipe mit großem Hof, <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.qype.com/place/161094-Backmulde-Gasthaus-Zepf-und-Schneider-GmbH-Heidelberg&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7lRERLdPmII_uPhwJvBr7iVr4LzDg"><font color="#008000">More from qype.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><a href="http://maps.google.com/maps?q=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4786590394093849495&ei=ClZVSpTAI4zcNpKjpHY&amp;reviews=1">See all 29 reviews&#160;&#187;</a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_poi">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_lodging0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_lodging">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table width ="250"><tr><td colspan="2"><font size="+1"><b><a href="http://maps.google.com/maps?q=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4797329163860212628&ei=rVZVStXuFYfONe7D5YcB&cd=1">$[name]</a></b></font><br/><img src="http://www.google.com/images/syt-star-on.gif" alt="Rated 3.4 out of 5.0"/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-half.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-off.gif" alt=""/>&nbsp;<font color="#808080">94 reviews</font></td></tr><tr><td>Haspelgasse 2<br/>69117 Heidelberg, Germany<br/>06221 24164<br/><a href="http://www.4-jahreszeiten.de/" style="color:#008000">4-jahreszeiten.de</a></td><td><a href="/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;cd=1&amp;dtab=5"><img src="http://base.googlehosted.com/base_media?q=maps:images.activehotels.com/images/hotel/max300/310/310727.jpg&amp;size=3&amp;hl=en"/></a></td></tr><tr><td colspan="2"><br/><b>Vier Jahreszeiten, Heidelberg</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 5.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Mature couple&#32; - &#32;Jun 16, 2008</font><br/>Positive: I liked that the room was super clean, updated, and there was no smell of smoke anywhere in the <b>hotel</b> including common areas. Very tidy <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.booking.com/hotel/de/vier-jahreszeiten.en.html%3Faid%3D307415%3Btab%3D4&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7mNdYOITOPRQ6JNnLXYStPEEvNk1A"><font color="#008000">More from booking.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Günstiges Altstadthotel in super Lage</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.5 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-half.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Paar bei Städtereise&#32; - &#32;Apr 19, 2009</font><br/>Da wir nur 1 Nacht in Heidelberg verweilten wählten wir ein zentral gelegenes <b>Hotel</b> um die Sehenswürdigkeiten und die Altstadt schnell zu erreichen. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.holidaycheck.de/bericht.php%3Fch%3Dhb%26typ%3D2%26id%3D1305002%26agent%3Dhc.gl.00.01&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7kR4oh5g2xxpwSqAT0cEYQTPIipIg"><font color="#008000">More from holidaycheck.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Vier Jahreszeiten</b> &#32;<font color="#808080">&#32; - &#32;No rating available&#32; - &#32;Apr 2, 2009</font><br/>Die Anlegestelle des Heidelberger Solar-Bootes befindet sich direkt vor unserer Haustür. Sie erreichen folgende Sehenswürdigkeiten innerhalb weniger <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.tvtrip.de/heidelberg-hotels/vier-jahreszeiten&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7mB0CqMe-dhSvHJs7bGiN8jSMQyLA"><font color="#008000">More from tvtrip.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><a href="http://maps.google.com/maps?q=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4797329163860212628&ei=rVZVStXuFYfONe7D5YcB&amp;reviews=1">See all 94 reviews&#160;&#187;</a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_lodging">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table width ="250"><tr><td colspan="2"><font size="+1"><b><a href="http://maps.google.com/maps?q=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4797329163860212628&ei=rVZVStXuFYfONe7D5YcB&cd=1">$[name]</a></b></font><br/><img src="http://www.google.com/images/syt-star-on.gif" alt="Rated 3.4 out of 5.0"/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-half.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-off.gif" alt=""/>&nbsp;<font color="#808080">94 reviews</font></td></tr><tr><td>Haspelgasse 2<br/>69117 Heidelberg, Germany<br/>06221 24164<br/><a href="http://www.4-jahreszeiten.de/" style="color:#008000">4-jahreszeiten.de</a></td><td><a href="/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;cd=1&amp;dtab=5"><img src="http://base.googlehosted.com/base_media?q=maps:images.activehotels.com/images/hotel/max300/310/310727.jpg&amp;size=3&amp;hl=en"/></a></td></tr><tr><td colspan="2"><br/><b>Vier Jahreszeiten, Heidelberg</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 5.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Mature couple&#32; - &#32;Jun 16, 2008</font><br/>Positive: I liked that the room was super clean, updated, and there was no smell of smoke anywhere in the <b>hotel</b> including common areas. Very tidy <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.booking.com/hotel/de/vier-jahreszeiten.en.html%3Faid%3D307415%3Btab%3D4&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7mNdYOITOPRQ6JNnLXYStPEEvNk1A"><font color="#008000">More from booking.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Günstiges Altstadthotel in super Lage</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.5 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-half.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Paar bei Städtereise&#32; - &#32;Apr 19, 2009</font><br/>Da wir nur 1 Nacht in Heidelberg verweilten wählten wir ein zentral gelegenes <b>Hotel</b> um die Sehenswürdigkeiten und die Altstadt schnell zu erreichen. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.holidaycheck.de/bericht.php%3Fch%3Dhb%26typ%3D2%26id%3D1305002%26agent%3Dhc.gl.00.01&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7kR4oh5g2xxpwSqAT0cEYQTPIipIg"><font color="#008000">More from holidaycheck.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Vier Jahreszeiten</b> &#32;<font color="#808080">&#32; - &#32;No rating available&#32; - &#32;Apr 2, 2009</font><br/>Die Anlegestelle des Heidelberger Solar-Bootes befindet sich direkt vor unserer Haustür. Sie erreichen folgende Sehenswürdigkeiten innerhalb weniger <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.tvtrip.de/heidelberg-hotels/vier-jahreszeiten&dq=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7mB0CqMe-dhSvHJs7bGiN8jSMQyLA"><font color="#008000">More from tvtrip.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><a href="http://maps.google.com/maps?q=hotel+vier&sll=49.4083,8.67547&sspn=0.121909,0.279807&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4797329163860212628&ei=rVZVStXuFYfONe7D5YcB&amp;reviews=1">See all 94 reviews&#160;&#187;</a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_lodging0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table width ="250"><tr><td colspan="2"><font size="+1"><b><a href="http://maps.google.com/maps?q=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4786590394093849495&ei=ClZVSpTAI4zcNpKjpHY&cd=1">$[name]</a></b></font><br/><img src="http://www.google.com/images/syt-star-on.gif" alt="Rated 4.1 out of 5.0"/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-on.gif" alt=""/>&nbsp;<img src="http://www.google.com/images/syt-star-off.gif" alt=""/>&nbsp;<font color="#808080">29 reviews</font></td></tr><tr><td>Schiffgasse 11<br/>69117 Heidelberg, Germany<br/>06221 5366-0<br/><a href="http://www.gasthaus-backmulde-hotel.de/" style="color:#008000">gasthaus-backmulde-hotel.de</a></td><td><a href="/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;cd=1&amp;dtab=5"><img src="http://base.googlehosted.com/base_media?q=maps:www.belocal.de/images/archiv/18/8925_1m.jpg&amp;size=3&amp;hl=en"/></a></td></tr><tr><td colspan="2"><br/><b>Great service</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;A TripAdvisor Member&#32; - &#32;Feb 14, 2009</font><br/>Huge clean room for our one-night stay (husband and I and two teen children), spotless bathroom, lovely fluffy towels and a great location in the old town. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.tripadvisor.com/ShowUserReviews-g187286-d236702-m10805-r24547432-Gasthaus_Hotel_Backmulde-Heidelberg_Baden_Wurttemberg.html&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7nuAqjDJhsO4Tn4qEki4iM9GX8HWQ"><font color="#008000">More from tripadvisor.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Gasthaus Backmulde</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 2.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Jun 8, 2009</font><br/>Gut erhaltenes historisches Gebäude der Bäckerzunft in einer Seitengasse der Altstadt. Gepflegtes, angenehmes Ambiente mit guter Küche und gutem Service. <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.schlemmer-atlas.de/details.php%3Fid%3DboYMiiAIGSA&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7kuAGpMt2w5t_gErxJp99Rw-pwL0w"><font color="#008000">More from schlemmer-atlas.de &raquo;</font></a></td></tr><tr><td colspan="2"><br/><b>Geschäftlich war ich ein paar Tage...</b> &#32;<img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt="Rated 4.0 out of 5.0"/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-on.gif"{BI_SPACE}}alt=""/><img src="http://www.google.com/images/sy-star-off.gif"{BI_SPACE}}alt=""/><font color="#808080">&#32; - &#32;Michael80&#32; - &#32;Jun 11, 2008</font><br/>im <b>Hotel</b> des Gasthauses <b>Backmulde</b> mitten in der Heidelberger Altstadt. Gleich nebenan liegt das Zeughaus, eine Art Studentenkneipe mit großem Hof, <b>...</b> <br/><a href="http://maps.google.com/local_url?q=http://www.qype.com/place/161094-Backmulde-Gasthaus-Zepf-und-Schneider-GmbH-Heidelberg&dq=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&output=kml&ie=utf-8&v=2.2&cv=5.0.11733.9347&hl=en&s=ANYYN7lRERLdPmII_uPhwJvBr7iVr4LzDg"><font color="#008000">More from qype.com &raquo;</font></a></td></tr><tr><td colspan="2"><br/><a href="http://maps.google.com/maps?q=hotel+Backmulde&sll=49.4019,8.68024&sspn=0.116278,0.266841&ie=UTF8&v=2.2&cv=5.0.11733.9347&hl=en&latlng=4786590394093849495&ei=ClZVSpTAI4zcNpKjpHY&amp;reviews=1">See all 29 reviews&#160;&#187;</a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Heidelberg 2009</name>
+		<open>1</open>
+		<Placemark>
+			<name>Marstallhof 4, 69117 Heidelberg, Germany</name>
+			<open>1</open>
+			<address>Marstallhof 4, 69117 Heidelberg, Germany</address>
+			<LookAt>
+				<longitude>8.704197135537541</longitude>
+				<latitude>49.41232039564748</latitude>
+				<altitude>0</altitude>
+				<range>249.8462026662044</range>
+				<tilt>0</tilt>
+				<heading>1.290725267954758e-05</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_poi</styleUrl>
+			<Point>
+				<coordinates>8.704495542815728,49.41252808636408,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Vier Jahreszeiten</name>
+			<address>Haspelgasse 2&lt;br/&gt;69117 Heidelberg, Germany</address>
+			<Snippet maxLines="2"><![CDATA[Haspelgasse 2, 69117 Heidelberg, Germany<br/>06221 24164]]></Snippet>
+			<styleUrl>#msn_lodging</styleUrl>
+			<Point>
+				<coordinates>8.708911000000001,49.413249,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gasthaus Backmulde</name>
+			<address>Schiffgasse 11&lt;br/&gt;69117 Heidelberg, Germany</address>
+			<Snippet maxLines="2"><![CDATA[Schiffgasse 11, 69117 Heidelberg, Germany<br/>06221 5366-0]]></Snippet>
+			<styleUrl>#msn_lodging0</styleUrl>
+			<Point>
+				<coordinates>8.703682000000001,49.41184699999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

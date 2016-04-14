@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://earth.google.com/kml/2.1 file:/C:/badigit/kml/kml21.xsd">
+    <Document>
+        <name>Barrington Atlas Map 65 Footprint</name>
+        <open>1</open>
+        <description>Spatial footprint, with grid square outlines, for Barrington Atlas Map 65</description>
+        <Style id="styleGridSquare">
+            <LineStyle>
+                <color>99FFFF00</color>
+                <colorMode>normal</colorMode>
+                <width>1</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7fff0000</color>
+                <colorMode>normal</colorMode>
+                <fill>0</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="styleGridLabel">
+            <IconStyle>
+                <color>00000000</color>
+                <Icon>
+                    <href>root://icons/palette-4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>FFFFFFFF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Folder>
+            <name>Grid Squares</name>
+            <Placemark id="a1">
+                <name>A1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9992600000005,37.9987299999993,0 28.9991900000005,38.0865900000008,0
+                                28.5426800000005,38.0810199999996,0 28.5449000000008,37.9986900000004,0
+                                28.9992600000005,37.9987299999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="a2">
+                <name>A2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.5449000000008,37.9986900000004,0 28.5568800000001,37.4993799999993,0
+                                28.9994200000001,37.4994900000002,0 28.9992600000005,37.9987299999993,0
+                                28.5449000000008,37.9986900000004,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="a3">
+                <name>A3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.5568800000001,37.4993799999993,0 28.5681700000005,36.9990199999993,0
+                                28.9996499999997,36.9991100000007,0 28.9994200000001,37.4994900000002,0
+                                28.5568800000001,37.4993799999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="a4">
+                <name>A4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.5681700000005,36.9990199999993,0 28.5799299999999,36.4998599999999,0
+                                28.9997000000003,36.4995699999999,0 28.9996499999997,36.9991100000007,0
+                                28.5681700000005,36.9990199999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="a5">
+                <name>A5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.5799299999999,36.4998599999999,0 28.5883300000005,36.1339499999995,0
+                                28.9997800000001,36.1391500000009,0 28.9997000000003,36.4995699999999,0
+                                28.5799299999999,36.4998599999999,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="b1">
+                <name>B1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9992600000005,37.9987299999993,0 29.4990400000006,37.9992399999992,0
+                                29.4989399999995,38.0909300000003,0 28.9991900000005,38.0865900000008,0
+                                28.9992600000005,37.9987299999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="b2">
+                <name>B2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9992600000005,37.9987299999993,0 28.9994200000001,37.4994900000002,0
+                                29.4994000000006,37.4994399999996,0 29.4990400000006,37.9992399999992,0
+                                28.9992600000005,37.9987299999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="b3">
+                <name>B3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9996499999997,36.9991100000007,0 29.4997500000009,36.9996699999992,0
+                                29.4994000000006,37.4994399999996,0 28.9994200000001,37.4994900000002,0
+                                28.9996499999997,36.9991100000007,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="b4">
+                <name>B4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9997000000003,36.4995699999999,0 29.5002499999991,36.4994900000002,0
+                                29.4997500000009,36.9996699999992,0 28.9996499999997,36.9991100000007,0
+                                28.9997000000003,36.4995699999999,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="b5">
+                <name>B5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 28.9997800000001,36.1391500000009,0 29.4448499999999,36.1429100000005,0
+                                29.4456300000002,36.0697600000003,0 29.5000299999992,36.0701000000008,0
+                                29.5002499999991,36.4994900000002,0 28.9997000000003,36.4995699999999,0
+                                28.9997800000001,36.1391500000009,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="c1">
+                <name>C1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.4989399999995,38.0909300000003,0 29.4990400000006,37.9992399999992,0
+                                29.9991399999999,37.9992299999994,0 29.9989700000006,38.0930800000006,0
+                                29.4989399999995,38.0909300000003,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="c2">
+                <name>C2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.4990400000006,37.9992399999992,0 29.4994000000006,37.4994399999996,0
+                                29.9991200000004,37.4996100000008,0 29.9991399999999,37.9992299999994,0
+                                29.4990400000006,37.9992399999992,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="c3">
+                <name>C3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.9991200000004,37.4996100000008,0 29.4994000000006,37.4994399999996,0
+                                29.4997500000009,36.9996699999992,0 29.9993699999995,36.9990799999996,0
+                                29.9991200000004,37.4996100000008,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="c4">
+                <name>C4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.4997500000009,36.9996699999992,0 29.5002499999991,36.4994900000002,0
+                                29.9995600000002,36.4993900000009,0 29.9993699999995,36.9990799999996,0
+                                29.4997500000009,36.9996699999992,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="c5">
+                <name>C5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.9995600000002,36.4993900000009,0 29.5002499999991,36.4994900000002,0
+                                29.5000299999992,36.0701000000008,0 29.9219499999999,36.0713500000002,0
+                                29.9218899999996,36.1456699999999,0 29.9998699999996,36.1462599999995,0
+                                29.9995600000002,36.4993900000009,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="d1">
+                <name>D1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 29.9989700000006,38.0930800000006,0 29.9991399999999,37.9992299999994,0
+                                30.5007499999992,37.9990500000004,0 30.5008300000009,38.0934600000001,0
+                                29.9989700000006,38.0930800000006,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="d2">
+                <name>D2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.5007499999992,37.9990500000004,0 29.9991399999999,37.9992299999994,0
+                                29.9991200000004,37.4996100000008,0 30.5005299999993,37.4990500000004,0
+                                30.5007499999992,37.9990500000004,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="d3">
+                <name>D3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.5005299999993,37.4990500000004,0 29.9991200000004,37.4996100000008,0
+                                29.9993699999995,36.9990799999996,0 30.5005000000001,36.9992399999992,0
+                                30.5005299999993,37.4990500000004,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="d4">
+                <name>D4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.5005000000001,36.9992399999992,0 29.9993699999995,36.9990799999996,0
+                                29.9995600000002,36.4993900000009,0 30.5002000000004,36.4995500000005,0
+                                30.5005000000001,36.9992399999992,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="d5">
+                <name>D5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.5002000000004,36.4995500000005,0 29.9995600000002,36.4993900000009,0
+                                29.9998699999996,36.1462599999995,0 30.5000700000001,36.1464099999994,0
+                                30.5002000000004,36.4995500000005,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="e1">
+                <name>E1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.5008300000009,38.0934600000001,0 30.5007499999992,37.9990500000004,0
+                                30.9997399999993,37.9987099999998,0 30.9999200000002,38.0917499999996,0
+                                30.5008300000009,38.0934600000001,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="e2">
+                <name>E2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.9997399999993,37.9987099999998,0 30.5007499999992,37.9990500000004,0
+                                30.5005299999993,37.4990500000004,0 30.9998799999994,37.4988699999994,0
+                                30.9997399999993,37.9987099999998,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="e3">
+                <name>E3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.9998799999994,37.4988699999994,0 30.5005299999993,37.4990500000004,0
+                                30.5005000000001,36.9992399999992,0 30.9998899999991,36.9987700000002,0
+                                30.9998799999994,37.4988699999994,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="e4">
+                <name>E4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.9998899999991,36.9987700000002,0 30.5005000000001,36.9992399999992,0
+                                30.5002000000004,36.4995500000005,0 30.9996699999992,36.4994000000006,0
+                                30.9998899999991,36.9987700000002,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="e5">
+                <name>E5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.9996699999992,36.4994000000006,0 30.5002000000004,36.4995500000005,0
+                                30.5000700000001,36.1464099999994,0 30.9993799999993,36.1447000000007,0
+                                30.9996699999992,36.4994000000006,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="f1">
+                <name>F1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 30.9999200000002,38.0917499999996,0 30.9997399999993,37.9987099999998,0
+                                31.5001499999998,37.9986100000006,0 31.5001100000009,38.0878499999999,0
+                                30.9999200000002,38.0917499999996,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="f2">
+                <name>F2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.5001499999998,37.9986100000006,0 30.9997399999993,37.9987099999998,0
+                                30.9998799999994,37.4988699999994,0 31.5000899999995,37.4988400000002,0
+                                31.5001499999998,37.9986100000006,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="f3">
+                <name>F3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.5000899999995,37.4988400000002,0 30.9998799999994,37.4988699999994,0
+                                30.9998899999991,36.9987700000002,0 31.4999200000002,36.9988599999997,0
+                                31.5000899999995,37.4988400000002,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="f4">
+                <name>F4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.4999200000002,36.9988599999997,0 30.9998899999991,36.9987700000002,0
+                                30.9996699999992,36.4994000000006,0 31.4999000000007,36.4990500000004,0
+                                31.4999200000002,36.9988599999997,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="f5">
+                <name>F5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.4999000000007,36.4990500000004,0 30.9996699999992,36.4994000000006,0
+                                30.9993799999993,36.1447000000007,0 31.4996200000005,36.1408200000005,0
+                                31.4999000000007,36.4990500000004,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="g1">
+                <name>G1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.5001100000009,38.0878499999999,0 31.5001499999998,37.9986100000006,0
+                                31.99928,37.9983699999993,0 31.9992000000002,38.0819300000003,0
+                                31.5001100000009,38.0878499999999,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="g2">
+                <name>G2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.99928,37.9983699999993,0 31.5001499999998,37.9986100000006,0
+                                31.5000899999995,37.4988400000002,0 31.9990600000001,37.4980200000009,0
+                                31.99928,37.9983699999993,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="g3">
+                <name>G3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.9990600000001,37.4980200000009,0 31.5000899999995,37.4988400000002,0
+                                31.4999200000002,36.9988599999997,0 31.9991599999994,36.9985199999992,0
+                                31.9990600000001,37.4980200000009,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="g4">
+                <name>G4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.9991599999994,36.9985199999992,0 31.4999200000002,36.9988599999997,0
+                                31.4999000000007,36.4990500000004,0 31.9990300000009,36.4990300000009,0
+                                31.9991599999994,36.9985199999992,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="g5">
+                <name>G5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.9990300000009,36.4990300000009,0 31.4999000000007,36.4990500000004,0
+                                31.4996200000005,36.1408200000005,0 31.9992000000002,36.1343699999998,0
+                                31.9990300000009,36.4990300000009,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="h1">
+                <name>H1</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 31.9992000000002,38.0819300000003,0 31.99928,37.9983699999993,0
+                                32.0872099999997,37.9985099999994,0 32.0887899999998,38.0805899999996,0
+                                31.9992000000002,38.0819300000003,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="h2">
+                <name>H2</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 32.0872099999997,37.9985099999994,0 31.99928,37.9983699999993,0
+                                31.9990600000001,37.4980200000009,0 32.0758499999993,37.4979500000009,0
+                                32.0872099999997,37.9985099999994,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="h3">
+                <name>H3</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 32.0758499999993,37.4979500000009,0 31.9990600000001,37.4980200000009,0
+                                31.9991599999994,36.9985199999992,0 32.0649599999997,36.9986100000006,0
+                                32.0758499999993,37.4979500000009,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="h4">
+                <name>H4</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 32.0649599999997,36.9986100000006,0 31.9991599999994,36.9985199999992,0
+                                31.9990300000009,36.4990300000009,0 32.0540000000001,36.4989600000008,0
+                                32.0649599999997,36.9986100000006,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="h5">
+                <name>H5</name>
+                <styleUrl>#styleGridSquare</styleUrl>
+                <Polygon>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> 32.0540000000001,36.4989600000008,0 31.9990300000009,36.4990300000009,0
+                                31.9992000000002,36.1343699999998,0 32.0460500000008,36.1339800000005,0
+                                32.0540000000001,36.4989600000008,0 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Grid Labels</name>
+            <open>0</open>
+            <Placemark>
+                <name>A1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 28.7739673397476,38.0413072846941,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>A2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 28.7750962810412,37.7501690527096,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>A3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 28.7810191231959,37.2503053142086,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>A4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 28.7868761431686,36.7505352992711,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>A5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 28.7913997631583,36.3187305139881,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>B1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.2508843164009,38.0438807268094,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>B2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.2493267166184,37.749208391103,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>B3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.2495041811558,37.2494174439034,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>B4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.2498909215335,36.7494225897925,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>B5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.2543345564414,36.3157299289002,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>C1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.7499928330917,38.0456210426605,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>C2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.7491599781612,37.7494116464926,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>C3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.7494732710408,37.2494583527722,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>C4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.7496917050381,36.7494333576159,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>C5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 29.7439017608336,36.2900164215894,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>D1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.2501712202626,38.0462089622784,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>D2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.2499167906926,37.7492515791395,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>D3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.2498198722522,37.2492682929535,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>D4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.249907491409,36.7493557359114,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>D5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.2499261582102,36.3229283753405,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>E1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.7497022131549,38.0457453431886,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>E2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.7502116686634,37.7488899629374,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>E3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.7502241361545,37.2489791465694,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>E4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.7500383310795,36.7492333624347,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>E5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 30.7500134736692,36.3225240530506,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.2482413041019,38.0442336551238,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.2499591616072,37.748774150136,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.2499349998995,37.2488499986001,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.2498816979587,36.7490033329921,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.2500553034605,36.3209899932368,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>G1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.7469505481366,38.0417062403313,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>G2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.7496932535654,37.7484732955129,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>G3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.7495175231384,37.2485375206352,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>G4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.7494758628325,36.7488741888171,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>G5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 31.7501774410205,36.3182855039905,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>H1</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 32.0434900094276,38.0399809966311,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>H2</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 32.0404180640261,37.7538522537106,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>H3</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 32.0348248917424,37.2546914119583,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>H4</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 32.0293719544176,36.7562452452807,0 </coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>H5</name>
+                <styleUrl>#styleGridLabel</styleUrl>
+                <Point>
+                    <extrude>0</extrude>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates> 32.0246258271352,36.3214316894469,0 </coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

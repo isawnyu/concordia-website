@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+   xmlns:georss="http://www.georss.org/georss"
+   xmlns:gml="http://www.opengis.net/gml"
+   >
+
+   <id>tag:pleiades.stoa.org,2008-02-26:/places/373778/nearby</id>
+   <title>Information about Cyrene and environs</title>
+   <updated>2008-02-27T12:15:51.743-06:00</updated>
+   
+   <link rel="related" href="http://pleiades.stoa.org/places/373778"/>
+
+   <entry>
+      <id>tag:ircyr.kcl.ac.uk,2008-02-27:inscriptions/cyrene</id>
+      <title>Inscriptions of Roman Cyrenaica: Cyrene</title>
+      <updated>2008-02-27T12:15:51.743-06:00</updated>
+      <summary type="html">
+            &lt;p&gt;&lt;span class="hits"&gt;715&lt;/span&gt; inscriptions of Cyrene:&lt;/p&gt;
+            &lt;ul&gt;
+               &lt;li&gt;&lt;a href="http://ircyr.kcl.ac.uk/inscriptions/C61300"&gt;C.613: Honours for Hadrian in the Caesareum&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href="http://ircyr.kcl.ac.uk/inscriptions/C61600"&gt;C.616: Honours for Hadrian on the Basilica&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href="http://ircyr.kcl.ac.uk/inscriptions/C61400"&gt;C.614: Honours for Nero (erased); honours for Hadrian on the Basilica&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a class="more" href="http://ircyr.kcl.ac.uk/inscriptions/cyrene"&gt;more ...&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+      </summary>
+      <content/>
+      <link rel="alternate" href="http://ircyr.kcl.ac.uk/inscriptions/cyrene"/>
+      <link rel="related" href="http://pleiades.stoa.org/places/373778"/>
+      <link rel="http://www.georss.org/relation/location" href="http://pleiades.stoa.org/places/373778.atom" type="application/atom+xml"/>
+   </entry>
+
+</feed>

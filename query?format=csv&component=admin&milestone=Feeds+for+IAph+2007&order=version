@@ -1,0 +1,3 @@
+id,summary,owner,type,status,priority,version
+25,Put ALA/IAph concordance in Atom/ORE,thomase,task,new,major,
+27,get thomase access to aphrodisias and tripolitania modules on CCH SVN,gbodard,task,closed,blocker,

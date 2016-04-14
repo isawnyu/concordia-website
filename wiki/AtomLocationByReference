@@ -1,0 +1,129 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>AtomLocationByReference - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="AtomLocationByReference?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="AtomLocationByReference?action=diff&amp;version=5">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="Linkingtogeographiclocations">Linking to geographic locations</h1>
+<p>
+We propose to enhance <a class="ext-link" href="http://zcologia.com/mush"><span class="icon">Mush</span></a> to dereference external locations specified by entry links with the relation: <i>http://atlantides.org/relations/geo/location</i>. Initially, we will support Atom (GeoRSS) entries (<i>application/atom+xml;type=entry</i>) and Geonames features (<i>application/rdf+xml</i>) as link targets. The precedent for specifying external entities in this way is <a class="ext-link" href="http://www.ietf.org/rfc/rfc4946.txt"><span class="icon">RFC 4646</span></a>: Atom License Extension, which is based on <a class="ext-link" href="http://www.intertwingly.net/wiki/pie/PaceFieldingLinks"><span class="icon">Fielding Links</span></a>.
+</p>
+<p>
+An entry such as
+</p>
+<pre class="wiki">&lt;entry&gt;
+  &lt;link
+    rel="http://atlantides.org/relations/geo/location"
+    type="application/rdf+xml"
+    href="http://sws.geonames.org/5577147/about.rdf"
+    /&gt;
+  ...
+&lt;/entry&gt;
+</pre><p>
+will be processed to 
+</p>
+<pre class="wiki">&lt;entry&gt;
+  &lt;georss:where&gt;
+    &lt;gml:Point&gt;
+      &lt;gml:pos&gt;40.58526 -105.08442 0.0&lt;/gml:pos&gt;
+    &lt;/gml:Point&gt;
+  &lt;/georss:where&gt;
+  ...
+&lt;/entry&gt;
+</pre><h2 id="Example">Example</h2>
+<p>
+A feed is attached to this page. It contains one entry with a location link. The feed can have its location links resolved by pulling it through the Mush <i>dereference</i> service (<a class="ext-link" href="http://zcologia.com/mush/dereference/form/"><span class="icon">Form</span></a>, 
+<a class="ext-link" href="http://zcologia.com/mush/dereference/?url=http%3A%2F%2Fatlantides.org%2Ftrac%2Fconcordia%2Fattachment%2Fwiki%2FAtomLocationByReference%2Fcyrene.atom%3Fformat%3Draw"><span class="icon">Results Feed</span></a>, 
+<a class="ext-link" href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fzcologia.com%2Fmush%2Fdereference%2F%3Furl%3Dhttp%253A%252F%252Fatlantides.org%252Ftrac%252Fconcordia%252Fattachment%252Fwiki%252FAtomLocationByReference%252Fcyrene.atom%253Fformat%253Draw&amp;ie=UTF8&amp;ll=32.837193,21.868973&amp;spn=0.176829,0.268822&amp;t=p&amp;z=12"><span class="icon">Results Map</span></a>).
+</p>
+<p>
+Back to <a class="wiki" href="AtomLocation">AtomLocation</a>
+</p>
+</div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/AtomLocationByReference/cyrene.atom">cyrene.atom</a> (1.7 kB) - added by seang on 04/11/08 14:40:07.</li><li class="tkt-chg-change"><a href="../attachment/wiki/AtomLocationByReference/fort-collins-via-geonames.atom">fort-collins-via-geonames.atom</a> (0.8 kB) - added by seang on 04/11/08 15:44:01.</li><li class="tkt-chg-change"><a href="../attachment/wiki/AtomLocationByReference/ba065grid.kml">ba065grid.kml</a> (45.5 kB) - added by seang on 04/14/08 15:14:28.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="AtomLocationByReference?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

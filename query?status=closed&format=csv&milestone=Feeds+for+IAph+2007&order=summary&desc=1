@@ -1,0 +1,10 @@
+id,summary,owner,type,priority,component,version
+3,namespace prefixes in atom feeds freak out rssowl,thomase,defect,critical,xslts,
+27,get thomase access to aphrodisias and tripolitania modules on CCH SVN,gbodard,task,blocker,admin,
+1,find xml file that underlies IAph placenames index,thomase,task,major,iaph2007xml,
+2,create module in svn for xsl development,thomase,enhancement,major,xslts,
+6,create a feed document for all iaph2007 inscriptions,thomase,enhancement,major,xslts,
+26,Record BAtlas ids for all places referenced in IAph2007,gbodard,task,major,identifiers,
+4,RSSOwl can't handle entry-only atom feeds,thomase,defect,major,xslts,
+21,Create a set of IDs that correspond to citations of all Barrington Atlas features,thomase,task,blocker,identifiers,
+23,Create IAph/ALA concordance,gbodard,task,major,iaph2007xml,

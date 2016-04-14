@@ -1,0 +1,25 @@
+= !EpiDoc2Atom =
+
+''back to: ConcordiaSoftware | ProjectDeliverables''
+
+!EpiDoc2Atom is software for creating Atom feeds from !EpiDoc-conformant TEI XML files. It is a [ProjectDeliverables project deliverable]. Specifications for the feed format itself are to be found at ConcordiaAtomFeeds.
+
+== Code: ==
+
+ * [source:epidoc2atom]
+
+== Other deliverables that are dependent on this one ==
+
+ * [wiki:IAphFeeds]
+ * [wiki:IRCyrFeeds]
+ * [wiki:PapyFeeds]
+
+== Related milestones: ==
+
+ * N/A (see dependent deliverables)
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=epidoc2atom&description!~=epidoc2atom)]]
+[[TicketQuery(summary!~=epidoc2atom&description~=epidoc2atom)]]
+[[TicketQuery(summary~=epidoc2atom&description~=epidoc2atom)]]

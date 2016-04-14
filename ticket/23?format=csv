@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+23,Create IAph/ALA concordance,gbodard,gbodard,Create a concordance of ALA2004 numbers against IAph2007 numbers,task,closed,major,Feeds for IAph 2007,iaph2007xml,,fixed,,

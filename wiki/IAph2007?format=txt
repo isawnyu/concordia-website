@@ -1,0 +1,8 @@
+= IAph2007 = Inscriptions of Aphrodisias 2007 =
+
+The ''Inscriptions of Aphrodisias'' (IAph2007) is the definitive scholarly publication of 1500 texts from a single city in south-central Turkey, approximately 40% of which were previously unpublished. Mostly in the Greek language, these texts were collected and refined over 30 years by Joyce Reynolds. With funding from the UK Arts and Humanities Research Council, this corpus was prepared and published online in 2007 by CCH (Joyce Reynolds, Charlotte Roueché, Gabriel Bodard, Inscriptions of Aphrodisias (2007), available < http://insaph.kcl.ac.uk/iaph2007 >, ISBN 978-1-897747-19-3). The texts, together with descriptive metadata, commentary and translations, were encoded using the [http://epidoc.sf.net EpiDoc] customization of the [http://www.tei-c.org Text Encoding Initiative] XML tag set. The IAph website provides the raw XML for download under the terms of an Open Content license (Creative Commons Attribution), and also employs XSL Transformations to give users a dynamic online interface to the publication, complete with indices, search tools, and supporting materials.
+
+== What we will do ==
+
+ * Serialize information about the [http://insaph.kcl.ac.uk/iaph2007/inscriptions/xml-repo.html inscriptions] into ConcordiaAtomFeeds ([wiki:ExampleIAphInscriptionEntry])
+ * Serialize the [http://insaph.kcl.ac.uk/iaph2007/inscriptions/indices/place/place-grcA.html places index] into a ConcordiaAtomFeeds

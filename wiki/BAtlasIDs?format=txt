@@ -1,0 +1,18 @@
+= Barrington Atlas IDs =
+
+''back to ProjectDeliverables''
+
+A complete set of stable identifiers for every citable feature in the Barrington Atlas was identified by participants in the [WorkshopMay Concordia May Workshop] as an urgent prerequisite to establishing services, given the timetable for inclusion of data in Pleiades. It was not a consideration in the original proposal, but clearly of such value for laying the groundwork that we have added it as a main data deliverable of the project.
+
+== Background/Relevant ==
+
+ * Cool URIs for the Semantic Web: http://www.w3.org/TR/2007/WD-cooluris-20071217/
+ * Cool URIs don't change: http://www.w3.org/Provider/Style/URI
+ * Linking Open Geographic Data: http://sgillies.net/blog/785/linking-open-geographic-data/
+
+Project-related discussion and release information can be found at http://horothesia.blogspot.com/search/label/batlasids
+
+== Related Milestones ==
+
+ * [milestone:"Barrington Atlas IDs"]
+ 

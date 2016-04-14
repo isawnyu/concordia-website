@@ -1,0 +1,5 @@
+= EDH !EpiDoc Import Diagram =
+
+During the [wiki:NEH_DFGworkshopOne Heidelberg Workshop in July 2009], we sketched out the following diagram to help discuss data flow and process for import of !EpiDoc into EDH:
+
+[[Image(epidoc2edh.jpg)]]

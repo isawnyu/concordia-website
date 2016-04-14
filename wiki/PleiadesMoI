@@ -1,0 +1,103 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>PleiadesMoI - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="PleiadesMoI?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="PleiadesMoI?action=diff&amp;version=33">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h2 id="Possibleresults">Possible results</h2>
+<p>
+For discussion: a mockup of a (partial) search result for Glamoč, surfacing additional mapping and information links, plus a corresponding Atom feed with Pleiades "findspot" linkages: <a class="ext-link" href="http://concordia.atlantides.org/examples/edh-mockups/glamoc.html"><span class="icon">http://concordia.atlantides.org/examples/edh-mockups/glamoc.html</span></a>
+</p>
+<h2 id="SiteformappingMoIEDHrecordstotherelevantPleiadesnames">Site for mapping MoI (EDH) records to the relevant Pleiades names</h2>
+<ul><li>See Pleiades map directories <a class="ext-link" href="http://pleiades.stoa.org/Members/sgillies/imported-map-dirs-20-22"><span class="icon">imported-map-dirs-20-22</span></a>. See also <a class="ext-link" href="http://atlantides.org/trac/concordia/wiki/PleiadesMatchInterface"><span class="icon">PleiadesMatchInterface</span></a>.
+</li><li>The "geometry" field uses an idiosyncratic format. EDH input data will be munged into the right format when match interface results are returned. When EDH provides {"lat": 30.0,"lon": 40.0} (for example), Pleiades will return {"geometry": "Point:[40.0, 30.0]"} in the results for easy copy/paste.
+</li><li>EDH should also carry pleiades identifier for each place. (e.g. <a class="ext-link" href="http://pleiades.stoa.org/places/619107)"><span class="icon">http://pleiades.stoa.org/places/619107)</span></a>)
+</li><li>See <a class="wiki" href="EDHnotesSuggestions">here</a> for previous notes, questions and suggestions concerning the establishment of a new <a class="wiki" href="EDHgeographyTable">geography database</a> for the storage and administration of geographical details in <strong>EDH</strong>.
+</li></ul></div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/Glamoc_Municipium-Salvium.doc">Glamoc_Municipium-Salvium.doc</a> (12.0 kB) - added by jcowey on 10/20/09 09:37:53.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/Glamoc_Salviae.doc">Glamoc_Salviae.doc</a> (17.5 kB) - added by jcowey on 10/20/09 09:39:11.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/Glamoc_ohne-eindeutigen-fundort-antik.doc">Glamoc_ohne-eindeutigen-fundort-antik.doc</a> (20.5 kB) - added by jcowey on 10/20/09 09:49:04.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/current-model.pdf">current-model.pdf</a> (26.0 kB) -<q>current (sparse) approach to storing edh data (single table)</q>, added by thomase on 10/28/09 16:34:29.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/new-model-simple.pdf">new-model-simple.pdf</a> (25.2 kB) -<q>an alternative relational model (simple)</q>, added by thomase on 10/28/09 16:34:54.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/new-model-complex.pdf">new-model-complex.pdf</a> (27.1 kB) -<q>an alternative relational model (more complex)</q>, added by thomase on 10/28/09 16:35:16.</li><li class="tkt-chg-change"><a href="../attachment/wiki/PleiadesMoI/Glamoc.doc">Glamoc.doc</a> (35.0 kB) - added by jcowey on 10/30/09 06:32:56.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="PleiadesMoI?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>NEH_DFGworkshopOne: Heidelberg2009.kml - Concordia - Trac</title><link rel="start" href="../../../wiki.2" /><link rel="search" href="../../../search" /><link rel="help" href="../../../wiki/TracGuide" /><link rel="stylesheet" href="../../../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../../../chrome/common/css/code.css" type="text/css" /><link rel="icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../../../wiki/NEH_DFGworkshopOne" title="NEH_DFGworkshopOne" /><link rel="alternate" href="Heidelberg2009.kml?format=raw" title="Original Format" type="application/vnd.google-earth.kml+xml; charset=iso-8859-15" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../../../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../../../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../../../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../../../settings">Settings</a></li><li><a accesskey="6" href="../../../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../../../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../../../wiki.2">Wiki</a></li><li><a accesskey="2" href="../../../timeline">Timeline</a></li><li><a accesskey="3" href="../../../roadmap">Roadmap</a></li><li><a href="../../../browser">Browse Source</a></li><li><a href="../../../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../../../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="attachment">
+
+
+ <h1><a href="../../../wiki/NEH_DFGworkshopOne">NEH_DFGworkshopOne</a>: Heidelberg2009.kml</h1>
+ <table id="info" summary="Description"><tbody><tr>
+   <th scope="col">
+    File Heidelberg2009.kml, 21.6 kB 
+    (added by thomase,  7 years ago)
+   </th></tr><tr>
+   <td class="message"></td>
+  </tr>
+ </tbody></table>
+ <div id="preview">
+   <table class="code"><thead><tr><th class="lineno">Line</th><th class="content">&nbsp;</th></tr></thead><tbody><tr><th id="L1"><a href="Heidelberg2009.kml#L1">1</a></th>
+<td>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</td>
+</tr><tr><th id="L2"><a href="Heidelberg2009.kml#L2">2</a></th>
+<td>&lt;kml xmlns=&#34;http://www.opengis.net/kml/2.2&#34; xmlns:gx=&#34;http://www.google.com/kml/ext/2.2&#34; xmlns:kml=&#34;http://www.opengis.net/kml/2.2&#34; xmlns:atom=&#34;http://www.w3.org/2005/Atom&#34;&gt;</td>
+</tr><tr><th id="L3"><a href="Heidelberg2009.kml#L3">3</a></th>
+<td>&lt;Document&gt;</td>
+</tr><tr><th id="L4"><a href="Heidelberg2009.kml#L4">4</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Heidelberg2009.kml&lt;/name&gt;</td>
+</tr><tr><th id="L5"><a href="Heidelberg2009.kml#L5">5</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;StyleMap id=&#34;msn_lodging&#34;&gt;</td>
+</tr><tr><th id="L6"><a href="Heidelberg2009.kml#L6">6</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L7"><a href="Heidelberg2009.kml#L7">7</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;normal&lt;/key&gt;</td>
+</tr><tr><th id="L8"><a href="Heidelberg2009.kml#L8">8</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sn_lodging&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L9"><a href="Heidelberg2009.kml#L9">9</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L10"><a href="Heidelberg2009.kml#L10">10</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L11"><a href="Heidelberg2009.kml#L11">11</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;highlight&lt;/key&gt;</td>
+</tr><tr><th id="L12"><a href="Heidelberg2009.kml#L12">12</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sh_lodging&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L13"><a href="Heidelberg2009.kml#L13">13</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L14"><a href="Heidelberg2009.kml#L14">14</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/StyleMap&gt;</td>
+</tr><tr><th id="L15"><a href="Heidelberg2009.kml#L15">15</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;StyleMap id=&#34;msn_poi&#34;&gt;</td>
+</tr><tr><th id="L16"><a href="Heidelberg2009.kml#L16">16</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L17"><a href="Heidelberg2009.kml#L17">17</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;normal&lt;/key&gt;</td>
+</tr><tr><th id="L18"><a href="Heidelberg2009.kml#L18">18</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sn_poi&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L19"><a href="Heidelberg2009.kml#L19">19</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L20"><a href="Heidelberg2009.kml#L20">20</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L21"><a href="Heidelberg2009.kml#L21">21</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;highlight&lt;/key&gt;</td>
+</tr><tr><th id="L22"><a href="Heidelberg2009.kml#L22">22</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sh_poi&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L23"><a href="Heidelberg2009.kml#L23">23</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L24"><a href="Heidelberg2009.kml#L24">24</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/StyleMap&gt;</td>
+</tr><tr><th id="L25"><a href="Heidelberg2009.kml#L25">25</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sn_poi&#34;&gt;</td>
+</tr><tr><th id="L26"><a href="Heidelberg2009.kml#L26">26</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L27"><a href="Heidelberg2009.kml#L27">27</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.2&lt;/scale&gt;</td>
+</tr><tr><th id="L28"><a href="Heidelberg2009.kml#L28">28</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L29"><a href="Heidelberg2009.kml#L29">29</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/poi.png&lt;/href&gt;</td>
+</tr><tr><th id="L30"><a href="Heidelberg2009.kml#L30">30</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L31"><a href="Heidelberg2009.kml#L31">31</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L32"><a href="Heidelberg2009.kml#L32">32</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L33"><a href="Heidelberg2009.kml#L33">33</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L34"><a href="Heidelberg2009.kml#L34">34</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sh_lodging0&#34;&gt;</td>
+</tr><tr><th id="L35"><a href="Heidelberg2009.kml#L35">35</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L36"><a href="Heidelberg2009.kml#L36">36</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.4&lt;/scale&gt;</td>
+</tr><tr><th id="L37"><a href="Heidelberg2009.kml#L37">37</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L38"><a href="Heidelberg2009.kml#L38">38</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/lodging.png&lt;/href&gt;</td>
+</tr><tr><th id="L39"><a href="Heidelberg2009.kml#L39">39</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L40"><a href="Heidelberg2009.kml#L40">40</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L41"><a href="Heidelberg2009.kml#L41">41</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L42"><a href="Heidelberg2009.kml#L42">42</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;BalloonStyle&gt;</td>
+</tr><tr><th id="L43"><a href="Heidelberg2009.kml#L43">43</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;text&gt;&lt;![CDATA[&lt;table width =&#34;250&#34;&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;font size=&#34;+1&#34;&gt;&lt;b&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;cd=1&#34;&gt;$[name]&lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;Rated 4.1 out of 5.0&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-off.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;font color=&#34;#808080&#34;&gt;29 reviews&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Schiffgasse 11&lt;br/&gt;69117 Heidelberg, Germany&lt;br/&gt;06221 5366-0&lt;br/&gt;&lt;a href=&#34;http://www.gasthaus-backmulde-hotel.de/&#34; style=&#34;color:#008000&#34;&gt;gasthaus-backmulde-hotel.de&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;/maps?q=hotel+Backmulde&amp;amp;sll=49.4019,8.68024&amp;amp;sspn=0.116278,0.266841&amp;amp;ie=UTF8&amp;amp;v=2.2&amp;amp;cv=5.0.11733.9347&amp;amp;hl=en&amp;amp;latlng=4786590394093849495&amp;amp;ei=ClZVSpTAI4zcNpKjpHY&amp;amp;cd=1&amp;amp;dtab=5&#34;&gt;&lt;img src=&#34;http://base.googlehosted.com/base_media?q=maps:www.belocal.de/images/archiv/18/8925_1m.jpg&amp;amp;size=3&amp;amp;hl=en&#34;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Great service&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;A TripAdvisor Member&amp;#32; - &amp;#32;Feb 14, 2009&lt;/font&gt;&lt;br/&gt;Huge clean room for our one-night stay (husband and I and two teen children), spotless bathroom, lovely fluffy towels and a great location in the old town. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.tripadvisor.com/ShowUserReviews-g187286-d236702-m10805-r24547432-Gasthaus_Hotel_Backmulde-Heidelberg_Baden_Wurttemberg.html&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7nuAqjDJhsO4Tn4qEki4iM9GX8HWQ&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from tripadvisor.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Gasthaus Backmulde&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 2.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Jun 8, 2009&lt;/font&gt;&lt;br/&gt;Gut erhaltenes historisches GebÃ€ude der BÃ€ckerzunft in einer Seitengasse der Altstadt. Gepflegtes, angenehmes Ambiente mit guter KÃŒche und gutem Service. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.schlemmer-atlas.de/details.php%3Fid%3DboYMiiAIGSA&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7kuAGpMt2w5t_gErxJp99Rw-pwL0w&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from schlemmer-atlas.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;GeschÃ€ftlich war ich ein paar Tage...&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Michael80&amp;#32; - &amp;#32;Jun 11, 2008&lt;/font&gt;&lt;br/&gt;im &lt;b&gt;Hotel&lt;/b&gt; des Gasthauses &lt;b&gt;Backmulde&lt;/b&gt; mitten in der Heidelberger Altstadt. Gleich nebenan liegt das Zeughaus, eine Art Studentenkneipe mit groÃem Hof, &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.qype.com/place/161094-Backmulde-Gasthaus-Zepf-und-Schneider-GmbH-Heidelberg&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7lRERLdPmII_uPhwJvBr7iVr4LzDg&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from qype.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;amp;reviews=1&#34;&gt;See all 29 reviews&amp;#160;&amp;#187;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt;&amp;#160;&amp;#160;$[geDirections]]]&gt;&lt;/text&gt;</td>
+</tr><tr><th id="L44"><a href="Heidelberg2009.kml#L44">44</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/BalloonStyle&gt;</td>
+</tr><tr><th id="L45"><a href="Heidelberg2009.kml#L45">45</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L46"><a href="Heidelberg2009.kml#L46">46</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sh_poi&#34;&gt;</td>
+</tr><tr><th id="L47"><a href="Heidelberg2009.kml#L47">47</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L48"><a href="Heidelberg2009.kml#L48">48</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.4&lt;/scale&gt;</td>
+</tr><tr><th id="L49"><a href="Heidelberg2009.kml#L49">49</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L50"><a href="Heidelberg2009.kml#L50">50</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/poi.png&lt;/href&gt;</td>
+</tr><tr><th id="L51"><a href="Heidelberg2009.kml#L51">51</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L52"><a href="Heidelberg2009.kml#L52">52</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L53"><a href="Heidelberg2009.kml#L53">53</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L54"><a href="Heidelberg2009.kml#L54">54</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LabelStyle&gt;</td>
+</tr><tr><th id="L55"><a href="Heidelberg2009.kml#L55">55</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.1&lt;/scale&gt;</td>
+</tr><tr><th id="L56"><a href="Heidelberg2009.kml#L56">56</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LabelStyle&gt;</td>
+</tr><tr><th id="L57"><a href="Heidelberg2009.kml#L57">57</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L58"><a href="Heidelberg2009.kml#L58">58</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;StyleMap id=&#34;msn_lodging0&#34;&gt;</td>
+</tr><tr><th id="L59"><a href="Heidelberg2009.kml#L59">59</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L60"><a href="Heidelberg2009.kml#L60">60</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;normal&lt;/key&gt;</td>
+</tr><tr><th id="L61"><a href="Heidelberg2009.kml#L61">61</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sn_lodging0&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L62"><a href="Heidelberg2009.kml#L62">62</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L63"><a href="Heidelberg2009.kml#L63">63</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Pair&gt;</td>
+</tr><tr><th id="L64"><a href="Heidelberg2009.kml#L64">64</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;key&gt;highlight&lt;/key&gt;</td>
+</tr><tr><th id="L65"><a href="Heidelberg2009.kml#L65">65</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#sh_lodging0&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L66"><a href="Heidelberg2009.kml#L66">66</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Pair&gt;</td>
+</tr><tr><th id="L67"><a href="Heidelberg2009.kml#L67">67</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/StyleMap&gt;</td>
+</tr><tr><th id="L68"><a href="Heidelberg2009.kml#L68">68</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sn_lodging&#34;&gt;</td>
+</tr><tr><th id="L69"><a href="Heidelberg2009.kml#L69">69</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L70"><a href="Heidelberg2009.kml#L70">70</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.2&lt;/scale&gt;</td>
+</tr><tr><th id="L71"><a href="Heidelberg2009.kml#L71">71</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L72"><a href="Heidelberg2009.kml#L72">72</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/lodging.png&lt;/href&gt;</td>
+</tr><tr><th id="L73"><a href="Heidelberg2009.kml#L73">73</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L74"><a href="Heidelberg2009.kml#L74">74</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L75"><a href="Heidelberg2009.kml#L75">75</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L76"><a href="Heidelberg2009.kml#L76">76</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;BalloonStyle&gt;</td>
+</tr><tr><th id="L77"><a href="Heidelberg2009.kml#L77">77</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;text&gt;&lt;![CDATA[&lt;table width =&#34;250&#34;&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;font size=&#34;+1&#34;&gt;&lt;b&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;cd=1&#34;&gt;$[name]&lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;Rated 3.4 out of 5.0&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-half.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-off.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;font color=&#34;#808080&#34;&gt;94 reviews&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Haspelgasse 2&lt;br/&gt;69117 Heidelberg, Germany&lt;br/&gt;06221 24164&lt;br/&gt;&lt;a href=&#34;http://www.4-jahreszeiten.de/&#34; style=&#34;color:#008000&#34;&gt;4-jahreszeiten.de&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;/maps?q=hotel+vier&amp;amp;sll=49.4083,8.67547&amp;amp;sspn=0.121909,0.279807&amp;amp;ie=UTF8&amp;amp;v=2.2&amp;amp;cv=5.0.11733.9347&amp;amp;hl=en&amp;amp;latlng=4797329163860212628&amp;amp;ei=rVZVStXuFYfONe7D5YcB&amp;amp;cd=1&amp;amp;dtab=5&#34;&gt;&lt;img src=&#34;http://base.googlehosted.com/base_media?q=maps:images.activehotels.com/images/hotel/max300/310/310727.jpg&amp;amp;size=3&amp;amp;hl=en&#34;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Vier Jahreszeiten, Heidelberg&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 5.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Mature couple&amp;#32; - &amp;#32;Jun 16, 2008&lt;/font&gt;&lt;br/&gt;Positive: I liked that the room was super clean, updated, and there was no smell of smoke anywhere in the &lt;b&gt;hotel&lt;/b&gt; including common areas. Very tidy &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.booking.com/hotel/de/vier-jahreszeiten.en.html%3Faid%3D307415%3Btab%3D4&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7mNdYOITOPRQ6JNnLXYStPEEvNk1A&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from booking.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;GÃŒnstiges Altstadthotel in super Lage&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.5 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-half.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Paar bei StÃ€dtereise&amp;#32; - &amp;#32;Apr 19, 2009&lt;/font&gt;&lt;br/&gt;Da wir nur 1 Nacht in Heidelberg verweilten wÃ€hlten wir ein zentral gelegenes &lt;b&gt;Hotel&lt;/b&gt; um die SehenswÃŒrdigkeiten und die Altstadt schnell zu erreichen. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.holidaycheck.de/bericht.php%3Fch%3Dhb%26typ%3D2%26id%3D1305002%26agent%3Dhc.gl.00.01&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7kR4oh5g2xxpwSqAT0cEYQTPIipIg&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from holidaycheck.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Vier Jahreszeiten&lt;/b&gt; &amp;#32;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;No rating available&amp;#32; - &amp;#32;Apr 2, 2009&lt;/font&gt;&lt;br/&gt;Die Anlegestelle des Heidelberger Solar-Bootes befindet sich direkt vor unserer HaustÃŒr. Sie erreichen folgende SehenswÃŒrdigkeiten innerhalb weniger &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.tvtrip.de/heidelberg-hotels/vier-jahreszeiten&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7mB0CqMe-dhSvHJs7bGiN8jSMQyLA&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from tvtrip.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;amp;reviews=1&#34;&gt;See all 94 reviews&amp;#160;&amp;#187;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt;&amp;#160;&amp;#160;$[geDirections]]]&gt;&lt;/text&gt;</td>
+</tr><tr><th id="L78"><a href="Heidelberg2009.kml#L78">78</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/BalloonStyle&gt;</td>
+</tr><tr><th id="L79"><a href="Heidelberg2009.kml#L79">79</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L80"><a href="Heidelberg2009.kml#L80">80</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sh_lodging&#34;&gt;</td>
+</tr><tr><th id="L81"><a href="Heidelberg2009.kml#L81">81</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L82"><a href="Heidelberg2009.kml#L82">82</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.4&lt;/scale&gt;</td>
+</tr><tr><th id="L83"><a href="Heidelberg2009.kml#L83">83</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L84"><a href="Heidelberg2009.kml#L84">84</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/lodging.png&lt;/href&gt;</td>
+</tr><tr><th id="L85"><a href="Heidelberg2009.kml#L85">85</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L86"><a href="Heidelberg2009.kml#L86">86</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L87"><a href="Heidelberg2009.kml#L87">87</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L88"><a href="Heidelberg2009.kml#L88">88</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;BalloonStyle&gt;</td>
+</tr><tr><th id="L89"><a href="Heidelberg2009.kml#L89">89</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;text&gt;&lt;![CDATA[&lt;table width =&#34;250&#34;&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;font size=&#34;+1&#34;&gt;&lt;b&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;cd=1&#34;&gt;$[name]&lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;Rated 3.4 out of 5.0&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-half.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-off.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;font color=&#34;#808080&#34;&gt;94 reviews&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Haspelgasse 2&lt;br/&gt;69117 Heidelberg, Germany&lt;br/&gt;06221 24164&lt;br/&gt;&lt;a href=&#34;http://www.4-jahreszeiten.de/&#34; style=&#34;color:#008000&#34;&gt;4-jahreszeiten.de&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;/maps?q=hotel+vier&amp;amp;sll=49.4083,8.67547&amp;amp;sspn=0.121909,0.279807&amp;amp;ie=UTF8&amp;amp;v=2.2&amp;amp;cv=5.0.11733.9347&amp;amp;hl=en&amp;amp;latlng=4797329163860212628&amp;amp;ei=rVZVStXuFYfONe7D5YcB&amp;amp;cd=1&amp;amp;dtab=5&#34;&gt;&lt;img src=&#34;http://base.googlehosted.com/base_media?q=maps:images.activehotels.com/images/hotel/max300/310/310727.jpg&amp;amp;size=3&amp;amp;hl=en&#34;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Vier Jahreszeiten, Heidelberg&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 5.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Mature couple&amp;#32; - &amp;#32;Jun 16, 2008&lt;/font&gt;&lt;br/&gt;Positive: I liked that the room was super clean, updated, and there was no smell of smoke anywhere in the &lt;b&gt;hotel&lt;/b&gt; including common areas. Very tidy &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.booking.com/hotel/de/vier-jahreszeiten.en.html%3Faid%3D307415%3Btab%3D4&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7mNdYOITOPRQ6JNnLXYStPEEvNk1A&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from booking.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;GÃŒnstiges Altstadthotel in super Lage&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.5 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-half.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Paar bei StÃ€dtereise&amp;#32; - &amp;#32;Apr 19, 2009&lt;/font&gt;&lt;br/&gt;Da wir nur 1 Nacht in Heidelberg verweilten wÃ€hlten wir ein zentral gelegenes &lt;b&gt;Hotel&lt;/b&gt; um die SehenswÃŒrdigkeiten und die Altstadt schnell zu erreichen. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.holidaycheck.de/bericht.php%3Fch%3Dhb%26typ%3D2%26id%3D1305002%26agent%3Dhc.gl.00.01&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7kR4oh5g2xxpwSqAT0cEYQTPIipIg&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from holidaycheck.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Vier Jahreszeiten&lt;/b&gt; &amp;#32;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;No rating available&amp;#32; - &amp;#32;Apr 2, 2009&lt;/font&gt;&lt;br/&gt;Die Anlegestelle des Heidelberger Solar-Bootes befindet sich direkt vor unserer HaustÃŒr. Sie erreichen folgende SehenswÃŒrdigkeiten innerhalb weniger &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.tvtrip.de/heidelberg-hotels/vier-jahreszeiten&amp;dq=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7mB0CqMe-dhSvHJs7bGiN8jSMQyLA&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from tvtrip.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+vier&amp;sll=49.4083,8.67547&amp;sspn=0.121909,0.279807&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4797329163860212628&amp;ei=rVZVStXuFYfONe7D5YcB&amp;amp;reviews=1&#34;&gt;See all 94 reviews&amp;#160;&amp;#187;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt;&amp;#160;&amp;#160;$[geDirections]]]&gt;&lt;/text&gt;</td>
+</tr><tr><th id="L90"><a href="Heidelberg2009.kml#L90">90</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/BalloonStyle&gt;</td>
+</tr><tr><th id="L91"><a href="Heidelberg2009.kml#L91">91</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L92"><a href="Heidelberg2009.kml#L92">92</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;sn_lodging0&#34;&gt;</td>
+</tr><tr><th id="L93"><a href="Heidelberg2009.kml#L93">93</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L94"><a href="Heidelberg2009.kml#L94">94</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1.2&lt;/scale&gt;</td>
+</tr><tr><th id="L95"><a href="Heidelberg2009.kml#L95">95</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L96"><a href="Heidelberg2009.kml#L96">96</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;http://maps.google.com/mapfiles/kml/shapes/lodging.png&lt;/href&gt;</td>
+</tr><tr><th id="L97"><a href="Heidelberg2009.kml#L97">97</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L98"><a href="Heidelberg2009.kml#L98">98</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hotSpot x=&#34;0.5&#34; y=&#34;0&#34; xunits=&#34;fraction&#34; yunits=&#34;fraction&#34;/&gt;</td>
+</tr><tr><th id="L99"><a href="Heidelberg2009.kml#L99">99</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L100"><a href="Heidelberg2009.kml#L100">100</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;BalloonStyle&gt;</td>
+</tr><tr><th id="L101"><a href="Heidelberg2009.kml#L101">101</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;text&gt;&lt;![CDATA[&lt;table width =&#34;250&#34;&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;font size=&#34;+1&#34;&gt;&lt;b&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;cd=1&#34;&gt;$[name]&lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;Rated 4.1 out of 5.0&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-on.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;img src=&#34;http://www.google.com/images/syt-star-off.gif&#34; alt=&#34;&#34;/&gt;&amp;nbsp;&lt;font color=&#34;#808080&#34;&gt;29 reviews&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Schiffgasse 11&lt;br/&gt;69117 Heidelberg, Germany&lt;br/&gt;06221 5366-0&lt;br/&gt;&lt;a href=&#34;http://www.gasthaus-backmulde-hotel.de/&#34; style=&#34;color:#008000&#34;&gt;gasthaus-backmulde-hotel.de&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;/maps?q=hotel+Backmulde&amp;amp;sll=49.4019,8.68024&amp;amp;sspn=0.116278,0.266841&amp;amp;ie=UTF8&amp;amp;v=2.2&amp;amp;cv=5.0.11733.9347&amp;amp;hl=en&amp;amp;latlng=4786590394093849495&amp;amp;ei=ClZVSpTAI4zcNpKjpHY&amp;amp;cd=1&amp;amp;dtab=5&#34;&gt;&lt;img src=&#34;http://base.googlehosted.com/base_media?q=maps:www.belocal.de/images/archiv/18/8925_1m.jpg&amp;amp;size=3&amp;amp;hl=en&#34;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Great service&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;A TripAdvisor Member&amp;#32; - &amp;#32;Feb 14, 2009&lt;/font&gt;&lt;br/&gt;Huge clean room for our one-night stay (husband and I and two teen children), spotless bathroom, lovely fluffy towels and a great location in the old town. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.tripadvisor.com/ShowUserReviews-g187286-d236702-m10805-r24547432-Gasthaus_Hotel_Backmulde-Heidelberg_Baden_Wurttemberg.html&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7nuAqjDJhsO4Tn4qEki4iM9GX8HWQ&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from tripadvisor.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;Gasthaus Backmulde&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 2.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Jun 8, 2009&lt;/font&gt;&lt;br/&gt;Gut erhaltenes historisches GebÃ€ude der BÃ€ckerzunft in einer Seitengasse der Altstadt. Gepflegtes, angenehmes Ambiente mit guter KÃŒche und gutem Service. &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.schlemmer-atlas.de/details.php%3Fid%3DboYMiiAIGSA&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7kuAGpMt2w5t_gErxJp99Rw-pwL0w&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from schlemmer-atlas.de &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;b&gt;GeschÃ€ftlich war ich ein paar Tage...&lt;/b&gt; &amp;#32;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;Rated 4.0 out of 5.0&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-on.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;img src=&#34;http://www.google.com/images/sy-star-off.gif&#34;{BI_SPACE}}alt=&#34;&#34;/&gt;&lt;font color=&#34;#808080&#34;&gt;&amp;#32; - &amp;#32;Michael80&amp;#32; - &amp;#32;Jun 11, 2008&lt;/font&gt;&lt;br/&gt;im &lt;b&gt;Hotel&lt;/b&gt; des Gasthauses &lt;b&gt;Backmulde&lt;/b&gt; mitten in der Heidelberger Altstadt. Gleich nebenan liegt das Zeughaus, eine Art Studentenkneipe mit groÃem Hof, &lt;b&gt;...&lt;/b&gt; &lt;br/&gt;&lt;a href=&#34;http://maps.google.com/local_url?q=http://www.qype.com/place/161094-Backmulde-Gasthaus-Zepf-und-Schneider-GmbH-Heidelberg&amp;dq=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;s=ANYYN7lRERLdPmII_uPhwJvBr7iVr4LzDg&#34;&gt;&lt;font color=&#34;#008000&#34;&gt;More from qype.com &amp;raquo;&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&#34;2&#34;&gt;&lt;br/&gt;&lt;a href=&#34;http://maps.google.com/maps?q=hotel+Backmulde&amp;sll=49.4019,8.68024&amp;sspn=0.116278,0.266841&amp;ie=UTF8&amp;v=2.2&amp;cv=5.0.11733.9347&amp;hl=en&amp;latlng=4786590394093849495&amp;ei=ClZVSpTAI4zcNpKjpHY&amp;amp;reviews=1&#34;&gt;See all 29 reviews&amp;#160;&amp;#187;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt;&amp;#160;&amp;#160;$[geDirections]]]&gt;&lt;/text&gt;</td>
+</tr><tr><th id="L102"><a href="Heidelberg2009.kml#L102">102</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/BalloonStyle&gt;</td>
+</tr><tr><th id="L103"><a href="Heidelberg2009.kml#L103">103</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L104"><a href="Heidelberg2009.kml#L104">104</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Folder&gt;</td>
+</tr><tr><th id="L105"><a href="Heidelberg2009.kml#L105">105</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Heidelberg 2009&lt;/name&gt;</td>
+</tr><tr><th id="L106"><a href="Heidelberg2009.kml#L106">106</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;open&gt;1&lt;/open&gt;</td>
+</tr><tr><th id="L107"><a href="Heidelberg2009.kml#L107">107</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L108"><a href="Heidelberg2009.kml#L108">108</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Marstallhof 4, 69117 Heidelberg, Germany&lt;/name&gt;</td>
+</tr><tr><th id="L109"><a href="Heidelberg2009.kml#L109">109</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;open&gt;1&lt;/open&gt;</td>
+</tr><tr><th id="L110"><a href="Heidelberg2009.kml#L110">110</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;address&gt;Marstallhof 4, 69117 Heidelberg, Germany&lt;/address&gt;</td>
+</tr><tr><th id="L111"><a href="Heidelberg2009.kml#L111">111</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LookAt&gt;</td>
+</tr><tr><th id="L112"><a href="Heidelberg2009.kml#L112">112</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;longitude&gt;8.704197135537541&lt;/longitude&gt;</td>
+</tr><tr><th id="L113"><a href="Heidelberg2009.kml#L113">113</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;latitude&gt;49.41232039564748&lt;/latitude&gt;</td>
+</tr><tr><th id="L114"><a href="Heidelberg2009.kml#L114">114</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitude&gt;0&lt;/altitude&gt;</td>
+</tr><tr><th id="L115"><a href="Heidelberg2009.kml#L115">115</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;range&gt;249.8462026662044&lt;/range&gt;</td>
+</tr><tr><th id="L116"><a href="Heidelberg2009.kml#L116">116</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tilt&gt;0&lt;/tilt&gt;</td>
+</tr><tr><th id="L117"><a href="Heidelberg2009.kml#L117">117</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;heading&gt;1.290725267954758e-05&lt;/heading&gt;</td>
+</tr><tr><th id="L118"><a href="Heidelberg2009.kml#L118">118</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;relativeToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L119"><a href="Heidelberg2009.kml#L119">119</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LookAt&gt;</td>
+</tr><tr><th id="L120"><a href="Heidelberg2009.kml#L120">120</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#msn_poi&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L121"><a href="Heidelberg2009.kml#L121">121</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L122"><a href="Heidelberg2009.kml#L122">122</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt;8.704495542815728,49.41252808636408,0&lt;/coordinates&gt;</td>
+</tr><tr><th id="L123"><a href="Heidelberg2009.kml#L123">123</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L124"><a href="Heidelberg2009.kml#L124">124</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L125"><a href="Heidelberg2009.kml#L125">125</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L126"><a href="Heidelberg2009.kml#L126">126</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Hotel Vier Jahreszeiten&lt;/name&gt;</td>
+</tr><tr><th id="L127"><a href="Heidelberg2009.kml#L127">127</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;address&gt;Haspelgasse 2&amp;lt;br/&amp;gt;69117 Heidelberg, Germany&lt;/address&gt;</td>
+</tr><tr><th id="L128"><a href="Heidelberg2009.kml#L128">128</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Snippet maxLines=&#34;2&#34;&gt;&lt;![CDATA[Haspelgasse 2, 69117 Heidelberg, Germany&lt;br/&gt;06221 24164]]&gt;&lt;/Snippet&gt;</td>
+</tr><tr><th id="L129"><a href="Heidelberg2009.kml#L129">129</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#msn_lodging&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L130"><a href="Heidelberg2009.kml#L130">130</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L131"><a href="Heidelberg2009.kml#L131">131</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt;8.708911000000001,49.413249,0&lt;/coordinates&gt;</td>
+</tr><tr><th id="L132"><a href="Heidelberg2009.kml#L132">132</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L133"><a href="Heidelberg2009.kml#L133">133</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L134"><a href="Heidelberg2009.kml#L134">134</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L135"><a href="Heidelberg2009.kml#L135">135</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Gasthaus Backmulde&lt;/name&gt;</td>
+</tr><tr><th id="L136"><a href="Heidelberg2009.kml#L136">136</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;address&gt;Schiffgasse 11&amp;lt;br/&amp;gt;69117 Heidelberg, Germany&lt;/address&gt;</td>
+</tr><tr><th id="L137"><a href="Heidelberg2009.kml#L137">137</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Snippet maxLines=&#34;2&#34;&gt;&lt;![CDATA[Schiffgasse 11, 69117 Heidelberg, Germany&lt;br/&gt;06221 5366-0]]&gt;&lt;/Snippet&gt;</td>
+</tr><tr><th id="L138"><a href="Heidelberg2009.kml#L138">138</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#msn_lodging0&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L139"><a href="Heidelberg2009.kml#L139">139</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L140"><a href="Heidelberg2009.kml#L140">140</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt;8.703682000000001,49.41184699999999,0&lt;/coordinates&gt;</td>
+</tr><tr><th id="L141"><a href="Heidelberg2009.kml#L141">141</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L142"><a href="Heidelberg2009.kml#L142">142</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L143"><a href="Heidelberg2009.kml#L143">143</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Folder&gt;</td>
+</tr><tr><th id="L144"><a href="Heidelberg2009.kml#L144">144</a></th>
+<td>&lt;/Document&gt;</td>
+</tr><tr><th id="L145"><a href="Heidelberg2009.kml#L145">145</a></th>
+<td>&lt;/kml&gt;</td>
+</tr></tbody></table>
+ </div>
+ 
+
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="Heidelberg2009.kml?format=raw">Original Format</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../../../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../../../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

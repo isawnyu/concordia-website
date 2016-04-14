@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+21,Create a set of IDs that correspond to citations of all Barrington Atlas features,thomase,thomase,Not a deliverable from proposal_ but clearly a high priority based on discussion in first workshop. [wiki:BAtlasIDs Thinking then]. [http://horothesia.blogspot.com/search/label/batlasids Status now].,task,closed,blocker,Feeds for IAph 2007,identifiers,,fixed,batlasid,

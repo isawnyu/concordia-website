@@ -1,0 +1,185 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>NEH_DFGworkshopTwo - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="NEH_DFGworkshopTwo?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="NEH_DFGworkshopTwo?action=diff&amp;version=58">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="NewYorkWorkshop">New York Workshop</h1>
+<p>
+See now: <a class="wiki" href="WorkshopTwoResults">WorkshopTwoResults</a>
+</p>
+<p>
+Dates: 4-6 March 2010
+Location: ISAW (15 East 84th Street, New York, NY 10028; <a class="ext-link" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15+E+84th+St,+New+York,+NY+10028&amp;sll=37.0625,-95.677068&amp;sspn=50.51141,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=15+E+84th+St,+New+York,+10028&amp;z=16"><span class="icon">map</span></a>)
+Start time: 9:00 a.m. Eastern daily
+End time: 5:00 p.m. Eastern daily
+</p>
+<ul><li><a class="ext-link" href="http://www.hotelwalesnyc.com/"><span class="icon">Hotel Wales</span></a> where some of us are staying (between 92nd and 93rd street on the east side of Madison Avenue). And <a class="ext-link" href="http://www.bwnewark.com/"><span class="icon">Newark hotel</span></a> for Saturday night for JC.
+</li><li><a class="wiki" href="WorkshopTwoDirections">Directions to Hotel Wales</a>
+</li></ul><h2 id="Logistics">Logistics</h2>
+<p>
+Lunches on workshop days will be provided at ISAW. Breakfasts, dinners and meals on other days are on your own.
+</p>
+<h2 id="OtheroptionaleventsatISAWduringyourvisit">Other optional events at ISAW during your visit</h2>
+<ul><li>3 March, 6:00 p.m.: Lecture by Sergey Minyaev: "Huns of Asia. New archaeological discoveries in Russia" (<a class="ext-link" href="http://www.nyu.edu/isaw/events/minyaev-2010-03-03.htm"><span class="icon">details</span></a>)
+</li><li>4 March, 7:00 p.m.: Screening of "Reenactment (Reconstituirea)" (1968) (<a class="ext-link" href="http://www.nyu.edu/isaw/events/reenactment-2010-03-04.htm"><span class="icon">details</span></a>)
+</li><li>Ongoing, Tuesday–Sunday 11am–6pm, Friday 11am–8pm: Exhibition: The Lost World of Old Europe: The Danube Valley, 5000-3500 BC (free guided tour Fridays at 6:00 p.m.) (<a class="ext-link" href="http://www.nyu.edu/isaw/exhibitions/oldeurope/"><span class="icon">details</span></a>)
+</li></ul><h2 id="Agenda">Agenda</h2>
+<ul><li>please add proposed topical bullets here
+</li><li>Discussion and development of <a class="wiki" href="EDHgeographyTable">EDH geography database</a>
+<ul><li>How do we deal with the creation new Pleiades identifier, because EDH has found a new ancient name which the Barrington missed / could not have had.
+</li><li>Enumerate use cases.
+</li></ul></li><li>Discussion of <a class="ext-link" href="http://concordia.atlantides.org/examples/edh-mockups/glamoc.html"><span class="icon">Mock up</span></a> for demonstration of cooperation between EDH and Pleiades.
+</li><li>Discussion of potential and steps for more EpiDoc functionality for EDH
+</li><li>Planning for future work.
+<ul><li>Application for money to be provided to employ persons for EDH and Pleiades for a two to three year period?
+</li></ul></li><li>Specific discussions of the interfaces what info can we ask for between the two systems, atom feeds sparql etc.
+</li></ul><ul><li>Thursday
+<ul><li>Geography and Pleiades in action
+<ul><li>Coding for these things
+</li></ul></li><li>better search of Pleiades
+<ul><li>review Heidelberg "spec"
+</li></ul></li><li>check correspondence between Pleiades and modern (e.g. Geonames) coordinates
+<ul><li>visual / map check
+</li></ul></li><li>Pleiades can discover EDH geographic relationships dynamically (Concordia style atom feeds)
+</li><li>Notification of Pleiades updates
+<ul><li>feed of changes
+</li><li>pubsub model?
+</li></ul></li><li>geographic representations for users (EDH presentation / use of Pleiades way of showing its information on this)
+</li><li>geographical search capability of what we might want to add
+</li><li>Trismegistos / EAGLE
+</li><li>EBH bibliography database with identifiers look to the future and how we might implement
+</li></ul></li></ul><ul><li>Afternoon session
+<ul><li>Structure of Crawler / Index / Search Interface. See appended jpgs below.
+</li><li>HD geographic aspects. What HD needs from Pleiades. Match Interface.
+<ul><li>When EDH does not have a record in the GeoDatabase. Click a button related to GeoIdentifier which triggers a match interface action with Pleiades. Pleiades sends back a list / identifications on a map. Once the person makes the identifaction then a click creates the new GeoDatabase entry.
+</li><li>browser tab 1 GeoDatabase; browser tab 2 Pleiades Form 
+</li></ul></li></ul></li></ul><ul><li>Friday
+<ul><li>Look at SoSOL in action
+</li><li>Discus EpiDoc in the framework of having seen SoSOL working
+</li><li>Prototype a batch search: <a class="wiki" href="PlaceMatching">PlaceMatching</a>
+</li></ul></li></ul><ul><li>Possibility of introducing a new box on the result set of any given EDH search, in which both EDH modern findspot and Pleiades Ancient findspot on the same map.
+<ul><li>modern map basse from google
+</li><li>pleiades location via kml
+</li><li>coordinates held by EDH with an appropriate label
+</li><li>link to Pleiades 
+</li><li>link to origin of the most specific coordinates (often Geonames, but not always)
+</li></ul></li></ul><ul><li>Afternoon session
+<ul><li>return briefly to mock up - we are happy that we captured everything we need and want in the above description of the new box.
+</li><li>How do we deal with the creation new Pleiades identifier, because EDH has found a new ancient name which the Barrington missed / could not have had. And corrections.
+<ul><li>Workspaces in Pleiades
+</li></ul></li><li>Return to categories of "bei", "inter"
+<ul><li>data model must accommodate as many as
+<ul><li>2 pleiades URLs: fo_antik inter
+</li><li>2 coordinate pairs: fo_modern zwischen
+</li><li>2 Geonames URLs: as a complement to double fo_modern entry
+</li></ul></li></ul></li><li>CIL and other corpus/edition maps scanning why what use (see <a class="wiki" href="MapList">MapList</a> made in July)?
+<ul><li>Reason: supply coordinates for (modern) named sites that are only known through the corpus publication itself (or seem so)
+</li><li>Once maps are scanned, possible to do rectification via <a class="ext-link" href="http://maps.nypl.org/warper/"><span class="icon">http://maps.nypl.org/warper/</span></a> ??
+</li><li>TE to contact Harvard, Tufts about already-scanned maps
+</li></ul></li><li>geographical search capability of what we might want to add
+<ul><li>possibilities from the user perspective:
+<ul><li>select a place by name, then enter a radius distance
+</li><li>use a map to draw a rectangle, which then functions as a bounding box for the search
+</li></ul></li><li>technical requirements
+<ul><li>extend db2 functionality to support spatial indexing/query
+<ul><li>IBM Spatial Extender (not free?)
+</li></ul></li><li>modify middleware and user interface to support entry and addition of spatial query aspects
+</li><li>significant programming and testing commitment; difficult to assess how much without knowing more about what's required in terms of database add-ons and their configuration
+</li></ul></li></ul></li><li>Trismegistos / EAGLE
+</li><li>EBH bibliography database with identifiers look to the future and how we might implement
+<ul><li>EBH idno 1437 is a really nice example
+</li></ul></li></ul></li></ul><p>
+Dont forget to photocopy receipts, I-94s etc.
+</p>
+<ul><li>Saturday 
+<ul><li>Next steps
+</li><li>How we think of stuff for an application
+</li></ul></li></ul></div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0304001333.jpg">0304001333.jpg</a> (107.9 kB) -<q>agenda/features list from Thursday</q>, added by thomase on 03/04/10 13:45:42.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0304001417.jpg">0304001417.jpg</a> (106.0 kB) -<q>resource indexing architecture</q>, added by thomase on 03/04/10 14:19:48.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0305001138.jpg">0305001138.jpg</a> (106.5 kB) -<q>rough architecture ideas for central "EAGLE" services</q>, added by thomase on 03/05/10 11:44:03.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0305001138a.jpg">0305001138a.jpg</a> (101.8 kB) -<q>rough architecture ideas for EDH+<a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/EpiDoc" rel="nofollow">EpiDoc?</a></q>, added by thomase on 03/05/10 11:44:25.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0305001319.jpg">0305001319.jpg</a> (101.7 kB) -<q>ideas about the inscription page at EDH with a map</q>, added by thomase on 03/05/10 13:23:14.</li><li class="tkt-chg-change"><a href="../attachment/wiki/NEH_DFGworkshopTwo/0306000909.jpg">0306000909.jpg</a> (106.4 kB) -<q>inscription page map for inter/zwischen case (maximum 2 ancient and 2 modern locations)</q>, added by thomase on 03/06/10 09:15:14.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="NEH_DFGworkshopTwo?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

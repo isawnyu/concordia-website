@@ -1,0 +1,2090 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>AtomLocationByReference: ba065grid.kml - Concordia - Trac</title><link rel="start" href="../../../wiki.2" /><link rel="search" href="../../../search" /><link rel="help" href="../../../wiki/TracGuide" /><link rel="stylesheet" href="../../../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../../../chrome/common/css/code.css" type="text/css" /><link rel="icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../../../wiki/AtomLocationByReference" title="AtomLocationByReference" /><link rel="alternate" href="ba065grid.kml?format=raw" title="Original Format" type="application/vnd.google-earth.kml+xml; charset=iso-8859-15" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../../../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../../../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../../../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../../../settings">Settings</a></li><li><a accesskey="6" href="../../../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../../../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../../../wiki.2">Wiki</a></li><li><a accesskey="2" href="../../../timeline">Timeline</a></li><li><a accesskey="3" href="../../../roadmap">Roadmap</a></li><li><a href="../../../browser">Browse Source</a></li><li><a href="../../../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../../../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="attachment">
+
+
+ <h1><a href="../../../wiki/AtomLocationByReference">AtomLocationByReference</a>: ba065grid.kml</h1>
+ <table id="info" summary="Description"><tbody><tr>
+   <th scope="col">
+    File ba065grid.kml, 45.5 kB 
+    (added by seang,  8 years ago)
+   </th></tr><tr>
+   <td class="message"></td>
+  </tr>
+ </tbody></table>
+ <div id="preview">
+   <table class="code"><thead><tr><th class="lineno">Line</th><th class="content">&nbsp;</th></tr></thead><tbody><tr><th id="L1"><a href="ba065grid.kml#L1">1</a></th>
+<td>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</td>
+</tr><tr><th id="L2"><a href="ba065grid.kml#L2">2</a></th>
+<td>&lt;kml xmlns=&#34;http://earth.google.com/kml/2.1&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</td>
+</tr><tr><th id="L3"><a href="ba065grid.kml#L3">3</a></th>
+<td>&nbsp; &nbsp; xsi:schemaLocation=&#34;http://earth.google.com/kml/2.1 file:/C:/badigit/kml/kml21.xsd&#34;&gt;</td>
+</tr><tr><th id="L4"><a href="ba065grid.kml#L4">4</a></th>
+<td>&nbsp; &nbsp; &lt;Document&gt;</td>
+</tr><tr><th id="L5"><a href="ba065grid.kml#L5">5</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Barrington Atlas Map 65 Footprint&lt;/name&gt;</td>
+</tr><tr><th id="L6"><a href="ba065grid.kml#L6">6</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;open&gt;1&lt;/open&gt;</td>
+</tr><tr><th id="L7"><a href="ba065grid.kml#L7">7</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;description&gt;Spatial footprint, with grid square outlines, for Barrington Atlas Map 65&lt;/description&gt;</td>
+</tr><tr><th id="L8"><a href="ba065grid.kml#L8">8</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;styleGridSquare&#34;&gt;</td>
+</tr><tr><th id="L9"><a href="ba065grid.kml#L9">9</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LineStyle&gt;</td>
+</tr><tr><th id="L10"><a href="ba065grid.kml#L10">10</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;color&gt;99FFFF00&lt;/color&gt;</td>
+</tr><tr><th id="L11"><a href="ba065grid.kml#L11">11</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;colorMode&gt;normal&lt;/colorMode&gt;</td>
+</tr><tr><th id="L12"><a href="ba065grid.kml#L12">12</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;width&gt;1&lt;/width&gt;</td>
+</tr><tr><th id="L13"><a href="ba065grid.kml#L13">13</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LineStyle&gt;</td>
+</tr><tr><th id="L14"><a href="ba065grid.kml#L14">14</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;PolyStyle&gt;</td>
+</tr><tr><th id="L15"><a href="ba065grid.kml#L15">15</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;color&gt;7fff0000&lt;/color&gt;</td>
+</tr><tr><th id="L16"><a href="ba065grid.kml#L16">16</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;colorMode&gt;normal&lt;/colorMode&gt;</td>
+</tr><tr><th id="L17"><a href="ba065grid.kml#L17">17</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;fill&gt;0&lt;/fill&gt;</td>
+</tr><tr><th id="L18"><a href="ba065grid.kml#L18">18</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outline&gt;1&lt;/outline&gt;</td>
+</tr><tr><th id="L19"><a href="ba065grid.kml#L19">19</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/PolyStyle&gt;</td>
+</tr><tr><th id="L20"><a href="ba065grid.kml#L20">20</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L21"><a href="ba065grid.kml#L21">21</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Style id=&#34;styleGridLabel&#34;&gt;</td>
+</tr><tr><th id="L22"><a href="ba065grid.kml#L22">22</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;IconStyle&gt;</td>
+</tr><tr><th id="L23"><a href="ba065grid.kml#L23">23</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;color&gt;00000000&lt;/color&gt;</td>
+</tr><tr><th id="L24"><a href="ba065grid.kml#L24">24</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Icon&gt;</td>
+</tr><tr><th id="L25"><a href="ba065grid.kml#L25">25</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;href&gt;root://icons/palette-4.png&lt;/href&gt;</td>
+</tr><tr><th id="L26"><a href="ba065grid.kml#L26">26</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Icon&gt;</td>
+</tr><tr><th id="L27"><a href="ba065grid.kml#L27">27</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/IconStyle&gt;</td>
+</tr><tr><th id="L28"><a href="ba065grid.kml#L28">28</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LabelStyle&gt;</td>
+</tr><tr><th id="L29"><a href="ba065grid.kml#L29">29</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;color&gt;FFFFFFFF&lt;/color&gt;</td>
+</tr><tr><th id="L30"><a href="ba065grid.kml#L30">30</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;colorMode&gt;normal&lt;/colorMode&gt;</td>
+</tr><tr><th id="L31"><a href="ba065grid.kml#L31">31</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;scale&gt;1&lt;/scale&gt;</td>
+</tr><tr><th id="L32"><a href="ba065grid.kml#L32">32</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LabelStyle&gt;</td>
+</tr><tr><th id="L33"><a href="ba065grid.kml#L33">33</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Style&gt;</td>
+</tr><tr><th id="L34"><a href="ba065grid.kml#L34">34</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Folder&gt;</td>
+</tr><tr><th id="L35"><a href="ba065grid.kml#L35">35</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Grid Squares&lt;/name&gt;</td>
+</tr><tr><th id="L36"><a href="ba065grid.kml#L36">36</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;a1&#34;&gt;</td>
+</tr><tr><th id="L37"><a href="ba065grid.kml#L37">37</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A1&lt;/name&gt;</td>
+</tr><tr><th id="L38"><a href="ba065grid.kml#L38">38</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L39"><a href="ba065grid.kml#L39">39</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L40"><a href="ba065grid.kml#L40">40</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L41"><a href="ba065grid.kml#L41">41</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L42"><a href="ba065grid.kml#L42">42</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L43"><a href="ba065grid.kml#L43">43</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L44"><a href="ba065grid.kml#L44">44</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9992600000005,37.9987299999993,0 28.9991900000005,38.0865900000008,0</td>
+</tr><tr><th id="L45"><a href="ba065grid.kml#L45">45</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.5426800000005,38.0810199999996,0 28.5449000000008,37.9986900000004,0</td>
+</tr><tr><th id="L46"><a href="ba065grid.kml#L46">46</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9992600000005,37.9987299999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L47"><a href="ba065grid.kml#L47">47</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L48"><a href="ba065grid.kml#L48">48</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L49"><a href="ba065grid.kml#L49">49</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L50"><a href="ba065grid.kml#L50">50</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L51"><a href="ba065grid.kml#L51">51</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;a2&#34;&gt;</td>
+</tr><tr><th id="L52"><a href="ba065grid.kml#L52">52</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A2&lt;/name&gt;</td>
+</tr><tr><th id="L53"><a href="ba065grid.kml#L53">53</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L54"><a href="ba065grid.kml#L54">54</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L55"><a href="ba065grid.kml#L55">55</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L56"><a href="ba065grid.kml#L56">56</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L57"><a href="ba065grid.kml#L57">57</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L58"><a href="ba065grid.kml#L58">58</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L59"><a href="ba065grid.kml#L59">59</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.5449000000008,37.9986900000004,0 28.5568800000001,37.4993799999993,0</td>
+</tr><tr><th id="L60"><a href="ba065grid.kml#L60">60</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9994200000001,37.4994900000002,0 28.9992600000005,37.9987299999993,0</td>
+</tr><tr><th id="L61"><a href="ba065grid.kml#L61">61</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.5449000000008,37.9986900000004,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L62"><a href="ba065grid.kml#L62">62</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L63"><a href="ba065grid.kml#L63">63</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L64"><a href="ba065grid.kml#L64">64</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L65"><a href="ba065grid.kml#L65">65</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L66"><a href="ba065grid.kml#L66">66</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;a3&#34;&gt;</td>
+</tr><tr><th id="L67"><a href="ba065grid.kml#L67">67</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A3&lt;/name&gt;</td>
+</tr><tr><th id="L68"><a href="ba065grid.kml#L68">68</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L69"><a href="ba065grid.kml#L69">69</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L70"><a href="ba065grid.kml#L70">70</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L71"><a href="ba065grid.kml#L71">71</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L72"><a href="ba065grid.kml#L72">72</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L73"><a href="ba065grid.kml#L73">73</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L74"><a href="ba065grid.kml#L74">74</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.5568800000001,37.4993799999993,0 28.5681700000005,36.9990199999993,0</td>
+</tr><tr><th id="L75"><a href="ba065grid.kml#L75">75</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9996499999997,36.9991100000007,0 28.9994200000001,37.4994900000002,0</td>
+</tr><tr><th id="L76"><a href="ba065grid.kml#L76">76</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.5568800000001,37.4993799999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L77"><a href="ba065grid.kml#L77">77</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L78"><a href="ba065grid.kml#L78">78</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L79"><a href="ba065grid.kml#L79">79</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L80"><a href="ba065grid.kml#L80">80</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L81"><a href="ba065grid.kml#L81">81</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;a4&#34;&gt;</td>
+</tr><tr><th id="L82"><a href="ba065grid.kml#L82">82</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A4&lt;/name&gt;</td>
+</tr><tr><th id="L83"><a href="ba065grid.kml#L83">83</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L84"><a href="ba065grid.kml#L84">84</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L85"><a href="ba065grid.kml#L85">85</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L86"><a href="ba065grid.kml#L86">86</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L87"><a href="ba065grid.kml#L87">87</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L88"><a href="ba065grid.kml#L88">88</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L89"><a href="ba065grid.kml#L89">89</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.5681700000005,36.9990199999993,0 28.5799299999999,36.4998599999999,0</td>
+</tr><tr><th id="L90"><a href="ba065grid.kml#L90">90</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9997000000003,36.4995699999999,0 28.9996499999997,36.9991100000007,0</td>
+</tr><tr><th id="L91"><a href="ba065grid.kml#L91">91</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.5681700000005,36.9990199999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L92"><a href="ba065grid.kml#L92">92</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L93"><a href="ba065grid.kml#L93">93</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L94"><a href="ba065grid.kml#L94">94</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L95"><a href="ba065grid.kml#L95">95</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L96"><a href="ba065grid.kml#L96">96</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;a5&#34;&gt;</td>
+</tr><tr><th id="L97"><a href="ba065grid.kml#L97">97</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A5&lt;/name&gt;</td>
+</tr><tr><th id="L98"><a href="ba065grid.kml#L98">98</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L99"><a href="ba065grid.kml#L99">99</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L100"><a href="ba065grid.kml#L100">100</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L101"><a href="ba065grid.kml#L101">101</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L102"><a href="ba065grid.kml#L102">102</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L103"><a href="ba065grid.kml#L103">103</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L104"><a href="ba065grid.kml#L104">104</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.5799299999999,36.4998599999999,0 28.5883300000005,36.1339499999995,0</td>
+</tr><tr><th id="L105"><a href="ba065grid.kml#L105">105</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9997800000001,36.1391500000009,0 28.9997000000003,36.4995699999999,0</td>
+</tr><tr><th id="L106"><a href="ba065grid.kml#L106">106</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.5799299999999,36.4998599999999,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L107"><a href="ba065grid.kml#L107">107</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L108"><a href="ba065grid.kml#L108">108</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L109"><a href="ba065grid.kml#L109">109</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L110"><a href="ba065grid.kml#L110">110</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L111"><a href="ba065grid.kml#L111">111</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;b1&#34;&gt;</td>
+</tr><tr><th id="L112"><a href="ba065grid.kml#L112">112</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B1&lt;/name&gt;</td>
+</tr><tr><th id="L113"><a href="ba065grid.kml#L113">113</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L114"><a href="ba065grid.kml#L114">114</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L115"><a href="ba065grid.kml#L115">115</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L116"><a href="ba065grid.kml#L116">116</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L117"><a href="ba065grid.kml#L117">117</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L118"><a href="ba065grid.kml#L118">118</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L119"><a href="ba065grid.kml#L119">119</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9992600000005,37.9987299999993,0 29.4990400000006,37.9992399999992,0</td>
+</tr><tr><th id="L120"><a href="ba065grid.kml#L120">120</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4989399999995,38.0909300000003,0 28.9991900000005,38.0865900000008,0</td>
+</tr><tr><th id="L121"><a href="ba065grid.kml#L121">121</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9992600000005,37.9987299999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L122"><a href="ba065grid.kml#L122">122</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L123"><a href="ba065grid.kml#L123">123</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L124"><a href="ba065grid.kml#L124">124</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L125"><a href="ba065grid.kml#L125">125</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L126"><a href="ba065grid.kml#L126">126</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;b2&#34;&gt;</td>
+</tr><tr><th id="L127"><a href="ba065grid.kml#L127">127</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B2&lt;/name&gt;</td>
+</tr><tr><th id="L128"><a href="ba065grid.kml#L128">128</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L129"><a href="ba065grid.kml#L129">129</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L130"><a href="ba065grid.kml#L130">130</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L131"><a href="ba065grid.kml#L131">131</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L132"><a href="ba065grid.kml#L132">132</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L133"><a href="ba065grid.kml#L133">133</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L134"><a href="ba065grid.kml#L134">134</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9992600000005,37.9987299999993,0 28.9994200000001,37.4994900000002,0</td>
+</tr><tr><th id="L135"><a href="ba065grid.kml#L135">135</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4994000000006,37.4994399999996,0 29.4990400000006,37.9992399999992,0</td>
+</tr><tr><th id="L136"><a href="ba065grid.kml#L136">136</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9992600000005,37.9987299999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L137"><a href="ba065grid.kml#L137">137</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L138"><a href="ba065grid.kml#L138">138</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L139"><a href="ba065grid.kml#L139">139</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L140"><a href="ba065grid.kml#L140">140</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L141"><a href="ba065grid.kml#L141">141</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;b3&#34;&gt;</td>
+</tr><tr><th id="L142"><a href="ba065grid.kml#L142">142</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B3&lt;/name&gt;</td>
+</tr><tr><th id="L143"><a href="ba065grid.kml#L143">143</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L144"><a href="ba065grid.kml#L144">144</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L145"><a href="ba065grid.kml#L145">145</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L146"><a href="ba065grid.kml#L146">146</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L147"><a href="ba065grid.kml#L147">147</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L148"><a href="ba065grid.kml#L148">148</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L149"><a href="ba065grid.kml#L149">149</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9996499999997,36.9991100000007,0 29.4997500000009,36.9996699999992,0</td>
+</tr><tr><th id="L150"><a href="ba065grid.kml#L150">150</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4994000000006,37.4994399999996,0 28.9994200000001,37.4994900000002,0</td>
+</tr><tr><th id="L151"><a href="ba065grid.kml#L151">151</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9996499999997,36.9991100000007,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L152"><a href="ba065grid.kml#L152">152</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L153"><a href="ba065grid.kml#L153">153</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L154"><a href="ba065grid.kml#L154">154</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L155"><a href="ba065grid.kml#L155">155</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L156"><a href="ba065grid.kml#L156">156</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;b4&#34;&gt;</td>
+</tr><tr><th id="L157"><a href="ba065grid.kml#L157">157</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B4&lt;/name&gt;</td>
+</tr><tr><th id="L158"><a href="ba065grid.kml#L158">158</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L159"><a href="ba065grid.kml#L159">159</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L160"><a href="ba065grid.kml#L160">160</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L161"><a href="ba065grid.kml#L161">161</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L162"><a href="ba065grid.kml#L162">162</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L163"><a href="ba065grid.kml#L163">163</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L164"><a href="ba065grid.kml#L164">164</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9997000000003,36.4995699999999,0 29.5002499999991,36.4994900000002,0</td>
+</tr><tr><th id="L165"><a href="ba065grid.kml#L165">165</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4997500000009,36.9996699999992,0 28.9996499999997,36.9991100000007,0</td>
+</tr><tr><th id="L166"><a href="ba065grid.kml#L166">166</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9997000000003,36.4995699999999,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L167"><a href="ba065grid.kml#L167">167</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L168"><a href="ba065grid.kml#L168">168</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L169"><a href="ba065grid.kml#L169">169</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L170"><a href="ba065grid.kml#L170">170</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L171"><a href="ba065grid.kml#L171">171</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;b5&#34;&gt;</td>
+</tr><tr><th id="L172"><a href="ba065grid.kml#L172">172</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B5&lt;/name&gt;</td>
+</tr><tr><th id="L173"><a href="ba065grid.kml#L173">173</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L174"><a href="ba065grid.kml#L174">174</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L175"><a href="ba065grid.kml#L175">175</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L176"><a href="ba065grid.kml#L176">176</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L177"><a href="ba065grid.kml#L177">177</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L178"><a href="ba065grid.kml#L178">178</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L179"><a href="ba065grid.kml#L179">179</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.9997800000001,36.1391500000009,0 29.4448499999999,36.1429100000005,0</td>
+</tr><tr><th id="L180"><a href="ba065grid.kml#L180">180</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4456300000002,36.0697600000003,0 29.5000299999992,36.0701000000008,0</td>
+</tr><tr><th id="L181"><a href="ba065grid.kml#L181">181</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.5002499999991,36.4994900000002,0 28.9997000000003,36.4995699999999,0</td>
+</tr><tr><th id="L182"><a href="ba065grid.kml#L182">182</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.9997800000001,36.1391500000009,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L183"><a href="ba065grid.kml#L183">183</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L184"><a href="ba065grid.kml#L184">184</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L185"><a href="ba065grid.kml#L185">185</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L186"><a href="ba065grid.kml#L186">186</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L187"><a href="ba065grid.kml#L187">187</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;c1&#34;&gt;</td>
+</tr><tr><th id="L188"><a href="ba065grid.kml#L188">188</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C1&lt;/name&gt;</td>
+</tr><tr><th id="L189"><a href="ba065grid.kml#L189">189</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L190"><a href="ba065grid.kml#L190">190</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L191"><a href="ba065grid.kml#L191">191</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L192"><a href="ba065grid.kml#L192">192</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L193"><a href="ba065grid.kml#L193">193</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L194"><a href="ba065grid.kml#L194">194</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L195"><a href="ba065grid.kml#L195">195</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.4989399999995,38.0909300000003,0 29.4990400000006,37.9992399999992,0</td>
+</tr><tr><th id="L196"><a href="ba065grid.kml#L196">196</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9991399999999,37.9992299999994,0 29.9989700000006,38.0930800000006,0</td>
+</tr><tr><th id="L197"><a href="ba065grid.kml#L197">197</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4989399999995,38.0909300000003,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L198"><a href="ba065grid.kml#L198">198</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L199"><a href="ba065grid.kml#L199">199</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L200"><a href="ba065grid.kml#L200">200</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L201"><a href="ba065grid.kml#L201">201</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L202"><a href="ba065grid.kml#L202">202</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;c2&#34;&gt;</td>
+</tr><tr><th id="L203"><a href="ba065grid.kml#L203">203</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C2&lt;/name&gt;</td>
+</tr><tr><th id="L204"><a href="ba065grid.kml#L204">204</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L205"><a href="ba065grid.kml#L205">205</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L206"><a href="ba065grid.kml#L206">206</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L207"><a href="ba065grid.kml#L207">207</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L208"><a href="ba065grid.kml#L208">208</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L209"><a href="ba065grid.kml#L209">209</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L210"><a href="ba065grid.kml#L210">210</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.4990400000006,37.9992399999992,0 29.4994000000006,37.4994399999996,0</td>
+</tr><tr><th id="L211"><a href="ba065grid.kml#L211">211</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9991200000004,37.4996100000008,0 29.9991399999999,37.9992299999994,0</td>
+</tr><tr><th id="L212"><a href="ba065grid.kml#L212">212</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4990400000006,37.9992399999992,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L213"><a href="ba065grid.kml#L213">213</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L214"><a href="ba065grid.kml#L214">214</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L215"><a href="ba065grid.kml#L215">215</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L216"><a href="ba065grid.kml#L216">216</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L217"><a href="ba065grid.kml#L217">217</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;c3&#34;&gt;</td>
+</tr><tr><th id="L218"><a href="ba065grid.kml#L218">218</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C3&lt;/name&gt;</td>
+</tr><tr><th id="L219"><a href="ba065grid.kml#L219">219</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L220"><a href="ba065grid.kml#L220">220</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L221"><a href="ba065grid.kml#L221">221</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L222"><a href="ba065grid.kml#L222">222</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L223"><a href="ba065grid.kml#L223">223</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L224"><a href="ba065grid.kml#L224">224</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L225"><a href="ba065grid.kml#L225">225</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.9991200000004,37.4996100000008,0 29.4994000000006,37.4994399999996,0</td>
+</tr><tr><th id="L226"><a href="ba065grid.kml#L226">226</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4997500000009,36.9996699999992,0 29.9993699999995,36.9990799999996,0</td>
+</tr><tr><th id="L227"><a href="ba065grid.kml#L227">227</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9991200000004,37.4996100000008,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L228"><a href="ba065grid.kml#L228">228</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L229"><a href="ba065grid.kml#L229">229</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L230"><a href="ba065grid.kml#L230">230</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L231"><a href="ba065grid.kml#L231">231</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L232"><a href="ba065grid.kml#L232">232</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;c4&#34;&gt;</td>
+</tr><tr><th id="L233"><a href="ba065grid.kml#L233">233</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C4&lt;/name&gt;</td>
+</tr><tr><th id="L234"><a href="ba065grid.kml#L234">234</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L235"><a href="ba065grid.kml#L235">235</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L236"><a href="ba065grid.kml#L236">236</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L237"><a href="ba065grid.kml#L237">237</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L238"><a href="ba065grid.kml#L238">238</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L239"><a href="ba065grid.kml#L239">239</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L240"><a href="ba065grid.kml#L240">240</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.4997500000009,36.9996699999992,0 29.5002499999991,36.4994900000002,0</td>
+</tr><tr><th id="L241"><a href="ba065grid.kml#L241">241</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9995600000002,36.4993900000009,0 29.9993699999995,36.9990799999996,0</td>
+</tr><tr><th id="L242"><a href="ba065grid.kml#L242">242</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.4997500000009,36.9996699999992,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L243"><a href="ba065grid.kml#L243">243</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L244"><a href="ba065grid.kml#L244">244</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L245"><a href="ba065grid.kml#L245">245</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L246"><a href="ba065grid.kml#L246">246</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L247"><a href="ba065grid.kml#L247">247</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;c5&#34;&gt;</td>
+</tr><tr><th id="L248"><a href="ba065grid.kml#L248">248</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C5&lt;/name&gt;</td>
+</tr><tr><th id="L249"><a href="ba065grid.kml#L249">249</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L250"><a href="ba065grid.kml#L250">250</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L251"><a href="ba065grid.kml#L251">251</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L252"><a href="ba065grid.kml#L252">252</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L253"><a href="ba065grid.kml#L253">253</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L254"><a href="ba065grid.kml#L254">254</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L255"><a href="ba065grid.kml#L255">255</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.9995600000002,36.4993900000009,0 29.5002499999991,36.4994900000002,0</td>
+</tr><tr><th id="L256"><a href="ba065grid.kml#L256">256</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.5000299999992,36.0701000000008,0 29.9219499999999,36.0713500000002,0</td>
+</tr><tr><th id="L257"><a href="ba065grid.kml#L257">257</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9218899999996,36.1456699999999,0 29.9998699999996,36.1462599999995,0</td>
+</tr><tr><th id="L258"><a href="ba065grid.kml#L258">258</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9995600000002,36.4993900000009,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L259"><a href="ba065grid.kml#L259">259</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L260"><a href="ba065grid.kml#L260">260</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L261"><a href="ba065grid.kml#L261">261</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L262"><a href="ba065grid.kml#L262">262</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L263"><a href="ba065grid.kml#L263">263</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;d1&#34;&gt;</td>
+</tr><tr><th id="L264"><a href="ba065grid.kml#L264">264</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D1&lt;/name&gt;</td>
+</tr><tr><th id="L265"><a href="ba065grid.kml#L265">265</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L266"><a href="ba065grid.kml#L266">266</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L267"><a href="ba065grid.kml#L267">267</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L268"><a href="ba065grid.kml#L268">268</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L269"><a href="ba065grid.kml#L269">269</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L270"><a href="ba065grid.kml#L270">270</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L271"><a href="ba065grid.kml#L271">271</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.9989700000006,38.0930800000006,0 29.9991399999999,37.9992299999994,0</td>
+</tr><tr><th id="L272"><a href="ba065grid.kml#L272">272</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5007499999992,37.9990500000004,0 30.5008300000009,38.0934600000001,0</td>
+</tr><tr><th id="L273"><a href="ba065grid.kml#L273">273</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9989700000006,38.0930800000006,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L274"><a href="ba065grid.kml#L274">274</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L275"><a href="ba065grid.kml#L275">275</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L276"><a href="ba065grid.kml#L276">276</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L277"><a href="ba065grid.kml#L277">277</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L278"><a href="ba065grid.kml#L278">278</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;d2&#34;&gt;</td>
+</tr><tr><th id="L279"><a href="ba065grid.kml#L279">279</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D2&lt;/name&gt;</td>
+</tr><tr><th id="L280"><a href="ba065grid.kml#L280">280</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L281"><a href="ba065grid.kml#L281">281</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L282"><a href="ba065grid.kml#L282">282</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L283"><a href="ba065grid.kml#L283">283</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L284"><a href="ba065grid.kml#L284">284</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L285"><a href="ba065grid.kml#L285">285</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L286"><a href="ba065grid.kml#L286">286</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.5007499999992,37.9990500000004,0 29.9991399999999,37.9992299999994,0</td>
+</tr><tr><th id="L287"><a href="ba065grid.kml#L287">287</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9991200000004,37.4996100000008,0 30.5005299999993,37.4990500000004,0</td>
+</tr><tr><th id="L288"><a href="ba065grid.kml#L288">288</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5007499999992,37.9990500000004,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L289"><a href="ba065grid.kml#L289">289</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L290"><a href="ba065grid.kml#L290">290</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L291"><a href="ba065grid.kml#L291">291</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L292"><a href="ba065grid.kml#L292">292</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L293"><a href="ba065grid.kml#L293">293</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;d3&#34;&gt;</td>
+</tr><tr><th id="L294"><a href="ba065grid.kml#L294">294</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D3&lt;/name&gt;</td>
+</tr><tr><th id="L295"><a href="ba065grid.kml#L295">295</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L296"><a href="ba065grid.kml#L296">296</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L297"><a href="ba065grid.kml#L297">297</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L298"><a href="ba065grid.kml#L298">298</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L299"><a href="ba065grid.kml#L299">299</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L300"><a href="ba065grid.kml#L300">300</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L301"><a href="ba065grid.kml#L301">301</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.5005299999993,37.4990500000004,0 29.9991200000004,37.4996100000008,0</td>
+</tr><tr><th id="L302"><a href="ba065grid.kml#L302">302</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9993699999995,36.9990799999996,0 30.5005000000001,36.9992399999992,0</td>
+</tr><tr><th id="L303"><a href="ba065grid.kml#L303">303</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5005299999993,37.4990500000004,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L304"><a href="ba065grid.kml#L304">304</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L305"><a href="ba065grid.kml#L305">305</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L306"><a href="ba065grid.kml#L306">306</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L307"><a href="ba065grid.kml#L307">307</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L308"><a href="ba065grid.kml#L308">308</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;d4&#34;&gt;</td>
+</tr><tr><th id="L309"><a href="ba065grid.kml#L309">309</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D4&lt;/name&gt;</td>
+</tr><tr><th id="L310"><a href="ba065grid.kml#L310">310</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L311"><a href="ba065grid.kml#L311">311</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L312"><a href="ba065grid.kml#L312">312</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L313"><a href="ba065grid.kml#L313">313</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L314"><a href="ba065grid.kml#L314">314</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L315"><a href="ba065grid.kml#L315">315</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L316"><a href="ba065grid.kml#L316">316</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.5005000000001,36.9992399999992,0 29.9993699999995,36.9990799999996,0</td>
+</tr><tr><th id="L317"><a href="ba065grid.kml#L317">317</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9995600000002,36.4993900000009,0 30.5002000000004,36.4995500000005,0</td>
+</tr><tr><th id="L318"><a href="ba065grid.kml#L318">318</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5005000000001,36.9992399999992,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L319"><a href="ba065grid.kml#L319">319</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L320"><a href="ba065grid.kml#L320">320</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L321"><a href="ba065grid.kml#L321">321</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L322"><a href="ba065grid.kml#L322">322</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L323"><a href="ba065grid.kml#L323">323</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;d5&#34;&gt;</td>
+</tr><tr><th id="L324"><a href="ba065grid.kml#L324">324</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D5&lt;/name&gt;</td>
+</tr><tr><th id="L325"><a href="ba065grid.kml#L325">325</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L326"><a href="ba065grid.kml#L326">326</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L327"><a href="ba065grid.kml#L327">327</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L328"><a href="ba065grid.kml#L328">328</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L329"><a href="ba065grid.kml#L329">329</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L330"><a href="ba065grid.kml#L330">330</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L331"><a href="ba065grid.kml#L331">331</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.5002000000004,36.4995500000005,0 29.9995600000002,36.4993900000009,0</td>
+</tr><tr><th id="L332"><a href="ba065grid.kml#L332">332</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 29.9998699999996,36.1462599999995,0 30.5000700000001,36.1464099999994,0</td>
+</tr><tr><th id="L333"><a href="ba065grid.kml#L333">333</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5002000000004,36.4995500000005,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L334"><a href="ba065grid.kml#L334">334</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L335"><a href="ba065grid.kml#L335">335</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L336"><a href="ba065grid.kml#L336">336</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L337"><a href="ba065grid.kml#L337">337</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L338"><a href="ba065grid.kml#L338">338</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;e1&#34;&gt;</td>
+</tr><tr><th id="L339"><a href="ba065grid.kml#L339">339</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E1&lt;/name&gt;</td>
+</tr><tr><th id="L340"><a href="ba065grid.kml#L340">340</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L341"><a href="ba065grid.kml#L341">341</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L342"><a href="ba065grid.kml#L342">342</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L343"><a href="ba065grid.kml#L343">343</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L344"><a href="ba065grid.kml#L344">344</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L345"><a href="ba065grid.kml#L345">345</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L346"><a href="ba065grid.kml#L346">346</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.5008300000009,38.0934600000001,0 30.5007499999992,37.9990500000004,0</td>
+</tr><tr><th id="L347"><a href="ba065grid.kml#L347">347</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9997399999993,37.9987099999998,0 30.9999200000002,38.0917499999996,0</td>
+</tr><tr><th id="L348"><a href="ba065grid.kml#L348">348</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5008300000009,38.0934600000001,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L349"><a href="ba065grid.kml#L349">349</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L350"><a href="ba065grid.kml#L350">350</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L351"><a href="ba065grid.kml#L351">351</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L352"><a href="ba065grid.kml#L352">352</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L353"><a href="ba065grid.kml#L353">353</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;e2&#34;&gt;</td>
+</tr><tr><th id="L354"><a href="ba065grid.kml#L354">354</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E2&lt;/name&gt;</td>
+</tr><tr><th id="L355"><a href="ba065grid.kml#L355">355</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L356"><a href="ba065grid.kml#L356">356</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L357"><a href="ba065grid.kml#L357">357</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L358"><a href="ba065grid.kml#L358">358</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L359"><a href="ba065grid.kml#L359">359</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L360"><a href="ba065grid.kml#L360">360</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L361"><a href="ba065grid.kml#L361">361</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.9997399999993,37.9987099999998,0 30.5007499999992,37.9990500000004,0</td>
+</tr><tr><th id="L362"><a href="ba065grid.kml#L362">362</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5005299999993,37.4990500000004,0 30.9998799999994,37.4988699999994,0</td>
+</tr><tr><th id="L363"><a href="ba065grid.kml#L363">363</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9997399999993,37.9987099999998,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L364"><a href="ba065grid.kml#L364">364</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L365"><a href="ba065grid.kml#L365">365</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L366"><a href="ba065grid.kml#L366">366</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L367"><a href="ba065grid.kml#L367">367</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L368"><a href="ba065grid.kml#L368">368</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;e3&#34;&gt;</td>
+</tr><tr><th id="L369"><a href="ba065grid.kml#L369">369</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E3&lt;/name&gt;</td>
+</tr><tr><th id="L370"><a href="ba065grid.kml#L370">370</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L371"><a href="ba065grid.kml#L371">371</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L372"><a href="ba065grid.kml#L372">372</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L373"><a href="ba065grid.kml#L373">373</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L374"><a href="ba065grid.kml#L374">374</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L375"><a href="ba065grid.kml#L375">375</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L376"><a href="ba065grid.kml#L376">376</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.9998799999994,37.4988699999994,0 30.5005299999993,37.4990500000004,0</td>
+</tr><tr><th id="L377"><a href="ba065grid.kml#L377">377</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5005000000001,36.9992399999992,0 30.9998899999991,36.9987700000002,0</td>
+</tr><tr><th id="L378"><a href="ba065grid.kml#L378">378</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9998799999994,37.4988699999994,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L379"><a href="ba065grid.kml#L379">379</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L380"><a href="ba065grid.kml#L380">380</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L381"><a href="ba065grid.kml#L381">381</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L382"><a href="ba065grid.kml#L382">382</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L383"><a href="ba065grid.kml#L383">383</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;e4&#34;&gt;</td>
+</tr><tr><th id="L384"><a href="ba065grid.kml#L384">384</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E4&lt;/name&gt;</td>
+</tr><tr><th id="L385"><a href="ba065grid.kml#L385">385</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L386"><a href="ba065grid.kml#L386">386</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L387"><a href="ba065grid.kml#L387">387</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L388"><a href="ba065grid.kml#L388">388</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L389"><a href="ba065grid.kml#L389">389</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L390"><a href="ba065grid.kml#L390">390</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L391"><a href="ba065grid.kml#L391">391</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.9998899999991,36.9987700000002,0 30.5005000000001,36.9992399999992,0</td>
+</tr><tr><th id="L392"><a href="ba065grid.kml#L392">392</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5002000000004,36.4995500000005,0 30.9996699999992,36.4994000000006,0</td>
+</tr><tr><th id="L393"><a href="ba065grid.kml#L393">393</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9998899999991,36.9987700000002,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L394"><a href="ba065grid.kml#L394">394</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L395"><a href="ba065grid.kml#L395">395</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L396"><a href="ba065grid.kml#L396">396</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L397"><a href="ba065grid.kml#L397">397</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L398"><a href="ba065grid.kml#L398">398</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;e5&#34;&gt;</td>
+</tr><tr><th id="L399"><a href="ba065grid.kml#L399">399</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E5&lt;/name&gt;</td>
+</tr><tr><th id="L400"><a href="ba065grid.kml#L400">400</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L401"><a href="ba065grid.kml#L401">401</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L402"><a href="ba065grid.kml#L402">402</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L403"><a href="ba065grid.kml#L403">403</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L404"><a href="ba065grid.kml#L404">404</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L405"><a href="ba065grid.kml#L405">405</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L406"><a href="ba065grid.kml#L406">406</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.9996699999992,36.4994000000006,0 30.5002000000004,36.4995500000005,0</td>
+</tr><tr><th id="L407"><a href="ba065grid.kml#L407">407</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.5000700000001,36.1464099999994,0 30.9993799999993,36.1447000000007,0</td>
+</tr><tr><th id="L408"><a href="ba065grid.kml#L408">408</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9996699999992,36.4994000000006,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L409"><a href="ba065grid.kml#L409">409</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L410"><a href="ba065grid.kml#L410">410</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L411"><a href="ba065grid.kml#L411">411</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L412"><a href="ba065grid.kml#L412">412</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L413"><a href="ba065grid.kml#L413">413</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;f1&#34;&gt;</td>
+</tr><tr><th id="L414"><a href="ba065grid.kml#L414">414</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F1&lt;/name&gt;</td>
+</tr><tr><th id="L415"><a href="ba065grid.kml#L415">415</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L416"><a href="ba065grid.kml#L416">416</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L417"><a href="ba065grid.kml#L417">417</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L418"><a href="ba065grid.kml#L418">418</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L419"><a href="ba065grid.kml#L419">419</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L420"><a href="ba065grid.kml#L420">420</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L421"><a href="ba065grid.kml#L421">421</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.9999200000002,38.0917499999996,0 30.9997399999993,37.9987099999998,0</td>
+</tr><tr><th id="L422"><a href="ba065grid.kml#L422">422</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.5001499999998,37.9986100000006,0 31.5001100000009,38.0878499999999,0</td>
+</tr><tr><th id="L423"><a href="ba065grid.kml#L423">423</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9999200000002,38.0917499999996,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L424"><a href="ba065grid.kml#L424">424</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L425"><a href="ba065grid.kml#L425">425</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L426"><a href="ba065grid.kml#L426">426</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L427"><a href="ba065grid.kml#L427">427</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L428"><a href="ba065grid.kml#L428">428</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;f2&#34;&gt;</td>
+</tr><tr><th id="L429"><a href="ba065grid.kml#L429">429</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F2&lt;/name&gt;</td>
+</tr><tr><th id="L430"><a href="ba065grid.kml#L430">430</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L431"><a href="ba065grid.kml#L431">431</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L432"><a href="ba065grid.kml#L432">432</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L433"><a href="ba065grid.kml#L433">433</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L434"><a href="ba065grid.kml#L434">434</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L435"><a href="ba065grid.kml#L435">435</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L436"><a href="ba065grid.kml#L436">436</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.5001499999998,37.9986100000006,0 30.9997399999993,37.9987099999998,0</td>
+</tr><tr><th id="L437"><a href="ba065grid.kml#L437">437</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9998799999994,37.4988699999994,0 31.5000899999995,37.4988400000002,0</td>
+</tr><tr><th id="L438"><a href="ba065grid.kml#L438">438</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.5001499999998,37.9986100000006,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L439"><a href="ba065grid.kml#L439">439</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L440"><a href="ba065grid.kml#L440">440</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L441"><a href="ba065grid.kml#L441">441</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L442"><a href="ba065grid.kml#L442">442</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L443"><a href="ba065grid.kml#L443">443</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;f3&#34;&gt;</td>
+</tr><tr><th id="L444"><a href="ba065grid.kml#L444">444</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F3&lt;/name&gt;</td>
+</tr><tr><th id="L445"><a href="ba065grid.kml#L445">445</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L446"><a href="ba065grid.kml#L446">446</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L447"><a href="ba065grid.kml#L447">447</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L448"><a href="ba065grid.kml#L448">448</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L449"><a href="ba065grid.kml#L449">449</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L450"><a href="ba065grid.kml#L450">450</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L451"><a href="ba065grid.kml#L451">451</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.5000899999995,37.4988400000002,0 30.9998799999994,37.4988699999994,0</td>
+</tr><tr><th id="L452"><a href="ba065grid.kml#L452">452</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9998899999991,36.9987700000002,0 31.4999200000002,36.9988599999997,0</td>
+</tr><tr><th id="L453"><a href="ba065grid.kml#L453">453</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.5000899999995,37.4988400000002,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L454"><a href="ba065grid.kml#L454">454</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L455"><a href="ba065grid.kml#L455">455</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L456"><a href="ba065grid.kml#L456">456</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L457"><a href="ba065grid.kml#L457">457</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L458"><a href="ba065grid.kml#L458">458</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;f4&#34;&gt;</td>
+</tr><tr><th id="L459"><a href="ba065grid.kml#L459">459</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F4&lt;/name&gt;</td>
+</tr><tr><th id="L460"><a href="ba065grid.kml#L460">460</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L461"><a href="ba065grid.kml#L461">461</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L462"><a href="ba065grid.kml#L462">462</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L463"><a href="ba065grid.kml#L463">463</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L464"><a href="ba065grid.kml#L464">464</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L465"><a href="ba065grid.kml#L465">465</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L466"><a href="ba065grid.kml#L466">466</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.4999200000002,36.9988599999997,0 30.9998899999991,36.9987700000002,0</td>
+</tr><tr><th id="L467"><a href="ba065grid.kml#L467">467</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9996699999992,36.4994000000006,0 31.4999000000007,36.4990500000004,0</td>
+</tr><tr><th id="L468"><a href="ba065grid.kml#L468">468</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.4999200000002,36.9988599999997,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L469"><a href="ba065grid.kml#L469">469</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L470"><a href="ba065grid.kml#L470">470</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L471"><a href="ba065grid.kml#L471">471</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L472"><a href="ba065grid.kml#L472">472</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L473"><a href="ba065grid.kml#L473">473</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;f5&#34;&gt;</td>
+</tr><tr><th id="L474"><a href="ba065grid.kml#L474">474</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F5&lt;/name&gt;</td>
+</tr><tr><th id="L475"><a href="ba065grid.kml#L475">475</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L476"><a href="ba065grid.kml#L476">476</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L477"><a href="ba065grid.kml#L477">477</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L478"><a href="ba065grid.kml#L478">478</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L479"><a href="ba065grid.kml#L479">479</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L480"><a href="ba065grid.kml#L480">480</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L481"><a href="ba065grid.kml#L481">481</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.4999000000007,36.4990500000004,0 30.9996699999992,36.4994000000006,0</td>
+</tr><tr><th id="L482"><a href="ba065grid.kml#L482">482</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.9993799999993,36.1447000000007,0 31.4996200000005,36.1408200000005,0</td>
+</tr><tr><th id="L483"><a href="ba065grid.kml#L483">483</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.4999000000007,36.4990500000004,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L484"><a href="ba065grid.kml#L484">484</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L485"><a href="ba065grid.kml#L485">485</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L486"><a href="ba065grid.kml#L486">486</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L487"><a href="ba065grid.kml#L487">487</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L488"><a href="ba065grid.kml#L488">488</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;g1&#34;&gt;</td>
+</tr><tr><th id="L489"><a href="ba065grid.kml#L489">489</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G1&lt;/name&gt;</td>
+</tr><tr><th id="L490"><a href="ba065grid.kml#L490">490</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L491"><a href="ba065grid.kml#L491">491</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L492"><a href="ba065grid.kml#L492">492</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L493"><a href="ba065grid.kml#L493">493</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L494"><a href="ba065grid.kml#L494">494</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L495"><a href="ba065grid.kml#L495">495</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L496"><a href="ba065grid.kml#L496">496</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.5001100000009,38.0878499999999,0 31.5001499999998,37.9986100000006,0</td>
+</tr><tr><th id="L497"><a href="ba065grid.kml#L497">497</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.99928,37.9983699999993,0 31.9992000000002,38.0819300000003,0</td>
+</tr><tr><th id="L498"><a href="ba065grid.kml#L498">498</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.5001100000009,38.0878499999999,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L499"><a href="ba065grid.kml#L499">499</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L500"><a href="ba065grid.kml#L500">500</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L501"><a href="ba065grid.kml#L501">501</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L502"><a href="ba065grid.kml#L502">502</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L503"><a href="ba065grid.kml#L503">503</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;g2&#34;&gt;</td>
+</tr><tr><th id="L504"><a href="ba065grid.kml#L504">504</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G2&lt;/name&gt;</td>
+</tr><tr><th id="L505"><a href="ba065grid.kml#L505">505</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L506"><a href="ba065grid.kml#L506">506</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L507"><a href="ba065grid.kml#L507">507</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L508"><a href="ba065grid.kml#L508">508</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L509"><a href="ba065grid.kml#L509">509</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L510"><a href="ba065grid.kml#L510">510</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L511"><a href="ba065grid.kml#L511">511</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.99928,37.9983699999993,0 31.5001499999998,37.9986100000006,0</td>
+</tr><tr><th id="L512"><a href="ba065grid.kml#L512">512</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.5000899999995,37.4988400000002,0 31.9990600000001,37.4980200000009,0</td>
+</tr><tr><th id="L513"><a href="ba065grid.kml#L513">513</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.99928,37.9983699999993,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L514"><a href="ba065grid.kml#L514">514</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L515"><a href="ba065grid.kml#L515">515</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L516"><a href="ba065grid.kml#L516">516</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L517"><a href="ba065grid.kml#L517">517</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L518"><a href="ba065grid.kml#L518">518</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;g3&#34;&gt;</td>
+</tr><tr><th id="L519"><a href="ba065grid.kml#L519">519</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G3&lt;/name&gt;</td>
+</tr><tr><th id="L520"><a href="ba065grid.kml#L520">520</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L521"><a href="ba065grid.kml#L521">521</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L522"><a href="ba065grid.kml#L522">522</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L523"><a href="ba065grid.kml#L523">523</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L524"><a href="ba065grid.kml#L524">524</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L525"><a href="ba065grid.kml#L525">525</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L526"><a href="ba065grid.kml#L526">526</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.9990600000001,37.4980200000009,0 31.5000899999995,37.4988400000002,0</td>
+</tr><tr><th id="L527"><a href="ba065grid.kml#L527">527</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.4999200000002,36.9988599999997,0 31.9991599999994,36.9985199999992,0</td>
+</tr><tr><th id="L528"><a href="ba065grid.kml#L528">528</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9990600000001,37.4980200000009,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L529"><a href="ba065grid.kml#L529">529</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L530"><a href="ba065grid.kml#L530">530</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L531"><a href="ba065grid.kml#L531">531</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L532"><a href="ba065grid.kml#L532">532</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L533"><a href="ba065grid.kml#L533">533</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;g4&#34;&gt;</td>
+</tr><tr><th id="L534"><a href="ba065grid.kml#L534">534</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G4&lt;/name&gt;</td>
+</tr><tr><th id="L535"><a href="ba065grid.kml#L535">535</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L536"><a href="ba065grid.kml#L536">536</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L537"><a href="ba065grid.kml#L537">537</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L538"><a href="ba065grid.kml#L538">538</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L539"><a href="ba065grid.kml#L539">539</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L540"><a href="ba065grid.kml#L540">540</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L541"><a href="ba065grid.kml#L541">541</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.9991599999994,36.9985199999992,0 31.4999200000002,36.9988599999997,0</td>
+</tr><tr><th id="L542"><a href="ba065grid.kml#L542">542</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.4999000000007,36.4990500000004,0 31.9990300000009,36.4990300000009,0</td>
+</tr><tr><th id="L543"><a href="ba065grid.kml#L543">543</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9991599999994,36.9985199999992,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L544"><a href="ba065grid.kml#L544">544</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L545"><a href="ba065grid.kml#L545">545</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L546"><a href="ba065grid.kml#L546">546</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L547"><a href="ba065grid.kml#L547">547</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L548"><a href="ba065grid.kml#L548">548</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;g5&#34;&gt;</td>
+</tr><tr><th id="L549"><a href="ba065grid.kml#L549">549</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G5&lt;/name&gt;</td>
+</tr><tr><th id="L550"><a href="ba065grid.kml#L550">550</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L551"><a href="ba065grid.kml#L551">551</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L552"><a href="ba065grid.kml#L552">552</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L553"><a href="ba065grid.kml#L553">553</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L554"><a href="ba065grid.kml#L554">554</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L555"><a href="ba065grid.kml#L555">555</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L556"><a href="ba065grid.kml#L556">556</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.9990300000009,36.4990300000009,0 31.4999000000007,36.4990500000004,0</td>
+</tr><tr><th id="L557"><a href="ba065grid.kml#L557">557</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.4996200000005,36.1408200000005,0 31.9992000000002,36.1343699999998,0</td>
+</tr><tr><th id="L558"><a href="ba065grid.kml#L558">558</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9990300000009,36.4990300000009,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L559"><a href="ba065grid.kml#L559">559</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L560"><a href="ba065grid.kml#L560">560</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L561"><a href="ba065grid.kml#L561">561</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L562"><a href="ba065grid.kml#L562">562</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L563"><a href="ba065grid.kml#L563">563</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;h1&#34;&gt;</td>
+</tr><tr><th id="L564"><a href="ba065grid.kml#L564">564</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H1&lt;/name&gt;</td>
+</tr><tr><th id="L565"><a href="ba065grid.kml#L565">565</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L566"><a href="ba065grid.kml#L566">566</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L567"><a href="ba065grid.kml#L567">567</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L568"><a href="ba065grid.kml#L568">568</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L569"><a href="ba065grid.kml#L569">569</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L570"><a href="ba065grid.kml#L570">570</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L571"><a href="ba065grid.kml#L571">571</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.9992000000002,38.0819300000003,0 31.99928,37.9983699999993,0</td>
+</tr><tr><th id="L572"><a href="ba065grid.kml#L572">572</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32.0872099999997,37.9985099999994,0 32.0887899999998,38.0805899999996,0</td>
+</tr><tr><th id="L573"><a href="ba065grid.kml#L573">573</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9992000000002,38.0819300000003,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L574"><a href="ba065grid.kml#L574">574</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L575"><a href="ba065grid.kml#L575">575</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L576"><a href="ba065grid.kml#L576">576</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L577"><a href="ba065grid.kml#L577">577</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L578"><a href="ba065grid.kml#L578">578</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;h2&#34;&gt;</td>
+</tr><tr><th id="L579"><a href="ba065grid.kml#L579">579</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H2&lt;/name&gt;</td>
+</tr><tr><th id="L580"><a href="ba065grid.kml#L580">580</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L581"><a href="ba065grid.kml#L581">581</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L582"><a href="ba065grid.kml#L582">582</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L583"><a href="ba065grid.kml#L583">583</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L584"><a href="ba065grid.kml#L584">584</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L585"><a href="ba065grid.kml#L585">585</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L586"><a href="ba065grid.kml#L586">586</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0872099999997,37.9985099999994,0 31.99928,37.9983699999993,0</td>
+</tr><tr><th id="L587"><a href="ba065grid.kml#L587">587</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9990600000001,37.4980200000009,0 32.0758499999993,37.4979500000009,0</td>
+</tr><tr><th id="L588"><a href="ba065grid.kml#L588">588</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32.0872099999997,37.9985099999994,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L589"><a href="ba065grid.kml#L589">589</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L590"><a href="ba065grid.kml#L590">590</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L591"><a href="ba065grid.kml#L591">591</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L592"><a href="ba065grid.kml#L592">592</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L593"><a href="ba065grid.kml#L593">593</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;h3&#34;&gt;</td>
+</tr><tr><th id="L594"><a href="ba065grid.kml#L594">594</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H3&lt;/name&gt;</td>
+</tr><tr><th id="L595"><a href="ba065grid.kml#L595">595</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L596"><a href="ba065grid.kml#L596">596</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L597"><a href="ba065grid.kml#L597">597</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L598"><a href="ba065grid.kml#L598">598</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L599"><a href="ba065grid.kml#L599">599</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L600"><a href="ba065grid.kml#L600">600</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L601"><a href="ba065grid.kml#L601">601</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0758499999993,37.4979500000009,0 31.9990600000001,37.4980200000009,0</td>
+</tr><tr><th id="L602"><a href="ba065grid.kml#L602">602</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9991599999994,36.9985199999992,0 32.0649599999997,36.9986100000006,0</td>
+</tr><tr><th id="L603"><a href="ba065grid.kml#L603">603</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32.0758499999993,37.4979500000009,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L604"><a href="ba065grid.kml#L604">604</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L605"><a href="ba065grid.kml#L605">605</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L606"><a href="ba065grid.kml#L606">606</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L607"><a href="ba065grid.kml#L607">607</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L608"><a href="ba065grid.kml#L608">608</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;h4&#34;&gt;</td>
+</tr><tr><th id="L609"><a href="ba065grid.kml#L609">609</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H4&lt;/name&gt;</td>
+</tr><tr><th id="L610"><a href="ba065grid.kml#L610">610</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L611"><a href="ba065grid.kml#L611">611</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L612"><a href="ba065grid.kml#L612">612</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L613"><a href="ba065grid.kml#L613">613</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L614"><a href="ba065grid.kml#L614">614</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L615"><a href="ba065grid.kml#L615">615</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L616"><a href="ba065grid.kml#L616">616</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0649599999997,36.9986100000006,0 31.9991599999994,36.9985199999992,0</td>
+</tr><tr><th id="L617"><a href="ba065grid.kml#L617">617</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9990300000009,36.4990300000009,0 32.0540000000001,36.4989600000008,0</td>
+</tr><tr><th id="L618"><a href="ba065grid.kml#L618">618</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32.0649599999997,36.9986100000006,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L619"><a href="ba065grid.kml#L619">619</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L620"><a href="ba065grid.kml#L620">620</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L621"><a href="ba065grid.kml#L621">621</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L622"><a href="ba065grid.kml#L622">622</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L623"><a href="ba065grid.kml#L623">623</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark id=&#34;h5&#34;&gt;</td>
+</tr><tr><th id="L624"><a href="ba065grid.kml#L624">624</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H5&lt;/name&gt;</td>
+</tr><tr><th id="L625"><a href="ba065grid.kml#L625">625</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridSquare&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L626"><a href="ba065grid.kml#L626">626</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Polygon&gt;</td>
+</tr><tr><th id="L627"><a href="ba065grid.kml#L627">627</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L628"><a href="ba065grid.kml#L628">628</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L629"><a href="ba065grid.kml#L629">629</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;outerBoundaryIs&gt;</td>
+</tr><tr><th id="L630"><a href="ba065grid.kml#L630">630</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;LinearRing&gt;</td>
+</tr><tr><th id="L631"><a href="ba065grid.kml#L631">631</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0540000000001,36.4989600000008,0 31.9990300000009,36.4990300000009,0</td>
+</tr><tr><th id="L632"><a href="ba065grid.kml#L632">632</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 31.9992000000002,36.1343699999998,0 32.0460500000008,36.1339800000005,0</td>
+</tr><tr><th id="L633"><a href="ba065grid.kml#L633">633</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 32.0540000000001,36.4989600000008,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L634"><a href="ba065grid.kml#L634">634</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/LinearRing&gt;</td>
+</tr><tr><th id="L635"><a href="ba065grid.kml#L635">635</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/outerBoundaryIs&gt;</td>
+</tr><tr><th id="L636"><a href="ba065grid.kml#L636">636</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Polygon&gt;</td>
+</tr><tr><th id="L637"><a href="ba065grid.kml#L637">637</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L638"><a href="ba065grid.kml#L638">638</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Folder&gt;</td>
+</tr><tr><th id="L639"><a href="ba065grid.kml#L639">639</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;Folder&gt;</td>
+</tr><tr><th id="L640"><a href="ba065grid.kml#L640">640</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;Grid Labels&lt;/name&gt;</td>
+</tr><tr><th id="L641"><a href="ba065grid.kml#L641">641</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;open&gt;0&lt;/open&gt;</td>
+</tr><tr><th id="L642"><a href="ba065grid.kml#L642">642</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L643"><a href="ba065grid.kml#L643">643</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A1&lt;/name&gt;</td>
+</tr><tr><th id="L644"><a href="ba065grid.kml#L644">644</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L645"><a href="ba065grid.kml#L645">645</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L646"><a href="ba065grid.kml#L646">646</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L647"><a href="ba065grid.kml#L647">647</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L648"><a href="ba065grid.kml#L648">648</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.7739673397476,38.0413072846941,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L649"><a href="ba065grid.kml#L649">649</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L650"><a href="ba065grid.kml#L650">650</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L651"><a href="ba065grid.kml#L651">651</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L652"><a href="ba065grid.kml#L652">652</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A2&lt;/name&gt;</td>
+</tr><tr><th id="L653"><a href="ba065grid.kml#L653">653</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L654"><a href="ba065grid.kml#L654">654</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L655"><a href="ba065grid.kml#L655">655</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L656"><a href="ba065grid.kml#L656">656</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L657"><a href="ba065grid.kml#L657">657</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.7750962810412,37.7501690527096,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L658"><a href="ba065grid.kml#L658">658</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L659"><a href="ba065grid.kml#L659">659</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L660"><a href="ba065grid.kml#L660">660</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L661"><a href="ba065grid.kml#L661">661</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A3&lt;/name&gt;</td>
+</tr><tr><th id="L662"><a href="ba065grid.kml#L662">662</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L663"><a href="ba065grid.kml#L663">663</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L664"><a href="ba065grid.kml#L664">664</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L665"><a href="ba065grid.kml#L665">665</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L666"><a href="ba065grid.kml#L666">666</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.7810191231959,37.2503053142086,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L667"><a href="ba065grid.kml#L667">667</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L668"><a href="ba065grid.kml#L668">668</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L669"><a href="ba065grid.kml#L669">669</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L670"><a href="ba065grid.kml#L670">670</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A4&lt;/name&gt;</td>
+</tr><tr><th id="L671"><a href="ba065grid.kml#L671">671</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L672"><a href="ba065grid.kml#L672">672</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L673"><a href="ba065grid.kml#L673">673</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L674"><a href="ba065grid.kml#L674">674</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L675"><a href="ba065grid.kml#L675">675</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.7868761431686,36.7505352992711,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L676"><a href="ba065grid.kml#L676">676</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L677"><a href="ba065grid.kml#L677">677</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L678"><a href="ba065grid.kml#L678">678</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L679"><a href="ba065grid.kml#L679">679</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;A5&lt;/name&gt;</td>
+</tr><tr><th id="L680"><a href="ba065grid.kml#L680">680</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L681"><a href="ba065grid.kml#L681">681</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L682"><a href="ba065grid.kml#L682">682</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L683"><a href="ba065grid.kml#L683">683</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L684"><a href="ba065grid.kml#L684">684</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 28.7913997631583,36.3187305139881,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L685"><a href="ba065grid.kml#L685">685</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L686"><a href="ba065grid.kml#L686">686</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L687"><a href="ba065grid.kml#L687">687</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L688"><a href="ba065grid.kml#L688">688</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B1&lt;/name&gt;</td>
+</tr><tr><th id="L689"><a href="ba065grid.kml#L689">689</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L690"><a href="ba065grid.kml#L690">690</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L691"><a href="ba065grid.kml#L691">691</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L692"><a href="ba065grid.kml#L692">692</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L693"><a href="ba065grid.kml#L693">693</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.2508843164009,38.0438807268094,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L694"><a href="ba065grid.kml#L694">694</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L695"><a href="ba065grid.kml#L695">695</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L696"><a href="ba065grid.kml#L696">696</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L697"><a href="ba065grid.kml#L697">697</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B2&lt;/name&gt;</td>
+</tr><tr><th id="L698"><a href="ba065grid.kml#L698">698</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L699"><a href="ba065grid.kml#L699">699</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L700"><a href="ba065grid.kml#L700">700</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L701"><a href="ba065grid.kml#L701">701</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L702"><a href="ba065grid.kml#L702">702</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.2493267166184,37.749208391103,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L703"><a href="ba065grid.kml#L703">703</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L704"><a href="ba065grid.kml#L704">704</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L705"><a href="ba065grid.kml#L705">705</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L706"><a href="ba065grid.kml#L706">706</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B3&lt;/name&gt;</td>
+</tr><tr><th id="L707"><a href="ba065grid.kml#L707">707</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L708"><a href="ba065grid.kml#L708">708</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L709"><a href="ba065grid.kml#L709">709</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L710"><a href="ba065grid.kml#L710">710</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L711"><a href="ba065grid.kml#L711">711</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.2495041811558,37.2494174439034,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L712"><a href="ba065grid.kml#L712">712</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L713"><a href="ba065grid.kml#L713">713</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L714"><a href="ba065grid.kml#L714">714</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L715"><a href="ba065grid.kml#L715">715</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B4&lt;/name&gt;</td>
+</tr><tr><th id="L716"><a href="ba065grid.kml#L716">716</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L717"><a href="ba065grid.kml#L717">717</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L718"><a href="ba065grid.kml#L718">718</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L719"><a href="ba065grid.kml#L719">719</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L720"><a href="ba065grid.kml#L720">720</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.2498909215335,36.7494225897925,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L721"><a href="ba065grid.kml#L721">721</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L722"><a href="ba065grid.kml#L722">722</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L723"><a href="ba065grid.kml#L723">723</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L724"><a href="ba065grid.kml#L724">724</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;B5&lt;/name&gt;</td>
+</tr><tr><th id="L725"><a href="ba065grid.kml#L725">725</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L726"><a href="ba065grid.kml#L726">726</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L727"><a href="ba065grid.kml#L727">727</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L728"><a href="ba065grid.kml#L728">728</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L729"><a href="ba065grid.kml#L729">729</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.2543345564414,36.3157299289002,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L730"><a href="ba065grid.kml#L730">730</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L731"><a href="ba065grid.kml#L731">731</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L732"><a href="ba065grid.kml#L732">732</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L733"><a href="ba065grid.kml#L733">733</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C1&lt;/name&gt;</td>
+</tr><tr><th id="L734"><a href="ba065grid.kml#L734">734</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L735"><a href="ba065grid.kml#L735">735</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L736"><a href="ba065grid.kml#L736">736</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L737"><a href="ba065grid.kml#L737">737</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L738"><a href="ba065grid.kml#L738">738</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.7499928330917,38.0456210426605,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L739"><a href="ba065grid.kml#L739">739</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L740"><a href="ba065grid.kml#L740">740</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L741"><a href="ba065grid.kml#L741">741</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L742"><a href="ba065grid.kml#L742">742</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C2&lt;/name&gt;</td>
+</tr><tr><th id="L743"><a href="ba065grid.kml#L743">743</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L744"><a href="ba065grid.kml#L744">744</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L745"><a href="ba065grid.kml#L745">745</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L746"><a href="ba065grid.kml#L746">746</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L747"><a href="ba065grid.kml#L747">747</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.7491599781612,37.7494116464926,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L748"><a href="ba065grid.kml#L748">748</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L749"><a href="ba065grid.kml#L749">749</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L750"><a href="ba065grid.kml#L750">750</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L751"><a href="ba065grid.kml#L751">751</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C3&lt;/name&gt;</td>
+</tr><tr><th id="L752"><a href="ba065grid.kml#L752">752</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L753"><a href="ba065grid.kml#L753">753</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L754"><a href="ba065grid.kml#L754">754</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L755"><a href="ba065grid.kml#L755">755</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L756"><a href="ba065grid.kml#L756">756</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.7494732710408,37.2494583527722,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L757"><a href="ba065grid.kml#L757">757</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L758"><a href="ba065grid.kml#L758">758</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L759"><a href="ba065grid.kml#L759">759</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L760"><a href="ba065grid.kml#L760">760</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C4&lt;/name&gt;</td>
+</tr><tr><th id="L761"><a href="ba065grid.kml#L761">761</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L762"><a href="ba065grid.kml#L762">762</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L763"><a href="ba065grid.kml#L763">763</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L764"><a href="ba065grid.kml#L764">764</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L765"><a href="ba065grid.kml#L765">765</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.7496917050381,36.7494333576159,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L766"><a href="ba065grid.kml#L766">766</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L767"><a href="ba065grid.kml#L767">767</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L768"><a href="ba065grid.kml#L768">768</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L769"><a href="ba065grid.kml#L769">769</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;C5&lt;/name&gt;</td>
+</tr><tr><th id="L770"><a href="ba065grid.kml#L770">770</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L771"><a href="ba065grid.kml#L771">771</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L772"><a href="ba065grid.kml#L772">772</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L773"><a href="ba065grid.kml#L773">773</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L774"><a href="ba065grid.kml#L774">774</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 29.7439017608336,36.2900164215894,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L775"><a href="ba065grid.kml#L775">775</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L776"><a href="ba065grid.kml#L776">776</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L777"><a href="ba065grid.kml#L777">777</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L778"><a href="ba065grid.kml#L778">778</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D1&lt;/name&gt;</td>
+</tr><tr><th id="L779"><a href="ba065grid.kml#L779">779</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L780"><a href="ba065grid.kml#L780">780</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L781"><a href="ba065grid.kml#L781">781</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L782"><a href="ba065grid.kml#L782">782</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L783"><a href="ba065grid.kml#L783">783</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.2501712202626,38.0462089622784,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L784"><a href="ba065grid.kml#L784">784</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L785"><a href="ba065grid.kml#L785">785</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L786"><a href="ba065grid.kml#L786">786</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L787"><a href="ba065grid.kml#L787">787</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D2&lt;/name&gt;</td>
+</tr><tr><th id="L788"><a href="ba065grid.kml#L788">788</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L789"><a href="ba065grid.kml#L789">789</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L790"><a href="ba065grid.kml#L790">790</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L791"><a href="ba065grid.kml#L791">791</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L792"><a href="ba065grid.kml#L792">792</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.2499167906926,37.7492515791395,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L793"><a href="ba065grid.kml#L793">793</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L794"><a href="ba065grid.kml#L794">794</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L795"><a href="ba065grid.kml#L795">795</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L796"><a href="ba065grid.kml#L796">796</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D3&lt;/name&gt;</td>
+</tr><tr><th id="L797"><a href="ba065grid.kml#L797">797</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L798"><a href="ba065grid.kml#L798">798</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L799"><a href="ba065grid.kml#L799">799</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L800"><a href="ba065grid.kml#L800">800</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L801"><a href="ba065grid.kml#L801">801</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.2498198722522,37.2492682929535,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L802"><a href="ba065grid.kml#L802">802</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L803"><a href="ba065grid.kml#L803">803</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L804"><a href="ba065grid.kml#L804">804</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L805"><a href="ba065grid.kml#L805">805</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D4&lt;/name&gt;</td>
+</tr><tr><th id="L806"><a href="ba065grid.kml#L806">806</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L807"><a href="ba065grid.kml#L807">807</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L808"><a href="ba065grid.kml#L808">808</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L809"><a href="ba065grid.kml#L809">809</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L810"><a href="ba065grid.kml#L810">810</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.249907491409,36.7493557359114,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L811"><a href="ba065grid.kml#L811">811</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L812"><a href="ba065grid.kml#L812">812</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L813"><a href="ba065grid.kml#L813">813</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L814"><a href="ba065grid.kml#L814">814</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;D5&lt;/name&gt;</td>
+</tr><tr><th id="L815"><a href="ba065grid.kml#L815">815</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L816"><a href="ba065grid.kml#L816">816</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L817"><a href="ba065grid.kml#L817">817</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L818"><a href="ba065grid.kml#L818">818</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L819"><a href="ba065grid.kml#L819">819</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.2499261582102,36.3229283753405,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L820"><a href="ba065grid.kml#L820">820</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L821"><a href="ba065grid.kml#L821">821</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L822"><a href="ba065grid.kml#L822">822</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L823"><a href="ba065grid.kml#L823">823</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E1&lt;/name&gt;</td>
+</tr><tr><th id="L824"><a href="ba065grid.kml#L824">824</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L825"><a href="ba065grid.kml#L825">825</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L826"><a href="ba065grid.kml#L826">826</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L827"><a href="ba065grid.kml#L827">827</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L828"><a href="ba065grid.kml#L828">828</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.7497022131549,38.0457453431886,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L829"><a href="ba065grid.kml#L829">829</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L830"><a href="ba065grid.kml#L830">830</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L831"><a href="ba065grid.kml#L831">831</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L832"><a href="ba065grid.kml#L832">832</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E2&lt;/name&gt;</td>
+</tr><tr><th id="L833"><a href="ba065grid.kml#L833">833</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L834"><a href="ba065grid.kml#L834">834</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L835"><a href="ba065grid.kml#L835">835</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L836"><a href="ba065grid.kml#L836">836</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L837"><a href="ba065grid.kml#L837">837</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.7502116686634,37.7488899629374,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L838"><a href="ba065grid.kml#L838">838</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L839"><a href="ba065grid.kml#L839">839</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L840"><a href="ba065grid.kml#L840">840</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L841"><a href="ba065grid.kml#L841">841</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E3&lt;/name&gt;</td>
+</tr><tr><th id="L842"><a href="ba065grid.kml#L842">842</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L843"><a href="ba065grid.kml#L843">843</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L844"><a href="ba065grid.kml#L844">844</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L845"><a href="ba065grid.kml#L845">845</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L846"><a href="ba065grid.kml#L846">846</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.7502241361545,37.2489791465694,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L847"><a href="ba065grid.kml#L847">847</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L848"><a href="ba065grid.kml#L848">848</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L849"><a href="ba065grid.kml#L849">849</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L850"><a href="ba065grid.kml#L850">850</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E4&lt;/name&gt;</td>
+</tr><tr><th id="L851"><a href="ba065grid.kml#L851">851</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L852"><a href="ba065grid.kml#L852">852</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L853"><a href="ba065grid.kml#L853">853</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L854"><a href="ba065grid.kml#L854">854</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L855"><a href="ba065grid.kml#L855">855</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.7500383310795,36.7492333624347,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L856"><a href="ba065grid.kml#L856">856</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L857"><a href="ba065grid.kml#L857">857</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L858"><a href="ba065grid.kml#L858">858</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L859"><a href="ba065grid.kml#L859">859</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;E5&lt;/name&gt;</td>
+</tr><tr><th id="L860"><a href="ba065grid.kml#L860">860</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L861"><a href="ba065grid.kml#L861">861</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L862"><a href="ba065grid.kml#L862">862</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L863"><a href="ba065grid.kml#L863">863</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L864"><a href="ba065grid.kml#L864">864</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 30.7500134736692,36.3225240530506,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L865"><a href="ba065grid.kml#L865">865</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L866"><a href="ba065grid.kml#L866">866</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L867"><a href="ba065grid.kml#L867">867</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L868"><a href="ba065grid.kml#L868">868</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F1&lt;/name&gt;</td>
+</tr><tr><th id="L869"><a href="ba065grid.kml#L869">869</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L870"><a href="ba065grid.kml#L870">870</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L871"><a href="ba065grid.kml#L871">871</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L872"><a href="ba065grid.kml#L872">872</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L873"><a href="ba065grid.kml#L873">873</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.2482413041019,38.0442336551238,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L874"><a href="ba065grid.kml#L874">874</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L875"><a href="ba065grid.kml#L875">875</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L876"><a href="ba065grid.kml#L876">876</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L877"><a href="ba065grid.kml#L877">877</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F2&lt;/name&gt;</td>
+</tr><tr><th id="L878"><a href="ba065grid.kml#L878">878</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L879"><a href="ba065grid.kml#L879">879</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L880"><a href="ba065grid.kml#L880">880</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L881"><a href="ba065grid.kml#L881">881</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L882"><a href="ba065grid.kml#L882">882</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.2499591616072,37.748774150136,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L883"><a href="ba065grid.kml#L883">883</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L884"><a href="ba065grid.kml#L884">884</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L885"><a href="ba065grid.kml#L885">885</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L886"><a href="ba065grid.kml#L886">886</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F3&lt;/name&gt;</td>
+</tr><tr><th id="L887"><a href="ba065grid.kml#L887">887</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L888"><a href="ba065grid.kml#L888">888</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L889"><a href="ba065grid.kml#L889">889</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L890"><a href="ba065grid.kml#L890">890</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L891"><a href="ba065grid.kml#L891">891</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.2499349998995,37.2488499986001,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L892"><a href="ba065grid.kml#L892">892</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L893"><a href="ba065grid.kml#L893">893</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L894"><a href="ba065grid.kml#L894">894</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L895"><a href="ba065grid.kml#L895">895</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F4&lt;/name&gt;</td>
+</tr><tr><th id="L896"><a href="ba065grid.kml#L896">896</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L897"><a href="ba065grid.kml#L897">897</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L898"><a href="ba065grid.kml#L898">898</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L899"><a href="ba065grid.kml#L899">899</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L900"><a href="ba065grid.kml#L900">900</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.2498816979587,36.7490033329921,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L901"><a href="ba065grid.kml#L901">901</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L902"><a href="ba065grid.kml#L902">902</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L903"><a href="ba065grid.kml#L903">903</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L904"><a href="ba065grid.kml#L904">904</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;F5&lt;/name&gt;</td>
+</tr><tr><th id="L905"><a href="ba065grid.kml#L905">905</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L906"><a href="ba065grid.kml#L906">906</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L907"><a href="ba065grid.kml#L907">907</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L908"><a href="ba065grid.kml#L908">908</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L909"><a href="ba065grid.kml#L909">909</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.2500553034605,36.3209899932368,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L910"><a href="ba065grid.kml#L910">910</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L911"><a href="ba065grid.kml#L911">911</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L912"><a href="ba065grid.kml#L912">912</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L913"><a href="ba065grid.kml#L913">913</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G1&lt;/name&gt;</td>
+</tr><tr><th id="L914"><a href="ba065grid.kml#L914">914</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L915"><a href="ba065grid.kml#L915">915</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L916"><a href="ba065grid.kml#L916">916</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L917"><a href="ba065grid.kml#L917">917</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L918"><a href="ba065grid.kml#L918">918</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.7469505481366,38.0417062403313,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L919"><a href="ba065grid.kml#L919">919</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L920"><a href="ba065grid.kml#L920">920</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L921"><a href="ba065grid.kml#L921">921</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L922"><a href="ba065grid.kml#L922">922</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G2&lt;/name&gt;</td>
+</tr><tr><th id="L923"><a href="ba065grid.kml#L923">923</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L924"><a href="ba065grid.kml#L924">924</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L925"><a href="ba065grid.kml#L925">925</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L926"><a href="ba065grid.kml#L926">926</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L927"><a href="ba065grid.kml#L927">927</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.7496932535654,37.7484732955129,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L928"><a href="ba065grid.kml#L928">928</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L929"><a href="ba065grid.kml#L929">929</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L930"><a href="ba065grid.kml#L930">930</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L931"><a href="ba065grid.kml#L931">931</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G3&lt;/name&gt;</td>
+</tr><tr><th id="L932"><a href="ba065grid.kml#L932">932</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L933"><a href="ba065grid.kml#L933">933</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L934"><a href="ba065grid.kml#L934">934</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L935"><a href="ba065grid.kml#L935">935</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L936"><a href="ba065grid.kml#L936">936</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.7495175231384,37.2485375206352,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L937"><a href="ba065grid.kml#L937">937</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L938"><a href="ba065grid.kml#L938">938</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L939"><a href="ba065grid.kml#L939">939</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L940"><a href="ba065grid.kml#L940">940</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G4&lt;/name&gt;</td>
+</tr><tr><th id="L941"><a href="ba065grid.kml#L941">941</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L942"><a href="ba065grid.kml#L942">942</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L943"><a href="ba065grid.kml#L943">943</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L944"><a href="ba065grid.kml#L944">944</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L945"><a href="ba065grid.kml#L945">945</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.7494758628325,36.7488741888171,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L946"><a href="ba065grid.kml#L946">946</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L947"><a href="ba065grid.kml#L947">947</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L948"><a href="ba065grid.kml#L948">948</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L949"><a href="ba065grid.kml#L949">949</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;G5&lt;/name&gt;</td>
+</tr><tr><th id="L950"><a href="ba065grid.kml#L950">950</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L951"><a href="ba065grid.kml#L951">951</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L952"><a href="ba065grid.kml#L952">952</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L953"><a href="ba065grid.kml#L953">953</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L954"><a href="ba065grid.kml#L954">954</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 31.7501774410205,36.3182855039905,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L955"><a href="ba065grid.kml#L955">955</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L956"><a href="ba065grid.kml#L956">956</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L957"><a href="ba065grid.kml#L957">957</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L958"><a href="ba065grid.kml#L958">958</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H1&lt;/name&gt;</td>
+</tr><tr><th id="L959"><a href="ba065grid.kml#L959">959</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L960"><a href="ba065grid.kml#L960">960</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L961"><a href="ba065grid.kml#L961">961</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L962"><a href="ba065grid.kml#L962">962</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L963"><a href="ba065grid.kml#L963">963</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0434900094276,38.0399809966311,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L964"><a href="ba065grid.kml#L964">964</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L965"><a href="ba065grid.kml#L965">965</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L966"><a href="ba065grid.kml#L966">966</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L967"><a href="ba065grid.kml#L967">967</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H2&lt;/name&gt;</td>
+</tr><tr><th id="L968"><a href="ba065grid.kml#L968">968</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L969"><a href="ba065grid.kml#L969">969</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L970"><a href="ba065grid.kml#L970">970</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L971"><a href="ba065grid.kml#L971">971</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L972"><a href="ba065grid.kml#L972">972</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0404180640261,37.7538522537106,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L973"><a href="ba065grid.kml#L973">973</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L974"><a href="ba065grid.kml#L974">974</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L975"><a href="ba065grid.kml#L975">975</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L976"><a href="ba065grid.kml#L976">976</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H3&lt;/name&gt;</td>
+</tr><tr><th id="L977"><a href="ba065grid.kml#L977">977</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L978"><a href="ba065grid.kml#L978">978</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L979"><a href="ba065grid.kml#L979">979</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L980"><a href="ba065grid.kml#L980">980</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L981"><a href="ba065grid.kml#L981">981</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0348248917424,37.2546914119583,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L982"><a href="ba065grid.kml#L982">982</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L983"><a href="ba065grid.kml#L983">983</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L984"><a href="ba065grid.kml#L984">984</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L985"><a href="ba065grid.kml#L985">985</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H4&lt;/name&gt;</td>
+</tr><tr><th id="L986"><a href="ba065grid.kml#L986">986</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L987"><a href="ba065grid.kml#L987">987</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L988"><a href="ba065grid.kml#L988">988</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L989"><a href="ba065grid.kml#L989">989</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L990"><a href="ba065grid.kml#L990">990</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0293719544176,36.7562452452807,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L991"><a href="ba065grid.kml#L991">991</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L992"><a href="ba065grid.kml#L992">992</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L993"><a href="ba065grid.kml#L993">993</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Placemark&gt;</td>
+</tr><tr><th id="L994"><a href="ba065grid.kml#L994">994</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;H5&lt;/name&gt;</td>
+</tr><tr><th id="L995"><a href="ba065grid.kml#L995">995</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;styleUrl&gt;#styleGridLabel&lt;/styleUrl&gt;</td>
+</tr><tr><th id="L996"><a href="ba065grid.kml#L996">996</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;Point&gt;</td>
+</tr><tr><th id="L997"><a href="ba065grid.kml#L997">997</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;extrude&gt;0&lt;/extrude&gt;</td>
+</tr><tr><th id="L998"><a href="ba065grid.kml#L998">998</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;</td>
+</tr><tr><th id="L999"><a href="ba065grid.kml#L999">999</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;coordinates&gt; 32.0246258271352,36.3214316894469,0 &lt;/coordinates&gt;</td>
+</tr><tr><th id="L1000"><a href="ba065grid.kml#L1000">1000</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Point&gt;</td>
+</tr><tr><th id="L1001"><a href="ba065grid.kml#L1001">1001</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/Placemark&gt;</td>
+</tr><tr><th id="L1002"><a href="ba065grid.kml#L1002">1002</a></th>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/Folder&gt;</td>
+</tr><tr><th id="L1003"><a href="ba065grid.kml#L1003">1003</a></th>
+<td>&nbsp; &nbsp; &lt;/Document&gt;</td>
+</tr><tr><th id="L1004"><a href="ba065grid.kml#L1004">1004</a></th>
+<td>&lt;/kml&gt;</td>
+</tr></tbody></table>
+ </div>
+ 
+
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="ba065grid.kml?format=raw">Original Format</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../../../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../../../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

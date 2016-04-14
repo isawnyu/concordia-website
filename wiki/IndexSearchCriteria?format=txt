@@ -1,0 +1,23 @@
+= Index Search Criteria =
+
+An important specification component for ConcordiaHarvester.
+
+== Types of search ==
+
+ * Given an item (url) in one collection, find all "related" items in other collections, regardless of type
+
+ * Find things that attest to a given item (url)
+
+ * How much of each dataset's own intrinsic properties do we allow users to search against?
+
+ * (sub)string(s) in title and/or description (text search)
+
+ * Given an item (url), find all related items in other collections whose relation type is one or more values from our vocabulary (search by our predicates)
+
+ * Constrain type of item returned (we need a ConcordiaTypeThesaurus)
+
+ * Spatial search in recognizable structured data (e.g., gml-namespaced; GeoRSS in Atom; specify a region and find within)
+
+ * Date search in recognizable structured data (e.g., TEI/EpiDoc: begin/end)
+
+

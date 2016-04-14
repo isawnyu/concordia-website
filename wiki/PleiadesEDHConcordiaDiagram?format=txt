@@ -1,0 +1,8 @@
+= Pleiades EDH Concordia Diagram =
+
+
+During the [wiki:NEH_DFGworkshopOne Heidelberg Workshop in July 2009], we sketched out the following diagram to help discuss relationships and data flows between Pleiades and EDH in the context of the Concordia interoperability framework:
+
+[[Image(edh-concordia-diagram.jpg)]]
+
+Does EDH have to be completely in XML before Atom Feeds can work? No! 

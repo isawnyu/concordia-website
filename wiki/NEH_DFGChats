@@ -1,0 +1,195 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>NEH_DFGChats - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="NEH_DFGChats?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="NEH_DFGChats?action=diff&amp;version=35">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="SkypeChatsoninteroperationbetweenPleiadesandEDH">Skype Chats on interoperation between Pleiades and EDH</h1>
+<h2 id="Monday13September2010">Monday, 13 September 2010</h2>
+<p>
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+</p>
+<p>
+Attending: JC, TE
+</p>
+<ul><li>NEH/DFG application <a class="ext-link" href="http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/international/dfg_neh_humanities_program/index.html"><span class="icon">DFG</span></a> or <a class="ext-link" href="http://www.neh.gov/ODH/ODHUpdate/tabid/108/EntryId/139/DFG-NEH-Bilateral-Digital-Humanities-Program-2010.aspx"><span class="icon">NEH</span></a> (16 November 2010 deadline)
+<ul><li>Amount: $100,000 - 350,000 = Euro 80,000 - 280,000.
+</li><li>Subversion: configuration and maintenance of server
+</li><li>Joint workload Pleiades / Geographic Database EDH
+<ul><li>search for toponyms in Pleiades: automatised through batch searching developed by Pleiades
+</li><li>processing of the KML formatted data from Pleiades. filtered for use in EDH per script
+</li><li>interface in the EDH data (RDF, Atom feed et al.) for data exchange from EDH to Pleiades: development of a central metaportal (EAGLE-like)
+</li><li>development of further tools for joint work with Pleiades if and when necessary
+</li><li>further development and integration of the EDH geographic database into the EDH infrastructure
+</li><li>broadening of the scope of the search possibilities in the realm of geographic data (freely defined radius around any chosen toponym)
+</li></ul></li><li>EpiDoc: work out possibilities and techniques for converting proprietarially stored text data (*.itx) to EpiDoc (aim simplified exchange of data with comparable text databases, long term storage of EDH data)
+<ul><li>develeopment of XSLT files on the basis of existing IRT files
+</li><li>exploration of Xsugar to enable simplified entry of XML data: support scripts to convert data where necessary
+</li><li>creation of a workflow to automatise and standardise the import of EpiDoc data from other projects
+</li><li>integration of EpiDoc data into the EDH infrastructure
+</li></ul></li><li>Akademie der Wissenschaften prepared to offer support in the case of success
+<ul><li>1/2 position 
+</li><li>further financial commitment to provide for student work contracts
+</li><li>provision for computer needs
+</li></ul></li></ul></li></ul><h2 id="Monday26July2010">Monday, 26 July 2010</h2>
+<p>
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+</p>
+<p>
+Attending: JC, TE, FFG, BG
+</p>
+<ul><li>NEH/DFG application <a class="ext-link" href="http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/international/dfg_neh_humanities_program/index.html"><span class="icon">DFG</span></a> or <a class="ext-link" href="http://www.neh.gov/ODH/ODHUpdate/tabid/108/EntryId/139/DFG-NEH-Bilateral-Digital-Humanities-Program-2010.aspx"><span class="icon">NEH</span></a> (16 November 2010 deadline)
+<ul><li>Amount: $100,000 - 350,000 = Euro 80,000 - 280,000.
+</li><li>One full time position. To work on the geographic database. Entry and optimization.
+</li><li>Extra IT support (position).
+</li><li>More work on EpiDoc?
+</li></ul></li></ul><h2 id="Tuesday08December2009">Tuesday, 08 December 2009</h2>
+<p>
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+</p>
+<p>
+Attending: JC, TE, FFG, BG
+</p>
+<ul><li>IRT situation. Looking much better now. GB and JC have improved the output <strong>edh-table.xml</strong>. AD has already done scripting work and reckons that not much more has to be done in order to be able to import the contents of edh-table.xml into the EDH DB2 database.
+</li><li>Coordinates progress <a class="wiki" href="PleiadesMoI">PleiadesMoI</a>
+</li><li>Model of <a class="wiki" href="EDHgeographyTable">EDH geography database</a>
+</li><li><a class="ext-link" href="http://concordia.atlantides.org/examples/edh-mockups/glamoc.html"><span class="icon">Mock up</span></a> for demonstration of cooperation between EDH and Pleiades.
+</li></ul><h2 id="Tuesday03November2009">Tuesday, 03 November 2009</h2>
+<p>
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+</p>
+<p>
+Attending: JC, TE, FFG, BG, SG
+</p>
+<ul><li>Arrangements for New York
+</li><li>IRT situation
+</li><li>Coordinates progress <a class="wiki" href="PleiadesMoI">PleiadesMoI</a>
+</li></ul><h2 id="Tuesday27October2009">Tuesday, 27 October 2009</h2>
+<p>
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+</p>
+<p>
+Attending: JC, TE, FFG, BG, SG
+</p>
+<ul><li>Coordinates <a class="wiki" href="PleiadesMoI">PleiadesMoI</a>
+</li></ul><h2 id="Tuesday20October2009">Tuesday, 20 October 2009</h2>
+<p>
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+</p>
+<p>
+Attending: JC, TE, FFG, BG, SG
+</p>
+<ul><li>What should coordinates look like? There are short ones and long ones. Do we have guidelines? 
+<ul><li>Here is a first stab at how EDH might try to process data: <a class="wiki" href="EDH_Coordinates">EDH_Coordinates</a>
+</li></ul></li><li>Fix <a class="wiki" href="NEH_DFGworkshopTwo">New York meeting</a> dates.
+</li><li>Clarity about what we think we can provide for demonstration in February in Heidelberg. 
+<ul><li>Linking to Pleiades for Moesia Inferior. Specific steps that need to be taken. Page started <a class="wiki" href="PleiadesMoI">here</a>
+</li><li>Incorporation of IRT from London. Specific steps that need to be taken.
+<ul><li>EDH has to indicate what format the export of the London files should be in.
+</li><li>London sends file(s).
+</li><li>EDH imports
+</li></ul></li></ul></li></ul><h2 id="Tuesday28July2009">Tuesday, 28 July 2009</h2>
+<p>
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+</p>
+<p>
+Attending: JC, AD, TE, FFG, BG, SG
+</p>
+<ul><li>Scheduling the <a class="wiki" href="NEH_DFGworkshopTwo">New York meeting</a> (known conflicts?)
+<ul><li>proposed dates are Wednesday to Friday 20-22 January as full working days - arrivals from Europe Tuesday 19 January
+</li></ul></li><li>First workshop report: see <a class="ext-link" href="http://docs.google.com/Doc?docid=0AXmDUyfP6SvFZHJuNm56c183NmZmeGtkd2M3&amp;hl=en"><span class="icon">spreadsheet</span></a>
+</li><li><a class="wiki" href="VacationSchedules">VacationSchedules</a>
+</li><li>Schedule future chats: 17.08.2009 Monday 15.00 08.00
+</li><li>Time estimates
+</li><li>Status of July tasks
+<ul><li>EDH to provide details of end formats: rules for creating .itx files already sent to CCH; list of IRT texts already in EDH likewise already sent to CCH and now processed in a <a class="ext-link" href="http://spreadsheets.google.com/ccc?key=0AsRD-ijkwScPdFhZblNpX2tsOHc0cVh4UllyUDcwekE&amp;hl=en"><span class="icon">spreadsheet</span></a>
+</li><li>method and implications for handling IRT collaboration against EDH content
+</li><li>Mees has provided EDH with coordinates for Limes places (Germany)
+</li><li>clean up road map
+</li><li>mine original agenda for dropped issues or tasks
+</li><li>fix web page
+</li></ul></li><li>Transfer of workplan to tracker/wiki content
+</li></ul></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="NEH_DFGChats?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

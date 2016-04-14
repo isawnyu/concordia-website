@@ -1,0 +1,28 @@
+
+== Coordinates ==
+
+ * Present the longitude and latitude coordinates in '''decimal form'''. DMS types (degrees minutes seconds) are not suitable.
+ * Use more than two digits behind the decimal point (only approx. 1 km accuracy) where possible. In the example in [wiki:AtomLocationByReference] there are five digits after the decimal point.
+
+{{{
+<entry>
+  <georss:where>
+    <gml:Point>
+      <gml:pos>40.58526 -105.08442 0.0</gml:pos>
+    </gml:Point>
+  </georss:where>
+  ...
+</entry>
+}}}
+
+In the above mentioned case of "-105.08442" the minus sign indicates degrees to the south of the equator? 
+ * ''North of equator'': '''positive values'''. ''South of equator'': '''negative values'''.
+ * ''East of Greenwich median'': '''positive values'''. ''West of Greenwich median'': '''negative values'''.
+
+Observation: the "0.0" is elevation. We do not need this information.
+ * It is up to EDH to decide how to store the information in the EDH database. In one field, in two fields etc. But we should have a field marked <georss:where> in which the coordinates are presented as above. Or some way of making them available in this form.
+ * What form should we (workers in EDH) use to make preliminary lists of places, coordinates and the appropriate information from the EDH database? Comma separated lists? Tables? Remember the problem concerning a separate database a la FUrls.
+ * EDH should have a field for the appropriate Pleiades identifiers. E.g. 
+ * How many coordinates does Pleiades have for its maps? Once Harvard is finished with its project, Pleiades will receive good quality coordinates for the map points of the Barrington Atlas.
+
+See also [http://atlantides.org/trac/concordia/wiki/PleiadesMoI PleiadesMoI]

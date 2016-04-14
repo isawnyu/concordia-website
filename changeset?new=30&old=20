@@ -1,0 +1,386 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Diff r20:30 for / - Concordia - Trac</title><link rel="start" href="wiki.2" /><link rel="search" href="search" /><link rel="help" href="wiki/TracGuide" /><link rel="stylesheet" href="chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="chrome/common/css/changeset.css" type="text/css" /><link rel="stylesheet" href="chrome/common/css/diff.css" type="text/css" /><link rel="stylesheet" href="chrome/common/css/code.css" type="text/css" /><link rel="icon" href="chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="changeset?format=diff&amp;new=30&amp;old=20&amp;new_path=%252F&amp;old_path=%252F" title="Unified Diff" type="text/plain" /><link rel="alternate" href="changeset?format=zip&amp;new=30&amp;old=20&amp;new_path=%252F&amp;old_path=%252F" title="Zip Archive" type="application/zip" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="settings">Settings</a></li><li><a accesskey="6" href="wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="first"><a accesskey="1" href="wiki.2">Wiki</a></li><li><a accesskey="2" href="timeline">Timeline</a></li><li><a accesskey="3" href="roadmap">Roadmap</a></li><li class="active"><a href="browser">Browse Source</a></li><li><a href="report">View Tickets</a></li><li class="last"><a accesskey="4" href="search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Navigation</h2>
+  <ul>
+    <li class="last"><a href="http://www.atlantides.org/trac/concordia/changeset/20/?old=30&amp;old_path=%2F">Reverse Diff</a></li>
+  </ul>
+</div>
+
+<div id="content" class="changeset">
+ <div id="title">
+    <h1>Changes in <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/?rev=30">
+      /</a>
+      <a title="Show revision log" href="http://www.atlantides.org/trac/concordia/log/?rev=30&amp;stop_rev=20">
+      [20:30]</a>
+    </h1>
+ </div>
+
+
+
+
+
+<dl id="overview">
+ <dt class="property files">
+   Files:
+ </dt>
+ <dd class="files">
+  <ul>
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk/tests/data/ala2004?rev=22">/epidoc2atom/trunk/tests/data/ala2004</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk/tests/data/ala2004/alist-admi.xml?rev=22">/epidoc2atom/trunk/tests/data/ala2004/alist-admi.xml</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk/tests/data/ala2004/alist-geog.xml?rev=22">/epidoc2atom/trunk/tests/data/ala2004/alist-geog.xml</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk/tests/data/iaph2007/place.xml?rev=23">/epidoc2atom/trunk/tests/data/iaph2007/place.xml</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool?rev=30">/concordia.matchtool</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk?rev=30">/concordia.matchtool/trunk</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia?rev=29">/concordia.matchtool/trunk/concordia</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia/__init__.py?rev=24">/concordia.matchtool/trunk/concordia/__init__.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool?rev=29">/concordia.matchtool/trunk/concordia/matchtool</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/test-data.cfg?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/test-data.cfg</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/rule.txt?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/rule.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/__init__.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/__init__.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/data?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/data</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/data/alist-geog.xml?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/data/alist-geog.xml</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/dset.txt?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/dset.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/tests/test_doctests.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/tests/test_doctests.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/errors.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/errors.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia/matchtool/__init__.py?rev=24">/concordia.matchtool/trunk/concordia/matchtool/__init__.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/dset.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/dset.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/data.cfg?rev=29">/concordia.matchtool/trunk/concordia/matchtool/data.cfg</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/config.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/config.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia/matchtool/rule.py?rev=29">/concordia.matchtool/trunk/concordia/matchtool/rule.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia.matchtool.egg-info?rev=29">/concordia.matchtool/trunk/concordia.matchtool.egg-info</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia.matchtool.egg-info/SOURCES.txt?rev=29">/concordia.matchtool/trunk/concordia.matchtool.egg-info/SOURCES.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/top_level.txt?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/top_level.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/namespace_packages.txt?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/namespace_packages.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/concordia.matchtool.egg-info/PKG-INFO?rev=29">/concordia.matchtool/trunk/concordia.matchtool.egg-info/PKG-INFO</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/entry_points.txt?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/entry_points.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/dependency_links.txt?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/dependency_links.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/requires.txt?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/requires.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/concordia.matchtool.egg-info/zip-safe?rev=24">/concordia.matchtool/trunk/concordia.matchtool.egg-info/zip-safe</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/setup.py?rev=29">/concordia.matchtool/trunk/setup.py</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/docs?rev=24">/concordia.matchtool/trunk/docs</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/docs/HISTORY.txt?rev=24">/concordia.matchtool/trunk/docs/HISTORY.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/trunk/README.txt?rev=30">/concordia.matchtool/trunk/README.txt</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/trunk/setup.cfg?rev=24">/concordia.matchtool/trunk/setup.cfg</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/branches?rev=27">/concordia.matchtool/branches</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/concordia.matchtool/tags?rev=28">/concordia.matchtool/tags</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  
+   <li>
+  <div class="add"></div>
+   <a title="Show entry in browser" href="http://www.atlantides.org/trac/concordia/browser/ala2iaph-concordance/trunk/xslt/extract-phi-concordance.xsl?rev=21">/ala2iaph-concordance/trunk/xslt/extract-phi-concordance.xsl</a>
+  <span class="comment">(added)</span>
+
+   </li>
+  </ul>
+ </dd>
+</dl>
+
+<div class="diff">
+ <div id="legend">
+  <h3>Legend:</h3>
+  <dl>
+   <dt class="unmod"></dt><dd>Unmodified</dd>
+   <dt class="add"></dt><dd>Added</dd>
+   <dt class="rem"></dt><dd>Removed</dd>
+   <dt class="mod"></dt><dd>Modified</dd>
+   <dt class="cp"></dt><dd>Copied</dd>
+   <dt class="mv"></dt><dd>Moved</dd>
+  </dl>
+ </div>
+ <ul class="entries"></ul>
+</div>
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first"><a href="changeset?format=diff&amp;new=30&amp;old=20&amp;new_path=%252F&amp;old_path=%252F" class="diff">Unified Diff</a></li><li class="last"><a href="changeset?format=zip&amp;new=30&amp;old=20&amp;new_path=%252F&amp;old_path=%252F" class="zip">Zip Archive</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

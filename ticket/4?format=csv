@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+4,RSSOwl can't handle entry-only atom feeds,thomase,thomase,"RSSOwl is not able to display that Newsfeed. Reason: The XML document is not a valid RSS_ RDF or Atom Newsfeed."\r\n\r\nWouldn't be surprised to see similar behavior in other feedreaders. What do we think about this? Lower our standards and wrap these entries in feed elements? Or reduce our commitment to "graceful degradation?",defect,closed,major,Feeds for IAph 2007,xslts,,wontfix,,sgillies

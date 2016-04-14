@@ -1,0 +1,37 @@
+= Concordia Harvester =
+
+''back to: ConcordiaSoftware | ProjectDeliverables''
+
+!ConcordiaHarvester is software for harvesting and indexing Atom+GeoRSS feeds and then providing useful search and correlation services through an open, RESTful Application Programming Interface (API). It is a [ProjectDeliverables project deliverable].
+
+In the proposal, we called said about it:
+
+  A family of web services -- grouped for ease of reference here under the name of a Cretan goddess "Karme" -- will be developed on top of the basic work already done in this area by Pleiades and IDP. Karme will provide geospatial search (e.g., documents within a certain area or proximity), cartographic visualization (maps) and discovery of other online information that cites or correlates with content in the participating collections. 
+
+  Karme, a Cretan deity associated with the harvest, provides the name for a suite of search-related software tools to be developed during the course of this grant period and released to the public under the terms of the GNU Public License.  Karme will comprise a limited domain web harvester, a metadata index, a cross-project Citation Vocabulary and a web-based, RESTful application programming interface (API) with associated web forms for performing queries against the content of the index. The web crawler will monitor the metadata and citation feeds produced for collections affiliated with the Concordia project, as well as others created by non-grant-funded third parties (the Pleiades web application already provides such feeds, and new ones are expected from the American Numismatic Society and the UK Portable Antiquities Scheme during early 2008). The crawler will parse these feeds for essential metadata and for links to other web-based resources (especially those internal to this project), which are interpreted as citations. The parsed metadata and associated citations are written to the metadata index, and the referenced URLs added to the list of resources to examine. Growth of this list will be controlled through a numeric cap on the number of links the crawler may transit outside the list of "core" sites as well as through a "blacklist" of domains the crawler is instructed to bypass. The addition of resources to the blacklist and to the list of core sites will be by consensus of the project directors, advised by technical staff. The crawler will comply with all appropriate protocols for web harvesting and server loading.
+
+== Specifications: ==
+
+ * IndexSearchCriteria
+
+== Code: ==
+
+ * there is not yet a module for the harvester
+
+== Other deliverables that are dependent on this one ==
+
+ * we didn't spell any out in the proposal, but maybe we need some sort of functioning demo capability beyond the API?
+
+== Other deliverables on which this one depends ==
+
+ * ConcordiaThesaurus
+
+== Related milestones: ==
+
+ * we have not yet established a milestone for this deliverable
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=harvester&description!~=harvester)]]
+[[TicketQuery(summary!~=harvester&description~=harvester)]]
+[[TicketQuery(summary~=harvester&description~=harvester)]]

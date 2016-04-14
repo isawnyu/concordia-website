@@ -1,0 +1,2 @@
+id	summary	reporter	owner	description	type	status	priority	milestone	component	version	resolution	keywords	cc
+30	Final publication of IRT2009 website	gbodard	gbodard	The final publication of the IRT 2009 website is waiting on:\r\n\r\n * some minor improvements to the EpiDoc XML (manual and automated)\r\n * incorporate geodata into XML\r\n * enhancements to CCH XSLT and EpiDoc example-xslt\r\n * incorporate web feeds into website	task	closed	major	Final version of IRT in EpiDoc XML	webpresence		fixed		

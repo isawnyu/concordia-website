@@ -1,0 +1,99 @@
+
+= Heidelberg Workshop =
+
+July 14-17, 2009 
+
+Arrivals:
+
+ * Elliott (arrive Frankfurt 7:45 a.m., 14 July)
+ * Gillies (arrive from Paris Est via Mannheim, 17:00, 14 July)
+ * Bodard
+
+Hotels: [http://www.gasthaus-backmulde-hotel.de/english/index.htm Backmulde] and [http://www.4-jahreszeiten.de/en/index.html Hotel Vier Jahreszeiten]
+
+Geography:
+
+ * [http://atlantides.org/trac/concordia/attachment/wiki/NEH_DFGworkshopOne/Heidelberg2009.kml?format=raw Hotels and Worksite] (KML for Google Earth)
+ * [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=http:%2F%2Fatlantides.org%2Ftrac%2Fconcordia%2Fattachment%2Fwiki%2FNEH_DFGworkshopOne%2FHeidelberg2009.kml%3Fformat%3Draw&ie=UTF8&z=17 Hotels and Worksite] (Google Map for Browser)
+
+Home team:
+ * Christian Witschel, Rüdiger Siebert, Brigitte Graef, Francisca Feraudi-Gruenais, Andreas Dafferner, James Cowey
+
+== Topics ==
+
+
+ * Tooling coordinates. Discussion involving all to identify what we want to be able to see from an EDH point of view and from a Concordia point of view. Thereafter discussion and decisions to be made at a technical level concerning possible new fields. Adjustments to standard procedures may have to be made. 
+ * Specific types of problem. How to deal with:
+   * Secure find spots with no ancient name. An example or two would be useful here.
+   * Information such as “Roma, bei” et al in Fundort modern and Fundort antik. List of all EDH terminology:
+     * Fundort antik: “bei”, "inter”, “insula” see [wiki:BeiInterInsula examples]
+     * Fundort modern: “bei”, "inter”, “Insel” see [wiki:BeiInterInsula examples]
+   * BAtlas type naming and EDH naming such as “Frankfurt Heddernheim”. What are the EDH guiding principles in such naming practice? See [wiki:FrHedderheim examples]
+
+ * Scanning of maps from CIL. This appears to be desirable in order to have captured in digital form geographic names which were in currency some 100 to 150 years ago, but may no longer be used.
+   * What does Harvard have?
+   * How many maps would we like to have scanned? Here is a [wiki:MapList list of maps] used by EDH.
+
+ * !EpiDoc implementation. Use [http://spreadsheets.google.com/ccc?key=p6neXWnIhUciBSK8mgcEOYA&hl=en Epidoc-P5-Correspondences] to populate the list of correspondences between EDH terminology and it !EpiDoc equivalences. This has been done to a large extent.
+   * note that the spreadsheet [http://spreadsheets.google.com/ccc?key=pzcsmIrPohcSLYkDUJKcUZg EDH/EpiDoc Equivalences] may be more complete than the P5 one (perhaps they need collating). ('''GB''') 
+   * EDH field Literatur (epigrlit.lit_line) in the '''K'''  block needs attention. EDH does not really think in terms of @subtype='principalEdition'.
+   * Discuss how to implement the addition of !EpiDoc files (e.g. IRT from London) into EDH .itx files. I have an XSLT I can provide that converts from IRT to an EDH input-table, and I'll bring along a first bash at that conversion too. I need some feedback on a few issues. ('''GB''')
+
+=== Day 1 (Wednesday, July 15) ===
+ * Starting at 10.00 a.m. in the EDH room.
+ * Status of EDH as project. What are you hoping to get from these meetings. [wiki:ListDesirables List] of what both sides hope to gain from this collaboration.
+ * Status of Pleiades/concordia as project. What are you hoping to get from these meetings.
+ * Allard Mees will also take part in the meeting. He will present his [http://www.rgzm.de/samian/home/frames.htm Sigillata Project]. We hope that the geographical information contained in his database has the potential to complement Pleiades and EDH.
+ * Demonstrate Pleiades capabilities and discuss anticipated developments (Elliott/Gillies)
+ * Demonstrate Concordia feeds and indexing (Elliott/Gillies)
+ * Demonstrate !EpiDoc-aware papyrological editor (Cowey)
+ * Demonstrate IRT to EDH conversion (Bodard)
+
+=== Day 2 (Thursday, July 16) ===
+
+Start: 09:00
+Morning: spend 1 hour on each of the following topics; emphasis on tech
+
+ * How does EDH get and manage information and code necessary to effect mapping and geospatial search ([wiki:CandidateEDHPleiadesInteractionDiagram])
+   * How do we discover who has [wiki:Coordinates coordinates] or who has updated them recently?
+     * 1. Search customized for EDH, returning Atom + GeoRSS
+     * 2. Feed of changesets (Atom again)
+   * How can we copy coordinates from one project to another?
+     * 
+   * What tech is needed on EDH side, vs. what's available elsewhere?
+     * Addition of geometry or lat/long fields to the EDH schema
+     * Spatial analysis embedded in DB2 or implemented in application using [http://www.vividsolutions.com/jts/jtshome.htm JTS]
+   * Algorithms for analysis/display
+ * Mechanisms for !EpiDoc import/export (see [wiki:EDHEpiDocImportDiagram])
+   * Near-term, specific imports: IRT and IRCyr
+   * Permanent capability
+     * technology aspects
+     * legal aspects / licensing
+ * How does one project provide links to geographically relevant subsets of others' content? (see [wiki:PleiadesEDHConcordiaDiagram])
+   * Link to full set and individual ones
+   * Summaries of content (sitemap/atom)
+
+Afternoon: revisit issues of interest/concern/opportunity arising from morning's discussion
+ * Details of [PleiadesMatchInterface match interface]
+ * Details of Atom format and associated [ConcordiaThesaurus link-type vocabulary]; what content and state of work do you reveal
+   * EDH and King's have solid use cases for relationship(s) involving photographs, squeezes, copies and sketches (and the digital versions thereof). We looked at CIDOC "depicts" and "represents" and are not yet convinced that we have a good fit
+
+Items of work and issues:
+ * Legal/policy aspects/implications of !EpiDoc import/export capability and of Atom interface
+ * XSLT refinements for !EpiDoc -> EDH transform works smoothly (esp. Leiden representation in ITX files)
+ * How to deal with doublets: 
+   * Latin texts: after conversion from !EpiDoc
+   * Metadata / database field values: ???
+ * Resources to produce Atom interface for EDH
+ * Decide policy for managing fields - what do we surface in Atom feed
+ * How to handle translitteration of Cyrillic and co.
+
+=== Day 3 (Friday, July 17) ===
+
+ * Schedule and agenda for [wiki:NEH_DFGworkshopTwo New York Workshop]
+   * prepare ground work for concordances of publications / resource material this is an edition of that is an edition of the other
+   * List of tasks before New York
+ * Process of work, issue tracking, etc.
+ * Website revamp Concordia start page
+ * Develop timeline and workplan for preparation of a funding proposal to submit to the newly announced [http://neh.gov/grants/guidelines/DFG_EDC.html Enriching Digital Collections grant opportunity] from the DFG/NEH Bilateral Digital Humanities Program (receipt deadline 8 October 2009; notification June 2010; funds available July(?) 2010)
+   * [wiki:EDHTimeEffort Time and Effort Estimates] for major components of work

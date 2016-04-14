@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+ <channel>
+   <title>Concordia: Ticket Query</title>
+  <link>http://www.atlantides.org/trac/concordia/query?status=closed&amp;verbose=1&amp;component=iaph2007xml&amp;milestone=Feeds+for+IAph+2007</link>
+   <description>Historically sensitive cross-project web linking using standard Atom feeds and some semantic sugar.</description>
+  <language>en-us</language>
+  <generator>Trac v0.10.4</generator>
+   <image>
+    <title>Concordia</title>
+    <url>http://www.atlantides.org/trac/concordia/chrome/common/trac_banner.png</url>
+    <link>http://www.atlantides.org/trac/concordia/query?status=closed&amp;verbose=1&amp;component=iaph2007xml&amp;milestone=Feeds+for+IAph+2007</link>
+   </image>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/23</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/23</guid>
+    <title>#23: Create IAph/ALA concordance</title>
+    <description>&lt;p&gt;
+Create a concordance of ALA2004 numbers against IAph2007 numbers
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/23#changelog</comments>
+   </item>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/1</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/1</guid>
+    <title>#1: find xml file that underlies IAph placenames index</title>
+    <description>&lt;p&gt;
+&lt;a class=&#34;ext-link&#34; href=&#34;http://insaph.kcl.ac.uk/iaph2007/inscriptions/indices/place/place-grcA.html&#34;&gt;&lt;span class=&#34;icon&#34;&gt;http://insaph.kcl.ac.uk/iaph2007/inscriptions/indices/place/place-grcA.html&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/1#changelog</comments>
+   </item>
+ </channel>
+</rss>

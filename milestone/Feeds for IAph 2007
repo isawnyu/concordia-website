@@ -1,0 +1,171 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Milestone Feeds for IAph 2007 - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="../wiki/TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/roadmap.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../roadmap" title="Roadmap" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li class="active"><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="milestone">
+ 
+ <h1>Milestone Feeds for IAph 2007</h1>
+ 
+
+ 
+ 
+  <div class="info">
+   <p class="date">
+      <strong>7 years late</strong> (08/31/09)
+   </p>
+     <table class="progress">
+      <tr>
+      <td class="closed" style="width: 90%">
+        <a href="../query?status=closed&amp;milestone=Feeds+for+IAph+2007" title="9 of 10 tickets closed"></a></td>
+      <td class="open" style="width: 10%">
+        <a href="../query?status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007" title="1 of 10 tickets active"></a>
+      </tr>
+     </table>
+     <p class="percent">90%</p>
+     <dl>
+      <dt>Closed tickets:</dt>
+      <dd><a href="../query?status=closed&amp;milestone=Feeds+for+IAph+2007">9</a></dd>
+      <dt>Active tickets:</dt>
+      <dd><a href="../query?status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007">1</a></dd>
+     </dl>
+  </div>
+  <form id="stats" action="Feeds&#32;for&#32;IAph&#32;2007" method="get">
+   <fieldset>
+    <legend>
+     <label for="by">Ticket status by</label>
+     <select id="by" name="by" onchange="this.form.submit()">
+      <option value="owner" >Owner</option>
+      <option value="type" >Type</option>
+      <option value="priority" >Priority</option>
+      <option value="component"  selected="selected">Component</option>
+      <option value="version" >Version</option></select>
+     <noscript><input type="submit" value="Update" /></noscript>
+    </legend>
+    <table summary="Shows the milestone completion status grouped by component">
+      <tr>
+       <th scope="row"><a href="../query?component=admin&amp;milestone=Feeds+for+IAph+2007">admin</a></th>
+       <td style="white-space: nowrap">
+        <table class="progress" style="width: 40%">
+         <tr>
+          <td class="closed" style="width: 50%"><a href="../query?component=admin&amp;status=closed&amp;milestone=Feeds+for+IAph+2007" title="1 of 2 tickets closed"></a>
+          </td>
+          <td class="open" style="width: 50%"><a href="../query?component=admin&amp;status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007" title="1 of 2 tickets active"></a>
+          </td>
+         </tr>
+        </table>
+        <p class="percent">1/2</p>
+       </td>
+      </tr>
+      <tr>
+       <th scope="row"><a href="../query?component=iaph2007xml&amp;milestone=Feeds+for+IAph+2007">iaph2007xml</a></th>
+       <td style="white-space: nowrap">
+        <table class="progress" style="width: 40%">
+         <tr>
+          <td class="closed" style="width: 100%"><a href="../query?component=iaph2007xml&amp;status=closed&amp;milestone=Feeds+for+IAph+2007" title="2 of 2 tickets closed"></a>
+          </td>
+          <td class="open" style="width: 0%"><a href="../query?component=iaph2007xml&amp;status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007" title="0 of 2 tickets active"></a>
+          </td>
+         </tr>
+        </table>
+        <p class="percent">2/2</p>
+       </td>
+      </tr>
+      <tr>
+       <th scope="row"><a href="../query?component=identifiers&amp;milestone=Feeds+for+IAph+2007">identifiers</a></th>
+       <td style="white-space: nowrap">
+        <table class="progress" style="width: 40%">
+         <tr>
+          <td class="closed" style="width: 100%"><a href="../query?component=identifiers&amp;status=closed&amp;milestone=Feeds+for+IAph+2007" title="2 of 2 tickets closed"></a>
+          </td>
+          <td class="open" style="width: 0%"><a href="../query?component=identifiers&amp;status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007" title="0 of 2 tickets active"></a>
+          </td>
+         </tr>
+        </table>
+        <p class="percent">2/2</p>
+       </td>
+      </tr>
+      <tr>
+       <th scope="row"><a href="../query?component=xslts&amp;milestone=Feeds+for+IAph+2007">xslts</a></th>
+       <td style="white-space: nowrap">
+        <table class="progress" style="width: 80%">
+         <tr>
+          <td class="closed" style="width: 100%"><a href="../query?component=xslts&amp;status=closed&amp;milestone=Feeds+for+IAph+2007" title="4 of 4 tickets closed"></a>
+          </td>
+          <td class="open" style="width: 0%"><a href="../query?component=xslts&amp;status=new&amp;status=assigned&amp;status=reopened&amp;milestone=Feeds+for+IAph+2007" title="0 of 4 tickets active"></a>
+          </td>
+         </tr>
+        </table>
+        <p class="percent">4/4</p>
+       </td>
+      </tr>
+    </table>
+   </fieldset>
+  </form>
+  <div class="description"><p>
+Construct valid atom:feed documents for every useful entry point and index group in IAph2007. These atom:feed documents should also be valid ORE Resource Maps and, where appropriate, be accompanied by links to Pleiades to provide geographic relevance.
+</p>
+</div>
+
+ <div id="help">
+  <strong>Note:</strong> See <a href="../wiki/TracRoadmap">TracRoadmap</a> for help on using the roadmap.
+ </div>
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

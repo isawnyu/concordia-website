@@ -1,0 +1,161 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>ConcordiaThesaurus - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="ConcordiaThesaurus?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="ConcordiaThesaurus?action=diff&amp;version=25">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="ConcordiaThesaurus">Concordia Thesaurus</h1>
+<p>
+ConcordiaThesaurus is a controlled vocabulary for expressing classes of relationships (or even assertions) between web-based resources in the context of Linked Data and Atom+GeoRSS feed applications. Its original version was a <a class="wiki" href="ProjectDeliverables">project deliverable</a> for the NEH-funded <a class="wiki" href="ProjectOverview">Concordia Project</a>. 
+</p>
+<p>
+See also (from October 2008 Workshop): <a class="wiki" href="ConcordiaTypeThesaurus">ConcordiaTypeThesaurus</a>
+</p>
+<h2 id="Vocabulary">Vocabulary</h2>
+<p>
+All terms are identified by URIs of the form <a class="ext-link" href="http://gawd.atlantides.org/terms/{term"><span class="icon">http://gawd.atlantides.org/terms/{term</span></a>}: <a class="ext-link" href="http://gawd.atlantides.org/terms/findspot"><span class="icon">http://gawd.atlantides.org/terms/findspot</span></a>, etc.
+We often use "gawd" as a namespace prefix for "<a class="ext-link" href="http://gawd.atlantides.org/terms/"><span class="icon">http://gawd.atlantides.org/terms/</span></a>".
+</p>
+<h3 id="alternateEdition">alternateEdition</h3>
+<p>
+Indicates that two published editions treat the same ancient text or document.
+</p>
+<h3 id="attestsTo">attestsTo</h3>
+<p>
+Identifies a historical place or person whose existence or name is attested by the item in question.
+</p>
+<p>
+Example (Turtle format): An inscription from IAph 2007 attests to a particular form of place appellation, Ἀφροδισίας.
+</p>
+<pre class="wiki">&lt;http://insaph.kcl.ac.uk/iaph2007/iAph040202&gt; gawd:attestsTo &lt;http://pleiades.stoa.org/places/638753/aphrodisias&gt;
+</pre><h3 id="depicts">depicts</h3>
+<p>
+Same as CIDOC CRM p62 "depicts". An image, for example, may depict an inscription.
+</p>
+<h3 id="findspot">findspot</h3>
+<p>
+Identifies the place where the item was found by modern persons.
+</p>
+<p>
+Example (Turtle format): An inscription from IAph 2007 was found at the site of the ancient place we call Aphrodisias.
+</p>
+<pre class="wiki">&lt;http://insaph.kcl.ac.uk/iaph2007/iAph040202&gt; gawd:findspot &lt;http://pleiades.stoa.org/places/638753&gt;
+</pre><h3 id="observedAt">observedAt</h3>
+<p>
+Identifies a place where the item was observed by modern persons, the place of transcription.
+</p>
+<h3 id="origin">origin</h3>
+<p>
+Identifies the place where the item is reasoned, by modern persons, to have originated.
+</p>
+<h3 id="where">where</h3>
+<p>
+Generic location relation, modeled on the <a class="ext-link" href="http://code.google.com/p/where-link-relation-type/"><span class="icon">where relation link type</span></a> proposed by Sean Gillies).
+</p>
+<h2 id="DublinCore">Dublin Core</h2>
+<p>
+<a class="ext-link" href="http://purl.org/dc/terms/references"><span class="icon">http://purl.org/dc/terms/references</span></a> indicates that one resource makes some kind of reference to another resource.
+</p>
+<h2 id="Issues">Issues</h2>
+<ul><li>EDH and King's have solid use cases for relationship(s) involving photographs, squeezes, copies and sketches (and the digital versions thereof). 2009-07-17
+</li></ul><h2 id="Code:">Code:</h2>
+<ul><li>there is not yet a module for the thesaurus
+</li></ul><p>
+See also <a class="wiki" href="ConcordiaGraph">ConcordiaGraph</a>.
+</p>
+<h2 id="Otherdeliverablesthataredependentonthisone">Other deliverables that are dependent on this one</h2>
+<ul><li><a class="wiki" href="ConcordiaHarvester">ConcordiaHarvester</a>
+</li></ul><h2 id="Relatedmilestones:">Related milestones:</h2>
+<ul><li>we have not yet established a milestone for this deliverable
+</li></ul><h2 id="Relatedticketsprobably:">Related tickets (probably):</h2>
+
+
+
+</div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/ConcordiaThesaurus/simplest.png">simplest.png</a> (23.8 kB) - added by seang on 12/03/08 16:29:13.</li><li class="tkt-chg-change"><a href="../attachment/wiki/ConcordiaThesaurus/untyped.png">untyped.png</a> (15.5 kB) - added by seang on 12/08/08 23:02:27.</li><li class="tkt-chg-change"><a href="../attachment/wiki/ConcordiaThesaurus/crm.png">crm.png</a> (24.3 kB) - added by seang on 12/09/08 13:25:41.</li><li class="tkt-chg-change"><a href="../attachment/wiki/ConcordiaThesaurus/more.png">more.png</a> (28.7 kB) - added by seang on 12/12/08 11:36:47.</li><li class="tkt-chg-change"><a href="../attachment/wiki/ConcordiaThesaurus/gawd.png">gawd.png</a> (42.0 kB) - added by seang on 01/12/09 22:41:22.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="ConcordiaThesaurus?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

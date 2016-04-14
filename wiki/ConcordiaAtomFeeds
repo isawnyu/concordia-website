@@ -1,0 +1,185 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>ConcordiaAtomFeeds - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="ConcordiaAtomFeeds?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="ConcordiaAtomFeeds?action=diff&amp;version=26">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h2 id="Linktyping">Link typing</h2>
+<p>
+Atom feeds for Concordia will use atom:link elements to relate web resources to each other.
+</p>
+<p>
+Relevant link rels built into Atom are: "alternate", "related", "self" <a class="ext-link" href="http://tools.ietf.org/html/rfc4287"><span class="icon">RFC4287</span></a>. The rel type 'alternate' is used in links to alternate representations of an entry in general, and to corresponding web pages in particular. Commonly, these alternate representations will be from the same domain as the entry. The rel type 'related' is a used in links to related web resources. Commonly, these related resources will be in a different domain. An entry about an IAph entity can thereby indicate a generic catch-all relationship to a Pleiades entity and vice versa. 
+</p>
+<p>
+Extension link rels for Concordia come from the vocabulary defined at <a class="wiki" href="ConcordiaThesaurus">ConcordiaThesaurus</a>.
+</p>
+<p>
+Multiple links with the same rel type in a single entry are possible. For example, we encourage relevant geographic linkages to <a class="ext-link" href="http://pleiades.stoa.org"><span class="icon">Pleiades</span></a> (for historical geography) and to <a class="ext-link" href="http://www.geonames.org"><span class="icon">geonames</span></a> for modern geography.
+</p>
+<h3 id="example">example</h3>
+<pre class="wiki">&lt;feed  xmlns="http://www.w3.org/2005/Atom"&gt;
+    &lt;author&gt;
+        &lt;name&gt;Joyce Reynolds&lt;/name&gt;
+    &lt;/author&gt;
+    &lt;author&gt;
+        &lt;name&gt;Charlotte Roueché&lt;/name&gt;
+    &lt;/author&gt;
+    &lt;author&gt;
+        &lt;name&gt;Gabriel Bodard&lt;/name&gt;
+    &lt;/author&gt;
+    &lt;title&gt;Inscriptions of Aphrodisias (2007)&lt;/title&gt;
+    &lt;link href="http://atlantides.org/iaph2007/index.atom" type="application/atom+xml" rel="self"/&gt;
+    &lt;link href="http://insaph.kcl.ac.uk/iaph2007/index.html" type="text/html" rel="alternate"/&gt;
+    &lt;updated&gt;2009-06-03T00:00:00Z&lt;/updated&gt;
+    &lt;id&gt;tag:insaph.kcl.ac.uk,2007-10-01:/iaph2007/index&lt;/id&gt;
+    &lt;entry&gt;
+        &lt;author&gt;
+            &lt;name&gt;Joyce M. Reynolds&lt;/name&gt;
+        &lt;/author&gt;
+        &lt;rights&gt;Creative Commons licence Attribution 2.5
+            (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. &lt;/rights&gt;
+        &lt;id&gt;tag:insaph.kcl.ac.uk,2005-04-07:/iaph2007/iAph010002&lt;/id&gt;
+        &lt;title&gt;Building dedication for Aphrodite by C. Julius Zoilos&lt;/title&gt;
+        &lt;link rel="alternate" href="http://insaph.kcl.ac.uk/iaph2007/iAph010002.html"/&gt;
+        &lt;link rel="http://gawd.atlantides.org/terms/findspot"
+            href="http://bacchus.atlantides.org/places/638753"/&gt;
+        &lt;link rel="http://gawd.atlantides.org/terms/observedAt"
+            href="http://bacchus.atlantides.org/places/638753"/&gt;
+        &lt;published&gt;2005-04-07T00:00:01Z&lt;/published&gt;
+        &lt;updated&gt;2008-04-01T00:00:00Z&lt;/updated&gt;
+        &lt;summary type="text"&gt;Three adjoining white marble lintel blocks (0.54, 0.64) a, left corner
+            block, broken to right (1.14); b brokenin two fragments and at both ends (1.04); right
+            corner block, c cut down (2.00), with elaborate moulding. Inscribed on two fasciae;
+            partly erased. Date: Late first century B.C. (lettering). Photos. Excavated by the NYU
+            expedition (Temple 6). Published by Reynolds, Aphrodisias &amp;amp; Rome, doc. 37,
+            whence SEG 1982.1097, BE 1983.388, AnnEpig 1984.878 whence McCabe PHI Aphrodisias 81,
+            Smith, Monument, T.3; discussed by discussed by Reynolds, 'Inscriptions and the Building
+            of the Temple', Aphrodisias Papers (Ann Arbor, 1990), 37-40, 37-8 , whenceSEG 1990.945.
+        &lt;/summary&gt;
+    &lt;/entry&gt;
+&lt;/feed&gt;
+</pre><h2 id="Feedsforepigraphiccontent">Feeds for epigraphic content</h2>
+<h3 id="IAphfeeds">IAph feeds</h3>
+<p>
+A full set of feeds for IAph 2007 may be had at (watch out: 2.2MB): <a class="ext-link" href="http://concordia.atlantides.org/examples/iaph2007.atom"><span class="icon">http://concordia.atlantides.org/examples/iaph2007.atom</span></a> . They were produced using <a class="source" href="http://www.atlantides.org/trac/concordia/browser/epidoc2atom/trunk%3Frev%3D58">source:epidoc2atom/trunk?rev=58</a> (the canonical wiki page for that set of XSLTs is <a class="wiki" href="EpiDoc2Atom">EpiDoc2Atom</a>).
+</p>
+<p>
+Where IAph source simply uses the word "findspot" inside markup for observed location or presumed original location, we currently have no findspot link (the xslts don't handle this case). They also do not have associations for mentioned places that fall outside BAtlas map 65, though this is slated for fixing (<a class="closed ticket" href="../ticket/26" title="Record BAtlas ids for all places referenced in IAph2007 (closed)">#26</a>).
+</p>
+<h3 id="IRTfeeds">IRT feeds</h3>
+<p>
+Linked from <a class="ext-link" href="http://irt.cch.kcl.ac.uk/irt2009/inscr/xmlrepo.html"><span class="icon">http://irt.cch.kcl.ac.uk/irt2009/inscr/xmlrepo.html</span></a> , the direct link is <a class="ext-link" href="http://irt.cch.kcl.ac.uk/irt2009/index.atom"><span class="icon">http://irt.cch.kcl.ac.uk/irt2009/index.atom</span></a>
+</p>
+<h3 id="IRCyrfeeds">IRCyr feeds</h3>
+<p>
+In development. Anticipated publication simultaneous with the complete work.
+</p>
+<h3 id="Papryifeeds">Papryi feeds</h3>
+<p>
+For all content at <a class="ext-link" href="http://papyri.info"><span class="icon">http://papyri.info</span></a>. In development. Example for discussion is at <a class="ext-link" href="http://concordia.atlantides.org/examples/papyri-1.atom"><span class="icon">http://concordia.atlantides.org/examples/papyri-1.atom</span></a>.
+</p>
+<h3 id="ISAWsAncientWorldImageBankfeed">ISAW's Ancient World Image Bank feed</h3>
+<p>
+Discoverable from <a class="ext-link" href="http://www.nyu.edu/isaw/images.htm"><span class="icon">http://www.nyu.edu/isaw/images.htm</span></a> , the direct link is <a class="ext-link" href="http://www.nyu.edu/isaw/awib.atom"><span class="icon">http://www.nyu.edu/isaw/awib.atom</span></a>
+</p>
+<h2 id="Feedpaging">Feed paging</h2>
+<p>
+We anticipate very large numbers of entities, prohibiting single-document feeds. We will implement syndication and archive feeds as described in <a class="ext-link" href="http://tools.ietf.org/html/rfc5005"><span class="icon">RFC5005</span></a>. A syndication feed document containing the N (or fewer) most recent entries will be served as the primary entry point. This document will link to a previous archive document containing the previous N entries. That document will likewise link to its preceding archive document. The concordia reader/crawler will traverse these links to access all entries.
+</p>
+<h3 id="Pagesize">Page size</h3>
+<p>
+The value of N shall be up to the feed provider and need not be the same for all pages. Keeping individual page documents under several MB is preferable.
+</p>
+<h2 id="References">References</h2>
+<p>
+<a class="ext-link" href="http://tools.ietf.org/html/rfc4287"><span class="icon">RFC 4287: Atom Syndication Format</span></a>
+</p>
+<p>
+<a class="ext-link" href="http://tools.ietf.org/html/rfc5005"><span class="icon">RFC 5005: Feed Paging and Archiving</span></a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="ConcordiaAtomFeeds?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracUnicode (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/TracUnicode?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/TracUnicode?version=1">Version 1</a> of
+    <a href="TracUnicode">TracUnicode</a></h1>
+  <form method="post" id="prefs" action="TracUnicode"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">trac <span class="ipnr">(IP: 127.0.0.1)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/07/08 14:41:41 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>TracUnicode</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>= Unicode Support in Trac =</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins>[[TracGuideToc]]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins>Trac stores all text using UTF-8 encoding, including text in tickets and wiki pages. Internal processing of text uses true Unicode representations.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins>As such, it supports most (all?) commonly used character encodings.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins>== Examples ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins>=== Arabic ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins>تراك يقوم بحفظ كل الكلمات باستخدام صيغة UTF-8، بما في ذلك الكلمات المستخدمة في صفحات&nbsp; التيكت والويكي.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins>=== Bulgarian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins>Българският език работи ли?</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>=== Česky ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>Čeština v kódování UTF-8, žádný problém.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins>=== Chinese ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins>Traditional: 繁體中文, 漢字測試; Simplified: 简体中文，汉字测试</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>22</th><td class="r"><ins>=== Croatian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>23</th><td class="r"><ins>Ako podržava srpski i slovenski mora podržavati i Hrvatski - čćžšđ ČĆŽŠĐ </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>24</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>25</th><td class="r"><ins>=== English ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r"><ins>Yes indeed, Trac supports English. Fully.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r"><ins>=== Français ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r"><ins>Il est possible d'écrire en Français : à, ç, û, ...</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r"><ins>=== German ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r"><ins>Trac-Wiki muß auch deutsche Umlaute richtig anzeigen: ö, ä, ü, Ä, Ö, Ü; und das scharfe ß</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r"><ins>=== Greek ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r"><ins>Τα Ελληνικά υποστηρίζονται επαρκώς επίσης.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r"><ins>=== Hebrew ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r"><ins>אני יכול לאכול זכוכית וזה לא מזיק לי</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>39</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>40</th><td class="r"><ins>=== Hindi ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>41</th><td class="r"><ins>अब हिन्दी में।</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>43</th><td class="r"><ins>=== Hungarian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>44</th><td class="r"><ins>Árvíztűrő tükörfúrógép</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>45</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>46</th><td class="r"><ins>=== Icelandic ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>47</th><td class="r"><ins>Ævar sagði við ömmu sína: Sjáðu hvað ég er stór!</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>48</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>49</th><td class="r"><ins>=== Japanese ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>50</th><td class="r"><ins>漢字 ひらがな カタカナ ﾊﾝｶｸｶﾅ 日本語試験</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>52</th><td class="r"><ins>=== Korean ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>53</th><td class="r"><ins>이번에는 한글로 써보겠습니다. 잘 보이나요? 한글</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>54</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>55</th><td class="r"><ins>=== Latvian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>56</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>57</th><td class="r"><ins>Latviešu valoda arī strādā!</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>58</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>59</th><td class="r"><ins>=== Lithuanian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>60</th><td class="r"><ins>Sudalyvaukime ir mes. Ar veikia lietuviškos raidės? ąčęėįšųūž ĄČĘĖĮŠŲŪŽ Žinoma, kad veikia :)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>61</th><td class="r"><ins>Kas tie mes?</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>62</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>63</th><td class="r"><ins>=== Persian (Farsi) ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>64</th><td class="r"><ins>این یک متن فارسی است ولی امکان نوشتن مستقیم فارسی نیست چون حالت متن از راست به چپ و جود ندارد برای فارسی نوشتن باید از HTML استفاده کنید.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>65</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>66</th><td class="r"><ins>#!html</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>67</th><td class="r"><ins>&lt;div dir="rtl"&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>68</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>69</th><td class="r"><ins>این نمونه یک متن از راست به چپ فارسی است که در HTML نوشته شده تا اعداد 12345 و حروف لاتین ABCDEF در محل خودشان نمایش داده شوند.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>70</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>71</th><td class="r"><ins>#!html</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>72</th><td class="r"><ins>&lt;/div&gt;</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>73</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>74</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>75</th><td class="r"><ins>=== Polish ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>76</th><td class="r"><ins>Pchnąć w tę łódź jeża lub ośm skrzyń fig</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>77</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>78</th><td class="r"><ins>=== Portuguese ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>79</th><td class="r"><ins>É possível guardar caracteres especias da língua portuguesa, incluindo o símbolo da moeda européia '€', trema 'ü', crase 'à', agudos 'áéíóú', circunflexos 'âêô', til 'ãõ', cedilha 'ç', ordinais 'ªº', grau '°¹²³'.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>80</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>81</th><td class="r"><ins>=== Russian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>82</th><td class="r"><ins>Проверка русского языка: кажется работает... И буква "ё" есть...</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>83</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>84</th><td class="r"><ins>=== Serbian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>85</th><td class="r"><ins>Podržan, uprkos činjenici da se za njegovo pisanje koriste чак два алфабета.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>86</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>87</th><td class="r"><ins>=== Slovenian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>88</th><td class="r"><ins>Ta suhi škafec pušča vodo že od nekdaj!</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>89</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>90</th><td class="r"><ins>=== Spanish ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>91</th><td class="r"><ins>Esto es un pequeño texto en Español, ahora una con acentó</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>92</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>93</th><td class="r"><ins>=== Swedish ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>94</th><td class="r"><ins>Räven raskar över isen med luva på.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>95</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>96</th><td class="r"><ins>=== Thai ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>97</th><td class="r"><ins>Trac แสดงภาษาไทยได้อย่างถูกต้อง!</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>98</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>99</th><td class="r"><ins>=== Ukrainian ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>100</th><td class="r"><ins>Перевірка української мови...</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>101</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>102</th><td class="r"><ins>=== Urdu ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>103</th><td class="r"><ins>ٹریک اردو بھی سپورٹ کرتا ہے۔</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>104</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>105</th><td class="r"><ins>=== Vietnamese ===</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>106</th><td class="r"><ins>Viết tiếng Việt cũng được. Nhưng search từ tiếng Việt thì không bôi vàng được. (Keyword(s) in Vietnamese search result can not be hightlighted !!!!).</ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

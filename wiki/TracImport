@@ -1,0 +1,168 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracImport - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="TracImport?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="TracImport?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="Importingticketdata">Importing ticket data</h1>
+<h2 id="Bugzilla">Bugzilla</h2>
+<p>
+Ticket data can be imported from Bugzilla using the <a class="ext-link" href="http://projects.edgewall.com/trac/browser/trunk/contrib/bugzilla2trac.py"><span class="icon">bugzilla2trac.py</span></a> script, available in the contrib/ directory of the Trac distribution.
+</p>
+<pre class="wiki">$ bugzilla2trac.py
+bugzilla2trac - Imports a bug database from Bugzilla into Trac.
+
+Usage: bugzilla2trac.py [options]
+
+Available Options:
+  --db &lt;MySQL dbname&gt;              - Bugzilla's database
+  --tracenv /path/to/trac/env      - full path to Trac db environment
+  -h | --host &lt;MySQL hostname&gt;     - Bugzilla's DNS host name
+  -u | --user &lt;MySQL username&gt;     - effective Bugzilla's database user
+  -p | --passwd &lt;MySQL password&gt;   - Bugzilla's user password
+  -c | --clean                     - remove current Trac tickets before importing
+  --help | help                    - this help info
+
+Additional configuration options can be defined directly in the script.
+</pre><p>
+Currently, the following data is imported from Bugzilla:
+</p>
+<ul><li>bugs
+</li><li>bug activity (field changes)
+</li><li>bug attachments
+</li><li>user names and passwords (put into a htpasswd file)
+</li></ul><p>
+The script provides a number of features to ease the conversion, such as:
+</p>
+<ul><li>PRODUCT_KEYWORDS:  Trac doesn't have the concept of products, so the script provides the ability to attach a ticket keyword instead.
+</li></ul><ul><li>IGNORE_COMMENTS:  Don't import Bugzilla comments that match a certain regexp.
+</li></ul><ul><li>STATUS_KEYWORDS:  Attach ticket keywords for the Bugzilla statuses not available in Trac.  By default, the 'VERIFIED' and 'RELEASED' Bugzilla statuses are translated into Trac keywords.
+</li></ul><p>
+For more details on the available options, see the configuration section at the top of the script.
+</p>
+<h2 id="Sourceforge">Sourceforge</h2>
+<p>
+Ticket data can be imported from Sourceforge using the <a class="ext-link" href="http://projects.edgewall.com/trac/browser/trunk/contrib/sourceforge2trac.py"><span class="icon">sourceforge2trac.py</span></a> script, available in the contrib/ directory of the Trac distribution.
+</p>
+<h2 id="Mantis">Mantis</h2>
+<p>
+Mantis bugs can be imported using the attached script.
+</p>
+<p>
+Currently, the following data is imported from Mantis:
+</p>
+<ul><li>bugs
+</li><li>bug comments
+</li><li>bug activity (field changes)
+</li></ul><p>
+Attachments are NOT imported.  If you use the script, please read the NOTES section (at the top of the file) and make sure you adjust the config parameters for your environment.
+</p>
+<p>
+mantis2trac.py has the same parameters as the bugzilla2trac.py script:
+</p>
+<pre class="wiki">mantis2trac - Imports a bug database from Mantis into Trac.
+
+Usage: mantis2trac.py [options] 
+
+Available Options:
+  --db &lt;MySQL dbname&gt;              - Mantis database
+  --tracenv /path/to/trac/env      - Full path to Trac db environment
+  -h | --host &lt;MySQL hostname&gt;     - Mantis DNS host name
+  -u | --user &lt;MySQL username&gt;     - Effective Mantis database user
+  -p | --passwd &lt;MySQL password&gt;   - Mantis database user password
+  -c | --clean                     - Remove current Trac tickets before importing
+  --help | help                    - This help info
+
+Additional configuration options can be defined directly in the script.
+</pre><h2 id="Other">Other</h2>
+<p>
+Since trac uses a SQL database to store the data, you can import from other systems by examining the database tables. Just go into <a class="ext-link" href="http://www.sqlite.org/sqlite.html"><span class="icon">sqlite</span></a> command line to look at the tables and import into them from your application.
+</p>
+<h3 id="Usingacommadelimitedfile-CSV">Using a comma delimited file - CSV</h3>
+<p>
+See <a class="ext-link" href="http://trac.edgewall.org/attachment/wiki/TracSynchronize/csv2trac.2.py"><span class="icon">http://trac.edgewall.org/attachment/wiki/TracSynchronize/csv2trac.2.py</span></a> for details.  This approach is particularly useful if one needs to enter a large number of tickets by hand. (note that the ticket type type field, (task etc...) is also needed for this script to work with more recent Trac releases)
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="TracImport?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

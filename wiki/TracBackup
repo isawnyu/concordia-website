@@ -1,0 +1,129 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracBackup - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="TracBackup?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="TracBackup?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="TracBackup">Trac Backup</h1>
+<p>
+</p><div class="wiki-toc"><h4>Table of Contents</h4><ul><li><a href="TracGuide">Index</a></li><li><a href="TracInstall">Installation</a></li><li><a href="TracUpgrade">Upgrading</a></li><li><a href="TracIni">Configuration</a></li><li><a href="TracAdmin">Administration</a></li><li class="active"><a href="TracBackup">Backup</a></li><li><a href="TracLogging">Logging</a></li><li><a href="TracPermissions">Permissions</a></li><li><a href="TracWiki">The Wiki</a></li><li><a href="WikiFormatting">Wiki Formatting</a></li><li><a href="TracTimeline">Timeline</a></li><li><a href="TracBrowser">Repository Browser</a></li><li><a href="TracChangeset">Changesets</a></li><li><a href="TracRoadmap">Roadmap</a></li><li><a href="TracTickets">Tickets</a></li><li><a href="TracQuery">Ticket Queries</a></li><li><a href="TracReports">Reports</a></li><li><a href="TracRss">RSS Support</a></li><li><a href="TracNotification">Notification</a></li><li><a href="TracInterfaceCustomization">Customization</a></li><li><a href="TracPlugins">Plugins</a></li></ul></div><p>
+</p>
+<p>
+Since Trac uses a database backend, some extra care is required to safely create a backup of a <a class="wiki" href="TracEnvironment">project environment</a>. Luckily, <a class="wiki" href="TracAdmin">trac-admin</a> has a command to make backups easier: <tt>hotcopy</tt>.
+</p>
+<blockquote>
+<p>
+<i>Note: Trac uses the <tt>hotcopy</tt> nomenclature to match that of <a class="ext-link" href="http://subversion.tigris.org/"><span class="icon">Subversion</span></a>, to make it easier to remember when managing both Trac and Subversion servers.</i>
+</p>
+</blockquote>
+<h2 id="CreatingaBackup">Creating a Backup</h2>
+<p>
+To create a backup of a live <a class="wiki" href="TracEnvironment">TracEnvironment</a>, simply run:
+</p>
+<pre class="wiki">  $ trac-admin /path/to/projenv hotcopy /path/to/backupdir
+</pre><p>
+<a class="wiki" href="TracAdmin">trac-admin</a> will lock the database while copying.<i>
+</i></p>
+<p>
+The resulting backup directory is safe to handle using standard file-based backup tools like <tt>tar</tt> or <tt>dump</tt>/<tt>restore</tt>.
+</p>
+<h3 id="RestoringaBackup">Restoring a Backup</h3>
+<p>
+Backups are simply a copied snapshot of the entire <a class="wiki" href="TracEnvironment">project environment</a> directory, including the SQLite database. 
+</p>
+<p>
+To restore an environment from a backup, simply stop the process running Trac (i.e. the Web server or <a class="wiki" href="TracStandalone">tracd</a>), restore the directory structure from the backup and restart the service.
+</p>
+<blockquote>
+<p>
+<i>Note: Automatic backup of environments that don't use SQLite as database backend is not supported at this time. As a workaround, we recommend that you stop the server, copy the environment directory, and make a backup of the database using whatever mechanism is provided by the database system.</i>
+</p>
+</blockquote>
+<hr />
+<p>
+See also: <a class="wiki" href="TracAdmin">TracAdmin</a>, <a class="wiki" href="TracEnvironment">TracEnvironment</a>, <a class="wiki" href="TracGuide">TracGuide</a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="TracBackup?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

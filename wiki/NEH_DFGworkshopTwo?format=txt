@@ -1,0 +1,98 @@
+= New York Workshop =
+
+See now: WorkshopTwoResults
+
+Dates: 4-6 March 2010
+Location: ISAW (15 East 84th Street, New York, NY 10028; [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=15+E+84th+St,+New+York,+NY+10028&sll=37.0625,-95.677068&sspn=50.51141,114.169922&ie=UTF8&hq=&hnear=15+E+84th+St,+New+York,+10028&z=16 map])
+Start time: 9:00 a.m. Eastern daily
+End time: 5:00 p.m. Eastern daily
+ * [http://www.hotelwalesnyc.com/ Hotel Wales] where some of us are staying (between 92nd and 93rd street on the east side of Madison Avenue). And [http://www.bwnewark.com/ Newark hotel] for Saturday night for JC.
+ * [wiki:WorkshopTwoDirections Directions to Hotel Wales]
+
+== Logistics ==
+
+Lunches on workshop days will be provided at ISAW. Breakfasts, dinners and meals on other days are on your own.
+
+== Other optional events at ISAW during your visit ==
+
+ * 3 March, 6:00 p.m.: Lecture by Sergey Minyaev: "Huns of Asia. New archaeological discoveries in Russia" ([http://www.nyu.edu/isaw/events/minyaev-2010-03-03.htm details])
+ * 4 March, 7:00 p.m.: Screening of "Reenactment (Reconstituirea)" (1968) ([http://www.nyu.edu/isaw/events/reenactment-2010-03-04.htm details])
+ * Ongoing, Tuesday–Sunday 11am–6pm, Friday 11am–8pm: Exhibition: The Lost World of Old Europe: The Danube Valley, 5000-3500 BC (free guided tour Fridays at 6:00 p.m.) ([http://www.nyu.edu/isaw/exhibitions/oldeurope/ details])
+
+== Agenda ==
+
+ * please add proposed topical bullets here
+ * Discussion and development of [wiki:EDHgeographyTable EDH geography database]
+   * How do we deal with the creation new Pleiades identifier, because EDH has found a new ancient name which the Barrington missed / could not have had.
+   * Enumerate use cases.
+ * Discussion of [http://concordia.atlantides.org/examples/edh-mockups/glamoc.html Mock up] for demonstration of cooperation between EDH and Pleiades.
+ * Discussion of potential and steps for more !EpiDoc functionality for EDH
+ * Planning for future work.
+   * Application for money to be provided to employ persons for EDH and Pleiades for a two to three year period?
+ * Specific discussions of the interfaces what info can we ask for between the two systems, atom feeds sparql etc.
+
+ * Thursday
+   * Geography and Pleiades in action
+     * Coding for these things
+   * better search of Pleiades
+     * review Heidelberg "spec"
+   * check correspondence between Pleiades and modern (e.g. Geonames) coordinates
+     * visual / map check
+   * Pleiades can discover EDH geographic relationships dynamically (Concordia style atom feeds)
+   * Notification of Pleiades updates
+     * feed of changes
+     * pubsub model?
+   * geographic representations for users (EDH presentation / use of Pleiades way of showing its information on this)
+   * geographical search capability of what we might want to add
+   * Trismegistos / EAGLE
+   * EBH bibliography database with identifiers look to the future and how we might implement
+
+ * Afternoon session
+   * Structure of Crawler / Index / Search Interface. See appended jpgs below.
+   * HD geographic aspects. What HD needs from Pleiades. Match Interface.
+     * When EDH does not have a record in the !GeoDatabase. Click a button related to !GeoIdentifier which triggers a match interface action with Pleiades. Pleiades sends back a list / identifications on a map. Once the person makes the identifaction then a click creates the new !GeoDatabase entry.
+     * browser tab 1 !GeoDatabase; browser tab 2 Pleiades Form 
+
+ * Friday
+   * Look at SoSOL in action
+   * Discus !EpiDoc in the framework of having seen SoSOL working
+   * Prototype a batch search: PlaceMatching
+
+ * Possibility of introducing a new box on the result set of any given EDH search, in which both EDH modern findspot and Pleiades Ancient findspot on the same map.
+   * modern map basse from google
+   * pleiades location via kml
+   * coordinates held by EDH with an appropriate label
+   * link to Pleiades 
+   * link to origin of the most specific coordinates (often Geonames, but not always)
+
+ * Afternoon session
+   * return briefly to mock up - we are happy that we captured everything we need and want in the above description of the new box.
+   * How do we deal with the creation new Pleiades identifier, because EDH has found a new ancient name which the Barrington missed / could not have had. And corrections.
+     * Workspaces in Pleiades
+   * Return to categories of "bei", "inter"
+     * data model must accommodate as many as
+       * 2 pleiades URLs: fo_antik inter
+       * 2 coordinate pairs: fo_modern zwischen
+       * 2 Geonames URLs: as a complement to double fo_modern entry
+   * CIL and other corpus/edition maps scanning why what use (see MapList made in July)?
+     * Reason: supply coordinates for (modern) named sites that are only known through the corpus publication itself (or seem so)
+     * Once maps are scanned, possible to do rectification via http://maps.nypl.org/warper/ ??
+     * TE to contact Harvard, Tufts about already-scanned maps
+   * geographical search capability of what we might want to add
+     * possibilities from the user perspective:
+       * select a place by name, then enter a radius distance
+       * use a map to draw a rectangle, which then functions as a bounding box for the search
+     * technical requirements
+       * extend db2 functionality to support spatial indexing/query
+         * IBM Spatial Extender (not free?)
+       * modify middleware and user interface to support entry and addition of spatial query aspects
+       * significant programming and testing commitment; difficult to assess how much without knowing more about what's required in terms of database add-ons and their configuration
+   * Trismegistos / EAGLE
+   * EBH bibliography database with identifiers look to the future and how we might implement
+     * EBH idno 1437 is a really nice example
+
+Dont forget to photocopy receipts, I-94s etc.
+
+ * Saturday 
+   * Next steps
+   * How we think of stuff for an application

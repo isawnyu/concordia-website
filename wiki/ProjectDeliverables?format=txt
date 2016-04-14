@@ -1,0 +1,25 @@
+= Project Deliverables =
+
+The Concordia proposal identified (or we have subsequently added) the following deliverables:
+
+  1. (October discuss) A set of XSLT stylesheets for creating web feeds from !EpiDoc-conformant XML documents: [wiki:EpiDoc2Atom]
+  1. (October discuss) Atom+GeoRSS web feeds for IAph: [wiki:IAphFeeds]
+    a. ALA/IAph mentioned placenames list 
+  1. (October discuss) Atom+GeoRSS web feeds for IRCyr: [wiki:IRCyrFeeds]
+  1. (October discuss) Atom+GeoRSS web feeds for DDbDP/HGV: [wiki:PapyFeeds]
+  1. (October discuss) Atom+GeoRSS feed harvester and indexer: ConcordiaHarvester
+  1. (October discuss) Cross-project Citation Vocabulary: ConcordiaThesaurus (see now also: ConcordiaTypeThesaurus)
+  1. (AT RISK; no further discussion October) Demonstration copy of the Papyrological Navigator for epigraphic content alongside papyrological content: [wiki:PNDemo]
+    a. At risk. Dependency on handoff of code from Columbia (IDP1 project) to NYU Libraries (APIS6 and IDP2). TE to monitor and assess.
+  1. (October discuss) Digitized version of IRT: [wiki:IRT]
+    a. IRT images from BSR
+  1. (no discussion October) Digitization and pleiades upload of 5 maps: [wiki:PleiadesContent]
+    a. NYU team to overview workflow
+  1. (no discussion October) Releases of above under GPL/CC as appropriate: [wiki:Licensing] 
+  1. (no discussion October) Deposit of XML content into Backstop (i.e., NYU FDA): [wiki:Archiving]
+  1. (added May; COMPLETE) Barrington Atlas IDs: [wiki:BAtlasIDs]
+  1. (added May; October discuss) BAtlas ID resolver [wiki:BAtlasIDResolver]
+  1. (added May; October discuss) [wiki:AphrodisiasProjectsConcordance ALA/IAph project concordance]
+  1. (added Sep; October discuss) [wiki:EpigraphicGeodatabase IRT & IRCyr geodatabase] 
+  1. (added Oct; October discuss) Guidelines and tools for mass PleiadesContentCreation
+  1. (added Oct) ConcordiaTypeThesaurus

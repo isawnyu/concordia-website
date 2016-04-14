@@ -1,0 +1,4 @@
+id,summary,status,type,priority,milestone,component
+15,Enter IRCyr findspots in geographic database,new,task,major,,iaph2007xml
+25,Put ALA/IAph concordance in Atom/ORE,new,task,major,Feeds for IAph 2007,admin
+31,Contact Allard Mees about how to deal with coordinates,new,task,major,,admin

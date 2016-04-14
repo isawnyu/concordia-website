@@ -1,0 +1,485 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Available Reports - Concordia - Trac</title><link rel="start" href="wiki.2" /><link rel="search" href="search" /><link rel="help" href="wiki/TracGuide" /><link rel="stylesheet" href="chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="chrome/common/css/report.css" type="text/css" /><link rel="icon" href="chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="settings">Settings</a></li><li><a accesskey="6" href="wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="first"><a accesskey="1" href="wiki.2">Wiki</a></li><li><a accesskey="2" href="timeline">Timeline</a></li><li><a accesskey="3" href="roadmap">Roadmap</a></li><li><a href="browser">Browse Source</a></li><li class="active"><a href="report">View Tickets</a></li><li class="last"><a accesskey="4" href="search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Report Navigation</h2>
+ <ul><li class="first">Available Reports</li><li class="last"><a href="query">Custom Query</a></li></ul>
+</div>
+
+<div id="content" class="report">
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <h1>Available Reports</h1><div id="description"><p>
+This is a list of reports available.
+</p>
+</div>
+
+     
+       
+         
+         
+         
+   
+   
+   
+     <table class="listing reports">
+   
+    <thead>
+     <tr>
+       
+       
+         
+           
+             
+             
+             
+             
+               
+             
+             
+             <th><a href="report?sort=report&amp;asc=1">Report</a></th>
+             
+           
+           
+         
+         
+       
+         
+           
+             
+             
+             
+             
+               
+             
+             
+             <th><a href="report?sort=title&amp;asc=1">Title</a></th>
+             
+           
+           
+         
+         
+       
+     </tr>
+    </thead>
+ 
+         <tbody>
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="odd" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/1">{1}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/1">Active Tickets</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="even" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/2">{2}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/2">Active Tickets by Version</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="odd" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/3">{3}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/3">Active Tickets by Milestone</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="even" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/4">{4}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/4">Assigned, Active Tickets by Owner</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="odd" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/5">{5}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/5">Assigned, Active Tickets by Owner (Full Description)</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="even" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/6">{6}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/6">All Tickets By Milestone  (Including closed)</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="odd" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/7">{7}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/7">My Tickets</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+       
+
+       
+        
+       
+       
+         
+       
+
+       
+       
+       
+       
+
+       <tr class="even" style="">
+       
+       
+       
+         
+           
+   
+   <td class="report"><a title="View report" href="http://www.atlantides.org/trac/concordia/report/8">{8}</a></td>
+ 
+ 
+   
+   
+ 
+           
+         
+       
+         
+           
+   
+   <td class="title"><a  title="View report" href="http://www.atlantides.org/trac/concordia/report/8">Active Tickets, Mine first</a></td>
+ 
+ 
+   
+   
+ 
+         
+       
+       </tr>
+     
+    </tbody>
+   </table>
+
+ 
+ 
+ <div id="help">
+  <strong>Note:</strong> See <a href="wiki/TracReports">TracReports</a> for help on using and
+  creating reports.
+ </div>
+ 
+</div>
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

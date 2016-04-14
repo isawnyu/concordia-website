@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Edgewall Software//NONSGML Trac 0.10.4//EN
+METHOD:PUBLISH
+X-WR-CALNAME:Concordia - Roadmap
+BEGIN:VEVENT
+UID:</trac/concordia/milestone/Feeds for IAph 2007@www.atlantides.org/trac/
+ concordia>
+DTSTAMP:20090831T000000Z
+DTSTART;VALUE=DATE:20090831
+SUMMARY:Milestone Feeds for IAph 2007
+URL:http://www.atlantides.org/trac/concordia/milestone/Feeds for IAph 2007
+DESCRIPTION:Construct valid atom:feed documents for every useful entry poin
+ t and index group in IAph2007. These atom:feed documents should also be va
+ lid ORE Resource Maps and\, where appropriate\, be accompanied by links to
+  Pleiades to provide geographic relevance.
+END:VEVENT
+BEGIN:VEVENT
+UID:</trac/concordia/milestone/Feeds for DDBDP/HGV@www.atlantides.org/trac/
+ concordia>
+DTSTAMP:20091001T000000Z
+DTSTART;VALUE=DATE:20091001
+SUMMARY:Milestone Feeds for DDBDP/HGV
+URL:http://www.atlantides.org/trac/concordia/milestone/Feeds for DDBDP/HGV
+END:VEVENT
+BEGIN:VEVENT
+UID:</trac/concordia/milestone/EDH/Pleiades Demo@www.atlantides.org/trac/co
+ ncordia>
+DTSTAMP:20100201T000000Z
+DTSTART;VALUE=DATE:20100201
+SUMMARY:Milestone EDH/Pleiades Demo
+URL:http://www.atlantides.org/trac/concordia/milestone/EDH/Pleiades Demo
+DESCRIPTION:Aspects of EDH/Pleiades collaboration and interoperation to be 
+ demonstrated to EDH program committee et al.
+END:VEVENT
+BEGIN:VEVENT
+UID:</trac/concordia/milestone/Final Reports (NEH)@www.atlantides.org/trac/
+ concordia>
+DTSTAMP:20100630T000000Z
+DTSTART;VALUE=DATE:20100630
+SUMMARY:Milestone Final Reports (NEH)
+URL:http://www.atlantides.org/trac/concordia/milestone/Final Reports (NEH)
+DESCRIPTION:Final reporting requirements (NEH) for this project include:\n 
+ * Final Financial Report (covering the period: 1 April 2008 - 31 March 201
+ 0)\n * Final Performance Report (covering the period: 1 April 2008 - 31 Ma
+ rch 2010)\n * White Paper (addressed to a public audience that describes "
+ how the project was conducted and indicate[s] where the proposed plan succ
+ eeded and where it failed. This paper will be posted on the NEH Web site s
+ o citizens can benefit from the experience of grantees."
+END:VEVENT
+END:VCALENDAR

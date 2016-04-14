@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+   xmlns:georss="http://www.georss.org/georss"
+   xmlns:gml="http://www.opengis.net/gml"
+   >
+
+   <id>urn:uuid:6e5aa5f2-4def-4025-9353-2c8298b194ed</id>
+   <title>Fort Collins</title>
+   <updated>2008-04-11T13:40-06:00</updated>
+   
+   <link rel="related" href="http://sws.geonames.org/5577147/"/>
+
+   <entry>
+      <id>urn:uuid:7e492e74-37f0-49da-b079-6055134bf351</id>
+      <title>Location of Fort Collins</title>
+      <updated>2008-04-11T13:40-06:00</updated>
+      <summary>Links to Geonames location</summary>
+      <content/>
+      <link rel="related" href="http://sws.geonames.org/5577147/"/>
+      <link rel="http://www.georss.org/relation/location" href="http://sws.geonames.org/5577147/about.rdf" type="application/rdf+xml"/>
+   </entry>
+
+</feed>

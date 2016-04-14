@@ -1,0 +1,10 @@
+= PapyFeeds =
+
+''back to: ProjectDeliverables''
+
+Papy feeds is a data/functionality deliverable for the project: Atom+GeoRSS feeds that summarize, describe and link to the individual inscriptions (and main groupings thereof) in the combined data files of the Duke Database of Documentary Papyri and the Heidelberg Gesamtverzeichnis ([wiki:DDbDP]).
+
+Related tickets (probably):
+[[TicketQuery(summary~=ddbdp&description!~=ddbdp)]]
+[[TicketQuery(summary!~=ddbdp&description~=ddbdp)]]
+[[TicketQuery(summary~=ddbdp&description~=ddbdp)]]

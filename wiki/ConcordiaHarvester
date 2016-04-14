@@ -1,0 +1,124 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>ConcordiaHarvester - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="ConcordiaHarvester?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="ConcordiaHarvester?action=diff&amp;version=4">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="ConcordiaHarvester">Concordia Harvester</h1>
+<p>
+<i>back to: <a class="wiki" href="ConcordiaSoftware">ConcordiaSoftware</a> | <a class="wiki" href="ProjectDeliverables">ProjectDeliverables</a></i>
+</p>
+<p>
+ConcordiaHarvester is software for harvesting and indexing Atom+GeoRSS feeds and then providing useful search and correlation services through an open, RESTful Application Programming Interface (API). It is a <a class="wiki" href="ProjectDeliverables">project deliverable</a>.
+</p>
+<p>
+In the proposal, we called said about it:
+</p>
+<blockquote>
+<p>
+A family of web services -- grouped for ease of reference here under the name of a Cretan goddess "Karme" -- will be developed on top of the basic work already done in this area by Pleiades and IDP. Karme will provide geospatial search (e.g., documents within a certain area or proximity), cartographic visualization (maps) and discovery of other online information that cites or correlates with content in the participating collections. 
+</p>
+</blockquote>
+<blockquote>
+<p>
+Karme, a Cretan deity associated with the harvest, provides the name for a suite of search-related software tools to be developed during the course of this grant period and released to the public under the terms of the GNU Public License.  Karme will comprise a limited domain web harvester, a metadata index, a cross-project Citation Vocabulary and a web-based, RESTful application programming interface (API) with associated web forms for performing queries against the content of the index. The web crawler will monitor the metadata and citation feeds produced for collections affiliated with the Concordia project, as well as others created by non-grant-funded third parties (the Pleiades web application already provides such feeds, and new ones are expected from the American Numismatic Society and the UK Portable Antiquities Scheme during early 2008). The crawler will parse these feeds for essential metadata and for links to other web-based resources (especially those internal to this project), which are interpreted as citations. The parsed metadata and associated citations are written to the metadata index, and the referenced URLs added to the list of resources to examine. Growth of this list will be controlled through a numeric cap on the number of links the crawler may transit outside the list of "core" sites as well as through a "blacklist" of domains the crawler is instructed to bypass. The addition of resources to the blacklist and to the list of core sites will be by consensus of the project directors, advised by technical staff. The crawler will comply with all appropriate protocols for web harvesting and server loading.
+</p>
+</blockquote>
+<h2 id="Specifications:">Specifications:</h2>
+<ul><li><a class="wiki" href="IndexSearchCriteria">IndexSearchCriteria</a>
+</li></ul><h2 id="Code:">Code:</h2>
+<ul><li>there is not yet a module for the harvester
+</li></ul><h2 id="Otherdeliverablesthataredependentonthisone">Other deliverables that are dependent on this one</h2>
+<ul><li>we didn't spell any out in the proposal, but maybe we need some sort of functioning demo capability beyond the API?
+</li></ul><h2 id="Otherdeliverablesonwhichthisonedepends">Other deliverables on which this one depends</h2>
+<ul><li><a class="wiki" href="ConcordiaThesaurus">ConcordiaThesaurus</a>
+</li></ul><h2 id="Relatedmilestones:">Related milestones:</h2>
+<ul><li>we have not yet established a milestone for this deliverable
+</li></ul><h2 id="Relatedticketsprobably:">Related tickets (probably):</h2>
+
+
+
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="ConcordiaHarvester?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

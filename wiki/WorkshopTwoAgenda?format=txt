@@ -1,0 +1,34 @@
+== Agenda ==
+
+ * please add proposed topical bullets here
+ * Discussion and development of [wiki:EDHgeographyTable EDH geography database]
+   * How do we deal with the creation new Pleiades identifier, because EDH has found a new ancient name which the Barrington missed / could not have had.
+   * Enumerate use cases.
+ * Discussion of [http://concordia.atlantides.org/examples/edh-mockups/glamoc.html Mock up] for demonstration of cooperation between EDH and Pleiades.
+ * Discussion of potential and steps for more !EpiDoc functionality for EDH
+ * Planning for future work.
+   * Application for money to be provided to employ persons for EDH and Pleiades for a two to three year period?
+ * Specific discussions of the interfaces what info can we ask for between the two systems, atom feeds sparql etc.
+
+ * Thursday
+   * Geography and Pleiades in action
+     * Coding for these things
+   * better search of Pleiades
+     * review London "spec"
+   * check correspondence between Pleiades and modern (e.g. Geonames) coordinates
+     * visual / map check
+   * Pleiades can discover EDH geographic relationships dynamically (Concordia style atom feeds)
+   * Notification of Pleiades updates
+     * feed of changes
+     * pubsub model?
+   * geographic representations for users (EDH presentation / use of Pleiades way of showing its information on this)
+   * geographical search
+   * Trismegistos / EAGLE
+
+ * Friday
+   * Look at SoSOL in action
+   * Discus !EpiDoc in the framework of having seen SoSOL working
+
+ * Saturday 
+   * Next steps
+   * How we think of stuff for an application

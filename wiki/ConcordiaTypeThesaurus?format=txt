@@ -1,0 +1,36 @@
+= Concordia Type Thesaurus =
+
+''back to: ProjectDeliverables''
+
+!ConcordiaTypeThesaurus is a controlled vocabulary for expressing the basic types of resources described by participating collections. It is an added (October 2008 workshop) [ProjectDeliverables project deliverable]. 
+
+See also: ConcordiaThesaurus (relationships)
+
+== Vocabulary ==
+
+Terms:
+
+ - name
+ - object
+ - person
+ - place
+ - resource
+ - text
+
+== Code: ==
+
+ * there is not yet a module for the thesaurus
+
+== Other deliverables that are dependent on this one ==
+
+ * ConcordiaHarvester
+
+== Related milestones: ==
+
+ * we have not yet established a milestone for this deliverable
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=typethesaurus&description!~=typethesaurus)]]
+[[TicketQuery(summary!~=typethesaurus&description~=typethesaurus)]]
+[[TicketQuery(summary~=typethesaurus&description~=typethesaurus)]]

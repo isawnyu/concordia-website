@@ -1,0 +1,93 @@
+== Link typing ==
+
+Atom feeds for Concordia will use atom:link elements to relate web resources to each other.
+
+Relevant link rels built into Atom are: "alternate", "related", "self" [http://tools.ietf.org/html/rfc4287 RFC4287]. The rel type 'alternate' is used in links to alternate representations of an entry in general, and to corresponding web pages in particular. Commonly, these alternate representations will be from the same domain as the entry. The rel type 'related' is a used in links to related web resources. Commonly, these related resources will be in a different domain. An entry about an IAph entity can thereby indicate a generic catch-all relationship to a Pleiades entity and vice versa. 
+
+Extension link rels for Concordia come from the vocabulary defined at ConcordiaThesaurus.
+
+Multiple links with the same rel type in a single entry are possible. For example, we encourage relevant geographic linkages to [http://pleiades.stoa.org Pleiades] (for historical geography) and to [http://www.geonames.org geonames] for modern geography.
+
+=== example ===
+{{{
+<feed  xmlns="http://www.w3.org/2005/Atom">
+    <author>
+        <name>Joyce Reynolds</name>
+    </author>
+    <author>
+        <name>Charlotte Roueché</name>
+    </author>
+    <author>
+        <name>Gabriel Bodard</name>
+    </author>
+    <title>Inscriptions of Aphrodisias (2007)</title>
+    <link href="http://atlantides.org/iaph2007/index.atom" type="application/atom+xml" rel="self"/>
+    <link href="http://insaph.kcl.ac.uk/iaph2007/index.html" type="text/html" rel="alternate"/>
+    <updated>2009-06-03T00:00:00Z</updated>
+    <id>tag:insaph.kcl.ac.uk,2007-10-01:/iaph2007/index</id>
+    <entry>
+        <author>
+            <name>Joyce M. Reynolds</name>
+        </author>
+        <rights>Creative Commons licence Attribution 2.5
+            (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work
+            must contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. </rights>
+        <id>tag:insaph.kcl.ac.uk,2005-04-07:/iaph2007/iAph010002</id>
+        <title>Building dedication for Aphrodite by C. Julius Zoilos</title>
+        <link rel="alternate" href="http://insaph.kcl.ac.uk/iaph2007/iAph010002.html"/>
+        <link rel="http://gawd.atlantides.org/terms/findspot"
+            href="http://bacchus.atlantides.org/places/638753"/>
+        <link rel="http://gawd.atlantides.org/terms/observedAt"
+            href="http://bacchus.atlantides.org/places/638753"/>
+        <published>2005-04-07T00:00:01Z</published>
+        <updated>2008-04-01T00:00:00Z</updated>
+        <summary type="text">Three adjoining white marble lintel blocks (0.54, 0.64) a, left corner
+            block, broken to right (1.14); b brokenin two fragments and at both ends (1.04); right
+            corner block, c cut down (2.00), with elaborate moulding. Inscribed on two fasciae;
+            partly erased. Date: Late first century B.C. (lettering). Photos. Excavated by the NYU
+            expedition (Temple 6). Published by Reynolds, Aphrodisias &amp; Rome, doc. 37,
+            whence SEG 1982.1097, BE 1983.388, AnnEpig 1984.878 whence McCabe PHI Aphrodisias 81,
+            Smith, Monument, T.3; discussed by discussed by Reynolds, 'Inscriptions and the Building
+            of the Temple', Aphrodisias Papers (Ann Arbor, 1990), 37-40, 37-8 , whenceSEG 1990.945.
+        </summary>
+    </entry>
+</feed>
+}}}
+
+== Feeds for epigraphic content ==
+
+=== IAph feeds ===
+
+A full set of feeds for IAph 2007 may be had at (watch out: 2.2MB): http://concordia.atlantides.org/examples/iaph2007.atom . They were produced using source:epidoc2atom/trunk?rev=58 (the canonical wiki page for that set of XSLTs is [wiki:EpiDoc2Atom]).
+
+Where IAph source simply uses the word "findspot" inside markup for observed location or presumed original location, we currently have no findspot link (the xslts don't handle this case). They also do not have associations for mentioned places that fall outside BAtlas map 65, though this is slated for fixing (#26).
+
+=== IRT feeds ===
+
+Linked from http://irt.cch.kcl.ac.uk/irt2009/inscr/xmlrepo.html , the direct link is http://irt.cch.kcl.ac.uk/irt2009/index.atom
+
+=== IRCyr feeds ===
+
+In development. Anticipated publication simultaneous with the complete work.
+
+=== Papryi feeds ===
+
+For all content at http://papyri.info. In development. Example for discussion is at http://concordia.atlantides.org/examples/papyri-1.atom.
+
+=== ISAW's Ancient World Image Bank feed ===
+
+Discoverable from http://www.nyu.edu/isaw/images.htm , the direct link is http://www.nyu.edu/isaw/awib.atom
+
+== Feed paging ==
+
+We anticipate very large numbers of entities, prohibiting single-document feeds. We will implement syndication and archive feeds as described in [http://tools.ietf.org/html/rfc5005 RFC5005]. A syndication feed document containing the N (or fewer) most recent entries will be served as the primary entry point. This document will link to a previous archive document containing the previous N entries. That document will likewise link to its preceding archive document. The concordia reader/crawler will traverse these links to access all entries.
+
+=== Page size ===
+
+The value of N shall be up to the feed provider and need not be the same for all pages. Keeping individual page documents under several MB is preferable.
+
+== References ==
+
+[http://tools.ietf.org/html/rfc4287 RFC 4287: Atom Syndication Format]
+
+[http://tools.ietf.org/html/rfc5005 RFC 5005: Feed Paging and Archiving]

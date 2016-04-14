@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracRevisionLog (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/TracRevisionLog?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/TracRevisionLog?version=1">Version 1</a> of
+    <a href="TracRevisionLog">TracRevisionLog</a></h1>
+  <form method="post" id="prefs" action="TracRevisionLog"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">trac <span class="ipnr">(IP: 127.0.0.1)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/07/08 14:41:41 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>TracRevisionLog</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>= Viewing Revision Logs =</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins>[[TracGuideToc]]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins>When you browse the repository, it's always possible to query the </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins>''Revision Log'' view corresponding to the path you're currently seeing.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins>This will display a list of the most recent changesets in which the </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins>current path or any other path below it has been modified.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins>== The Revision Log Form ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins>It's possible to set the revision at which the revision log should</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins>start, using the ''View log starting at'' field. An empty value</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins>or a value of ''head'' is taken to be the newest changeset. </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins>It's also possible to specify the revision at which the log should</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>stop, using the ''back to'' field. By default, it's left empty, </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>which means the revision log will stop as soon as 100 revisions have </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins>been listed.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins>Also, there are three modes of operation of the revision log.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>22</th><td class="r"><ins>By default, the revision log ''stops on copy'', which means that </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>23</th><td class="r"><ins>whenever an ''Add'', ''Copy'' or ''Rename'' operation is detected, </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>24</th><td class="r"><ins>no older revision will be shown. That's very convenient when working</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>25</th><td class="r"><ins>with branches, as one only sees the history corresponding to what</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r"><ins>has been done on the branch.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r"><ins>It's also possible to indicate that one wants to see what happened</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r"><ins>before a ''Copy'' or ''Rename'' change, by selecting the </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r"><ins>''Follow copies'' mode. This will cross all copies or renames changes.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r"><ins>Each time the name of the path changes, there will be an additional</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r"><ins>indentation level. That way, the changes on the different paths</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r"><ins>are easily grouped together visually.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r"><ins>It's even possible to go past an ''Add'' change, in order to see </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r"><ins>if there has been a ''Delete'' change on that path, before </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r"><ins>that ''Add''. This mode corresponds to the mode called </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r"><ins>''Show only adds, moves and deletes''. </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>39</th><td class="r"><ins>While quite useful at times, be aware that this operation is quite </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>40</th><td class="r"><ins>resource intensive.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>41</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r"><ins>Finally, there's also a checkbox ''Show full log messages'',</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>43</th><td class="r"><ins>which controls whether the full content of the commit log message</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>44</th><td class="r"><ins>should be displayed for each change, or only a shortened version of it.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>45</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>46</th><td class="r"><ins>== The Revision Log Information ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>47</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>48</th><td class="r"><ins>For each revision log entry, there are 7 columns shown:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>49</th><td class="r"><ins>&nbsp;1. The first column contains a pair of radio buttons and should used </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>50</th><td class="r"><ins>&nbsp; &nbsp; for selecting the ''old'' and the ''new'' revisions that will be </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r"><ins>&nbsp; &nbsp; used for [wiki:TracRevisionLog#viewingtheactualchanges viewing the actual changes].</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>52</th><td class="r"><ins>&nbsp;2. A color code (similar to the one used for the [wiki:TracChangeset#ChangesetHeader changesets]) </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>53</th><td class="r"><ins>&nbsp; &nbsp; indicating kind of change.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>54</th><td class="r"><ins>&nbsp; &nbsp; Clicking on this column refreshes the revision log so that it restarts</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>55</th><td class="r"><ins>&nbsp; &nbsp; with this change.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>56</th><td class="r"><ins>&nbsp;3. The '''Date''' at which the change was made.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>57</th><td class="r"><ins>&nbsp;4. The '''Revision''' number, displayed as `@xyz`. </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>58</th><td class="r"><ins>&nbsp; &nbsp; This is a link to the TracBrowser, using that revision as the base line.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>59</th><td class="r"><ins>&nbsp;5. The '''Changeset''' number, displayed as `[xyz]`.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>60</th><td class="r"><ins>&nbsp; &nbsp; This is a link to the TracChangeset view.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>61</th><td class="r"><ins>&nbsp;6. The '''Author''' of the change.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>62</th><td class="r"><ins>&nbsp;7. The '''Log Message''', which contains either a summary or the full commit </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>63</th><td class="r"><ins>&nbsp; &nbsp; log message, depending on the value of the ''Show full log messages'' </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>64</th><td class="r"><ins>&nbsp; &nbsp; checkbox in the form above.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>65</th><td class="r"><ins>&nbsp; &nbsp; </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>66</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>67</th><td class="r"><ins>== Inspecting Changes Between Revisions ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>68</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>69</th><td class="r"><ins>The ''View changes...'' buttons (placed above and below the list</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>70</th><td class="r"><ins>of changes, on the left side) will show the set of differences</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>71</th><td class="r"><ins>corresponding to the aggregated changes starting from the ''old''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>72</th><td class="r"><ins>revision (first radio-button) to the ''new'' revision (second</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>73</th><td class="r"><ins>radio-button), in the TracChangeset view.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>74</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>75</th><td class="r"><ins>Note that the ''old'' revision doesn't need to be actually </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>76</th><td class="r"><ins>''older'' than the ''new'' revision: it simply gives a base</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>77</th><td class="r"><ins>for the diff. It's therefore entirely possible to easily </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>78</th><td class="r"><ins>generate a ''reverse diff'', for reverting what has been done</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>79</th><td class="r"><ins>in the given range of revisions.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>80</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>81</th><td class="r"><ins>Finally, if the two revisions are identical, the corresponding</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>82</th><td class="r"><ins>changeset will be shown (same effect as clicking on column 5).</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>83</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>84</th><td class="r"><ins>== Alternative Formats ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>85</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>86</th><td class="r"><ins>=== The ChangeLog Text ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>87</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>88</th><td class="r"><ins>At the bottom of the page, there's a ''ChangeLog'' link</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>89</th><td class="r"><ins>that will show the range of revisions as currently shown,</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>90</th><td class="r"><ins>but as a simple text, matching the usual conventions for</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>91</th><td class="r"><ins>!ChangeLog files.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>92</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>93</th><td class="r"><ins>=== RSS Support ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>94</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>95</th><td class="r"><ins>The revision log also provides a RSS feed to monitor the changes.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>96</th><td class="r"><ins>To subscribe to a RSS feed for a file or directory, open its</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>97</th><td class="r"><ins>revision log in the browser and click the orange 'XML' icon at the bottom</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>98</th><td class="r"><ins>of the page. For more information on RSS support in Trac, see TracRss.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>99</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>100</th><td class="r"><ins>----</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>101</th><td class="r"><ins>See also: TracBrowser, TracChangeset, TracGuide</ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+2,create module in svn for xsl development,thomase,thomase,where we'll start developing the stylesheets that will create the feeds_ first for IAph_ and then the world,enhancement,closed,major,Feeds for IAph 2007,xslts,,fixed,,

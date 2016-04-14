@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+ <channel>
+   <title>Concordia: Timeline</title>
+  <link>http://www.atlantides.org/trac/concordia/timeline</link>
+  <description>Trac Timeline</description>
+  <language>en-us</language>
+  <generator>Trac v0.10.4</generator>
+   <image>
+    <title>Concordia</title>
+    <url>http://www.atlantides.org/trac/concordia/chrome/common/trac_banner.png</url>
+    <link>http://www.atlantides.org/trac/concordia/timeline</link>
+   </image>
+ </channel>
+</rss>

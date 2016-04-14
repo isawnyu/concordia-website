@@ -1,0 +1,130 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracAdmin - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="TracAdmin?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="TracAdmin?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="TracAdmin"><a class="wiki" href="TracAdmin">TracAdmin</a></h1>
+<p>
+</p><div class="wiki-toc"><h4>Table of Contents</h4><ul><li><a href="TracGuide">Index</a></li><li><a href="TracInstall">Installation</a></li><li><a href="TracUpgrade">Upgrading</a></li><li><a href="TracIni">Configuration</a></li><li class="active"><a href="TracAdmin">Administration</a></li><li><a href="TracBackup">Backup</a></li><li><a href="TracLogging">Logging</a></li><li><a href="TracPermissions">Permissions</a></li><li><a href="TracWiki">The Wiki</a></li><li><a href="WikiFormatting">Wiki Formatting</a></li><li><a href="TracTimeline">Timeline</a></li><li><a href="TracBrowser">Repository Browser</a></li><li><a href="TracChangeset">Changesets</a></li><li><a href="TracRoadmap">Roadmap</a></li><li><a href="TracTickets">Tickets</a></li><li><a href="TracQuery">Ticket Queries</a></li><li><a href="TracReports">Reports</a></li><li><a href="TracRss">RSS Support</a></li><li><a href="TracNotification">Notification</a></li><li><a href="TracInterfaceCustomization">Customization</a></li><li><a href="TracPlugins">Plugins</a></li></ul></div><p>
+</p>
+<p>
+Trac is distributed with a powerful command-line configuration tool. This tool can be used  to configure and customize your Trac-installation to better fit your needs.
+</p>
+<p>
+Some of those operations can also be performed via the web interface thanks to the optional <a class="ext-link" href="http://trac.edgewall.org/wiki/WebAdmin"><span class="icon">WebAdmin</span></a> plugin, distributed separately for now.
+</p>
+<h2 id="Usage">Usage</h2>
+<p>
+You can get a comprehensive list of the available options, commands and sub-commands by invoking <tt>trac-admin</tt> with the <tt>help</tt> command:
+</p>
+<pre class="wiki">trac-admin help
+</pre><p>
+Unless you're executing the <tt>help</tt>, <tt>about</tt> or <tt>version</tt> sub-commands, you'll need to specify the path to the <a class="wiki" href="TracEnvironment">TracEnvironment</a> that you want to administer as the first argument, for example:
+</p>
+<pre class="wiki">trac-admin /path/to/projenv wiki list
+</pre><h2 id="InteractiveMode">Interactive Mode</h2>
+<p>
+When passing the environment path as the only argument, <tt>trac-admin</tt> starts in interactive mode.
+Commands can then be executed on the selected environment using the prompt, which offers tab-completion
+(on non-Windows environments, and when the Python <tt>readline</tt> module is available) and automatic repetition of the last command issued.
+</p>
+<p>
+Once you're in interactive mode, you can also get help on specific commands or subsets of commands:
+</p>
+<p>
+For example, to get an explanation of the <tt>resync</tt> command, run:
+</p>
+<pre class="wiki">&gt; help resync
+</pre><p>
+To get help on a all the Wiki-related commands, run:
+</p>
+<pre class="wiki">&gt; help wiki
+</pre><hr />
+<p>
+See also: <a class="wiki" href="TracGuide">TracGuide</a>, <a class="wiki" href="TracBackup">TracBackup</a>, <a class="wiki" href="TracPermissions">TracPermissions</a>, <a class="wiki" href="TracEnvironment">TracEnvironment</a>, <a class="wiki" href="TracIni">TracIni</a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="TracAdmin?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

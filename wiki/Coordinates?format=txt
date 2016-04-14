@@ -1,0 +1,13 @@
+Coordinates
+
+ * How do we get coordinates in EDH in the first place
+   * Coordinates as accurate as possible where EDH carries Fundstelle. Usually Pleiades are not going to be able to give any more than Fundort.
+   * Where confidence is lower than 0.8 (as a result of match interface) we need a position for hand checking and also helping where provide correct information for Pleiades (contribution)
+   * Format of matching tool. Reuse atom format. Keeping so general so that we can write script use google maps.
+   * Found reused in mosque in Turkey. Fundstelle: Church Hagia YGB, built into outer wall, Fundort modern: Village in which church is found, Fundort antik, xswat, aus!!
+
+ * Where does EDH store the information
+   * Open layers map tool. openlayers.org Pleiades could help with code. geoext.org Pleiades pulls in Googlemaps and place geoext on top of it.
+   * Does EDH do its own display or do we simply link to Pleiades display.
+
+ * How do we maintain and sustain exchange of information

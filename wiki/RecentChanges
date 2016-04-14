@@ -1,0 +1,94 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>RecentChanges - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="RecentChanges?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="RecentChanges?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="RecentChanges">Recent Changes</h1>
+<p>
+</p><div><h3>07/17/12</h3><ul><li><a href="ConcordiaThesaurus">ConcordiaThesaurus</a> <small>(<a href="ConcordiaThesaurus?action=diff&amp;version=25">diff</a>)</small></li></ul><h3>10/14/11</h3><ul><li><a href="RDFCookbook">RDFCookbook</a> <small>(<a href="RDFCookbook?action=diff&amp;version=3">diff</a>)</small></li><li><a href="WikiStart">WikiStart</a> <small>(<a href="WikiStart?action=diff&amp;version=17">diff</a>)</small></li></ul><h3>09/13/10</h3><ul><li><a href="NEH_DFGChats">NEH_DFGChats</a> <small>(<a href="NEH_DFGChats?action=diff&amp;version=35">diff</a>)</small></li></ul><h3>03/19/10</h3><ul><li><a href="PlaceMatching">PlaceMatching</a> <small>(<a href="PlaceMatching?action=diff&amp;version=4">diff</a>)</small></li></ul><h3>03/06/10</h3><ul><li><a href="WorkshopTwoResults">WorkshopTwoResults</a> <small>(<a href="WorkshopTwoResults?action=diff&amp;version=19">diff</a>)</small></li><li><a href="NEH_DFGworkshopTwo">NEH_DFGworkshopTwo</a> <small>(<a href="NEH_DFGworkshopTwo?action=diff&amp;version=58">diff</a>)</small></li></ul><h3>03/05/10</h3><ul><li><a href="PleiadesMatchInterface">PleiadesMatchInterface</a> <small>(<a href="PleiadesMatchInterface?action=diff&amp;version=19">diff</a>)</small></li></ul><h3>03/04/10</h3><ul><li><a href="WorkshopTwoDirections">WorkshopTwoDirections</a> </li><li><a href="WorkshopTwoAgenda">WorkshopTwoAgenda</a> </li><li><a href="EDHgeographyTable">EDHgeographyTable</a> <small>(<a href="EDHgeographyTable?action=diff&amp;version=32">diff</a>)</small></li></ul><h3>02/10/10</h3><ul><li><a href="ConcordiaAtomFeeds">ConcordiaAtomFeeds</a> <small>(<a href="ConcordiaAtomFeeds?action=diff&amp;version=26">diff</a>)</small></li></ul><h3>01/22/10</h3><ul><li><a href="MapList">MapList</a> <small>(<a href="MapList?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>12/08/09</h3><ul><li><a href="EDHnotesSuggestions">EDHnotesSuggestions</a> <small>(<a href="EDHnotesSuggestions?action=diff&amp;version=3">diff</a>)</small></li><li><a href="PleiadesMoI">PleiadesMoI</a> <small>(<a href="PleiadesMoI?action=diff&amp;version=33">diff</a>)</small></li></ul><h3>10/23/09</h3><ul><li><a href="EDH_Coordinates">EDH_Coordinates</a> <small>(<a href="EDH_Coordinates?action=diff&amp;version=11">diff</a>)</small></li></ul><h3>08/08/09</h3><ul><li><a href="ConcordiaMatchtool">ConcordiaMatchtool</a> </li><li><a href="ConcordiaSoftware">ConcordiaSoftware</a> <small>(<a href="ConcordiaSoftware?action=diff&amp;version=3">diff</a>)</small></li></ul><h3>07/28/09</h3><ul><li><a href="VacationSchedules">VacationSchedules</a> <small>(<a href="VacationSchedules?action=diff&amp;version=2">diff</a>)</small></li><li><a href="PleiadesEDHConcordiaDiagram">PleiadesEDHConcordiaDiagram</a> <small>(<a href="PleiadesEDHConcordiaDiagram?action=diff&amp;version=4">diff</a>)</small></li></ul><h3>07/20/09</h3><ul><li><a href="CopyrightSites">CopyrightSites</a> <small>(<a href="CopyrightSites?action=diff&amp;version=14">diff</a>)</small></li><li><a href="EDHTimeEffort">EDHTimeEffort</a> <small>(<a href="EDHTimeEffort?action=diff&amp;version=3">diff</a>)</small></li></ul><h3>07/17/09</h3><ul><li><a href="NEH_DFGworkshopOne">NEH_DFGworkshopOne</a> <small>(<a href="NEH_DFGworkshopOne?action=diff&amp;version=74">diff</a>)</small></li><li><a href="DB2Spatial">DB2Spatial</a> <small>(<a href="DB2Spatial?action=diff&amp;version=2">diff</a>)</small></li><li><a href="ListDesirables">ListDesirables</a> <small>(<a href="ListDesirables?action=diff&amp;version=20">diff</a>)</small></li></ul><h3>07/16/09</h3><ul><li><a href="Coordinates">Coordinates</a> <small>(<a href="Coordinates?action=diff&amp;version=8">diff</a>)</small></li><li><a href="EDHEpiDocImportDiagram">EDHEpiDocImportDiagram</a> <small>(<a href="EDHEpiDocImportDiagram?action=diff&amp;version=2">diff</a>)</small></li><li><a href="CandidateEDHPleiadesInteractionDiagram">CandidateEDHPleiadesInteractionDiagram</a> <small>(<a href="CandidateEDHPleiadesInteractionDiagram?action=diff&amp;version=3">diff</a>)</small></li></ul><h3>07/15/09</h3><ul><li><a href="FrHedderheim">FrHedderheim</a> <small>(<a href="FrHedderheim?action=diff&amp;version=2">diff</a>)</small></li><li><a href="NEH_DFG">NEH_DFG</a> <small>(<a href="NEH_DFG?action=diff&amp;version=5">diff</a>)</small></li></ul><h3>07/10/09</h3><ul><li><a href="NEH_DFGWorkshops">NEH_DFGWorkshops</a> <small>(<a href="NEH_DFGWorkshops?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>07/08/09</h3><ul><li><a href="BeiInterInsula">BeiInterInsula</a> <small>(<a href="BeiInterInsula?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>10/27/08</h3><ul><li><a href="ConcordiaGraph">ConcordiaGraph</a> <small>(<a href="ConcordiaGraph?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>10/15/08</h3><ul><li><a href="EpiDoc2Atom">EpiDoc2Atom</a> <small>(<a href="EpiDoc2Atom?action=diff&amp;version=6">diff</a>)</small></li><li><a href="ConcordiaTypeThesaurus">ConcordiaTypeThesaurus</a> <small>(<a href="ConcordiaTypeThesaurus?action=diff&amp;version=3">diff</a>)</small></li><li><a href="ProjectDeliverables">ProjectDeliverables</a> <small>(<a href="ProjectDeliverables?action=diff&amp;version=17">diff</a>)</small></li><li><a href="IndexSearchCriteria">IndexSearchCriteria</a> <small>(<a href="IndexSearchCriteria?action=diff&amp;version=3">diff</a>)</small></li><li><a href="WorkshopOctober">WorkshopOctober</a> <small>(<a href="WorkshopOctober?action=diff&amp;version=47">diff</a>)</small></li><li><a href="ConcordiaHarvester">ConcordiaHarvester</a> <small>(<a href="ConcordiaHarvester?action=diff&amp;version=4">diff</a>)</small></li></ul><h3>10/13/08</h3><ul><li><a href="ProjectManagementLessons">ProjectManagementLessons</a> <small>(<a href="ProjectManagementLessons?action=diff&amp;version=4">diff</a>)</small></li></ul><h3>10/08/08</h3><ul><li><a href="Archiving">Archiving</a> <small>(<a href="Archiving?action=diff&amp;version=3">diff</a>)</small></li><li><a href="Licensing">Licensing</a> <small>(<a href="Licensing?action=diff&amp;version=7">diff</a>)</small></li></ul><h3>10/07/08</h3><ul><li><a href="BAtlasIDResolver">BAtlasIDResolver</a> <small>(<a href="BAtlasIDResolver?action=diff&amp;version=5">diff</a>)</small></li></ul><h3>10/06/08</h3><ul><li><a href="PNDemo">PNDemo</a> <small>(<a href="PNDemo?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>10/02/08</h3><ul><li><a href="PleiadesContent">PleiadesContent</a> <small>(<a href="PleiadesContent?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>09/18/08</h3><ul><li><a href="BAtlasIDs">BAtlasIDs</a> <small>(<a href="BAtlasIDs?action=diff&amp;version=4">diff</a>)</small></li><li><a href="IRT">IRT</a> <small>(<a href="IRT?action=diff&amp;version=4">diff</a>)</small></li><li><a href="ProjectData">ProjectData</a> <small>(<a href="ProjectData?action=diff&amp;version=2">diff</a>)</small></li><li><a href="ProjectTeam">ProjectTeam</a> <small>(<a href="ProjectTeam?action=diff&amp;version=5">diff</a>)</small></li><li><a href="ProjectNews">ProjectNews</a> <small>(<a href="ProjectNews?action=diff&amp;version=2">diff</a>)</small></li><li><a href="IAphFeeds">IAphFeeds</a> <small>(<a href="IAphFeeds?action=diff&amp;version=5">diff</a>)</small></li><li><a href="PapyFeeds">PapyFeeds</a> <small>(<a href="PapyFeeds?action=diff&amp;version=2">diff</a>)</small></li><li><a href="IRCyrFeeds">IRCyrFeeds</a> <small>(<a href="IRCyrFeeds?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>05/15/08</h3><ul><li><a href="WorkshopMayOutcomes">WorkshopMayOutcomes</a> <small>(<a href="WorkshopMayOutcomes?action=diff&amp;version=4">diff</a>)</small></li><li><a href="OurOREUseCases">OurOREUseCases</a> <small>(<a href="OurOREUseCases?action=diff&amp;version=5">diff</a>)</small></li><li><a href="WorkshopMay">WorkshopMay</a> <small>(<a href="WorkshopMay?action=diff&amp;version=6">diff</a>)</small></li></ul><h3>04/14/08</h3><ul><li><a href="ORE">ORE</a> </li></ul><h3>04/09/08</h3><ul><li><a href="ExampleIAphInscriptionEntry">ExampleIAphInscriptionEntry</a> <small>(<a href="ExampleIAphInscriptionEntry?action=diff&amp;version=4">diff</a>)</small></li><li><a href="IAph2007">IAph2007</a> <small>(<a href="IAph2007?action=diff&amp;version=5">diff</a>)</small></li></ul><h3>03/31/08</h3><ul><li><a href="AtomLocationByReference">AtomLocationByReference</a> <small>(<a href="AtomLocationByReference?action=diff&amp;version=5">diff</a>)</small></li><li><a href="Workshops">Workshops</a> </li><li><a href="ProjectPlan">ProjectPlan</a> </li><li><a href="DDbDP">DDbDP</a> <small>(<a href="DDbDP?action=diff&amp;version=2">diff</a>)</small></li><li><a href="IRCyr">IRCyr</a> </li><li><a href="ProjectOverview">ProjectOverview</a> <small>(<a href="ProjectOverview?action=diff&amp;version=2">diff</a>)</small></li></ul><h3>03/29/08</h3><ul><li><a href="AtomLocation">AtomLocation</a> <small>(<a href="AtomLocation?action=diff&amp;version=3">diff</a>)</small></li></ul><h3>03/07/08</h3><ul><li><a href="CamelCase">CamelCase</a> </li><li><a href="InterMapTxt">InterMapTxt</a> </li><li><a href="InterTrac">InterTrac</a> </li><li><a href="InterWiki">InterWiki</a> </li><li><a href="RecentChanges">RecentChanges</a> </li><li><a href="SandBox">SandBox</a> </li><li><a href="TitleIndex">TitleIndex</a> </li><li><a href="TracAccessibility">TracAccessibility</a> </li><li><a href="TracAdmin">TracAdmin</a> </li><li><a href="TracBackup">TracBackup</a> </li><li><a href="TracBrowser">TracBrowser</a> </li><li><a href="TracCgi">TracCgi</a> </li><li><a href="TracChangeset">TracChangeset</a> </li><li><a href="TracEnvironment">TracEnvironment</a> </li><li><a href="TracFastCgi">TracFastCgi</a> </li><li><a href="TracGuide">TracGuide</a> </li><li><a href="TracImport">TracImport</a> </li><li><a href="TracIni">TracIni</a> </li><li><a href="TracInstall">TracInstall</a> </li><li><a href="TracInterfaceCustomization">TracInterfaceCustomization</a> </li><li><a href="TracLinks">TracLinks</a> </li><li><a href="TracLogging">TracLogging</a> </li><li><a href="TracModPython">TracModPython</a> </li><li><a href="TracNotification">TracNotification</a> </li><li><a href="TracPermissions">TracPermissions</a> </li><li><a href="TracPlugins">TracPlugins</a> </li><li><a href="TracQuery">TracQuery</a> </li><li><a href="TracReports">TracReports</a> </li><li><a href="TracRevisionLog">TracRevisionLog</a> </li><li><a href="TracRoadmap">TracRoadmap</a> </li><li><a href="TracRss">TracRss</a> </li><li><a href="TracSearch">TracSearch</a> </li><li><a href="TracStandalone">TracStandalone</a> </li><li><a href="TracSupport">TracSupport</a> </li><li><a href="TracSyntaxColoring">TracSyntaxColoring</a> </li><li><a href="TracTickets">TracTickets</a> </li><li><a href="TracTicketsCustomFields">TracTicketsCustomFields</a> </li><li><a href="TracTimeline">TracTimeline</a> </li><li><a href="TracUnicode">TracUnicode</a> </li><li><a href="TracUpgrade">TracUpgrade</a> </li><li><a href="TracWiki">TracWiki</a> </li><li><a href="WikiDeletePage">WikiDeletePage</a> </li><li><a href="WikiFormatting">WikiFormatting</a> </li><li><a href="WikiHtml">WikiHtml</a> </li><li><a href="WikiMacros">WikiMacros</a> </li><li><a href="WikiNewPage">WikiNewPage</a> </li><li><a href="WikiPageNames">WikiPageNames</a> </li><li><a href="WikiProcessors">WikiProcessors</a> </li><li><a href="WikiRestructuredText">WikiRestructuredText</a> </li><li><a href="WikiRestructuredTextLinks">WikiRestructuredTextLinks</a> </li></ul></div><p>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="RecentChanges?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

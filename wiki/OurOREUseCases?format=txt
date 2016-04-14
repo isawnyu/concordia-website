@@ -1,0 +1,22 @@
+Our use cases for ORE aggregations
+
+== Provide crosswalks between two similar authority lists ==
+
+ * LGPN place authority file < == > Pleiades/BAtlas IDs
+ * ANS Geographic Entities < == > Pleiades/BAtlas IDs
+
+== Aggregate closely related (but disparate) content that's stored in different repos and potentially differently chunked ==
+
+ * APIS records < == > HGV records < == > DDbDP records (i.e., the "numbers server")
+
+== Tag/annotate/describe content in one repos via relationships to a different class of content in another repos ==
+
+ * Names/People/Coins/Papyri are geographically contextualized by linking to one or more Pleiades places
+ * Pleiades place name variants are supported (i.e., we can cite an instance of attestation) by linking to one or more ANS coins, IAph (or other) inscriptions, or papyrus texts
+
+== Report results of analysis by making machine-actionable the conclusions one draws about a document (via "related" links to otherly-hosted content ==
+
+ * The general idea-class here is well-explained in [http://www.dancohen.org/2008/03/03/the-vision-of-ore/ Dan Cohen's initial blog post on ORE], but so far not heavily considered in the ORE docs themselves, nor in examples on the ORE lists (these so far are mostly focused on digital repository matters like linking together multiple avatars of a single work, and providing some metadata for it)
+ * E.g., the geography of an individual's victories in a running race: http://concordia.atlantides.org/examples/insaph-victor.atom encodes (by way of links to pleiades/batlas ids) my understanding of the places where M. Aurelius [...]os won races as listed in his inscription: http://insaph.kcl.ac.uk/iaph2007/iAph120215.html
+   * This was Charlotte's idea; imagine what you could do if you had all such inscriptions annotated in this way
+   * Note the use of a term (in an atom:category tag) of the [http://pleiades.stoa.org/thesaurus/association-certainty Pleiades Association Certainty Thesaurus] to qualify my confidence about one of the place identifications

@@ -1,0 +1,27 @@
+= Example Atom Entry for an IAph2007 Inscription =
+
+The following example was generated from [source:epidoc2atom/trunk/tests/data/iaph2007/iAph010001.xml the XML] for [http://insaph.kcl.ac.uk/iaph2007/iAph010001.html IAph2007 1.1.], using [source:epidoc2atom/trunk/tei2entry.xsl tei2entry.xsl]:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:author>
+        <atom:name>Joyce M. Reynolds</atom:name>
+    </atom:author>
+    <atom:rights>Creative Commons licence Attribution 2.5
+        (http://creativecommons.org/licenses/by/2.5/). All reuse or distribution of this work must
+        contain somewhere a link back to the URL http://insaph.kcl.ac.uk/. </atom:rights>
+    <atom:id>tag:insaph.kcl.ac.uk,2007-07-04:/iaph2007/iAph010001</atom:id>
+    <atom:title>Boundary marker, set up by C. Julius Zoilos</atom:title>
+    <atom:link rel="alternate" href="http://insaph.kcl.ac.uk/iaph2007/iAph010001.html"/>
+    <atom:published>2007-07-04T00:00:00.1Z</atom:published>
+    <atom:updated>2008-04-01T00:00:00.1Z</atom:updated>
+    <atom:summary type="text">Upper right corner of a white marble block (0.36 x 0.24 x 0.34).
+        Inscribed on one face. Date: Late Republican or Augustan (lettering, content). Photo.
+        Recorded by the NYU expedition in 1963 (63.596). Published by Reynolds, Aphrodisias
+        &amp; Rome, doc. 35, whence SEG 1982.1097, BE 1983.388,An.Ép. 1984.878, McCabe PHI
+        Aphrodisias 379, R. R. R. Smith, Aphrodisias I. The monument of C. Julius Zoilos (Mainz,
+        1993) T5. </atom:summary>
+</atom:entry>
+
+}}}

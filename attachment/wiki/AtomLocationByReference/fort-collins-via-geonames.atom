@@ -1,0 +1,128 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>AtomLocationByReference: fort-collins-via-geonames.atom - Concordia - Trac</title><link rel="start" href="../../../wiki.2" /><link rel="search" href="../../../search" /><link rel="help" href="../../../wiki/TracGuide" /><link rel="stylesheet" href="../../../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../../../chrome/common/css/code.css" type="text/css" /><link rel="icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../../../chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="../../../wiki/AtomLocationByReference" title="AtomLocationByReference" /><link rel="alternate" href="fort-collins-via-geonames.atom?format=raw" title="Original Format" type="application/atom; charset=iso-8859-15" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../../../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../../../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../../../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../../../settings">Settings</a></li><li><a accesskey="6" href="../../../wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="../../../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../../../wiki.2">Wiki</a></li><li><a accesskey="2" href="../../../timeline">Timeline</a></li><li><a accesskey="3" href="../../../roadmap">Roadmap</a></li><li><a href="../../../browser">Browse Source</a></li><li><a href="../../../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../../../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="attachment">
+
+
+ <h1><a href="../../../wiki/AtomLocationByReference">AtomLocationByReference</a>: fort-collins-via-geonames.atom</h1>
+ <table id="info" summary="Description"><tbody><tr>
+   <th scope="col">
+    File fort-collins-via-geonames.atom, 0.8 kB 
+    (added by seang,  8 years ago)
+   </th></tr><tr>
+   <td class="message"></td>
+  </tr>
+ </tbody></table>
+ <div id="preview">
+   <table class="code"><thead><tr><th class="lineno">Line</th><th class="content">&nbsp;</th></tr></thead><tbody><tr><th id="L1"><a href="fort-collins-via-geonames.atom#L1">1</a></th>
+<td>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</td>
+</tr><tr><th id="L2"><a href="fort-collins-via-geonames.atom#L2">2</a></th>
+<td>&lt;feed xmlns=&#34;http://www.w3.org/2005/Atom&#34; </td>
+</tr><tr><th id="L3"><a href="fort-collins-via-geonames.atom#L3">3</a></th>
+<td>&nbsp; &nbsp;xmlns:georss=&#34;http://www.georss.org/georss&#34;</td>
+</tr><tr><th id="L4"><a href="fort-collins-via-geonames.atom#L4">4</a></th>
+<td>&nbsp; &nbsp;xmlns:gml=&#34;http://www.opengis.net/gml&#34;</td>
+</tr><tr><th id="L5"><a href="fort-collins-via-geonames.atom#L5">5</a></th>
+<td>&nbsp; &nbsp;&gt;</td>
+</tr><tr><th id="L6"><a href="fort-collins-via-geonames.atom#L6">6</a></th>
+<td></td>
+</tr><tr><th id="L7"><a href="fort-collins-via-geonames.atom#L7">7</a></th>
+<td>&nbsp; &nbsp;&lt;id&gt;urn:uuid:6e5aa5f2-4def-4025-9353-2c8298b194ed&lt;/id&gt;</td>
+</tr><tr><th id="L8"><a href="fort-collins-via-geonames.atom#L8">8</a></th>
+<td>&nbsp; &nbsp;&lt;title&gt;Fort Collins&lt;/title&gt;</td>
+</tr><tr><th id="L9"><a href="fort-collins-via-geonames.atom#L9">9</a></th>
+<td>&nbsp; &nbsp;&lt;updated&gt;2008-04-11T13:40-06:00&lt;/updated&gt;</td>
+</tr><tr><th id="L10"><a href="fort-collins-via-geonames.atom#L10">10</a></th>
+<td>&nbsp; &nbsp;</td>
+</tr><tr><th id="L11"><a href="fort-collins-via-geonames.atom#L11">11</a></th>
+<td>&nbsp; &nbsp;&lt;link rel=&#34;related&#34; href=&#34;http://sws.geonames.org/5577147/&#34;/&gt;</td>
+</tr><tr><th id="L12"><a href="fort-collins-via-geonames.atom#L12">12</a></th>
+<td></td>
+</tr><tr><th id="L13"><a href="fort-collins-via-geonames.atom#L13">13</a></th>
+<td>&nbsp; &nbsp;&lt;entry&gt;</td>
+</tr><tr><th id="L14"><a href="fort-collins-via-geonames.atom#L14">14</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;id&gt;urn:uuid:7e492e74-37f0-49da-b079-6055134bf351&lt;/id&gt;</td>
+</tr><tr><th id="L15"><a href="fort-collins-via-geonames.atom#L15">15</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;title&gt;Location of Fort Collins&lt;/title&gt;</td>
+</tr><tr><th id="L16"><a href="fort-collins-via-geonames.atom#L16">16</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;updated&gt;2008-04-11T13:40-06:00&lt;/updated&gt;</td>
+</tr><tr><th id="L17"><a href="fort-collins-via-geonames.atom#L17">17</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;summary&gt;Links to Geonames location&lt;/summary&gt;</td>
+</tr><tr><th id="L18"><a href="fort-collins-via-geonames.atom#L18">18</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;content/&gt;</td>
+</tr><tr><th id="L19"><a href="fort-collins-via-geonames.atom#L19">19</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;link rel=&#34;related&#34; href=&#34;http://sws.geonames.org/5577147/&#34;/&gt;</td>
+</tr><tr><th id="L20"><a href="fort-collins-via-geonames.atom#L20">20</a></th>
+<td>&nbsp; &nbsp; &nbsp; &lt;link rel=&#34;http://www.georss.org/relation/location&#34; href=&#34;http://sws.geonames.org/5577147/about.rdf&#34; type=&#34;application/rdf+xml&#34;/&gt;</td>
+</tr><tr><th id="L21"><a href="fort-collins-via-geonames.atom#L21">21</a></th>
+<td>&nbsp; &nbsp;&lt;/entry&gt;</td>
+</tr><tr><th id="L22"><a href="fort-collins-via-geonames.atom#L22">22</a></th>
+<td></td>
+</tr><tr><th id="L23"><a href="fort-collins-via-geonames.atom#L23">23</a></th>
+<td>&lt;/feed&gt;</td>
+</tr></tbody></table>
+ </div>
+ 
+
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="fort-collins-via-geonames.atom?format=raw">Original Format</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../../../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../../../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

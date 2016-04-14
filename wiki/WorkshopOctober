@@ -1,0 +1,158 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WorkshopOctober - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="WorkshopOctober?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="WorkshopOctober?action=diff&amp;version=47">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="OctoberWorkshopLondon">October Workshop (London)</h1>
+<p>
+Dates: Monday 13 - Wednesday 15 October 2008
+</p>
+<p>
+Seminar Room, CCH, King's College London
+</p>
+<h2 id="Agenda">Agenda</h2>
+<p>
+Monday and Wednesday will be closed sessions for the team; for Tuesday 14 we are inviting representatives from partner projects.
+</p>
+<h3 id="Monday">Monday</h3>
+<ul><li>Morning: 
+<ul><li>Start 11.00:
+</li><li>Those attending: Team (GB, TE, SG, EL, CMR, HW)
+</li><li>Primary goal: emerge from this session with a complete and up-to-date list of <a class="wiki" href="ProjectDeliverables">ProjectDeliverables</a>, annotated with status of each (including: "complete", "new", "changed", "at-risk")
+</li><li>Triage and move onto discussion of specific issues (primarily geodatabase) as soon as possible (to flow into after-lunch session as required)
+<ul><li>IRT &amp; IRCyr geodatabase <strong>(12, 13, 15)</strong>
+<ul><li>Internal structure of database and relationship to XML (CCH)
+</li></ul></li></ul></li></ul></li><li>Lunch: 13.00
+</li><li>Afternoon: 14.00:
+<ul><li>Tactical session: important matters arising from triage of this morning's topics
+<ul><li>IRT &amp; IRCyr geodatabase (cont'd)
+<ul><li>Relationship with Pleiades (PleiadesURI in locus-table)
+</li><li>How do we deliver to Pleiades any new places that they don't list yet?
+</li><li>BAtlasID resolver
+</li></ul></li></ul></li><li>16.00: Management session (1 hour):
+<ul><li>What have we learnt so far about project management that would be useful for future collaborations - between us or between others? Gather discussion fodder at <a class="wiki" href="ProjectManagementLessons">ProjectManagementLessons</a>
+</li></ul></li></ul></li><li>Ends: 17.30
+</li></ul><h3 id="Tuesday">Tuesday</h3>
+<ul><li>Start: 10:30
+</li><li>Those attending: Team plus Valentina Asciutti (KCL), Stuart Dunn (CeRch, KCL), Leif Isaksen (Southampton), Elaine Matthews (LGPN), Dan Pett (PAS), Sebastian Rahtz (LGPN), Maggie Robb (KCL)
+</li><li>Morning: 
+<ul><li>Topics:
+<ul><li>RDF and web-crawling for "social" networks of object/name/place data
+</li><li>How should we embed LGPN data, and ensure the surfacing of new data to LGPN? (Rahtz)
+</li></ul></li></ul></li><li>Afternoon:
+<ul><li>Topics:
+<ul><li>Google Visualization API and LGPN data (Rahtz)
+</li><li>Correlate Herodotean locations with the pleiades URIs (Isaksen)
+</li><li>Mapping tools and Pleiades infrastructure (Walda)
+</li><li>see <a class="wiki" href="ConcordiaAtomFeeds">ConcordiaAtomFeeds</a>
+</li></ul></li><li>roll up sleeves and hack at data/tools
+</li></ul></li><li>16:00: down computers, move to alternate location (hostelry) for debriefing
+</li></ul><p>
+    
+</p>
+<h3 id="Wednesday">Wednesday</h3>
+<ul><li>Start: 10:30
+</li><li>Morning:
+<ul><li>Topics:
+<ul><li>Atom feed production tool <strong>(1-4)</strong>: workplan
+<ul><li>cf. IDP-content-tool
+</li></ul></li><li>Feed harvesting and indexing <strong>(5)</strong>
+<ul><li>federated search functionality
+</li><li>Cross-project citation vocablary/thesaurus <strong>(6)</strong>
+</li><li>Determine <a class="wiki" href="IndexSearchCriteria">IndexSearchCriteria</a>
+</li></ul></li><li>Digitization of IRT <strong>(8)</strong>
+<ul><li>(EpiDoc &amp; web &amp; images)
+</li><li>incriptions (+ narrative?)
+</li></ul></li><li>ALA/IAph inscription concordance <strong>(14)</strong>
+<ul><li>add IAph/PHI inscription concordance
+</li></ul></li><li>Further focus on locations and their identification
+</li></ul></li></ul></li><li>Afternoon:
+<ul><li>Status of deliverables: review/decision on at-risk items
+</li></ul></li></ul><h3 id="SummaryPoints">Summary Points</h3>
+<ul><li>Concordia approaches search from the web search engine angle. This is not federated search. We are building an index from the data collected by a web crawler.
+</li><li>Our new vocabulary of link rels bears some resemblance to a group of RDF predicates, but Concordia is not a semantic web application.
+</li></ul></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="WorkshopOctober?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

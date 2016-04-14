@@ -1,0 +1,154 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>TracInstall (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first">
+      <span class="missing">&larr; Previous Change</span>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/TracInstall?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes from 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/TracInstall?version=1">Version 1</a> of
+    <a href="TracInstall">TracInstall</a></h1>
+  <form method="post" id="prefs" action="TracInstall"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="1" />
+    <input type="hidden" name="old_version" value="" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">trac <span class="ipnr">(IP: 127.0.0.1)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/07/08 14:41:41 (8 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>TracInstall</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version ">v0</th>
+        <th title="Version 1">v1</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody class="add"><tr class="first"><th>&nbsp;</th><th>1</th><td class="r"><ins>= Trac Installation Guide = </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>2</th><td class="r"><ins>[[TracGuideToc]]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>3</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>4</th><td class="r"><ins>Trac is a lightweight project management tool that is implemented as a web-based application. Trac is written in the Python programming language and needs a database (either [http://sqlite.org/ SQLite], [http://www.postgresql.org/ PostgreSQL], or [http://mysql.com/ MySQL] works). For HTML rendering, Trac uses the [http://www.clearsilver.net/ ClearSilver] templating system.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>5</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>6</th><td class="r"><ins>What follows are generic instructions for installing and setting up Trac and its requirements. While you can find instructions for installing Trac on specific systems at [http://projects.edgewall.com/trac/wiki/TracInstallPlatforms TracInstallPlatforms] on the main Trac site, please be sure to first read through these general instructions to get a good understanding of the tasks involved.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>7</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>8</th><td class="r"><ins>== Requirements ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>9</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>10</th><td class="r"><ins>To install Trac, the following software packages must be installed:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>11</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>12</th><td class="r"><ins>&nbsp;* [http://www.python.org/ Python], version &gt;= 2.3.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>13</th><td class="r"><ins>&nbsp; &nbsp;* For RPM-based systems you might also need the `python-devel` and `python-xml` packages.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>14</th><td class="r"><ins>&nbsp; &nbsp;* If you want to use Trac with Subversion on Windows, note that there are no precompiled Subversion bindings for Python 2.4, so you probably need Python 2.3.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>15</th><td class="r"><ins>&nbsp; &nbsp; * 2006-09-20: This seems to be no longer true, see http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91. For subversion 1.4.0 python 2.4 binary bindings are available.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>16</th><td class="r"><ins>&nbsp;* [http://www.clearsilver.net/ ClearSilver], version &gt;= 0.9.3</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>17</th><td class="r"><ins>&nbsp; &nbsp;* With python-bindings (`./configure --with-python=/usr/bin/python`)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>18</th><td class="r"><ins>&nbsp;* You also need a database system and the corresponding python drivers for it.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>19</th><td class="r"><ins>&nbsp; &nbsp;The database can be either SQLite, PostgreSQL or MySQL ''(experimental)''.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>20</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>21</th><td class="r"><ins>=== For SQLite ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>22</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>23</th><td class="r"><ins>&nbsp;* [http://www.sqlite.org/ SQLite], version 2.8.x or 3.x (preferred)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>24</th><td class="r"><ins>&nbsp;* [http://pysqlite.org/ PySQLite], version 1.x (for SQLite 2.x) or version 2.x (for SQLite 3.x). For details see [http://trac.edgewall.org/wiki/PySqlite PySqlite]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>25</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>26</th><td class="r"><ins>''Note: Versions of Trac prior to 0.9 do '''not''' work with PySQLite 2.x.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>27</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>28</th><td class="r"><ins>''Note: It appears that PySQLite 2.x is required for Trac 0.9+/SQLite 3.x if you plan to use the 'trac-post-commit-hook.py' script available from the 'contrib' section of the source repository.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>29</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>30</th><td class="r"><ins>''Note: Users of Mac OS X please take care; the Apple-supplied SQLite contains additional code to support file locking on network filesystems like AFP or SMB. This is not presently (3.3.6) in the mainline sources, so if you build your own SQLite from source it will not function correctly on such filesystems - typically it gives the error "{{{database is locked}}}". [http://www.alastairs-place.net/2006/07/sqlite_and_mac/ A patch] is available for version 3.3.6, based on Apple's code, otherwise you're probably best off using the Apple supplied version (presently 3.1.3).''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>31</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>32</th><td class="r"><ins>=== For PostgreSQL ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>33</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>34</th><td class="r"><ins>&nbsp;* [http://www.postgresql.org/ PostgreSQL]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>35</th><td class="r"><ins>&nbsp;* [http://initd.org/projects/psycopg2 psycopg2] or [http://pypgsql.sourceforge.net/ pyPgSQL]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>36</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>37</th><td class="r"><ins>''Note: PostgreSQL support requires Trac version 0.9 or later.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>38</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>39</th><td class="r"><ins>=== For MySQL ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>40</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>41</th><td class="r"><ins>'''Warning''': MySQL support is currently experimental. That means it works for some people, but has not been tested extensively yet.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>43</th><td class="r"><ins>&nbsp;* [http://mysql.com/ MySQL], version 4.1 or later</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>44</th><td class="r"><ins>&nbsp;* [http://sf.net/projects/mysql-python MySQLdb], version 1.2.1 or later</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>45</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>46</th><td class="r"><ins>''Note: MySQL support requires Trac version 0.10 or later.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>47</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>48</th><td class="r"><ins>=== Optional Requirements ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>49</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>50</th><td class="r"><ins>==== Version Control System ====</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r"><ins>&nbsp;* [http://subversion.tigris.org/ Subversion], version &gt;= 1.0. (either 1.2.3 or &gt;= 1.3.1 recommended) and corresponding [http://svnbook.red-bean.com/svnbook-1.1/ch08s02.html#svn-ch-8-sect-2.3 Python bindings]. For troubleshooting, check [http://projects.edgewall.com/trac/wiki/TracSubversion TracSubversion]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>52</th><td class="r"><ins>&nbsp; &nbsp;* Trac uses the [http://www.swig.org/ SWIG] bindings included in the Subversion distribution, '''not''' [http://pysvn.tigris.org/ PySVN] (which is sometimes confused with the standard SWIG bindings).</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>53</th><td class="r"><ins>&nbsp; &nbsp;* If Subversion was already installed without the SWIG bindings, you'll need to re-`configure` Subversion and `make swig-py`, `make install-swig-py`.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>54</th><td class="r"><ins>&nbsp;* Support for other version control systems is provided via third-parties. See [http://projects.edgewall.com/trac/wiki/PluginList PluginList] and [http://projects.edgewall.com/trac/wiki/VersioningSystemBackend VersioningSystemBackend].</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>55</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>56</th><td class="r"><ins>==== Web Server ====</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>57</th><td class="r"><ins>&nbsp;* A CGI-capable web server (see TracCgi), or</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>58</th><td class="r"><ins>&nbsp;* a [http://www.fastcgi.com/ FastCGI]-capable web server (see TracFastCgi), or</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>59</th><td class="r"><ins>&nbsp;* [http://httpd.apache.org/ Apache] with [http://www.modpython.org/ mod_python 3.1.3+] (see TracModPython)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>60</th><td class="r"><ins>&nbsp; &nbsp; * When installing mod_python the development versions of Python and Apache are required (actually the libraries and header files)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>61</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>62</th><td class="r"><ins>For those stuck with Apache 1.3, it is also possible to get Trac 0.8.4 working with [http://www.modpython.org/ mod_python 2.7] (see [wiki:TracModPython2.7 TracModPython2.7]). This hasn't been tested with Trac 0.9, so it may or may not work.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>63</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>64</th><td class="r"><ins>==== Other Python Utilities ====</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>65</th><td class="r"><ins>&nbsp;* [http://peak.telecommunity.com/DevCenter/setuptools setuptools], version &gt;= 0.6 for using plugins (see TracPlugins)</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>66</th><td class="r"><ins>&nbsp;* [http://docutils.sourceforge.net/ docutils], version &gt;= 0.3.9 for WikiRestructuredText.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>67</th><td class="r"><ins>&nbsp;* [http://silvercity.sourceforge.net/ SilverCity] and/or [http://www.gnu.org/software/enscript/enscript.html Enscript] for [wiki:TracSyntaxColoring syntax highlighting].</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>68</th><td class="r"><ins>&nbsp; &nbsp; * Note that !SilverCity 0.9.6 has a [http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1424436&amp;group_id=45693&amp;atid=443739 bug] that breaks Python syntax highlighting in Trac. Until an update is made available, we recommend using version 0.9.5.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>69</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>70</th><td class="r"><ins>'''Attention''': The various available versions of these dependencies are not necessarily interchangable, so please pay attention to the version numbers above. If you are having trouble getting Trac to work please double-check all the dependencies before asking for help on the [http://projects.edgewall.com/trac/wiki/MailingList MailingList] or [http://projects.edgewall.com/trac/wiki/IrcChannel IrcChannel].</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>71</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>72</th><td class="r"><ins>Please refer to the documentation of these packages to find out how they are best installed. In addition, most of the [http://projects.edgewall.com/trac/wiki/TracInstallPlatforms platform-specific instructions] also describe the installation of the dependencies. Keep in mind however that the information there might concern older versions of Trac than the one you're installing (in particular, </ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>73</th><td class="r"><ins>there are still some pages that are about Trac 0.8).</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>74</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>75</th><td class="r"><ins>== Installing Trac ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>76</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>77</th><td class="r"><ins>Like most Python programs, the Trac Python package is installed by running the following command at the top of the source directory:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>78</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>79</th><td class="r"><ins>$ python ./setup.py install</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>80</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>81</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>82</th><td class="r"><ins>''Note: you'll need root permissions or equivalent for this step.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>83</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>84</th><td class="r"><ins>This will byte-compile the python source code and install it in the `site-packages` directory</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>85</th><td class="r"><ins>of your Python installation. The directories `cgi-bin`, `templates`, `htdocs`, `wiki-default` and `wiki-macros` are all copied to `$prefix/share/trac/`. `conf` and `plugins` stub directories are also created under `$prefix/share/trac/` (''since [milestone:0.10]'').</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>86</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>87</th><td class="r"><ins>The script will also install the [wiki:TracAdmin trac-admin] command-line tool, used to create and maintain [wiki:TracEnvironment project environments], as well as the [wiki:TracStandalone tracd] standalone server.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>88</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>89</th><td class="r"><ins>=== Advanced Options ===</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>90</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>91</th><td class="r"><ins>To install Trac to a custom location, or find out about other advanced installation options, run:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>92</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>93</th><td class="r"><ins>$ python ./setup.py install --help</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>94</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>95</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>96</th><td class="r"><ins>Also see [http://docs.python.org/inst/inst.html Installing Python Modules] for detailed information.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>97</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>98</th><td class="r"><ins>Specifically, you might be interested in:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>99</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>100</th><td class="r"><ins>$ python ./setup.py install --prefix=/path/to/installdir</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>101</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>102</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>103</th><td class="r"><ins>== Creating a Project Environment ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>104</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>105</th><td class="r"><ins>A [wiki:TracEnvironment Trac environment] is the backend storage where Trac stores information like wiki pages, tickets, reports, settings, etc. An environment is basically a directory that contains a human-readable configuration file and various other files and directories.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>106</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>107</th><td class="r"><ins>A new environment is created using [wiki:TracAdmin trac-admin]:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>108</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>109</th><td class="r"><ins>$ trac-admin /path/to/myproject initenv</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>110</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>111</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>112</th><td class="r"><ins>[wiki:TracAdmin trac-admin] will prompt you for the information it needs to create the environment, such as the name of the project, the type and the path to an existing [wiki:TracEnvironment#SourceCodeRepository source code repository], the [wiki:TracEnvironment#DatabaseConnectionStrings database connection string], and so on. If you're not sure what to specify for one of these options, just leave it blank to use the default value. The database connection string in particular will always work as long as you have SQLite installed. Leaving the path to the source code repository empty will disable any functionality related to version control, but you can always add that back when the basic system is running.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>113</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>114</th><td class="r"><ins>Also note that the values you specify here can be changed later by directly editing the [wiki:TracIni] configuration file.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>115</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>116</th><td class="r"><ins>''Note: The user account under which the web server runs will require write permissions to the environment</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>117</th><td class="r"><ins>directory and all the files inside.''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>118</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>119</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>120</th><td class="r"><ins>== Running the Standalone Server ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>121</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>122</th><td class="r"><ins>After having created a Trac environment, you can easily try the web interface by running the standalone server [wiki:TracStandalone tracd]:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>123</th><td class="r"><ins>{{{</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>124</th><td class="r"><ins>$ tracd --port 8000 /path/to/myproject</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>125</th><td class="r"><ins>}}}</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>126</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>127</th><td class="r"><ins>Then, fire up a browser and visit `http://localhost:8000/`. You should get a simple listing of all environments that tracd knows about. Follow the link to the environment you just created, and you should see Trac in action.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>128</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>129</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>130</th><td class="r"><ins>== Running Trac on a Web Server ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>131</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>132</th><td class="r"><ins>Trac provides three options for connecting to a “real” web server: [wiki:TracCgi CGI], [wiki:TracFastCgi FastCGI] and [wiki:TracModPython mod_python]. For decent performance, it is recommended that you use either FastCGI or mod_python.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>133</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>134</th><td class="r"><ins>== Configuring Authentication ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>135</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>136</th><td class="r"><ins>The process of adding, removing, and configuring user accounts for authentication depends on the specific way you run Trac. The basic procedure is described in the [wiki:TracCgi#AddingAuthentication "Adding Authentication"] section on the TracCgi page. To learn how to setup authentication for the frontend you're using, please refer to one of the following pages:</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>137</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>138</th><td class="r"><ins>&nbsp;* TracStandalone if you use the standalone server, `tracd`.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>139</th><td class="r"><ins>&nbsp;* TracCgi if you use the CGI or FastCGI methods.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>140</th><td class="r"><ins>&nbsp;* TracModPython if you use the mod_python method.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>141</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>142</th><td class="r"><ins>== Using Trac ==</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>143</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>144</th><td class="r"><ins>Once you have your Trac site up and running, you should be able to browse your subversion repository, create tickets, view the timeline, etc.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>145</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>146</th><td class="r"><ins>Keep in mind that anonymous (not logged in) users can by default access most but not all of the features. You will need to configure authentication and grant additional [wiki:TracPermissions permissions] to authenticated users to see the full set of features.</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>147</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>148</th><td class="r"><ins>'' Enjoy! ''</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>149</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>150</th><td class="r"><ins>[http://projects.edgewall.com/trac/wiki/TracTeam The Trac Team]</ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>151</th><td class="r"><ins></ins>&nbsp;</td></tr><tr><th>&nbsp;</th><th>152</th><td class="r"><ins>----</ins>&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>153</th><td class="r"><ins>See also:&nbsp; TracGuide, TracCgi, TracFastCgi, TracModPython, TracUpgrade, TracPermissions</ins>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

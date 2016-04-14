@@ -1,0 +1,210 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WikiProcessors - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="WikiProcessors?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="WikiProcessors?action=diff&amp;version=1">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="WikiProcessors">Wiki Processors</h1>
+<p>
+Processors are <a class="wiki" href="WikiMacros">WikiMacros</a> designed to provide alternative markup formats for the <a class="wiki" href="TracWiki">Wiki engine</a>. Processors can be thought of as <i>macro functions to process user-edited text</i>. 
+</p>
+<p>
+The Wiki engine uses processors to allow using <a class="wiki" href="WikiRestructuredText">Restructured Text</a>, <a class="wiki" href="WikiHtml">raw HTML</a> and <a class="ext-link" href="http://www.textism.com/tools/textile/"><span class="icon">textile</span></a> in any Wiki text throughout Trac.
+</p>
+<h2 id="UsingProcessors">Using Processors</h2>
+<p>
+To use a processor on a block of text, use a Wiki code block, selecting a processor by name using <i>shebang notation</i> (#!), familiar to most UNIX users from scripts.
+</p>
+<p>
+<strong>Example 1</strong> (<i>inserting raw HTML in a wiki text</i>):
+</p>
+<pre class="wiki">{{{
+#!html
+&lt;h1 style="color: orange"&gt;This is raw HTML&lt;/h1&gt;
+}}}</pre>
+<p>
+<strong>Results in:</strong>
+</p>
+<h1 style="color: orange">This is raw HTML</h1>
+<hr />
+<p>
+<strong>Example 2</strong> (<i>inserting Restructured Text in wiki text</i>):
+</p>
+<pre class="wiki">{{{
+#!rst
+A header
+--------
+This is some **text** with a footnote [*]_.
+
+.. [*] This is the footnote.
+}}}</pre>
+<p>
+<strong>Results in:</strong>
+</p>
+<div class="code"><pre>A header
+--------
+This is some **text** with a footnote [*]_.
+
+.. [*] This is the footnote.
+</pre></div><hr />
+<p>
+<strong>Example 3</strong> (<i>inserting a block of C source code in wiki text</i>):
+</p>
+<pre class="wiki">{{{
+#!c
+int main(int argc, char *argv[])
+{
+  printf("Hello World\n");
+  return 0;
+}
+}}}</pre>
+<p>
+<strong>Results in:</strong>
+</p>
+<div class="code"><pre>int main(int argc, char *argv[])
+{
+  printf(&#34;Hello World\n&#34;);
+  return 0;
+}
+</pre></div><hr />
+<h2 id="AvailableProcessors">Available Processors</h2>
+<p>
+The following processors are included in the Trac distribution:
+</p>
+<ul><li><strong>html</strong> -- Insert custom HTML in a wiki page. See <a class="wiki" href="WikiHtml">WikiHtml</a>.
+</li><li><strong>rst</strong> -- Trac support for Restructured Text. See <a class="wiki" href="WikiRestructuredText">WikiRestructuredText</a>.
+</li><li><strong>textile</strong> -- Supported if  <a class="ext-link" href="http://dealmeida.net/projects/textile/"><span class="icon">Textile</span></a> is installed. See <a class="ext-link" href="http://hobix.com/textile/"><span class="icon">a Textile reference</span></a>.
+</li></ul><p>
+Textile link above is rotten. <a class="ext-link" href="http://www.textism.com/tools/textile/"><span class="icon">this one</span></a> works, allows to test example.
+</p>
+<h3 id="CodeHighlightingSupport">Code Highlighting Support</h3>
+<p>
+Trac includes processors to provide inline <a class="wiki" href="TracSyntaxColoring">syntax highlighting</a> for the following languages:
+</p>
+<ul><li><strong>c</strong> -- C
+</li><li><strong>cpp</strong> -- C++
+</li><li><strong>python</strong> -- Python
+</li><li><strong>perl</strong> -- Perl
+</li><li><strong>ruby</strong> -- Ruby
+</li><li><strong>php</strong> -- PHP
+</li><li><strong>asp</strong> --- ASP
+</li><li><strong>sql</strong> -- SQL
+</li><li><strong>xml</strong> -- XML
+</li></ul><p>
+<strong>Note:</strong> <i>Trac relies on external software packages for syntax coloring. See <a class="wiki" href="TracSyntaxColoring">TracSyntaxColoring</a> for more info.</i>
+</p>
+<p>
+By using the MIME type as processor, it is possible to syntax-highlight the same languages that are supported when browsing source code. For example, you can write:
+</p>
+<pre class="wiki">{{{
+#!text/html
+&lt;h1&gt;text&lt;/h1&gt;
+}}}
+</pre><p>
+The result will be syntax highlighted HTML code. The same is valid for all other mime types supported.
+</p>
+<p>
+For more processor macros developed and/or contributed by users, visit: 
+</p>
+<ul><li><a class="ext-link" href="http://projects.edgewall.com/trac/wiki/ProcessorBazaar"><span class="icon">ProcessorBazaar</span></a>
+</li><li><a class="ext-link" href="http://projects.edgewall.com/trac/wiki/MacroBazaar"><span class="icon">MacroBazaar</span></a>
+</li></ul><h2 id="AdvancedTopics:DevelopingProcessorMacros">Advanced Topics: Developing Processor Macros</h2>
+<p>
+Developing processors is no different from <a class="wiki" href="WikiMacros">WikiMacros</a>. In fact they work the same way, only the usage syntax differs. See <a class="wiki" href="WikiMacros">WikiMacros</a> for more information.
+</p>
+<p>
+<strong>Example:</strong> (<i>Restructured Text Processor</i>):
+</p>
+<div class="code"><pre>from docutils.core import publish_string
+
+def execute(hdf, text, env):
+    html = publish_string(text, writer_name = 'html')
+    return html[html.find('&lt;body&gt;')+6:html.find('&lt;/body&gt;')].strip()
+</pre></div><hr />
+<p>
+See also: <a class="wiki" href="WikiMacros">WikiMacros</a>, <a class="wiki" href="WikiHtml">WikiHtml</a>, <a class="wiki" href="WikiRestructuredText">WikiRestructuredText</a>, <a class="wiki" href="TracSyntaxColoring">TracSyntaxColoring</a>, <a class="wiki" href="WikiFormatting">WikiFormatting</a>, <a class="wiki" href="TracGuide">TracGuide</a>
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="WikiProcessors?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

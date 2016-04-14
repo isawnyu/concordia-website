@@ -1,0 +1,22 @@
+
+= List of desirables =
+
+ * EDH
+   * Clickable link to Pleiades / Barrington Atlas for the find spot (ancient name)
+   * Improving EAGLE in terms of interoperability (long-term)
+   * Searching for inscriptions from 40 km around Cologne. Proximity search. (possibly using tools listed at wiki:DB2Spatial)
+   * List of findspots for all inscriptions mentioning a given specific person, places, status (senators) as  list or on the map (i.e., geographic visualization of arbitrary search result subsets)
+     * Weight by, e.g., some measure of significance or aggregation
+   * Mapping Imperial Period provinces with Late Antique provinces (potential for subsequent application)
+   * Management, interlinking and description of images
+   * How does EDH acquire and manage coordinates to support mapping etc.
+   * Import/export EpiDoc format XML
+
+ * Pleiades
+   * Trying to create better interoperability between the various distinct databases
+     * lead Pleiades users to geographically relevant content in EDH
+   * Provinces and other administrative areas. Extending this ability
+   * Means to programmatically discover content in EDH and its relationship to geography
+     * Would like to see EDH provide Atom feeds with links to Pleiades places
+     * Realistic representation of how many inscriptions included in EDH (complete set or only partial). 
+   

@@ -1,0 +1,13 @@
+= RDF Cookbook =
+
+== Guiding Principles ==
+
+ * Never, ever use a URI with a #this in it
+ * We must resist the urge to try to define all the possible/imaginable relationships in the entire graph; confine ourselves to needed relationships between data that exists online.
+
+== Primitives ==
+
+ * Evidence
+ * Places
+ * Entities (people, gods)
+

@@ -1,0 +1,27 @@
+= PNDemo =
+
+''back to: ProjectDeliverables''
+
+PNDemo is a demonstration of the Papyrological Navigator searching and cross-indexing content from all ProjectData. It is a [ProjectDeliverables project deliverable].
+
+In the proposal, we said about it:
+
+  The [http://www.columbia.edu/cu/lweb/digital/pn/ Papyrological Navigator] (PN) is a web portal and search interface for cross-corpus search and access to papyrological texts and metadata, now under development at Columbia University and slated for free public release under the terms of the GNU Public License in July 2008. Designed by the Central Interface Technical Team of APIS in collaboration with DDbDP and HGV, PN will provide substring search, lexical search and onscreen viewing of the IDP content, now in preparation. The goal of this effort has been to demonstrate proof of concept that a system can be designed to provide an integrated display of a variety of scholarly data sources relevant to the study of ancient texts that are hosted at widely disparate locations. The PN has deliberately been built in as open a fashion as possible, so that a more extended use, such as that proposed here, is a natural extension of its character and intention. The tools chosen for this prototype include portlet technology, “web services” protocols and a newer, highly functional image display software platform. The Navigator project builds on and moves beyond the creation of centralized “union databases,” to leverage and integrate content created and hosted elsewhere in the scholarly world. Because PN is being designed to work with !EpiDoc-conformant XML documents, it constitutes a perfect testbed for demonstrating the value of search and display of documentary texts, not only across disparate papyrological corpora but also across document subtypes traditionally treated as separate subfields in the study of classics. Accordingly, it is the PN that will be used to demonstrate side-by-side discovery and browsing of IAph2007, IRCyr, IRT and IDP.
+
+== Code: ==
+
+ * As of 2008-09-18, the code has not yet been delivered by Columbia University; nor have NYU digital libraries hired the follow-on programmer (under separate funding), so we're not yet in position to start working on this.
+
+== Other deliverables that are dependent on this one ==
+
+ * N/A
+
+== Related milestones: ==
+
+ * we have not yet established a milestone for this deliverable
+
+== Related tickets (probably):  ==
+
+[[TicketQuery(summary~=pn&description!~=pn)]]
+[[TicketQuery(summary!~=pn&description~=pn)]]
+[[TicketQuery(summary~=pn&description~=pn)]]

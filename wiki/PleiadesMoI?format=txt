@@ -1,0 +1,14 @@
+
+== Possible results ==
+
+For discussion: a mockup of a (partial) search result for Glamoč, surfacing additional mapping and information links, plus a corresponding Atom feed with Pleiades "findspot" linkages: http://concordia.atlantides.org/examples/edh-mockups/glamoc.html
+
+== Site for mapping MoI (EDH) records to the relevant Pleiades names ==
+
+ * See Pleiades map directories [http://pleiades.stoa.org/Members/sgillies/imported-map-dirs-20-22 imported-map-dirs-20-22]. See also [http://atlantides.org/trac/concordia/wiki/PleiadesMatchInterface PleiadesMatchInterface].
+ * The "geometry" field uses an idiosyncratic format. EDH input data will be munged into the right format when match interface results are returned. When EDH provides {"lat": 30.0,"lon": 40.0} (for example), Pleiades will return {"geometry": "Point:[40.0, 30.0]"} in the results for easy copy/paste.
+ * EDH should also carry pleiades identifier for each place. (e.g. [http://pleiades.stoa.org/places/619107)])
+ * See [wiki:EDHnotesSuggestions here] for previous notes, questions and suggestions concerning the establishment of a new [wiki:EDHgeographyTable geography database] for the storage and administration of geographical details in '''EDH'''.
+
+
+

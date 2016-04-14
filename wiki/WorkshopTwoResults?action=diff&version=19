@@ -1,0 +1,155 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WorkshopTwoResults (diff) - Concordia - Trac</title>
+ <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="prev" href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoResults?action=diff&amp;version=18" title="Version 18" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li class="first"> &larr;
+      <a class="prev" href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoResults?action=diff&amp;version=18" title="Version 18">Previous Change</a>
+   </li>
+   <li><a href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoResults?action=history">Page History</a></li>
+   <li class="last">
+      <span class="missing">Next Change &rarr;</span>
+   </li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  <h1>Changes between
+     <a href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoResults?version=18">Version 18</a> and 
+    <a href="http://www.atlantides.org/trac/concordia/wiki/WorkshopTwoResults?version=19">Version 19</a> of
+    <a href="WorkshopTwoResults">WorkshopTwoResults</a></h1>
+  <form method="post" id="prefs" action="WorkshopTwoResults"><div><input type="hidden"  name="__FORM_TOKEN" value="ed24d371c18547550e2fff09" /></div>
+   <div>
+    <input type="hidden" name="action" value="diff" />
+    <input type="hidden" name="version" value="19" />
+    <input type="hidden" name="old_version" value="18" />
+    <label>View differences <select name="style">
+     <option value="inline" selected="selected">inline</option>
+     <option value="sidebyside">side by side</option>
+    </select></label>
+    <div class="field">
+     Show <input type="text" name="contextlines" id="contextlines" size="2"
+       maxlength="3" value="2" />
+     <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+     <legend>Ignore:</legend>
+     <div class="field">
+      <input type="checkbox" id="blanklines" name="ignoreblanklines" />
+      <label for="blanklines">Blank lines</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="case" name="ignorecase" />
+      <label for="case">Case changes</label>
+     </div>
+     <div class="field">
+      <input type="checkbox" id="whitespace" name="ignorewhitespace" />
+      <label for="whitespace">White space changes</label>
+     </div>
+    </fieldset>
+    <div class="buttons">
+     <input type="submit" name="update" value="Update" />
+    </div>
+   </div>
+  </form>
+  <dl id="overview">
+   <dt class="property author">Author:</dt>
+   <dd class="author">jcowey <span class="ipnr">(IP: 208.44.64.34)</span></dd>
+   <dt class="property time">Timestamp:</dt>
+   <dd class="time">03/06/10 22:43:08 (6 years ago)</dd>
+   <dt class="property message">Comment:</dt>
+   <dd class="message"><p>
+--
+</p>
+</dd>
+  </dl>
+  <div class="diff">
+   <div id="legend">
+    <h3>Legend:</h3>
+    <dl>
+     <dt class="unmod"></dt><dd>Unmodified</dd>
+     <dt class="add"></dt><dd>Added</dd>
+     <dt class="rem"></dt><dd>Removed</dd>
+     <dt class="mod"></dt><dd>Modified</dd>
+    </dl>
+   </div>
+   <ul class="entries">
+    <li class="entry">
+     <h2>WorkshopTwoResults</h2>
+      <table class="inline" summary="Differences">
+       <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+       <thead><tr>
+        <th title="Version 18">v18</th>
+        <th title="Version 19">v19</th>
+        <th>&nbsp;</th>
+       </tr></thead><tbody><tr><th>14</th><th>14</th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp;* maps of search results: ancient or modern, but not both at the same time</span>&nbsp;</td></tr><tr><th>15</th><th>15</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* Links to Pleiades (from the Fundort Antik)</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>16</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp; &nbsp;* Links to origin of modern coordinate (e.g., <del></del>GeoNames) from whatever the geodatabase indicates as associated with those coordinates (i.e., Fundort modern, Fundstelle, etc.)&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>16</th><td class="r">&nbsp; &nbsp; &nbsp;* Links to origin of modern coordinate (e.g., <ins>!</ins>GeoNames) from whatever the geodatabase indicates as associated with those coordinates (i.e., Fundort modern, Fundstelle, etc.)&nbsp;</td></tr></tbody><tbody><tr><th>17</th><th>17</th><td class="l"><span>&nbsp; &nbsp;* EDH geographic database structure</span>&nbsp;</td></tr><tr><th>18</th><th>18</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* Discussed candidate structure, as outlined in [wiki:EDHgeographyTable]</span>&nbsp;</td></tr></tbody><tbody><tr><th>40</th><th>40</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* TE to contact Harvard, Tufts about already-scanned maps that are on the EDH MapList</span>&nbsp;</td></tr><tr><th>41</th><th>41</th><td class="l"><span></span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>42</th><th>&nbsp;</th><td class="l">&nbsp;* EDH/<del></del>EpiDoc&nbsp;</td></tr><tr><th>43</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp;* Export (conversion) of <del></del>EpiDoc from EDH&nbsp;</td></tr><tr><th>&nbsp;</th><th>42</th><td class="r">&nbsp;* EDH/<ins>!</ins>EpiDoc&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>43</th><td class="r">&nbsp; &nbsp;* Export (conversion) of <ins>!</ins>EpiDoc from EDH&nbsp;</td></tr></tbody><tbody><tr><th>44</th><th>44</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* Rationale:</span>&nbsp;</td></tr><tr><th>45</th><th>45</th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp;* Some users would like it (facilitate computational analysis, addition to personal research notes, etc.)</span>&nbsp;</td></tr><tr><th>46</th><th>46</th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp;* Long-term sustainability and preservation of the content in an application-independent format</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>47</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp; &nbsp; &nbsp;* Potential basis for interoperation between EAGLE databases, and for transdisciplinary interoperation (e.g., with digital papyrological systems, many of which now already use <del></del>EpiDoc)&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>47</th><td class="r">&nbsp; &nbsp; &nbsp; &nbsp;* Potential basis for interoperation between EAGLE databases, and for transdisciplinary interoperation (e.g., with digital papyrological systems, many of which now already use <ins>!</ins>EpiDoc)&nbsp;</td></tr></tbody><tbody><tr><th>48</th><th>48</th><td class="l"><span>&nbsp; &nbsp;* Consideration of SoSOL and its technologies as potentially applicable to entry, update and/or conversion</span>&nbsp;</td></tr><tr><th>49</th><th>49</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* XSugar is a good candidate for providing the actual conversion of texts</span>&nbsp;</td></tr><tr><th>50</th><th>50</th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp;* Current experience of the DDBDP using XSugar requires additional markup of source texts (e.g., bracketing abbreviated words in a way different from Leiden); if this proves necessary for EDH conversion, then a pre-processing step with other technology (or even human intervention) might be required to prepare ITX files for conversion. This necessitates further study.</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>51</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp; &nbsp;* Existing XSLT produced by Gabriel Bodard for conversion of IRT <del>EpiDoc XML to ITX for EDH (see below) effectively documents the piecewise relationships between the two formats and so can be analyzed to determine the necessary conversions to go from ITX to </del>EpiDoc&nbsp;</td></tr><tr><th>52</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp;* Import of <del></del>EpiDoc into EDH&nbsp;</td></tr><tr><th>&nbsp;</th><th>51</th><td class="r">&nbsp; &nbsp; &nbsp;* Existing XSLT produced by Gabriel Bodard for conversion of IRT <ins>!EpiDoc XML to ITX for EDH (see below) effectively documents the piecewise relationships between the two formats and so can be analyzed to determine the necessary conversions to go from ITX to !</ins>EpiDoc&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>52</th><td class="r">&nbsp; &nbsp;* Import of <ins>!</ins>EpiDoc into EDH&nbsp;</td></tr></tbody><tbody><tr><th>53</th><th>53</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* Current efforts with IRT</span>&nbsp;</td></tr><tr><th>54</th><th>54</th><td class="l"><span></span>&nbsp;</td></tr></tbody><tbody><tr><th>63</th><th>63</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* URLs</span>&nbsp;</td></tr><tr><th>64</th><th>64</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* RDF</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>65</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp;* Demo for cross-EAGLE search (based on <del></del>EpiDoc exports + linked data relationships)&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>65</th><td class="r">&nbsp; &nbsp;* Demo for cross-EAGLE search (based on <ins>!</ins>EpiDoc exports + linked data relationships)&nbsp;</td></tr></tbody><tbody><tr><th>66</th><th>66</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* EDH content</span>&nbsp;</td></tr><tr><th>67</th><th>67</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* London epigraphy (Aphrodisias, IRT, IRCyr and maybe Black Sea)</span>&nbsp;</td></tr></tbody><tbody><tr><th>71</th><th>71</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* Discussed possibilities for a similar effort springing from the EBH, Claros, ISAW work, etc.</span>&nbsp;</td></tr><tr><th>72</th><th>72</th><td class="l"><span>&nbsp; &nbsp; &nbsp;* TE to investigate possibility of pushing content from an external database to a Zotero library (will contact Zotero developers)</span>&nbsp;</td></tr></tbody><tbody class="mod"><tr class="first"><th>73</th><th>&nbsp;</th><td class="l">&nbsp; &nbsp; &nbsp;* Since Trismegistos is minting identifiers for epigraphic documents in collaboration with EDH, EDR and Claros, TE should contact Depauw to discuss bibliographic initiatives and potential for collaboration; other potential collaborators are Bari and <del></del>HispEp.&nbsp;</td></tr><tr class="last"><th>&nbsp;</th><th>73</th><td class="r">&nbsp; &nbsp; &nbsp;* Since Trismegistos is minting identifiers for epigraphic documents in collaboration with EDH, EDR and Claros, TE should contact Depauw to discuss bibliographic initiatives and potential for collaboration; other potential collaborators are Bari and <ins>!</ins>HispEp.&nbsp;</td></tr></tbody><tbody><tr><th>74</th><th>74</th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp;* There is to be a meeting in the fall (probably in Rome) to discuss this work in more detail; ideally Elliott would attend</span>&nbsp;</td></tr><tr><th>75</th><th>75</th><td class="l"><span></span>&nbsp;</td></tr></tbody>
+      </table>
+    </li>
+   </ul>
+  </div>
+
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

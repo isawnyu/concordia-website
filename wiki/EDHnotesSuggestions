@@ -1,0 +1,204 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>EDHnotesSuggestions - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="EDHnotesSuggestions?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="EDHnotesSuggestions?action=diff&amp;version=3">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><table class="wiki">
+<tr><td>FOmodern</td><td>Fundstelle</td><td>FOantik</td><td>Region</td><td>Land</td><td>latitude</td><td>longitude</td><td>HD-Nummer
+</td></tr><tr><td>Glamoč</td><td>Podgradina</td><td>Municipium Salvium, aus?</td><td>Kanton br. 10</td><td>ba</td><td>44.0231</td><td>16.8856</td><td>HD033954
+</td></tr><tr><td>Glamoč</td><td>Glavica</td><td></td><td>Kanton br. 10</td><td>ba</td><td>44.1106</td><td>16.7661</td><td>HD052288
+</td></tr><tr><td>Glamoč</td><td>Isakovci</td><td></td><td>Kanton br. 10</td><td>ba</td><td>44.0869</td><td>16.9042</td><td>HD056474
+</td></tr><tr><td>Glamoč</td><td>Jakir</td><td></td><td>Kanton br. 10</td><td>ba</td><td>44.0400</td><td>16.8922</td><td>HD033932
+</td></tr><tr><td>Glamoč</td><td>Kamen</td><td></td><td>Kanton br. 10</td><td>ba</td><td>44.0281</td><td>16.8819</td><td>HD052160
+</td></tr><tr><td>Glamoč</td><td>Staro Selo, bei</td><td></td><td>Kanton br. 10</td><td>ba</td><td>43.9711</td><td>16.9375</td><td>HD033935
+</td></tr></table>
+<ul><li><a class="attachment" href="../attachment/wiki/EDHnotesSuggestions/Glamoc.doc" title="Attachment EDHnotesSuggestions: Glamoc.doc">attachment:Glamoc.doc</a>
+</li></ul><table class="wiki">
+<tr><td>fo_antik</td><td></td><td>fo_modern</td><td>HD-numbers</td><td>fundstelle</td><td>
+</td></tr><tr><td><strong>Salviae</strong></td><td>coord. from Harvard</td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=023324"><span class="icon">HD023324</span></a></td><td><strong>Halapić</strong></td><td>coord. from EDH
+</td></tr><tr><td></td><td></td><td></td><td></td><td>or</td><td>
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012593"><span class="icon">HD012593</span></a></td><td>Halapić</td><td>in best case coord. for fr. Kirche
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012596"><span class="icon">HD012596</span></a></td><td>- Glavice,</td><td>if not: coord. for Glavice
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012599"><span class="icon">HD012599</span></a></td><td>frühchristl.</td><td>if not: coord. for Halapić
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=012602"><span class="icon">HD012602</span></a></td><td>Kirche</td><td>if not: coord. for Glamoč
+</td></tr><tr><td></td><td></td><td></td><td></td><td>or</td><td>
+</td></tr><tr><td></td><td></td><td></td><td></td><td>Halapić</td><td>
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033944"><span class="icon">HD033944</span></a></td><td>-Gradac</td><td>in best case coord. for Gradac
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033945"><span class="icon">HD033945</span></a></td><td></td><td>if not: coord. for Halapić
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033946"><span class="icon">HD033946</span></a></td><td></td><td>if not: coord. for Glamoč
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033947"><span class="icon">HD033947</span></a></td><td></td><td>
+</td></tr><tr><td></td><td></td><td><strong>Glamoč</strong></td><td></td><td></td><td>
+</td></tr><tr><td><strong>Municipium Salvium</strong></td><td>coord. from Harvard</td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033948"><span class="icon">HD033948</span></a></td><td>Vrba</td><td>coord. from EDH
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033949"><span class="icon">HD033949</span></a></td><td></td><td>
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033950"><span class="icon">HD033950</span></a></td><td></td><td>in best case coord. for Vrba
+</td></tr><tr><td></td><td></td><td></td><td></td><td>or</td><td>
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056021"><span class="icon">HD056021</span></a></td><td><strong>Vrba</strong></td><td>in best case coord. for fr. Kirche
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056032"><span class="icon">HD056032</span></a></td><td>frühchristl.</td><td>if not: coord. for Vrba
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056034"><span class="icon">HD056034</span></a></td><td>Kirche</td><td>if not: coord. for Glamoč
+</td></tr><tr><td></td><td></td><td></td><td></td><td>or</td><td>
+</td></tr><tr><td><strong>(no ancient site)</strong></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033124"><span class="icon">HD033124</span></a></td><td><strong>Kamen, Jakir</strong></td><td>in best case coord. for e.g. Kamen
+</td></tr><tr><td></td><td></td><td></td><td><a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033932"><span class="icon">HD033932</span></a></td><td>and others</td><td>if not: coord. for Glamoč
+</td></tr></table>
+<h3 id="ExpandingtheEDHdatamodel">Expanding the EDH data model</h3>
+<p>
+There are two possible ways to store the additional geographic information, by adding some fields to the existing table where the basic inscription information is stored or by creating a geographic table and linking up relationships between it and the geographic entries. The advantage of taking the relational approach is "database normalization": we eliminate size and redundancy and make updating the geographic information (e.g., coordinates for a particular site from which many inscriptions survive) much easier and less error-prone. Examples for comparison follow.
+</p>
+<p>
+See mock up of new <a class="wiki" href="EDHgeographyTable">EDH geography table</a>
+</p>
+<h4 id="Addingsomeinformationtotheexistingtable">Adding some information to the existing table</h4>
+<p>
+See <a class="attachment" href="../attachment/wiki/EDHnotesSuggestions/current-model.pdf" title="Attachment EDHnotesSuggestions: current-model.pdf">attachment:current-model.pdf</a>
+</p>
+<h4 id="Creatingaseparategeographytablewithrelationshipstotheinscriptions">Creating a separate geography table, with relationships to the inscriptions</h4>
+<p>
+See:
+</p>
+<ul><li><a class="attachment" href="../attachment/wiki/EDHnotesSuggestions/new-model-simple.pdf" title="Attachment EDHnotesSuggestions: new-model-simple.pdf">attachment:new-model-simple.pdf</a>
+</li><li><a class="attachment" href="../attachment/wiki/EDHnotesSuggestions/new-model-complex.pdf" title="Attachment EDHnotesSuggestions: new-model-complex.pdf">attachment:new-model-complex.pdf</a>
+</li></ul><p>
+Our major problem at present is how to connect the EDH database to the putative Geography Database.
+</p>
+<ul><li>Our original thinking had been to proceed along the lines of our FUrl (externe Fotos) database. In this case we enter the external url of any given image and then enter the relevant HD number. EDH picks up any information in the FUrl database depending entirely upon the HD number. In one to many, many to one and many to many terms. We have mostly one to one relationships between the two databases. It is also possible to have one to many relationship of the type that there is one HD number in EDH but many instances of the same HD number in FUrl. There are no further combinations.
+</li><li>If we are to create a new Geography Database (in on terms of not overloading EDH with extra fields and the possible concomitant search engine ramifications and complications this is attractive) we would fnid ourselves in the position of having to deal with one entry in the Geography Database having to be connected to many if not hundreds of separate and individual HD numbers.
+</li><li>We need database structural advice on how best to cater for this.
+</li></ul><h3 id="Geographicattributionexamples">Geographic attribution examples</h3>
+<p>
+Here's an example of all the information we <strong>might</strong> gather for a given inscription (new items in italic):
+</p>
+<p>
+<a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=033127"><span class="icon">HD033127</span></a>
+</p>
+<ul><li>Ancient location: Municipium Salvium
+</li><li><i>Pleiades URL for ancient location: <a class="ext-link" href="http://pleiades.stoa.org/places/197491/"><span class="icon">http://pleiades.stoa.org/places/197491/</span></a></i>
+</li><li><i>Pleiades coordinates for ancient location: x,y</i>
+</li><li>Modern location: Glamoč
+</li><li><i>Geonames URL for modern location: <a class="ext-link" href="http://www.geonames.org/3200651/glamoc.html"><span class="icon">http://www.geonames.org/3200651/glamoc.html</span></a></i>
+</li><li><i>Geonames coordinates for modern location: 44.04583, 16.84861</i>
+</li><li>Place of finding: Vrba
+</li><li><i>Pleiades URL for place of finding: <a class="ext-link" href="http://pleiades.stoa.org/places/197491/"><span class="icon">http://pleiades.stoa.org/places/197491/</span></a></i>
+</li><li><i>Pleiades coordinates for place of finding: x,y</i>
+</li></ul><p>
+<a class="ext-link" href="http://edh-www.adw.uni-heidelberg.de/offen/suchen2.html?hdnr=056021"><span class="icon">HD056021</span></a>
+</p>
+<ul><li>Ancient location: Municipium Salvium
+</li><li><i>Pleiades URL for ancient location: <a class="ext-link" href="http://pleiades.stoa.org/places/197491/"><span class="icon">http://pleiades.stoa.org/places/197491/</span></a></i>
+</li><li><i>Pleiades coordinates for ancient location: x,y</i>
+</li><li>Modern location: Glamoč
+</li><li><i>Geonames URL for modern location: <a class="ext-link" href="http://www.geonames.org/3200651/glamoc.html"><span class="icon">http://www.geonames.org/3200651/glamoc.html</span></a></i>
+</li><li><i>Geonames coordinates for modern location: 44.04583, 16.84861</i>
+</li><li>Place of finding: Vrba, frühchristliche Kirche
+<ul><li>we could create a feature within the Pleiades place for Salvium corresponding to the "early Christian church." If we could get accurate coordinates for same, we could include those, but otherwise we might just want to link to Vrba. We need to establish policy here.
+</li></ul></li></ul><p>
+Suggestion concerning distribution of labour:
+</p>
+<ul><li>How about if EDH is responsible in most cases for supplying the coordinates of the most precise location (whatever that is). 
+<ul><li>We need a way of indicating whether we are supplying coordinates for Fundstelle (Place of finding) or, whenever the Fundstelle (although we know its name) could not be identified with coordinates (e.g. church), Fundort (Modern loaction).
+</li></ul></li><li>Pleiades coordinates (for Ancient location) will for the most part come from Harvard?
+</li><li>In the case of Modern location it is perhaps least clear at present where the coordinates for them are going to come from.
+</li></ul><p>
+need to do another where the ancient location and place of finding differ.
+</p>
+<p>
+<strong>Present method used in EDH to identify places</strong>:
+</p>
+<ul><li>Vrlica the coordinates from geonames and fallingrain are not always explicit and unambiguous (if one enters Vrba you get several possiblities) thus we go to wikipedia and look up the respective village/city name and find out the hierarchy belonging to it e.g. village/street/city quarter (Fundstelle), municipality (Fundort_modern), region and then have to use this information to try to match to an appropriate geonames place from the choices we are faced with.
+</li><li>Is it important to make sole use of either geonames or fallingrain or whatever other source appears to give us the best results.
+<ul><li>geonames obviously has the advantage of supplying a geonames id
+</li><li>fallingrain only offers coordinates (are these coordinates the same as the geoname ones? NO sometimes slight variation Vrlica geonames: N.43.9125 E.16.39889 fallingrain: N.43.9125 E.16.3989)
+</li><li>which of these institutions sets standards? do we know?
+</li></ul></li></ul><p>
+Previous attempt at capturing this info.
+</p>
+<ul><li><a class="ext-link" href="http://www.geonames.org"><span class="icon">Geonames</span></a> is difficult because one has to search to be sure that the correct place has been found.
+<ul><li>Why should we favour geonames? Why geonames id instead of coordinates? Or both?
+</li></ul></li><li><a class="ext-link" href="http://www.fallingrain.com/world/"><span class="icon">Fallingrain</span></a> is also not always clear. Use wikipedia to check.
+</li></ul></div>
+   </div>
+   
+    <h3 id="tkt-changes-hdr">Attachments</h3>
+    <ul class="tkt-chg-list"><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/Glamoc.doc">Glamoc.doc</a> (35.0 kB) - added by jcowey on 12/08/09 05:48:57.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/Glamoc_Municipium-Salvium.doc">Glamoc_Municipium-Salvium.doc</a> (12.0 kB) - added by jcowey on 12/08/09 05:49:57.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/Glamoc_Salviae.doc">Glamoc_Salviae.doc</a> (17.5 kB) - added by jcowey on 12/08/09 05:50:30.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/Glamoc_ohne-eindeutigen-fundort-antik.doc">Glamoc_ohne-eindeutigen-fundort-antik.doc</a> (20.5 kB) - added by jcowey on 12/08/09 05:50:59.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/current-model.pdf">current-model.pdf</a> (4.1 kB) - added by jcowey on 12/08/09 05:54:03.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/new-model-complex.pdf">new-model-complex.pdf</a> (4.1 kB) - added by jcowey on 12/08/09 05:54:30.</li><li class="tkt-chg-change"><a href="../attachment/wiki/EDHnotesSuggestions/new-model-simple.pdf">new-model-simple.pdf</a> (4.1 kB) - added by jcowey on 12/08/09 05:54:52.</li>
+    </ul>
+  
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="EDHnotesSuggestions?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

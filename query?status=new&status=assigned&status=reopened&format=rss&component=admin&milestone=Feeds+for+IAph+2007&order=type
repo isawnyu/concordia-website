@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+ <channel>
+   <title>Concordia: Ticket Query</title>
+  <link>http://www.atlantides.org/trac/concordia/query?status=new&amp;status=assigned&amp;status=reopened&amp;verbose=1&amp;component=admin&amp;milestone=Feeds+for+IAph+2007</link>
+   <description>Historically sensitive cross-project web linking using standard Atom feeds and some semantic sugar.</description>
+  <language>en-us</language>
+  <generator>Trac v0.10.4</generator>
+   <image>
+    <title>Concordia</title>
+    <url>http://www.atlantides.org/trac/concordia/chrome/common/trac_banner.png</url>
+    <link>http://www.atlantides.org/trac/concordia/query?status=new&amp;status=assigned&amp;status=reopened&amp;verbose=1&amp;component=admin&amp;milestone=Feeds+for+IAph+2007</link>
+   </image>
+   <item>
+    <link>http://www.atlantides.org/trac/concordia/ticket/25</link>
+    <guid isPermaLink="false">http://www.atlantides.org/trac/concordia/ticket/25</guid>
+    <title>#25: Put ALA/IAph concordance in Atom/ORE</title>
+    <description>&lt;p&gt;
+Express the ALA/IAph concordance in a series of Atom/ORE files
+&lt;/p&gt;
+</description>
+    <category>Tickets</category>
+    <comments>http://www.atlantides.org/trac/concordia/ticket/25#changelog</comments>
+   </item>
+ </channel>
+</rss>

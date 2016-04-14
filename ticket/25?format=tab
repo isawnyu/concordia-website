@@ -1,0 +1,2 @@
+id	summary	reporter	owner	description	type	status	priority	milestone	component	version	resolution	keywords	cc
+25	Put ALA/IAph concordance in Atom/ORE	gbodard	thomase	Express the ALA/IAph concordance in a series of Atom/ORE files	task	new	major	Feeds for IAph 2007	admin				

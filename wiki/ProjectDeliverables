@@ -1,0 +1,115 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>ProjectDeliverables - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="ProjectDeliverables?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="ProjectDeliverables?action=diff&amp;version=17">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><h1 id="ProjectDeliverables">Project Deliverables</h1>
+<p>
+The Concordia proposal identified (or we have subsequently added) the following deliverables:
+</p>
+<ol><li>(October discuss) A set of XSLT stylesheets for creating web feeds from EpiDoc-conformant XML documents: <a class="wiki" href="EpiDoc2Atom">EpiDoc2Atom</a>
+</li><li>(October discuss) Atom+GeoRSS web feeds for IAph: <a class="wiki" href="IAphFeeds">IAphFeeds</a>
+<ol class="loweralpha"><li>ALA/IAph mentioned placenames list 
+</li></ol></li><li>(October discuss) Atom+GeoRSS web feeds for IRCyr: <a class="wiki" href="IRCyrFeeds">IRCyrFeeds</a>
+</li><li>(October discuss) Atom+GeoRSS web feeds for DDbDP/HGV: <a class="wiki" href="PapyFeeds">PapyFeeds</a>
+</li><li>(October discuss) Atom+GeoRSS feed harvester and indexer: <a class="wiki" href="ConcordiaHarvester">ConcordiaHarvester</a>
+</li><li>(October discuss) Cross-project Citation Vocabulary: <a class="wiki" href="ConcordiaThesaurus">ConcordiaThesaurus</a> (see now also: <a class="wiki" href="ConcordiaTypeThesaurus">ConcordiaTypeThesaurus</a>)
+</li><li>(AT RISK; no further discussion October) Demonstration copy of the Papyrological Navigator for epigraphic content alongside papyrological content: <a class="wiki" href="PNDemo">PNDemo</a>
+<ol class="loweralpha"><li>At risk. Dependency on handoff of code from Columbia (IDP1 project) to NYU Libraries (APIS6 and IDP2). TE to monitor and assess.
+</li></ol></li><li>(October discuss) Digitized version of IRT: <a class="wiki" href="IRT">IRT</a>
+<ol class="loweralpha"><li>IRT images from BSR
+</li></ol></li><li>(no discussion October) Digitization and pleiades upload of 5 maps: <a class="wiki" href="PleiadesContent">PleiadesContent</a>
+<ol class="loweralpha"><li>NYU team to overview workflow
+</li></ol></li><li>(no discussion October) Releases of above under GPL/CC as appropriate: <a class="wiki" href="Licensing">Licensing</a> 
+</li><li>(no discussion October) Deposit of XML content into Backstop (i.e., NYU FDA): <a class="wiki" href="Archiving">Archiving</a>
+</li><li>(added May; COMPLETE) Barrington Atlas IDs: <a class="wiki" href="BAtlasIDs">BAtlasIDs</a>
+</li><li>(added May; October discuss) BAtlas ID resolver <a class="wiki" href="BAtlasIDResolver">BAtlasIDResolver</a>
+</li><li>(added May; October discuss) <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/AphrodisiasProjectsConcordance" rel="nofollow">ALA/IAph project concordance?</a>
+</li><li>(added Sep; October discuss) <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/EpigraphicGeodatabase" rel="nofollow">IRT &amp; IRCyr geodatabase?</a> 
+</li><li>(added Oct; October discuss) Guidelines and tools for mass <a class="missing wiki" href="http://www.atlantides.org/trac/concordia/wiki/PleiadesContentCreation" rel="nofollow">PleiadesContentCreation?</a>
+</li><li>(added Oct) <a class="wiki" href="ConcordiaTypeThesaurus">ConcordiaTypeThesaurus</a>
+</li></ol></div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="ProjectDeliverables?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

@@ -1,0 +1,14 @@
+= Concordia Licensing =
+
+''back to: ProjectDeliverables''
+
+Here is a list of the software and content that we will use, modify or produce, indicating the license that now governs (or will govern) each:
+
+ * The Duke Databank of Documentary Papyri (cc-by)
+ * [wiki:IAph2007 The Inscriptions of Aphrodisias 2007] (cc-by)
+ * [wiki:IRCyr The Inscriptions of Roman Cyrenaica] (cc-by)
+ * [wiki:IRT The Inscriptions of Roman Tripolitania] (cc-by)
+ * [wiki:PNDemo The Papyrological Navigator] (GPL)
+ * [http://pleiades.stoa.org Pleiades] (code GPL; [wiki:PleiadesContent content] cc-by-sa)
+ * [http://epidoc.sf.net EpiDoc] toolset (GPL)
+ * Atom web feeds serializing OAI/ORE resource maps (following license of parent resource; access descriptions of each via ProjectDeliverables)

@@ -1,0 +1,107 @@
+= Skype Chats on interoperation between Pleiades and EDH =
+
+== Monday, 13 September 2010 ==
+
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+
+Attending: JC, TE
+
+ * NEH/DFG application [http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/international/dfg_neh_humanities_program/index.html DFG] or [http://www.neh.gov/ODH/ODHUpdate/tabid/108/EntryId/139/DFG-NEH-Bilateral-Digital-Humanities-Program-2010.aspx NEH] (16 November 2010 deadline)
+   * Amount: $100,000 - 350,000 = Euro 80,000 - 280,000.
+   * Subversion: configuration and maintenance of server
+   * Joint workload Pleiades / Geographic Database EDH
+     * search for toponyms in Pleiades: automatised through batch searching developed by Pleiades
+     * processing of the KML formatted data from Pleiades. filtered for use in EDH per script
+     * interface in the EDH data (RDF, Atom feed et al.) for data exchange from EDH to Pleiades: development of a central metaportal (EAGLE-like)
+     * development of further tools for joint work with Pleiades if and when necessary
+     * further development and integration of the EDH geographic database into the EDH infrastructure
+     * broadening of the scope of the search possibilities in the realm of geographic data (freely defined radius around any chosen toponym)
+   * !EpiDoc: work out possibilities and techniques for converting proprietarially stored text data (*.itx) to !EpiDoc (aim simplified exchange of data with comparable text databases, long term storage of EDH data)
+     * develeopment of XSLT files on the basis of existing IRT files
+     * exploration of Xsugar to enable simplified entry of XML data: support scripts to convert data where necessary
+     * creation of a workflow to automatise and standardise the import of !EpiDoc data from other projects
+     * integration of !EpiDoc data into the EDH infrastructure
+   * Akademie der Wissenschaften prepared to offer support in the case of success
+     * 1/2 position 
+     * further financial commitment to provide for student work contracts
+     * provision for computer needs
+
+
+== Monday, 26 July 2010 ==
+
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+
+Attending: JC, TE, FFG, BG
+
+ * NEH/DFG application [http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/international/dfg_neh_humanities_program/index.html DFG] or [http://www.neh.gov/ODH/ODHUpdate/tabid/108/EntryId/139/DFG-NEH-Bilateral-Digital-Humanities-Program-2010.aspx NEH] (16 November 2010 deadline)
+   * Amount: $100,000 - 350,000 = Euro 80,000 - 280,000.
+   * One full time position. To work on the geographic database. Entry and optimization.
+   * Extra IT support (position).
+   * More work on !EpiDoc?
+
+
+== Tuesday, 08 December 2009 ==
+
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+
+Attending: JC, TE, FFG, BG
+
+ * IRT situation. Looking much better now. GB and JC have improved the output '''edh-table.xml'''. AD has already done scripting work and reckons that not much more has to be done in order to be able to import the contents of edh-table.xml into the EDH DB2 database.
+ * Coordinates progress [wiki:PleiadesMoI PleiadesMoI]
+ * Model of [wiki:EDHgeographyTable EDH geography database]
+ * [http://concordia.atlantides.org/examples/edh-mockups/glamoc.html Mock up] for demonstration of cooperation between EDH and Pleiades.
+
+== Tuesday, 03 November 2009 ==
+
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+
+Attending: JC, TE, FFG, BG, SG
+
+ * Arrangements for New York
+ * IRT situation
+ * Coordinates progress [wiki:PleiadesMoI PleiadesMoI]
+
+== Tuesday, 27 October 2009 ==
+
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+
+Attending: JC, TE, FFG, BG, SG
+
+ * Coordinates [wiki:PleiadesMoI PleiadesMoI]
+
+== Tuesday, 20 October 2009 ==
+
+Time: 1600 Heidelberg/Montpellier = 0900 Huntsville
+
+Attending: JC, TE, FFG, BG, SG
+
+ * What should coordinates look like? There are short ones and long ones. Do we have guidelines? 
+   * Here is a first stab at how EDH might try to process data: [wiki:EDH_Coordinates]
+ * Fix [wiki:NEH_DFGworkshopTwo New York meeting] dates.
+ * Clarity about what we think we can provide for demonstration in February in Heidelberg. 
+   * Linking to Pleiades for Moesia Inferior. Specific steps that need to be taken. Page started [wiki:PleiadesMoI here]
+   * Incorporation of IRT from London. Specific steps that need to be taken.
+     * EDH has to indicate what format the export of the London files should be in.
+     * London sends file(s).
+     * EDH imports
+
+== Tuesday, 28 July 2009 ==
+
+Time: 1500 Heidelberg/Montpellier = 0800 Huntsville
+
+Attending: JC, AD, TE, FFG, BG, SG
+
+ * Scheduling the [wiki:NEH_DFGworkshopTwo New York meeting] (known conflicts?)
+   * proposed dates are Wednesday to Friday 20-22 January as full working days - arrivals from Europe Tuesday 19 January
+ * First workshop report: see [http://docs.google.com/Doc?docid=0AXmDUyfP6SvFZHJuNm56c183NmZmeGtkd2M3&hl=en spreadsheet]
+ * VacationSchedules
+ * Schedule future chats: 17.08.2009 Monday 15.00 08.00
+ * Time estimates
+ * Status of July tasks
+   * EDH to provide details of end formats: rules for creating .itx files already sent to CCH; list of IRT texts already in EDH likewise already sent to CCH and now processed in a [http://spreadsheets.google.com/ccc?key=0AsRD-ijkwScPdFhZblNpX2tsOHc0cVh4UllyUDcwekE&hl=en spreadsheet]
+   * method and implications for handling IRT collaboration against EDH content
+   * Mees has provided EDH with coordinates for Limes places (Germany)
+   * clean up road map
+   * mine original agenda for dropped issues or tasks
+   * fix web page
+ * Transfer of workplan to tracker/wiki content

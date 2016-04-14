@@ -1,0 +1,2 @@
+id	summary	reporter	owner	description	type	status	priority	milestone	component	version	resolution	keywords	cc
+1	find xml file that underlies IAph placenames index	thomase	thomase	http://insaph.kcl.ac.uk/iaph2007/inscriptions/indices/place/place-grcA.html	task	closed	major	Feeds for IAph 2007	iaph2007xml		fixed		

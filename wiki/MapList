@@ -1,0 +1,113 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>MapList - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="MapList?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="MapList?action=diff&amp;version=2">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><table class="wiki">
+<tr><td>Literatur</td><td>Provinzen</td><td>Besonderheiten
+</td></tr><tr><td>CIL III Suppl. tab. III</td><td>Achaia Epirus Macedonia Thracia (Westen)</td><td>
+</td></tr><tr><td>CIL III Suppl. tab. IV</td><td>Moesia Inferior Moesia Superior Thracia (Norden)</td><td>
+</td></tr><tr><td>CIL III Suppl. tab. V        </td><td>Dacia</td><td>
+</td></tr><tr><td>CIL III Suppl. tab. VI</td><td>Dalmatia</td><td>
+</td></tr><tr><td>CIL III Suppl. tab. IX</td><td>Illyricum antiquum (Dalmatia, Dacia, Moesia Inferior, Moesia Superior, Thracia)</td><td>ab Diokletian
+</td></tr><tr><td>IDR II</td><td>Dacia (Süden)        </td><td>
+</td></tr><tr><td>IDR III 1</td><td>Dacia (Westen)</td><td>
+</td></tr><tr><td>IDR III 3</td><td>Dacia (zwischen Sarmizegetusa und Apulum)</td><td>
+</td></tr><tr><td>G.G. Tocilescu, Fouilles et recherches archéologiques en Roumanie (1900) (Karte zwischen S. 118 u. 119)</td><td>Dacia Moesia Inferior (Nordosten)</td><td>
+</td></tr><tr><td>ILBulg</td><td>Moesia Inferior (mittlerer Teil) Thracia (kleiner Teil vom Norden)</td><td>
+</td></tr><tr><td>IScM 5, S. 327</td><td>Moesia Inferior (Nordosten)</td><td>
+</td></tr><tr><td>V. Besevliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (1964)</td><td>Moesia Inferior, Thracia (Norden)</td><td>
+</td></tr><tr><td>IMS 1 (Karte zwischen S. 112 u. 113)</td><td>Moesia Superior (Nordwesten, zwischen den Bergen Kosmaj und Rudnik)</td><td>Gebiet römischer Metallminen -&gt; nur moderne Fundorte / Fundstellen, keine antiken Fundortnamen
+</td></tr><tr><td>IMS 2 (Karte zwischen S. 20 u. 21)</td><td>Moesia Superior (Norden)</td><td>
+</td></tr><tr><td>IMS 3, 2, S. 18</td><td>Moesia Superior (Nordosten)</td><td>
+</td></tr><tr><td>IMS 4, S. 18</td><td>Moesia Superior (mittlerer Teil)</td><td>
+</td></tr><tr><td>IMS 6 (Karte zwischen S. 14 u. 15)</td><td>Moesia Superior (Südosten)</td><td>
+</td></tr><tr><td>G. von Bülow - A. Milceva (Hrsg.), Vorträge der Internationalen Konferenz Svistov 1998 (Sofia 1999) 1.</td><td>Untere Donau (Moesia Prima, Dacia Mediterranea, Dacia Ripensis, Moesia Secunda, Scythia)</td><td>Diokletian bis Heraklios
+</td></tr><tr><td>G. Alföldy, Bevölkerung und Gesellschaft der römischen Provinz Dalmatien (1965) Karte 1.</td><td>Dalmatia</td><td>
+</td></tr><tr><td>P. Ballif, Römische Straßen in Bosnien und der Hercegovina (Wien 1893)</td><td>Dalmatia</td><td>genaue Position der einzelnen Meilensteine eingezeichnet
+</td></tr></table>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="MapList?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

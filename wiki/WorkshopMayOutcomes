@@ -1,0 +1,120 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>WorkshopMayOutcomes - Concordia - Trac</title><link rel="start" href="../wiki.2" /><link rel="search" href="../search" /><link rel="help" href="TracGuide" /><link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" /><link rel="alternate" href="WorkshopMayOutcomes?format=txt" title="Plain Text" type="text/x-trac-wiki" /><style type="text/css">
+</style>
+ <script type="text/javascript" src="../chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="../chrome/common/trac_banner.png" alt="" /></a><hr /></div>
+
+<form id="search" action="../search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first"><a href="http://www.atlantides.org/trac/concordia/login">Login</a></li><li><a href="../settings">Settings</a></li><li><a accesskey="6" href="TracGuide">Help/Guide</a></li><li class="last"><a href="../about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="../wiki.2">Wiki</a></li><li><a accesskey="2" href="../timeline">Timeline</a></li><li><a accesskey="3" href="../roadmap">Roadmap</a></li><li><a href="../browser">Browse Source</a></li><li><a href="../report">View Tickets</a></li><li class="last"><a accesskey="4" href="../search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav">
+ <h2>Wiki Navigation</h2>
+ <ul>
+   <li><a href="../wiki.2">Start Page</a></li>
+   <li><a href="TitleIndex">Index by Title</a></li>
+   <li><a href="RecentChanges">Index by Date</a></li>
+   <li class="last"><a href="WorkshopMayOutcomes?action=diff&amp;version=4">Last Change</a></li>
+ </ul>
+ <hr />
+</div>
+
+<div id="content" class="wiki">
+
+ 
+  
+  
+   
+   <div class="wikipage">
+    <div id="searchable"><p>
+Achievements and next steps from the May 2008 Workshop
+</p>
+<p>
+Just dumping notes here for the moment:
+</p>
+<ul><li>ANS Atom file of "geographic entities" is Pleiades-ready: <a class="ext-link" href="http://numismatics.org/xml/geography.atom"><span class="icon">http://numismatics.org/xml/geography.atom</span></a>
+</li><li>It looks as if ORE will provide a good vehicle for expressing the the relationships between the contents of various papyrological data systems (see APIS Papyrological Navigator), and a data model for same has been drafted
+</li><li>Will collaborate with IDP1 development teams to match HGV "Ort" field content against Pleiades/BAtlas IDs
+</li><li>LGPN is in the process of:
+<ul><li>Annotating its own place authority list with BAtlas/Pleiades IDs
+</li><li>Prototyping Concordia/ORE-conformant Atom feeds
+</li></ul></li><li>Collaborating projects urgently need a full list of ids for geographic entities
+<ul><li>projects will be able to interoperate (grouping and relating resources) on the basis of shared geography even before Pleiades (or even anyone else) has coordinates available
+</li><li>Create a set of <a class="wiki" href="BAtlasIDs">IDs that correspond to citations of all Barrington Atlas features</a>
+</li><li>Document the (simple) algorithm for producing same
+</li><li>Incorporate/treat these as URIs
+</li><li>As Pleiades adds content, produce automatic (machine-actionable crosswalks of from these BAtlas IDs to Pleiades IDs)
+</li><li>Projects supported at this juncture include: ANS, HGV/APIS(PN)/IDP, LGPN, IAph/IRCyr/IRT
+</li></ul></li><li>A rudimentary web application for creating basic aggregation/Atom feeds has been built this week (link?)
+</li><li>We should enumerate various <a class="wiki" href="OurOREUseCases">use cases for aggregations</a>
+</li><li>Concordia-London team to create a concordance between ALA2004 and IAph and expose this as an ORE/Atom feed (there is currently no machine-actionable cross-linking that will provide bots a way to link up corresponding texts in the two publications)
+</li><li>We need to spec our ORE/Atom indexer - a tool that will crawl the atom feeds of known/trusted resources (and possible discover more that they link to) and provide an API for pulling out ordered views of the resulting web of relationships (that is, of the union set of all asserted relationships between content)
+</li><li>We need a geocoding tool: submit an Atom/ORE feed document that has link rel="related" href="pleiades/batlas/id" and get back the same feed to which has been added georss tagging on the basis of pleiades locations (this is then "Google Maps Ready" vel sim)
+</li><li>A lesson from this discussion: it is possible, even beneficial, to normalize the papyrological checklist of editions first; we don't have to wait for HGV 
+</li><li>Concordia-London team to associate Batlas IDs against the "mentioned placenames" index in IAph, and surface this as an Atom/ORE feed
+</li><li>From some serious angles, the Papyrological Navigator looks alot like an ORE Aggregation viewer ...
+</li></ul><p>
+ 
+</p>
+</div>
+   </div>
+   
+  
+  <script type="text/javascript">
+   addHeadingLinks(document.getElementById("searchable"), "Link to this section");
+  </script>
+ 
+ 
+</div>
+
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="WorkshopMayOutcomes?format=txt">Plain Text</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="../about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+

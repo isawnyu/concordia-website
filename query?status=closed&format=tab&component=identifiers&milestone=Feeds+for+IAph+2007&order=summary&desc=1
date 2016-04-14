@@ -1,0 +1,3 @@
+id	summary	owner	type	priority	version	resolution
+26	Record BAtlas ids for all places referenced in IAph2007	gbodard	task	major		fixed
+21	Create a set of IDs that correspond to citations of all Barrington Atlas features	thomase	task	blocker		fixed

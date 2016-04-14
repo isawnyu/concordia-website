@@ -1,0 +1,54 @@
+= Pleiades Match Interface = 
+
+put link to diagram here
+
+
+== Input (EDH) ==
+
+UTF-8 JSON (Javascript Object Notation). See http://tools.ietf.org/html/rfc4627.
+
+
+List of query objects with attributes key = User key, an = Ancient Name (latin transliteration), mn = Modern Name, co = ISO country code, lon = decimal degree longitude west, lat = decimal degree latitude north.
+
+{{{
+[
+{"key": "42", "an": "Aphrodesieus", "mn": "Geyre", "co": "TR", "lon": null, "lat": null},
+{"key": "47", "an": null, "mn": "Ataeybir", "co": "TR", "lon": null, "lat": null},
+...
+]
+}}}
+
+== Output (Pleiades) ==
+
+UTF-8 JSON
+
+List of result sets, each with matching key value. Example below is formatted for readability, and could be flattened into records of a single line.
+
+{{{
+[
+  {"key": "42", "results": [ 
+     {
+      "url": "http://atlantides.org:8080/plone/places/736936", 
+      "title": "Kerkeosiris",
+      "placetype": "labeled feature",
+      "bbox": [30.5, 29.0, 31.0, 29.5],
+      "center": [x, y]
+     },
+     ...
+    ]
+  }
+  ...
+    {"results": [
+      {"url": "http://atlantides.org:8080/plone/places/638753", 
+       "title": "Aphrodisias/Ninoe"
+       "placetype": "labeled feature",
+       "bbox": [28.728899999999999, 37.714500000000001, 28.728899999999999, 37.714500000000001]     
+    }, "key": "1"}
+  ...
+]
+}}}
+
+== Issues with respect to EDH content ==
+
+* EDH stores geographic information in triples (Fundort_Antik, Fondort_Modern and Fundstelle). Sometimes FA corresponds to FM; other times FA corresponds to Fundstelle. There is no explicit relationship in the data to indicate which is the case. How do we manage the input and output formats, in the context of a match ruleset, to provide the most useful and least painful result?
+  * Answer: supply both an ancient and modern name in a single query '''only''' when you are certain that they correspond to the same place; otherwise, issue two separate queries (or three), one for each name you have and handle match results appropriately

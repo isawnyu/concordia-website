@@ -1,0 +1,2 @@
+id,summary,reporter,owner,description,type,status,priority,milestone,component,version,resolution,keywords,cc
+13,Extract findpot list from IRCyr inscriptions,gbodard,vasciutti,Create a list of all findspots attested in the IRCyr inscription corpus,task,closed,major,IRT findspot database,iaph2007xml,,fixed,,
